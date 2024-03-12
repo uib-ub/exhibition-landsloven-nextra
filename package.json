@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/shuding/nextra-docs-template#readme",
   "dependencies": {
+    "@samvera/clover-iiif": "^2.3.2",
     "next": "^13.0.6",
     "nextra": "latest",
     "nextra-theme-docs": "latest",
@@ -26,6 +27,9 @@
   },
   "devDependencies": {
     "@types/node": "18.11.10",
+    "autoprefixer": "^10.4.18",
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.1",
     "typescript": "^4.9.3"
   }
 }

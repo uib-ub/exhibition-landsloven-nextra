@@ -1,3 +1,6 @@
+import { Suspense } from 'react'
+import Work from '../components/Work'
+
 # Introduksjon
  
 Dette er et forslag til nye nettside for Landslovsutstillingen i 2024. Den benytter Nextra som rammeverk. Sidene er statisk genererte fra markdown-filer. Koden liger på github og sidene hostes på Vercel.
@@ -9,3 +12,23 @@ Dokumentasjonen er tilgjengelig her [https://nextra.site](https://nextra.site).
 ## Kode
 
 Github er der koden lagres og der det er mulig å bidra. [exhibition-landsloven-nextra](https://github.com/uib-no/exhibition-landsloven-nextra)
+
+## Eksempel på bruk av Work-komponenten
+
+Dersom vi skal hente fra egen samling, kan vi bruke id og benytte signatur.
+
+```jsx
+<Work id="ubb-ms-0558" />
+```
+
+<Work id="ubb-ms-0558" />
+
+Dersom vi skal hente fra Nasjonalbiblioteket, kan vi bruke url.
+
+*NB*! De har en bug for tiden som gjør at det ikke fungerer med url.
+
+```jsx
+<Work url="https://api.nb.no/catalog/v1/iiif/9fc1417235e4f584c7bcc667b9e77ba2/manifest" />
+```
+
+<Work url="https://api.nb.no/catalog/v1/iiif/9fc1417235e4f584c7bcc667b9e77ba2/manifest" />
