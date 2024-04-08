@@ -18,10 +18,10 @@
   },
   "homepage": "https://github.com/shuding/nextra-docs-template#readme",
   "dependencies": {
-    "@samvera/clover-iiif": "^2.3.2",
+    "@samvera/clover-iiif": "^2.7.2",
     "next": "^13.0.6",
-    "nextra": "latest",
-    "nextra-theme-docs": "latest",
+    "nextra": "^2.13.4",
+    "nextra-theme-docs": "^2.13.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
