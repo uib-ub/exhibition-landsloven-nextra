@@ -25,17 +25,16 @@ const Work = ({ id, url }: { id?: string, url?: string }) => {
   if (!manifest) return <></>;
 
   return (
-    <div className='relative h-[80vh] z-0'>
+    <article>
       <Viewer
         iiifContent={manifestId}
         options={{
           informationPanel: {
             open: false
-          },
-          canvasHeight: 'auto',
+          }
         }}
       />
-    </div>
+    </article>
   );
 };
 
