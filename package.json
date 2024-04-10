@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/shuding/nextra-docs-template#readme",
   "dependencies": {
-    "@samvera/clover-iiif": "^2.6",
+    "@samvera/clover-iiif": "^2.7.3",
     "next": "^13.0.6",
     "nextra": "^2.13.4",
     "nextra-theme-docs": "^2.13.4",
