@@ -1,3 +1,9 @@
 {
-  "landsleiebolken": "Land tenancy section"
+  "landsleiebolken": "Land tenancy section",
+  "jord": "Land tenancy",
+  "slave": "Slaves, serfs, and tenants",
+  "agri": "Agriculture",
+  "tun": "Farmyards",
+  "sild": "Herring fishing",
+  "hval": "Whales"
 }
