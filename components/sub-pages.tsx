@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { Meta } from 'nextra';
 
-export const SubPages = ({ meta }: { meta: Meta }) => {
+const SubPages = ({ meta }: { meta: Meta }) => {
   const subPages = Object.entries(meta).map(([key, value], i) => {
     const title = typeof value === 'string' ? value : value.title
     const path = key
@@ -36,3 +36,5 @@ export const SubPages = ({ meta }: { meta: Meta }) => {
     </section>
   );
 }
+
+export default SubPages;

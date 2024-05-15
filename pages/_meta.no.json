@@ -14,15 +14,14 @@
     "title": "Introduksjon",
     "type": "page"
   },
-  "prologen": {
-    "title": "Prolog",
-    "type": "page",
-    "display": "hidden"
-  },
   "bolkene": {
     "title": "Bolkene",
     "type": "menu",
     "items": {
+      "prologen": {
+        "title": "Prolog",
+        "href": "/prologen/prologen"
+      },
       "tingfarebolken": {
         "title": "Tingfarebolken",
         "href": "/tingfarebolken/tingfarebolken"
@@ -68,6 +67,11 @@
         "href": "/epilog/epilog"
       }
     }
+  },
+  "prologen": {
+    "title": "Prolog",
+    "type": "page",
+    "display": "hidden"
   },
   "tingfarebolken": {
     "title": "Tingfarebolken",
