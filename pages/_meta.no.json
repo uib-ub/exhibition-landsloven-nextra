@@ -1,16 +1,127 @@
 {
-  "index": "Jubileumsutstillingen",
-  "intro": "Introduksjon",
-  "prologen": "Prolog",
-  "tingfarebolken": "Tingfarebolken",
-  "kristendomsbolken": "Kristendomsbolken",
-  "landevernsbolken": "Landevernsbolken",
-  "mannhelgebolken": "Mannhelgebolken",
-  "arvetallet": "Arvetallet",
-  "odelsbolken": "Odelsbolken",
-  "landsleiebolken": "Landsleiebolken",
-  "kjoepebolken": "Kjøpebolken",
-  "tyvebolken": "Tyvebolken",
-  "retterboeter": "Retterbøter",
-  "epilog": "Epilog"
+  "index": {
+    "title": "Jubileumsutstillingen",
+    "theme": {
+      "layout": "full",
+      "breadcrumb": false,
+      "footer": true,
+      "sidebar": false,
+      "toc": false,
+      "pagination": false
+    }
+  },
+  "introduksjon": {
+    "title": "Introduksjon",
+    "type": "page"
+  },
+  "prologen": {
+    "title": "Prolog",
+    "type": "page",
+    "display": "hidden"
+  },
+  "bolkene": {
+    "title": "Bolkene",
+    "type": "menu",
+    "items": {
+      "tingfarebolken": {
+        "title": "Tingfarebolken",
+        "href": "/tingfarebolken/tingfarebolken"
+      },
+      "kristendomsbolken": {
+        "title": "Kristendomsbolken",
+        "href": "/kristendomsbolken/kristendomsbolken"
+      },
+      "landevernsbolken": {
+        "title": "Landevernsbolken",
+        "href": "/landevernsbolken/landevernsbolken"
+      },
+      "mannhelgebolken": {
+        "title": "Mannhelgebolken",
+        "href": "/mannhelgebolken/mannhelgebolken"
+      },
+      "arvetallet": {
+        "title": "Arvetallet",
+        "href": "/arvetallet/arvetallet"
+      },
+      "odelsbolken": {
+        "title": "Odelsbolken",
+        "href": "/odelsbolken/odelsbolken"
+      },
+      "landsleiebolken": {
+        "title": "Landsleiebolken",
+        "href": "/landsleiebolken/landsleiebolken"
+      },
+      "kjoepebolken": {
+        "title": "Kjøpebolken",
+        "href": "/kjoepebolken/kjoepebolken"
+      },
+      "tyvebolken": {
+        "title": "Tyvebolken",
+        "href": "/tyvebolken/tyvebolken"
+      },
+      "retterboeter": {
+        "title": "Retterbøter",
+        "href": "/retterboeter/retterboeter"
+      },
+      "epilog": {
+        "title": "Epilog",
+        "href": "/epilog/epilog"
+      }
+    }
+  },
+  "tingfarebolken": {
+    "title": "Tingfarebolken",
+    "type": "page",
+    "display": "hidden"
+  },
+  "kristendomsbolken": {
+    "title": "Kristendomsbolken",
+    "type": "page",
+    "display": "hidden"
+  },
+  "landevernsbolken": {
+    "title": "Landevernsbolken",
+    "type": "page",
+    "display": "hidden"
+  },
+  "mannhelgebolken": {
+    "title": "Mannhelgebolken",
+    "type": "page",
+    "display": "hidden"
+  },
+  "arvetallet": {
+    "title": "Arvetallet",
+    "type": "page",
+    "display": "hidden"
+  },
+  "odelsbolken": {
+    "title": "Odelsbolken",
+    "type": "page",
+    "display": "hidden"
+  },
+  "landsleiebolken": {
+    "title": "Landsleiebolken",
+    "type": "page",
+    "display": "hidden"
+  },
+  "kjoepebolken": {
+    "title": "Kjøpebolken",
+    "type": "page",
+    "display": "hidden"
+  },
+  "tyvebolken": {
+    "title": "Tyvebolken",
+    "type": "page",
+    "display": "hidden"
+  },
+  "retterboeter": {
+    "title": "Retterbøter",
+    "type": "page",
+    "display": "hidden"
+  },
+  "epilog": {
+    "title": "Epilog",
+    "type": "page",
+    "display": "hidden"
+  }
 }

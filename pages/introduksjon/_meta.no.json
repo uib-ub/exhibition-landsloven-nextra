@@ -1,5 +1,18 @@
 {
-  "intro": "Introduksjon",
+  "---": {
+    "type": "separator"
+  },
+  "750-ar": {
+    "title": "Introduksjon",
+    "theme": {
+      "layout": "full",
+      "breadcrumb": false,
+      "footer": true,
+      "sidebar": false,
+      "toc": true,
+      "pagination": false
+    }
+  },
   "magnus": "Kong Magnus VI Håkonsson",
   "rike": "Kong Magnus’ rike",
   "soc": "Det norske samfunnet på kong Magnus Lagabøtes tid",

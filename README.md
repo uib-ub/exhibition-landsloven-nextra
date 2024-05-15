@@ -63,6 +63,22 @@ All components are imported from `components/???` as a tsconfig path has been se
 
 Component filenames are in cebab-case, and the component name is in PascalCase. E.g. `work.tsx` exports the `Work` component.
 
+### Work
+
+The `Work` component is used to render the IIIF Manifest with Clover-IIIF. It takes an `id` prop that is the IIIF Manifest ID. The component is wrapped in a `Suspense` component to handle the loading state.
+
+```jsx
+<Work id="ubb-ms-0558" />
+```
+
+It can also take a `url` prop that is the URL to the IIIF Manifest. This is useful when the manifest is not hosted on the same domain as the site.
+
+*NB*! The National Library of Norway's IIIF Manifests are not CORS enabled, so they cannot be used with the `url` prop.
+
+```jsx
+<Work url="https://api.nb.no/catalog/v1/iiif/9fc1417235e4f584c7bcc667b9e77ba2/manifest" />
+```
+
 ## License
 
 This project is licensed under the MIT License.
