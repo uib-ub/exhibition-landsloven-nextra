@@ -8,6 +8,7 @@ const SubPages = ({ meta }: { meta: Meta }) => {
     const path = key
     const type = value?.type === 'separator' ? true : false
 
+    // This is stupid, but since we get the links from _meta.json it gets messy. Should be a own config file.
     if (title === 'Introduksjon' || title === 'Introduction' || type) return null
 
     return (

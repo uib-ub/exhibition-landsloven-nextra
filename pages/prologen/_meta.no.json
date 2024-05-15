@@ -1,6 +1,19 @@
 {
+  "---": {
+    "type": "separator"
+  },
+  "prolog": {
+    "title": "Prolog",
+    "theme": {
+      "layout": "full",
+      "breadcrumb": false,
+      "footer": true,
+      "sidebar": false,
+      "toc": true,
+      "pagination": false
+    }
+  },
   "def": "Noen definisjoner",
-  "prolog": "Prolog",
   "bolk": "Bolker",
   "provinc": "Fra landskapslover til Landsloven",
   "xian": "Kristenrett og Landslov",
@@ -11,5 +24,4 @@
   "olav": "Olavsteksten. Fragment av Gulatingsloven ",
   "olav2": "St. Olav og norske lover",
   "raude": "Erkebiskop Jon Raude"
-
 }
