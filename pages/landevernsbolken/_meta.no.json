@@ -1,5 +1,18 @@
 {
-  "landevernsbolken": "Landevernsbolken",
+  "---": {
+    "type": "separator"
+  },
+  "introduksjon": {
+    "title": "Landevernsbolken",
+    "theme": {
+      "layout": "full",
+      "breadcrumb": false,
+      "footer": true,
+      "sidebar": false,
+      "toc": true,
+      "pagination": false
+    }
+  },
   "levy": "Leidang",
   "skip": "Skip og naust",
   "hard": "Her farer den havdjerve",
@@ -9,5 +22,4 @@
   "vete": "Vetene",
   "bud2": "Budstikker",
   "bud1": "Budbæring"
-  
 }

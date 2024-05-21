@@ -1,6 +1,19 @@
 {
+  "---": {
+    "type": "separator"
+  },
+  "introduksjon": {
+    "title": "Prologue",
+    "theme": {
+      "layout": "full",
+      "breadcrumb": false,
+      "footer": true,
+      "sidebar": false,
+      "toc": true,
+      "pagination": false
+    }
+  },
   "def": "Some definitions",
-  "prolog": "Prologue",
   "bolk": "Sections",
   "provinc": "From the provincial laws to the Laws of the Land ",
   "xian": "Christian Law and the Laws of the Land",
@@ -11,5 +24,4 @@
   "olav": "Olav’s text: A fragment of the Gulating law",
   "olav2": "St Olav and Norwegian laws",
   "raude": "Archbishop Jon Raude"
-
 }

@@ -1,5 +1,18 @@
 {
-  "kjoepebolken": "Trade section",
+  "---": {
+    "type": "separator"
+  },
+  "introduksjon": {
+    "title": "Trade section",
+    "theme": {
+      "layout": "full",
+      "breadcrumb": false,
+      "footer": true,
+      "sidebar": false,
+      "toc": true,
+      "pagination": false
+    }
+  },
   "mal-ekt": "Weights and measures",
   "vekter": "Scales",
   "kongensmynter": "The king's coins",

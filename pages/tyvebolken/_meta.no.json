@@ -1,5 +1,18 @@
 {
-  "tyvebolken": "Tyvebolken",
+  "---": {
+    "type": "separator"
+  },
+  "introduksjon": {
+    "title": "Tyvebolken",
+    "theme": {
+      "layout": "full",
+      "breadcrumb": false,
+      "footer": true,
+      "sidebar": false,
+      "toc": true,
+      "pagination": false
+    }
+  },
   "fine": "Bøter og fysisk avstraffelse",
   "tyver": "Håndtering av tyver før og nå"
 }

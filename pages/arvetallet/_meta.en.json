@@ -1,5 +1,18 @@
 {
-  "arvetallet": "Inheritance list",
+  "---": {
+    "type": "separator"
+  },
+  "introduksjon": {
+    "title": "Inheritance list",
+    "theme": {
+      "layout": "full",
+      "breadcrumb": false,
+      "footer": true,
+      "sidebar": false,
+      "toc": true,
+      "pagination": false
+    }
+  },
   "ekteskap": "Marriage",
   "medgift": "Dowry",
   "tilgave": "Counter-gift",

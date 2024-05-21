@@ -1,5 +1,18 @@
 {
-  "landsleiebolken": "Landsleiebolken",
+  "---": {
+    "type": "separator"
+  },
+  "introduksjon": {
+    "title": "Landsleiebolken",
+    "theme": {
+      "layout": "full",
+      "breadcrumb": false,
+      "footer": true,
+      "sidebar": false,
+      "toc": true,
+      "pagination": false
+    }
+  },
   "jord": "Jordleie",
   "slave": "Treller, livegne og leilendinger",
   "agri": "Jordbruket",

@@ -2,7 +2,7 @@
   "---": {
     "type": "separator"
   },
-  "prolog": {
+  "introduksjon": {
     "title": "Prolog",
     "theme": {
       "layout": "full",

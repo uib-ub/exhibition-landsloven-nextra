@@ -10,62 +10,122 @@
       "pagination": false
     }
   },
-  "intro": {
+  "introduksjon": {
     "title": "Introduction",
     "type": "page"
   },
-  "prologen": {
-    "title": "Prologue",
-    "type": "page"
-  },
   "bolkene": {
-    "title": "Bolkene",
+    "title": "Sections",
     "type": "menu",
     "items": {
+      "prologen": {
+        "title": "Prologue",
+        "href": "/prologen/introduksjon"
+      },
       "tingfarebolken": {
-        "title": "Tingfarebolken",
-        "href": "/tingfarebolken"
+        "title": "Section about going to the assemblies",
+        "href": "/tingfarebolken/introduksjon"
       },
       "kristendomsbolken": {
-        "title": "Kristendomsbolken",
-        "href": "/kristendomsbolken"
+        "title": "Christianity section",
+        "href": "/kristendomsbolken/introduksjon"
       },
       "landevernsbolken": {
-        "title": "Landevernsbolken",
-        "href": "/landevernsbolken"
+        "title": "Land defence section",
+        "href": "/landevernsbolken/introduksjon"
       },
       "mannhelgebolken": {
-        "title": "Mannhelgebolken",
-        "href": "/mannhelgebolken"
+        "title": "Human inviolability section",
+        "href": "/mannhelgebolken/introduksjon"
       },
       "arvetallet": {
-        "title": "Arvetallet",
-        "href": "/arvetallet"
+        "title": "Inheritance list",
+        "href": "/arvetallet/introduksjon"
       },
       "odelsbolken": {
-        "title": "Odelsbolken",
-        "href": "/odelsbolken"
+        "title": "Land erdemption section",
+        "href": "/odelsbolken/introduksjon"
       },
       "landsleiebolken": {
-        "title": "Landsleiebolken",
-        "href": "/landsleiebolken"
+        "title": "Land tenancy section",
+        "href": "/landsleiebolken/introduksjon"
       },
       "kjoepebolken": {
-        "title": "Kjøpebolken",
-        "href": "/kjoepebolken"
+        "title": "Trade section",
+        "href": "/kjoepebolken/introduksjon"
       },
       "tyvebolken": {
-        "title": "Tyvebolken",
-        "href": "/tyvebolken"
+        "title": "Thieves' section",
+        "href": "/tyvebolken/introduksjon"
       },
       "retterboeter": {
-        "title": "Retterbøter",
-        "href": "/retterboeter"
+        "title": "Law amendments",
+        "href": "/retterboeter/introduksjon"
+      },
+      "epilog": {
+        "title": "Epilogue",
+        "href": "/epilog/epilog"
       }
     }
   },
+  "prologen": {
+    "title": "Prologue",
+    "type": "page",
+    "display": "hidden"
+  },
+  "tingfarebolken": {
+    "title": "Section about going to the assemblies",
+    "type": "page",
+    "display": "hidden"
+  },
+  "kristendomsbolken": {
+    "title": "Christianity section",
+    "type": "page",
+    "display": "hidden"
+  },
+  "landevernsbolken": {
+    "title": "Land defence section",
+    "type": "page",
+    "display": "hidden"
+  },
+  "mannhelgebolken": {
+    "title": "Human inviolability section",
+    "type": "page",
+    "display": "hidden"
+  },
+  "arvetallet": {
+    "title": "Inheritance list",
+    "type": "page",
+    "display": "hidden"
+  },
+  "odelsbolken": {
+    "title": "Land erdemption section",
+    "type": "page",
+    "display": "hidden"
+  },
+  "landsleiebolken": {
+    "title": "Land tenancy section",
+    "type": "page",
+    "display": "hidden"
+  },
+  "kjoepebolken": {
+    "title": "Trade section",
+    "type": "page",
+    "display": "hidden"
+  },
+  "tyvebolken": {
+    "title": "Thieves' section",
+    "type": "page",
+    "display": "hidden"
+  },
+  "retterboeter": {
+    "title": "Law amendments",
+    "type": "page",
+    "display": "hidden"
+  },
   "epilog": {
-    "title": "Epilog",
-    "type": "page"
+    "title": "Epilogue",
+    "type": "page",
+    "display": "hidden"
   }
 }

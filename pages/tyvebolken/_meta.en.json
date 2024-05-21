@@ -1,5 +1,18 @@
 {
-  "tyvebolken": "Thieves' section",
+  "---": {
+    "type": "separator"
+  },
+  "introduksjon": {
+    "title": "Thieves' section",
+    "theme": {
+      "layout": "full",
+      "breadcrumb": false,
+      "footer": true,
+      "sidebar": false,
+      "toc": true,
+      "pagination": false
+    }
+  },
   "fine": "Fines and corporal punishment",
   "tyver": "Treatment of thieves then and now"
 }
