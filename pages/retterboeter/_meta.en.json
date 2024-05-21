@@ -1,5 +1,18 @@
 {
-  "retterboeter": "Law amendments",
+  "---": {
+    "type": "separator"
+  },
+  "introduksjon": {
+    "title": "Law amendments",
+    "theme": {
+      "layout": "full",
+      "breadcrumb": false,
+      "footer": true,
+      "sidebar": false,
+      "toc": true,
+      "pagination": false
+    }
+  },
   "gammels": "Old Norse laws in a new era",
   "dansk": "Danish translations",
   "v": "Christian V’s Norwegian Code",

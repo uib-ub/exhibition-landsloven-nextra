@@ -1,5 +1,18 @@
 {
-  "tingfarebolken": "Tingfarebolken",
+  "---": {
+    "type": "separator"
+  },
+  "introduksjon": {
+    "title": "Tingfarebolken",
+    "theme": {
+      "layout": "full",
+      "breadcrumb": false,
+      "footer": true,
+      "sidebar": false,
+      "toc": true,
+      "pagination": false
+    }
+  },
   "gulatinget": "Gulatinget",
   "lagmenn": "Lagmenn",
   "hellig-hoytidelig": "Hellig og høytidelig"

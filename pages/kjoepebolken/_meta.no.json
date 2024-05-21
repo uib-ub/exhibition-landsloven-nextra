@@ -1,5 +1,18 @@
 {
-  "kjoepebolken": "Kjøpebolken",
+  "---": {
+    "type": "separator"
+  },
+  "introduksjon": {
+    "title": "Kjøpebolken",
+    "theme": {
+      "layout": "full",
+      "breadcrumb": false,
+      "footer": true,
+      "sidebar": false,
+      "toc": true,
+      "pagination": false
+    }
+  },
   "mal-vekt": "Mål og vekt",
   "vekter": "Vekter",
   "kongensmynter": "Kongens mynter",

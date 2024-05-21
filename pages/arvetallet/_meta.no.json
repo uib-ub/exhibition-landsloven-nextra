@@ -1,5 +1,18 @@
 {
-  "arvetallet": "Arvetallet",
+  "---": {
+    "type": "separator"
+  },
+  "introduksjon": {
+    "title": "Arvetallet",
+    "theme": {
+      "layout": "full",
+      "breadcrumb": false,
+      "footer": true,
+      "sidebar": false,
+      "toc": true,
+      "pagination": false
+    }
+  },
   "ekteskap": "Ekteskap",
   "medgift": "Medgift",
   "tilgave": "Tilgave",

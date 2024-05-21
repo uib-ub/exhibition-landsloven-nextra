@@ -1,5 +1,18 @@
 {
-  "odelsbolken": "Odelsbolken",
+  "---": {
+    "type": "separator"
+  },
+  "introduksjon": {
+    "title": "Odelsbolken",
+    "theme": {
+      "layout": "full",
+      "breadcrumb": false,
+      "footer": true,
+      "sidebar": false,
+      "toc": true,
+      "pagination": false
+    }
+  },
   "odel": "Odel før og nå",
   "skifte": "Skifte av eiendom",
   "treasures": "Skjulte rikdommer"

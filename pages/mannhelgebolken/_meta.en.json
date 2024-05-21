@@ -1,5 +1,18 @@
 {
-  "mannhelgebolken": "Human inviolability section",
+  "---": {
+    "type": "separator"
+  },
+  "introduksjon": {
+    "title": "Human inviolability section",
+    "theme": {
+      "layout": "full",
+      "breadcrumb": false,
+      "footer": true,
+      "sidebar": false,
+      "toc": true,
+      "pagination": false
+    }
+  },
   "straff": "Crime and punishment",
   "fire": "God's four daughters",
   "kvin": "Women: pride and responsibility",

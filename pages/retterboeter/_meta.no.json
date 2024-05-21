@@ -1,5 +1,18 @@
 {
-  "retterboeter": "Retterbøter",
+  "---": {
+    "type": "separator"
+  },
+  "introduksjon": {
+    "title": "Retterbøter",
+    "theme": {
+      "layout": "full",
+      "breadcrumb": false,
+      "footer": true,
+      "sidebar": false,
+      "toc": true,
+      "pagination": false
+    }
+  },
   "gammels": "Gammelnorske lover i en ny tid",
   "dansk": "Danske oversettelser",
   "v": "Christian Vs Norske Lov",

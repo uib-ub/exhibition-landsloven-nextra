@@ -1,5 +1,18 @@
 {
-  "kristendomsbolken": "Kristendomsbolken",
+  "---": {
+    "type": "separator"
+  },
+  "introduksjon": {
+    "title": "Kristendomsbolken",
+    "theme": {
+      "layout": "full",
+      "breadcrumb": false,
+      "footer": true,
+      "sidebar": false,
+      "toc": true,
+      "pagination": false
+    }
+  },
   "tronfolgeloven": "Tronfølgeloven",
   "tronfolgelovenkvin": "Arverett gjennom kvinneled",
   "tosverd": "Konge og biskop",

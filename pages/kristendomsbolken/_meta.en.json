@@ -1,5 +1,18 @@
 {
-  "kristendomsbolken": "Christianity section",
+  "---": {
+    "type": "separator"
+  },
+  "introduksjon": {
+    "title": "Christianity section",
+    "theme": {
+      "layout": "full",
+      "breadcrumb": false,
+      "footer": true,
+      "sidebar": false,
+      "toc": true,
+      "pagination": false
+    }
+  },
   "tronfolgeloven": "The law of succession to the throne",
   "tronfolgelovenkvin": "The right to succession through the female line",
   "tosverd": "The king and the bishop",

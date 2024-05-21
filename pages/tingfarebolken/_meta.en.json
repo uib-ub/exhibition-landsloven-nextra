@@ -1,5 +1,18 @@
 {
-  "tingfarebolken": "Section about going to the assemblies",
+  "---": {
+    "type": "separator"
+  },
+  "introduksjon": {
+    "title": "Section about going to the assemblies",
+    "theme": {
+      "layout": "full",
+      "breadcrumb": false,
+      "footer": true,
+      "sidebar": false,
+      "toc": true,
+      "pagination": false
+    }
+  },
   "gulatinget": "The Gulating assembly",
   "lagmenn": "The royal magistrate",
   "hellig-hoytidelig": "Holy and solemn"

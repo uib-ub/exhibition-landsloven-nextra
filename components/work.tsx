@@ -1,4 +1,3 @@
-import React, { useEffect, useState } from "react";
 import dynamic from "next/dynamic";
 
 const Viewer = dynamic(
@@ -11,30 +10,20 @@ const Viewer = dynamic(
 const API_URL = "https://api-ub.vercel.app";
 
 const Work = ({ id, url }: { id?: string, url?: string }) => {
-  const [manifest, setManifest] = useState();
   const manifestId = id ? `${API_URL}/items/${id}?as=iiif` : url
 
-  useEffect(() => {
-    (async () => {
-      const response = await fetch(manifestId);
-      const json = await response.json();
-      setManifest(json);
-    })();
-  }, [manifestId]);
-
-  if (!manifest) return <></>;
-
   return (
-    <article>
+    <div className='h-[50vh] my-10 relative dark:nx-bg-primary-300/10 bg-slate-200'>
       <Viewer
         iiifContent={manifestId}
         options={{
+          canvasHeight: '100%',
           informationPanel: {
             open: false
           }
         }}
       />
-    </article>
+    </div>
   );
 };
 

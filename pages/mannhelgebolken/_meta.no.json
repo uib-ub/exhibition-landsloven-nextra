@@ -1,5 +1,18 @@
 {
-  "mannhelgebolken": "Mannhelgebolken",
+  "---": {
+    "type": "separator"
+  },
+  "introduksjon": {
+    "title": "Mannhelgebolken",
+    "theme": {
+      "layout": "full",
+      "breadcrumb": false,
+      "footer": true,
+      "sidebar": false,
+      "toc": true,
+      "pagination": false
+    }
+  },
   "straff": "Forbrytelse og straff",
   "fire": "Guds fire døtre",
   "kvin": "Kvinner - ære og ansvar",

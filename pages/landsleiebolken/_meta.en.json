@@ -1,5 +1,18 @@
 {
-  "landsleiebolken": "Land tenancy section",
+  "---": {
+    "type": "separator"
+  },
+  "introduksjon": {
+    "title": "Land tenancy section",
+    "theme": {
+      "layout": "full",
+      "breadcrumb": false,
+      "footer": true,
+      "sidebar": false,
+      "toc": true,
+      "pagination": false
+    }
+  },
   "jord": "Land tenancy",
   "slave": "Slaves, serfs, and tenants",
   "agri": "Agriculture",
