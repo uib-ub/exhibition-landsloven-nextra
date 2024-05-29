@@ -1,10 +1,10 @@
-import Hero from 'components/hero'
-import MainPages from 'components/main-pages'
-import meta from './_meta.en.json'
+import Hero from 'components/hero';
+import SubMenuCards from 'components/sub-menu-cards';
+import site from 'config/site';
 
 {/* # Anniversary exhibition */}
 
 {/* Placeholder component for en stor hero */}
 <Hero title='Anniversary exhibition' description='Something great here' image='/images/ubb-ms-1550-4_p0001_md.jpg' />
 
-<MainPages meta={meta} />
+<SubMenuCards items={site.bolkene.items} />

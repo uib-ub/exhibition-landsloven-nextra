@@ -1,4 +1,4 @@
-const site = {
+export default {
   index: {
     title: {
       no: "Jubileumsutstillingen",
@@ -29,6 +29,10 @@ const site = {
           en: "Prologue"
         },
         href: "/prologen/introduksjon",
+        ingress: {
+          no: "Prologen er en introduksjon til landsloven.",
+          en: "The prologue is an introduction to the law of the land."
+        },
         image: "",
         class: ""
       },

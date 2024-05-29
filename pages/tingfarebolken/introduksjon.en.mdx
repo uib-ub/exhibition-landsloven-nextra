@@ -1,6 +1,6 @@
-import SubPages from 'components/sub-pages'
-import Work from 'components/work'
-import meta from './_meta.en.json'
+import SubMenuCards from 'components/sub-menu-cards';
+import Work from 'components/work';
+import sections from 'config/sections/tingfarebolken';
 
 # Section about going to the assemblies
 
@@ -8,7 +8,7 @@ import meta from './_meta.en.json'
 
 Section about Going to Assemblies, chapter 10
 
-<SubPages meta={meta} />
+<SubMenuCards items={sections.items} />
 
 <Work id="ubb-diplom-0080" marcus="http://marcus.uib.no/instance/charter/ubb-diplom-0080">
     chatGPT: The assembly was the highest court in the country. It was held in the open air, and the people who
