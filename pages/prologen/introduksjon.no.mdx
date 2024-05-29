@@ -1,6 +1,6 @@
-import SubPages from 'components/sub-pages'
-import Work from 'components/work'
-import meta from './_meta.no.json'
+import SubMenuCards from 'components/sub-menu-cards';
+import Work from 'components/work';
+import sections from 'config/sections/prologen';
 
 # Prolog
 
@@ -10,4 +10,4 @@ Prolog er innledningen til Landsloven. Ordet prolog kommer av gresk, og betyr fo
 
 <Work id="ubb-diplom-0035" />
 
-<SubPages meta={meta} />
+<SubMenuCards items={sections.items} />
