@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 const Hero = ({ title, description, image }: { title: string, description: string, image?: string }) => {
   return (
-    <section className='w-full my-10 grid [grid-template-area: "main"] items-center justify-center gap-4 bg-slate-800'>
+    <section className='w-full my-10 grid [grid-template-area: "main"] items-center justify-center gap-4 bg-ll-maroon'>
       <Image
         src={image}
         alt={title}
@@ -11,7 +11,7 @@ const Hero = ({ title, description, image }: { title: string, description: strin
         className='w-full [grid-area:main] object-contain'
       />
       <div className='flex flex-col gap-3 align-middle justify-center [grid-area:main]'>
-        <h1 className='text-4xl font-bold text-center'>{title}</h1>
+        <h1 className='text-4xl font-black font-serif text-center'>{title}</h1>
         <p className='text-lg text-center'>{description}</p>
       </div>
     </section>

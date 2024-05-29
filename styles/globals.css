@@ -6,10 +6,14 @@
   Example of how to override elements with tailwind styles.
   This will override the font-family of h1 elements to use the font-antiqua 
   and font-extrabold classes.
+
   @layer base is necessary to override the base styles of the h1 element.
 */
 @layer base {
-  h1 {
-    @apply font-antiqua font-extrabold;
+  html {
+    @apply font-sans font-medium;
+  }
+  article * {
+    @apply font-serif font-normal;
   }
 }
