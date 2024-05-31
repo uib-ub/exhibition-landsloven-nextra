@@ -37,7 +37,7 @@ const Work = ({ children, id, url, marcus, config }: { children?: ReactNode, id?
           {children}
           {marcus ?
             <a
-              className='rounded-full self-end px-5 py-2 m-5  bg-red-300 dark:bg-red-700'
+              className='flex flex-row gap-3 items-center rounded-full self-end px-5 py-2 m-5 bg-red-300 dark:bg-red-700'
               href={marcus}>
               {buttonText}
             </a>
