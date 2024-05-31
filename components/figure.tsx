@@ -14,7 +14,7 @@ const Figure = (
   const buttonText = locale === 'no' ? 'Se mer' : 'Read more'
 
   return (
-    <figure className={`${className ?? ''} w-full my-5 border-2 flex flex-col bg-ll-blue-950 lg:flex-row`}>
+    <figure className={`${className ?? ''} w-full my-5 flex flex-col bg-ll-blue-950 lg:flex-row`}>
       <div>
         <Image src={image} alt={alt} width={1200} height={400} className='object-contain' />
       </div>
