@@ -24,6 +24,12 @@ npm run dev
     └── 📁components # All react components here
         └── .gitkeep
         └── work.tsx # Client side rendering of the IIIF Manifest with Clover-IIIF
+    └── 📁config
+        └── sections
+            └── tyvebolken.ts # Navigation and sidebar config for the subpath
+            └── ... # Other subpaths
+        └── site.ts # Navigation and sidebar config for frontpage
+        └── types.d.ts # TypeScript types for the config
     └── middleware.ts # Handles i18n
     └── next-env.d.ts # Auto generated, ignore
     └── next.config.js # Next.js config
@@ -36,13 +42,14 @@ npm run dev
         └── 📁arvetallet
             └── _meta.en.json # The navigation and sidebar config for the subpath
             └── _meta.no.json # The navigation and sidebar config for the subpath
-            └── arvetallet.en.mdx 
-            └── arvetallet.no.mdx
+            └── introduksjon.en.mdx 
+            └── introduksjon.no.mdx
             └── ekteskap.en.mdx # Text pages available in the sidebar
             └── ekteskap.no.mdx # Text pages available in the sidebar
             └── ...
-        └── arvetallet.en.mdx # The main page for the subpath, is full width
-        └── arvetallet.no.mdx # The main page for the subpath, is full width
+        └── 📁[...other paths]
+        └── index.en.mdx # The main page, is full width
+        └── index.no.mdx # The main page, is full width
         └── ...
     └── .gitignore
     └── LICENSE
@@ -54,6 +61,16 @@ npm run dev
     └── theme.config.tsx # The Nextra config
     └── tsconfig.json # TypeScript config
 ```
+
+## Configuration of the site
+We have `site.ts` and config files for the different subpaths. The config files are used by components on the mainpage and the subpaths. The `site.ts` file is used for the frontpage and the `tyvebolken.ts` file is used for the subpath `tyvebolken`, etc.
+
+In these files we set title, href, path to image in `public` folder, alt text for image, ingress and className. Title, alt text and ingress are multilingual objects with `en` and `no` keys. The className *can* used to style the card in the `SubMenuCards` component.
+
+```typescript
+
+## Design
+Se https://exhibition-landsloven-nextra.vercel.app/design for information about typography and colors.
 
 ## Components
 
@@ -69,6 +86,10 @@ The `Work` component is used to render the IIIF Manifest with Clover-IIIF. It ta
 
 ```jsx
 <Work id="ubb-ms-0558" />
+
+<Work id="ubb-ms-0558" marcus="https://marcus.uib.no/instance/manuscript/ubb-ms-0558.html"> 
+    Caption or other text
+</Work>
 ```
 
 It can also take a `url` prop that is the URL to the IIIF Manifest. This is useful when the manifest is not hosted on the same domain as the site.
@@ -77,6 +98,32 @@ It can also take a `url` prop that is the URL to the IIIF Manifest. This is usef
 
 ```jsx
 <Work url="https://api.nb.no/catalog/v1/iiif/9fc1417235e4f584c7bcc667b9e77ba2/manifest" />
+```
+
+### Figure
+When you want to include an image with a caption and a link to the source, you can use the `Figure` component. If we can get IIIF manifest we use `<Work />`, but if not than we use `<Figure />`. It takes the following props:
+
+```jsx
+<Figure
+    image="/images/tyvebolken/Bf_BRM0_47891_FK_02.jpg"
+    title="Stor bronsenøkkel til Eidfjord kirke"
+    alt="Stor bronsenøkkel liggende på en hvit duk"
+    href="https://digitaltmuseum.org/0210112472912/brm0-47891-for-konservering-2"
+>
+    Tyvebolken forteller at en person som begikk tyveri for annen gang, og ikke kunne betale bøter, skulle brennemerkes – med en nøkkel!
+</Figure>
+```
+
+Very important `image="/images/...` have a starting `/` and is relative to the `public` folder. An url is also possible, but the domain must be whitelisted in the `next.config.js` file.
+
+### Blockquote
+When you want to include a blockquote with a footer, you can use the `Blockquote` component. It takes the following props:
+
+```jsx
+<Blockquote
+    quote='«Det er forståelig at noen som ikke kan få seg arbeid til livsopphold, stjeler mat, og på den måten berger livet sitt fra sult, da skal han ikke straffes for det tjuveriet.»'
+    footer='Tyvebolken, kapittel 1'
+/>
 ```
 
 ## License
