@@ -68,6 +68,24 @@ We have `site.ts` and config files for the different subpaths. The config files 
 In these files we set title, href, path to image in `public` folder, alt text for image, ingress and className. Title, alt text and ingress are multilingual objects with `en` and `no` keys. The className *can* used to style the card in the `SubMenuCards` component.
 
 ```typescript
+export sections = {
+    title: {
+        en: 'Thieves’ section',
+        no: 'Tyvebolken'
+    },
+    href: '/tyvebolken',
+    image: '/images/tyvebolken/tyvebolken.jpg',
+    alt: {
+        en: 'Illustration of',
+        no: 'Illustrasjon av',
+    },
+    ingress: {
+        en: 'The last section of the Laws of the Land is the Thieves’ section, which defines theft and describes how to hold thieves accountable.',
+        no: 'Den siste bolken i Landsloven er Tyvebolken, som definerer tyveri og beskriver hvordan...',
+    },
+    className: 'tyvebolken'
+}
+```
 
 ## Design
 Se https://exhibition-landsloven-nextra.vercel.app/design for information about typography and colors.
