@@ -1,22 +1,12 @@
-import { SiteConfig } from 'config/types'
-
-const site: SiteConfig = {
+export default {
   index: {
     title: {
       no: "Jubileumsutstillingen",
       en: "Anniversary exhibition"
     },
     href: "/",
-    ingress: {
-      no: "Legg til tekst her",
-      en: "Add text here"
-    },
     image: "",
-    alt: {
-      no: "Bilde fra jubileumsutstillingen",
-      en: "Image from the anniversary exhibition"
-    },
-    className: ""
+    class: ""
   },
   introduksjon: {
     title: {
@@ -24,16 +14,8 @@ const site: SiteConfig = {
       en: "Introduction"
     },
     href: "/introduksjon/introduksjon",
-    ingress: {
-      no: "Legg til tekst her",
-      en: "Add text here"
-    },
     image: "",
-    alt: {
-      no: "Bilde fra jubileumsutstillingen",
-      en: "Image from the anniversary exhibition"
-    },
-    className: ""
+    class: ""
   },
   bolkene: {
     title: {
@@ -51,12 +33,8 @@ const site: SiteConfig = {
           no: "Prologen er en introduksjon til landsloven.",
           en: "The prologue is an introduction to the law of the land."
         },
-        image: "",
-        alt: {
-          no: "Bilde fra jubileumsutstillingen",
-          en: "Image from the anniversary exhibition"
-        },
-        className: ""
+        image: "/images/ting.jpg",
+        class: ""
       },
       tingfarebolken: {
         title: {
@@ -64,16 +42,7 @@ const site: SiteConfig = {
           en: "Section about going to the assemblies"
         },
         href: "/tingfarebolken/introduksjon",
-        ingress: {
-          no: "Legg til tekst her",
-          en: "Add text here"
-        },
-        image: "",
-        alt: {
-          no: "Bilde fra jubileumsutstillingen",
-          en: "Image from the anniversary exhibition"
-        },
-        className: ""
+        class: "/images/ting.jpg"
       },
       kristendomsbolken: {
         title: {
@@ -81,16 +50,8 @@ const site: SiteConfig = {
           en: "Christianity section"
         },
         href: "/kristendomsbolken/introduksjon",
-        ingress: {
-          no: "Legg til tekst her",
-          en: "Add text here"
-        },
         image: "",
-        alt: {
-          no: "Bilde fra jubileumsutstillingen",
-          en: "Image from the anniversary exhibition"
-        },
-        className: ""
+        class: ""
       },
       landevernsbolken: {
         title: {
@@ -98,16 +59,9 @@ const site: SiteConfig = {
           en: "Land defence section"
         },
         href: "/landevernsbolken/introduksjon",
-        ingress: {
-          no: "Legg til tekst her",
-          en: "Add text here"
-        },
+        ingress: "«Nå går det så ille på grunn av folks synder at en hedensk eller kristen hær ett eller annet sted angriper Norges konges rike»",
         image: "",
-        alt: {
-          no: "Bilde fra jubileumsutstillingen",
-          en: "Image from the anniversary exhibition"
-        },
-        className: ""
+        class: ""
       },
       mannhelgebolken: {
         title: {
@@ -115,16 +69,8 @@ const site: SiteConfig = {
           en: "Human inviolability section"
         },
         href: "/mannhelgebolken/introduksjon",
-        ingress: {
-          no: "Legg til tekst her",
-          en: "Add text here"
-        },
         image: "",
-        alt: {
-          no: "Bilde fra jubileumsutstillingen",
-          en: "Image from the anniversary exhibition"
-        },
-        className: ""
+        class: ""
       },
       arvetallet: {
         title: {
@@ -132,16 +78,8 @@ const site: SiteConfig = {
           en: "Inheritance list"
         },
         href: "/arvetallet/introduksjon",
-        ingress: {
-          no: "Legg til tekst her",
-          en: "Add text here"
-        },
-        image: "",
-        alt: {
-          no: "Bilde fra jubileumsutstillingen",
-          en: "Image from the anniversary exhibition"
-        },
-        className: ""
+        image: "/images/arvetallet.jpg",
+        class: ""
       },
       odelsbolken: {
         title: {
@@ -149,16 +87,8 @@ const site: SiteConfig = {
           en: "Land erdemption section"
         },
         href: "/odelsbolken/introduksjon",
-        ingress: {
-          no: "Legg til tekst her",
-          en: "Add text here"
-        },
         image: "",
-        alt: {
-          no: "Bilde fra jubileumsutstillingen",
-          en: "Image from the anniversary exhibition"
-        },
-        className: ""
+        class: ""
       },
       landsleiebolken: {
         title: {
@@ -166,16 +96,8 @@ const site: SiteConfig = {
           en: "Land tenancy section"
         },
         href: "/landsleiebolken/introduksjon",
-        ingress: {
-          no: "Legg til tekst her",
-          en: "Add text here"
-        },
         image: "",
-        alt: {
-          no: "Bilde fra jubileumsutstillingen",
-          en: "Image from the anniversary exhibition"
-        },
-        className: ""
+        class: ""
       },
       kjoepebolken: {
         title: {
@@ -183,16 +105,8 @@ const site: SiteConfig = {
           en: "Trade section"
         },
         href: "/kjoepebolken/introduksjon",
-        ingress: {
-          no: "Legg til tekst her",
-          en: "Add text here"
-        },
         image: "",
-        alt: {
-          no: "Bilde fra jubileumsutstillingen",
-          en: "Image from the anniversary exhibition"
-        },
-        className: ""
+        class: ""
       },
       tyvebolken: {
         title: {
@@ -200,16 +114,8 @@ const site: SiteConfig = {
           en: "Thieves' section"
         },
         href: "/tyvebolken/introduksjon",
-        ingress: {
-          no: "Legg til tekst her",
-          en: "Add text here"
-        },
-        image: "/images/tyvebolken/Pillory_9105377.jpg",
-        alt: {
-          no: "Bilde fra jubileumsutstillingen",
-          en: "Image from the anniversary exhibition"
-        },
-        className: ""
+        image: "",
+        class: ""
       },
       retterboeter: {
         title: {
@@ -217,16 +123,8 @@ const site: SiteConfig = {
           en: "Law amendments"
         },
         href: "/retterboeter/introduksjon",
-        ingress: {
-          no: "Legg til tekst her",
-          en: "Add text here"
-        },
         image: "",
-        alt: {
-          no: "Bilde fra jubileumsutstillingen",
-          en: "Image from the anniversary exhibition"
-        },
-        className: ""
+        class: ""
       },
       epilog: {
         title: {
@@ -234,19 +132,9 @@ const site: SiteConfig = {
           en: "Epilogue"
         },
         href: "/epilog/epilog",
-        ingress: {
-          no: "Legg til tekst her",
-          en: "Add text here"
-        },
         image: "",
-        alt: {
-          no: "Bilde fra jubileumsutstillingen",
-          en: "Image from the anniversary exhibition"
-        },
-        className: ""
+        class: ""
       }
     }
   },
 }
-
-export default site

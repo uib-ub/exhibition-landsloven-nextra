@@ -1,49 +1,92 @@
-import { TPage } from 'config/types';
 import Image from 'next/image';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 
-const SubMenuCards = ({ items }: { items: TPage[] }) => {
+import Card from './card';
+
+type MenuItems = {
+  [key: string]: {
+    title: string;
+    href: string;
+    ingress?: string;
+    image?: string;
+    class?: string;
+  };
+};
+
+const SubMenuCards = ({ items, columns, gap }: { items: MenuItems, columns?: string, gap?: string }) => {
+
   if (!items) {
     return null;
   }
+
+  const getIngressValue = (value, locale) => {
+    if (typeof value.ingress === 'string') {
+      return value.ingress;
+    } else if (value.ingress && value.ingress[locale] !== undefined) {
+      return value.ingress[locale];
+    } else {
+      return '';
+    }
+  };
+
   // Get the current locale so we can display the correct language
   const { locale } = useRouter();
 
   const subPages = Object.entries(items).map(([key, value], i) => {
-    const title = value.title[locale]
-    const path = value.href
+    const title = value.title[locale];
+    const path = value.href;
+    const ingress = getIngressValue(value, locale);
+    const image = value.image ? value.image : '/images/dummy_lands_b.jpg';
+    
+    // const ingress = value.ingress;
 
     // Can use "generic" Card component here
     return (
-      <div
-        key={path}
-        className='flex flex-row gap-3 p-3 bg-ll-blue'
-      >
-        {value.image ? <Image src={value.image} alt={value.alt[locale]} width={200} height={200} className='object-cover' />
-          : <Image src={'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIiB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCI+CiAgPHJlY3Qgd2lkdGg9IjIwMCIgaGVpZ2h0PSIyMDAiIGZpbGw9IiNjY2NjY2MiPjwvcmVjdD4KICA8dGV4dCB4PSI1MCUiIHk9IjUwJSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9Im1vbm9zcGFjZSIgZm9udC1zaXplPSIyNnB4IiBmaWxsPSIjMzMzMzMzIj4yMDB4MjAwPC90ZXh0PiAgIAo8L3N2Zz4='} alt='' width={200} height={200} />}
-        <div className='flex flex-col gap-3 p-3'>
-          <Link
-            className='text-ll-gold md:text-2xl'
-            href={path}
-          >
-            {title}
-          </Link>
-          {value.ingress ? <p className='text-white'>{value.ingress[locale]}</p> : null}
-        </div>
-      </div>
-    )
-  })
+      <Card
+        key={key}
+        image={image}
+        alt={title}
+        title={title}
+        ingress={ingress}
+        path={path}
+      />
+    );
+  });
+
+  // Mapping columns to Tailwind CSS  classes
+  const columnsClass = {
+    1: 'dm:grid-cols-1',
+    2: 'sm:grid-cols-2',
+    3: 'sm:grid-cols-3',
+    4: 'dm:grid-cols-4 sm:grid-cols-3',
+    5: 'dm:grid-cols-5 sm:grid-cols-3',
+    6: 'dm:grid-cols-6 sm:grid-cols-3',
+    // add more mappings if needed
+  };
+
+  const gapClass = {
+    5: 'gap-5',
+    10: 'gap-10',
+    15: 'gap-15',
+    20: 'gap-20',
+    30: 'gap-30',
+    40: 'gap-40',
+  };
+
+
+  // Fallback to 2 column if no columns prop is provided
+  const gridClass = columns ? columnsClass[columns] : 'dm:grid-cols-2';
+  const gapsClass = gap ? gapClass[gap] : 'gap-2';
+
 
   return (
-    <section className='w-full py-5'>
-      <div className='grid grid-cols-1 md:grid-cols-2 gap-5'>
-        {subPages.map((subpage: any) => (
-          subpage
-        ))}
+    <section className="w-full py-5">
+      <div className={`grid ${gridClass} grid-cols-1 ${gapsClass}`}>
+        {subPages}
       </div>
     </section>
   );
-}
+};
 
 export default SubMenuCards;

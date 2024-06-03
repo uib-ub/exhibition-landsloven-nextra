@@ -16,6 +16,11 @@ module.exports = {
         serif: ['var(--font-serif)'],
       },
       colors: {
+        //Alternatively, use gold color for 'sandy'
+        'll-sandy': {
+          DEFAULT: '#f7efdf',
+          '50': '#f2efe6', 
+        },
         'll-blue': {
           DEFAULT: '#133f6d',
           '50': '#f1f7fe',

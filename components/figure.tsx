@@ -20,11 +20,11 @@ const Figure = (
       </div>
       <figcaption className='text-white p-5 flex flex-col justify-between w-full lg:max-w-sm'>
         <div>
-          <h2 className='font-antiqua text-white text-3xl'>{title}</h2>
+          <h2 className='font-antiqua text-white text-3xl pt-3 -mb-2'>{title}</h2>
           {children}
         </div>
         {/* Make into Button component */}
-        <a href={href} className='flex flex-row gap-3 items-center rounded-full self-end px-5 py-2 m-5 bg-red-300 dark:bg-red-700' target='_blank'>{buttonText} <ExternalLinkIcon /></a>
+        <a href={href} className='flex flex-row gap-3 items-center rounded-full self-end px-5 py-2 m-5 bg-red-700 dark:bg-red-900' target='_blank'>{buttonText} <ExternalLinkIcon /></a>
       </figcaption>
     </figure>
   )

@@ -1,20 +1,28 @@
 import { DocsThemeConfig } from 'nextra-theme-docs'
+import Image from 'next/image'
+ 
+//Alternative logo
+// <!--Image src="/images/logo_horizontal.svg" alt="Landsloven logo" width={240} height={45} /-->
+
+// TO DO: Usikker ang hvordan angi width heigh og fill color for svg bildene under siden svg overstyrer dette
+// Vanlig CSS path { fill: red} virker ikke
+  
 
 const config: DocsThemeConfig = {
   logo: (
-    <div className='flex gap-4'>
-      <div className='text-ll-red'>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="24" height="24">
-          <circle cx="12" cy="12" r="12" />
-        </svg>
-      </div>
-      <span className=''>Landsloven</span>
+    <div className='flex gap-2'>
+      <Image className="sm:block hidden dark:bg-white rounded-t-lg dark:mb-1 dark:mt-2 dark:px-1" src="/images/logo_horizontal.svg" alt="Landsloven logo" width={210} height={45} />
+      <Image className="sm:hidden block dark:bg-white rounded-full" src="/images/logo_nett.svg" alt="Landsloven logo" width={60} height={60} />
+
+      
+      <p className='sm:hidden block text-xlg align-middle leading-loose mt-3'>Landsloven</p>
     </div>
   ),
   i18n: [
     { locale: 'no', text: 'Norsk' },
     { locale: 'en', text: 'Engelsk' },
   ],
+  // TO DO: English placeholder ?
   search: {
     placeholder: 'Søk',
   },

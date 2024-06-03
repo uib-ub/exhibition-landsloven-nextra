@@ -16,4 +16,87 @@
   article * {
     @apply font-serif font-normal;
   }
+   
 }
+ 
+
+/* indent navigation menu lis */
+.nextra-menu-desktop li > a {
+	margin-left:  1rem;;
+}
+
+.nextra-menu-desktop .active a {
+	background: #f8f6ee;
+}
+
+.nextra-menu-desktop li > a[href$="/"] {
+    margin-left:  0.5rem;
+}
+
+ 
+.nextra-menu-desktop li > a[href$="introduksjon"] {
+    margin-left:  0.5rem;
+    color:  #333;;
+    font-weight: bold;
+}
+
+ 
+         
+.firstletter::first-letter  {
+	@apply text-9xl text-red-700 float-left inline-block bg-ll-sandy px-4 mr-4  ; 
+}  
+
+
+.p-disabled  > a  {
+	 color:  #222;
+}
+
+ 
+/* Code block design */
+code.nx-border-black {
+  font-family: Consolas,"courier new";
+  padding: 2px;
+  font-size: 105%;
+}
+
+/* Første linje: kun for å teste at css filen lastes */
+h1.nx-mt-2.nx-text-slate-900 {
+	 @apply text-red-700; 
+	 @apply font-medium leading-tight mb-2 mt-6;
+	 
+	 
+}
+
+.smallcard h1.nx-mt-2.nx-text-slate-900 {
+	 /* color: #d34c4c; */
+	 @apply text-3xl text-rose-800 dark:text-gray-300 ;
+}
+
+.smallcard p {
+	@apply my-1 text-base text-gray-800;
+}
+
+/* 'map' css classer til standard markdown varianter */
+
+
+
+blockquote p {
+	/* 'drop italic på sitater */
+	font-style: normal; 
+		
+}
+
+/* 'map' css sitat / author / copyright / kilde */
+cite {
+	@apply ps-3 text-sm text-gray-500 dark:text-gray-400;
+	font-style: normal;
+}
+
+blockquote cite {
+	@apply ps-3 text-sm text-gray-500 dark:text-gray-400;
+	@apply font-sans;
+	font-weight: 300;
+}
+ 
+
+
