@@ -141,8 +141,163 @@ When you want to include a blockquote with a footer, you can use the `Blockquote
 <Blockquote
     quote='«Det er forståelig at noen som ikke kan få seg arbeid til livsopphold, stjeler mat, og på den måten berger livet sitt fra sult, da skal han ikke straffes for det tjuveriet.»'
     footer='Tyvebolken, kapittel 1'
+    image= (optional), url
+    alt=(optional), alt text for image
 />
 ```
+
+
+
+
+### Card  
+The 'Card' component takes the following arguments:
+
+    interface CardProps {
+    title: string;
+    ingress?:string;
+    image?: string;
+    alt?: string;
+}
+
+> To DO: Beskrivelser / forklaring
+
+
+### Container
+The 'Container' component is a div with 'different width' and one can set CSS class (useful for styling 'Initial letter').
+Margin is 'Y-margin'
+
+'interface ContainerProps {
+  width?: string;
+  padding?: string;
+  margin?: string;
+  stil?: string;
+  children?: ReactNode;
+}'
+
+
+
+### Figure
+
+When you want to include an image with a caption and a link to the source, you can use the `Figure` component. If we can get IIIF manifest we use `<Work />`, but if not than we use `<Figure />`. It takes the following props:
+
+  
+
+```jsx
+
+	<Figure
+		image="/images/tyvebolken/Bf_BRM0_47891_FK_02.jpg"
+		title="Stor bronsenøkkel til Eidfjord kirke"
+		alt="Stor bronsenøkkel liggende på en hvit duk"
+		href="https://digitaltmuseum.org/0210112472912/brm0-47891-for-konservering-2"
+	>
+
+	</Figure>
+```
+
+
+Very important `image="/images/...` have a starting `/` and is relative to the `public` folder. An url is also possible, but the domain must be whitelisted in the `next.config.js` file.
+
+  
+
+### Blockquote
+
+When you want to include a blockquote with a footer, you can use the `Blockquote` component. It takes the following props:
+
+  
+
+```jsx
+
+	<Blockquote
+		quote='«Det er forståelig at noen som ikke kan få seg arbeid til livsopphold, stjeler mat, og på den måten berger livet sitt fra sult, da skal han ikke straffes for det tjuveriet.»'
+		footer='Tyvebolken, kapittel 1'
+		image=  (optional),  url
+		alt=(optional),  alt  text  for  image
+	/>
+
+```
+
+  
+  
+  
+  
+
+### Card
+
+The 'Card' component takes the following arguments:
+
+  
+
+	interface CardProps {
+		title: string;
+		ingress?:string;
+		image?: string;
+		alt?: string;
+	}
+
+  
+
+> To DO: Beskrivelser / forklaring
+
+  
+  
+
+### Container
+
+The 'Container' component is a div with 'different width' and one can set CSS class (useful for styling 'Initial letter').
+
+Margin is 'Y-margin'
+
+  
+
+	'interface ContainerProps {
+		width?: string;
+		padding?: string;
+		margin?: string;
+		stil?: string;
+		children?: ReactNode;
+	}'
+
+  
+   
+### FlexGrid
+
+  
+
+### LogoBanner
+
+  
+
+### Spacer
+The 'Spacer' component is a just for visually divide items. Height is in pixels
+
+    <Spacer height="36" /> 
+
+Or maybe 
+
+    <Spacer height={6}/>c
+
+
+  
+
+### SubMenuCards
+
+  
+
+### SitatHero
+
+The 'SitatHero' component is mainly used for creating banner at the top, it takes the following arguments:
+
+	 ({ title, ingress, footer }
+
+Like this:
+
+	<SitatHero 
+	    title={sections.introduksjon.title['no']} // or plain text
+	    ingress='«Hvis noen ikke får retten sin hjemme i bygdene eller hos lagmannen, da skal saksøkeren stevne til lagtinget den han ikke får rett av.»'  
+	    footer='Tingfarebolken, kapittel 10'
+	/>
+
+ 
 
 ## License
 
