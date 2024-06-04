@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Container from 'components/container'
 
-const Hero = ({ title, ingress, footer }: { title?: string, ingress?: string, footer?: string }) => {
+const SitatHero = ({ title, ingress, footer }: { title?: string, ingress?: string, footer?: string }) => {
   return (
  
       <div className="flex grid bg-ll-sandy -mx-6 dm:m-0 p-8 relative left-0 right-0 min-h-[32vw]  sm:min-h-[25vw]  bg-[url('/images/banner_overlay_transp.png')] sm:bg-[url('/images/banner_overlay.png')] sm:bg-contain bg-no-repeat bg-left">
@@ -22,4 +22,4 @@ const Hero = ({ title, ingress, footer }: { title?: string, ingress?: string, fo
   );
 }
 
-export default Hero;
+export default SitatHero;
