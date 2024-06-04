@@ -1,17 +1,32 @@
 import SubMenuCards from 'components/sub-menu-cards';
 import Work from 'components/work';
 import sections from 'config/sections/tingfarebolken';
+import SitatHero from 'components/sitathero';
+import Container from 'components/container';
+import Spacer  from 'components/spacer' 
 
-# Tingfarebolken
+<SitatHero 
+    title='Tingfarebolken' 
+    ingress='«Hvis noen ikke får retten sin hjemme i bygdene eller hos lagmannen, da skal saksøkeren stevne til lagtinget den han ikke får rett av.»'  
+    footer='Tingfarebolken, kapittel 10'
+/>
 
-«Hvis noen ikke får retten sin hjemme i bygdene eller hos lagmannen, da skal saksøkeren stevne til lagtinget den han ikke får rett av.»
+<Spacer height={6}/>
 
-Tingfarebolken, kapittel 10
 
-<SubMenuCards items={sections.items} />
+<Container>
+    # Tingfarebolken
+    <SubMenuCards items={sections.items} columns={3} gap={10} />
+ 
+</Container>
+
+<Container stil="firstletter text-left text-xl" margin={10}> 
+    Tingfarebolken er den første bolken i Landsloven. Den handler først og fremst om regler knyttet til lagtingene – tingene for hele landsdeler – som møttes én gang i året på et fastlagt tingsted. Det gjøres rede for utvelgelse av sendemenn til lagtingene, hvor mange som skulle oppnevnes fra de ulike fylkene, hva de skulle ha i reisepenger, hvordan de skulle oppføre seg på tinget, ritualer og eder, i tillegg til selve den juridiske prosessen. Helt siden vikingtiden hadde Norge vært delt inn i fire rettsområder: Gulating i vest og sør, Frostating i nord, og Eidsivating og Borgarting i øst. Opprinnelig regner en med at lagtingene var allting, som siden ble representasjonsting, der utvalgte menn reiste. Tingfarebolken sier kongens tjenestemenn skulle velge dem de trodde var best skikket. Lagtingene var den øverste domsinstansen for saker som ikke kunne løses lokalt. Frem til Landsloven hadde lagtingene også en lovgivende funksjon og egne regionale lover – landskapslovene. Alle nye lover måtte vedtas på lagtinget. Nettopp ved å akseptere kong Magnus’ nye lovverk og kongens rett til å forbedre lovene i fremtiden, sa lagtingene fra seg den oppgaven. Fra da av var det kongen og hans riksråd som var landets lovgivere.
+  </Container>
+<Spacer height={6}/>
 
 <Work id="ubb-diplom-0080">
     chatGPT: Lagtinget var landets høyeste domstol. Det ble holdt utendørs, og de som møtte opp var bevæpnet. Lagtinget ble holdt om våren og høsten. Lagtinget ble holdt utendørs, og de som møtte opp var bevæpnet. Lagtinget ble holdt om våren og høsten.
 </Work>
 
-Tingfarebolken er den første bolken i Landsloven. Den handler først og fremst om regler knyttet til lagtingene – tingene for hele landsdeler – som møttes én gang i året på et fastlagt tingsted. Det gjøres rede for utvelgelse av sendemenn til lagtingene, hvor mange som skulle oppnevnes fra de ulike fylkene, hva de skulle ha i reisepenger, hvordan de skulle oppføre seg på tinget, ritualer og eder, i tillegg til selve den juridiske prosessen. Helt siden vikingtiden hadde Norge vært delt inn i fire rettsområder: Gulating i vest og sør, Frostating i nord, og Eidsivating og Borgarting i øst. Opprinnelig regner en med at lagtingene var allting, som siden ble representasjonsting, der utvalgte menn reiste. Tingfarebolken sier kongens tjenestemenn skulle velge dem de trodde var best skikket. Lagtingene var den øverste domsinstansen for saker som ikke kunne løses lokalt. Frem til Landsloven hadde lagtingene også en lovgivende funksjon og egne regionale lover – landskapslovene. Alle nye lover måtte vedtas på lagtinget. Nettopp ved å akseptere kong Magnus’ nye lovverk og kongens rett til å forbedre lovene i fremtiden, sa lagtingene fra seg den oppgaven. Fra da av var det kongen og hans riksråd som var landets lovgivere.
+

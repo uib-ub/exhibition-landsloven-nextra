@@ -16,9 +16,15 @@
   article * {
     @apply font-serif font-normal;
   }
+    
+  body {
+	background: #FEFEFE !important;
+   }
+
    
 }
- 
+
+
 
 /* indent navigation menu lis */
 .nextra-menu-desktop li > a {
@@ -40,7 +46,17 @@
     font-weight: bold;
 }
 
- 
+a[href$="introduksjon"] > svg > path{
+    transform: rotate(90deg);
+    transform-box: fill-box;
+    transform-origin: center;
+}
+
+
+.initial::first-letter  {
+	@apply text-9xl text-red-700 float-left inline-block leading-none p-0 -mt-4 -ml-1 mr-2  ; 
+	}  
+	
          
 .firstletter::first-letter  {
 	@apply text-9xl text-red-700 float-left inline-block bg-ll-sandy px-4 mr-4  ; 
