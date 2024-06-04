@@ -1,8 +1,33 @@
 import SubMenuCards from 'components/sub-menu-cards';
 import sections from 'config/sections/introduksjon';
+import Container from 'components/container'
+import SitatHero from 'components/sitathero';
+import Spacer  from 'components/spacer';
+import Image from 'next/image';
 
+
+<Image
+    src='/images/landslovbanner_750b.jpg'
+    alt="banneri image"
+    width={3500}
+    height={1600}
+    className="object-cover" 
+/>
+ 
+<Spacer height={20} />
+<Container style="initial">
 # Magnus Lagabøtes landslov 750 år
+</Container>
 
+<Spacer height={36} />
+
+
+<Container stil="initial sm:columns-2">
 I 1274 la kong Magnus VI Håkonsson fram sin landslov. Mellom 1274 og 1276 ble den vedtatt på alle de fire landsdelstingene, som erstatning for de gamle landskapslovene. Landsloven var gjeldende i over 400 år, til 1687. Selv om vi vet lite om kong Magnus som person, vitner både lovskapningsarbeidet hans og andre kilder om at han må ha hatt en utpreget rettferdighetssans. Han overtok den lovgivende myndigheten fra lagtingene, og skapte et mer konsekvent rettssystem. Landsloven var en milepæl på veien mot en sentralisert statsmakt. På grunn av innsatsen for å forbedre lovene har kong Magnus i ettertid fått tilnavnet Lagabøte. 750-årsjubileet for Landsloven blir feiret over hele Norge. Denne utstillingen er hovedtiltaket i markeringen av Landslovsjubileet i Vestland. Den er resultat av et tett samarbeid mellom Bymuseet i Bergen, Universitetet i Bergen – særlig Universitetsbiblioteket og Universitetsmuseet – og Vestland fylkeskommune. Utstillingen har en tverrfaglig tilnærming til Landsloven og samfunnet den ble skapt for, og har et Bergens- og Vestlandsfokus. Som i Landslovens bestemmelser spenner tematikken fra det store og dramatiske til det nære og hverdagslige. Det er også lagt vekt på å skape en verdig og stemningsfull ramme omkring kong Magnus’ livsverk.
+</Container>
 
-<SubMenuCards items={sections.items} />
+<Spacer height={30} />
+
+<Container>
+    <SubMenuCards items={sections.items} columns={3} gap={10} />
+</Container>
