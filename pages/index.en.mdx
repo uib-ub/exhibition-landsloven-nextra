@@ -1,8 +1,34 @@
 import SubMenuCards from 'components/sub-menu-cards';
+import Blockquote from 'components/blockquote';
+import Spacer  from 'components/spacer';
+import Container from 'components/container';
+import SitatHero from 'components/sitathero';
+import Image from 'next/image';
 import site from 'config/site';
 
-{/* # Anniversary exhibition */}
+<SitatHero 
+    title='About the Anniversary exhibition'
+    ingress='«Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+    quis nostrud e. Duis aute irure dolor in reprehenderit in volu.»'
+    footer='LANDSLOVJUBILEET' 
+/>
+<Spacer height={30} />
 
-{/* Placeholder component for en stor hero */}
+<Container>
+    # Anniversary exhibition 
+    <SubMenuCards items={site.bolkene.items} columns={3} gap={10} shadow='shadow-none'/>
+</Container>
 
-<SubMenuCards items={site.bolkene.items} />
+
+
+
+ 
+
+
+ 
+
+{/* TO DO: Update missing text */}
+
+
+
+ 

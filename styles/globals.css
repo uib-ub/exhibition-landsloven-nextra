@@ -18,7 +18,7 @@
   }
     
   body {
-	background: #FEFEFE !important;
+	background: #FEFDFD !important;
    }
 
    
@@ -46,7 +46,7 @@
     font-weight: bold;
 }
 
-a[href$="introduksjon"] > svg > path{
+.nx-mb-8.nx-items-center a[href$="introduksjon"] > svg > path{
     transform: rotate(90deg);
     transform-box: fill-box;
     transform-origin: center;

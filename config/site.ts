@@ -14,7 +14,7 @@ export default {
       en: "Introduction"
     },
     href: "/introduksjon/introduksjon",
-    image: "",
+    image: "/images/introduksjon.jpg",
     class: ""
   },
   bolkene: {
@@ -33,7 +33,7 @@ export default {
           no: "Prologen er en introduksjon til landsloven.",
           en: "The prologue is an introduction to the law of the land."
         },
-        image: "/images/ting.jpg",
+        image: "/images/prolog.jpg",
         class: ""
       },
       tingfarebolken: {
@@ -42,7 +42,7 @@ export default {
           en: "Section about going to the assemblies"
         },
         href: "/tingfarebolken/introduksjon",
-        class: "/images/ting.jpg"
+        class: "/images/tingfarer.jpg"
       },
       kristendomsbolken: {
         title: {
@@ -69,7 +69,7 @@ export default {
           en: "Human inviolability section"
         },
         href: "/mannhelgebolken/introduksjon",
-        image: "",
+        image: "/images/mannhelge.jpg",
         class: ""
       },
       arvetallet: {
@@ -78,7 +78,7 @@ export default {
           en: "Inheritance list"
         },
         href: "/arvetallet/introduksjon",
-        image: "/images/arvetallet.jpg",
+        image: "",
         class: ""
       },
       odelsbolken: {
@@ -87,7 +87,7 @@ export default {
           en: "Land erdemption section"
         },
         href: "/odelsbolken/introduksjon",
-        image: "",
+        image: "/images/odel.jpg",
         class: ""
       },
       landsleiebolken: {
@@ -96,7 +96,7 @@ export default {
           en: "Land tenancy section"
         },
         href: "/landsleiebolken/introduksjon",
-        image: "",
+        image: "/images/landleie.jpg",
         class: ""
       },
       kjoepebolken: {
@@ -114,7 +114,7 @@ export default {
           en: "Thieves' section"
         },
         href: "/tyvebolken/introduksjon",
-        image: "",
+        image: "/images/tyv.jpg",
         class: ""
       },
       retterboeter: {

@@ -14,7 +14,7 @@ type MenuItems = {
   };
 };
 
-const SubMenuCards = ({ items, columns, gap }: { items: MenuItems, columns?: string, gap?: string }) => {
+const SubMenuCards = ({ items, columns='2', gap='10', shadow }: { items: MenuItems, columns?: string, gap?: string, shadow?:string }) => {
 
   if (!items) {
     return null;
@@ -50,6 +50,7 @@ const SubMenuCards = ({ items, columns, gap }: { items: MenuItems, columns?: str
         title={title}
         ingress={ingress}
         path={path}
+        shadow={shadow}
       />
     );
   });

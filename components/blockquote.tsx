@@ -8,11 +8,11 @@ const Blockquote = ({ quote, image, alt, footer, gold, full }: { quote: React.Re
 
   // Change background color if 'gold is true'
   
-  const bgColor = gold ? 'bg-red-700' :  'bg-ll-gold-50';
+  const bgColor = gold ?  'bg-ll-gold-50' : 'bg-red-700'  ;
   const bgColorImage = gold ? 'bg-ll-gold-50' : 'bg-white' ;
   const figureSize  = full ? 'w-full' :  'w-1/3';
-  const textColor = gold  ? 'text-white' :  'text-black font-medium';
-  const footerColor = gold  ? 'text-red-100' :  'text-gray-800';
+  const textColor = gold  ? 'text-black font-medium' : 'text-white'  ;
+  const footerColor = gold  ?  'text-gray-800' : 'text-red-100'  ;
 
 
   return (
