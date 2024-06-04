@@ -134,20 +134,6 @@ When you want to include an image with a caption and a link to the source, you c
 
 Very important `image="/images/...` have a starting `/` and is relative to the `public` folder. An url is also possible, but the domain must be whitelisted in the `next.config.js` file.
 
-### Blockquote
-When you want to include a blockquote with a footer, you can use the `Blockquote` component. It takes the following props:
-
-```jsx
-<Blockquote
-    quote='«Det er forståelig at noen som ikke kan få seg arbeid til livsopphold, stjeler mat, og på den måten berger livet sitt fra sult, da skal han ikke straffes for det tjuveriet.»'
-    footer='Tyvebolken, kapittel 1'
-    image= (optional), url
-    alt=(optional), alt text for image
-/>
-```
-
-
-
 
 ### Card  
 The 'Card' component takes the following arguments:
@@ -173,6 +159,16 @@ Margin is 'Y-margin'
   stil?: string;
   children?: ReactNode;
 }'
+
+
+
+    <Container stil="firstletter" margin={6}>
+    
+
+Margin is 'top margin'.
+
+stil can be for example 'fistletter' or 'initial'. 
+(these are defined in global.css
 
 
 
@@ -217,16 +213,11 @@ When you want to include a blockquote with a footer, you can use the `Blockquote
 	/>
 
 ```
-
-  
-  
-  
   
 
 ### Card
 
 The 'Card' component takes the following arguments:
-
   
 
 	interface CardProps {
@@ -236,12 +227,10 @@ The 'Card' component takes the following arguments:
 		alt?: string;
 	}
 
-  
 
 > To DO: Beskrivelser / forklaring
 
-  
-  
+ 
 
 ### Container
 
@@ -263,6 +252,7 @@ Margin is 'Y-margin'
    
 ### FlexGrid
 
+TO DO: 
   
 
 ### LogoBanner
@@ -279,10 +269,10 @@ Or maybe
     <Spacer height={6}/>c
 
 
-  
 
 ### SubMenuCards
 
+    <SubMenuCards items={sections.items} columns={2} gap={5}/>
   
 
 ### SitatHero
