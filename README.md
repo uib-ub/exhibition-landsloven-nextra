@@ -212,6 +212,8 @@ When you want to include a blockquote with a footer, you can use the `Blockquote
 		footer='Tyvebolken, kapittel 1'
 		image=  (optional),  url
 		alt=(optional),  alt  text  for  image
+		gold = {1} optional
+		full = {1} optional
 	/>
 
 ```
