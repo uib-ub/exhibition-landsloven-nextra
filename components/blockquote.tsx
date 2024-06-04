@@ -1,15 +1,27 @@
 import React from 'react';
 import Image from 'next/image'
 
-const Blockquote = ({ quote, image, alt, footer }: { quote: React.ReactNode, footer: React.ReactNode, image?: string, alt?: string }) => {
+// TO DO: Is it OK to just define colors for text footter etc as done below?
+// const Blockquote = ({ quote, image, alt, footer, gold }: { quote: React.ReactNode, footer: React.ReactNode, image?: string, alt?: string, gold?: boolean }) => {
+
+const Blockquote = ({ quote, image, alt, footer, gold, full }: { quote: React.ReactNode, footer: React.ReactNode, image?: string, alt?: string, gold?: boolean,  full?: boolean }) => {
+
+  // Change background color if 'gold is true'
+  
+  const bgColor = gold ? 'bg-red-700' :  'bg-ll-gold-50';
+  const bgColorImage = gold ? 'bg-ll-gold-50' : 'bg-white' ;
+  const figureSize  = full ? 'w-full' :  'w-1/3';
+  const textColor = gold  ? 'text-white' :  'text-black font-medium';
+  const footerColor = gold  ? 'text-red-100' :  'text-gray-800';
+
 
   return (
     // Layout 1 if iamge exists
     <div>
     {image ? (
-     <blockquote className={"flex flex-wrap w-full rounded type-card dark:bg-gray-900 shadow-lg"}>
+     <blockquote className={`flex flex-wrap w-full border border-dotted rounded type-card ${bgColorImage} dark:bg-gray-900 shadow-lg`}>
 
-         <figure className="w-full sm:w-1/3">
+         <figure className={`w-full sm:${figureSize}`}>
           <Image
             src={image}
             alt={alt}
@@ -28,12 +40,13 @@ const Blockquote = ({ quote, image, alt, footer }: { quote: React.ReactNode, foo
          </div> 
      </blockquote>
      ) : (
-     <blockquote className="w-full rounded type-card overflow-hidden border-1 border-white border-solid shadow-lg  grow p-6 text-left xmd:text-left space-y-4 bg-red-700 xbg-sky-500 text-white  dark:bg-gray-900">
-             <p className="text-2xl">
+      
+     <blockquote className={`w-full rounded type-card overflow-hidden border-1 border-white border-solid shadow-lg  grow p-6 text-left xmd:text-left space-y-4 ${bgColor} ${textColor} dark:bg-gray-900`} >
+               <p className={`text-2xl  ${textColor}`}>
                {quote}
              </p>
 
-             <div className="text-right text-sky-100 dark:text-sky-400">
+             <div className={`text-right ${footerColor} dark:text-sky-400`} >
                {footer}
              </div>
 
