@@ -40,7 +40,14 @@
     font-weight: bold;
 }
 
- 
+a[href$="introduksjon"] > svg > path{
+    transform: rotate(90deg);
+    transform-box: fill-box;
+    transform-origin: center;
+}
+
+
+	
          
 .firstletter::first-letter  {
 	@apply text-9xl text-red-700 float-left inline-block bg-ll-sandy px-4 mr-4  ; 
