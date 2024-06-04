@@ -161,6 +161,17 @@ Margin is 'Y-margin'
 }'
 
 
+
+    <Container stil="firstletter" margin={6}>
+    
+
+Margin is 'top margin'.
+
+stil can be for example 'fistletter' or 'initial'. 
+(these are defined in global.css
+
+
+
 ### Figure
 
 When you want to include an image with a caption and a link to the source, you can use the `Figure` component. If we can get IIIF manifest we use `<Work />`, but if not than we use `<Figure />`. It takes the following props:
@@ -216,12 +227,10 @@ The 'Card' component takes the following arguments:
 		alt?: string;
 	}
 
-  
 
 > To DO: Beskrivelser / forklaring
 
-  
-  
+ 
 
 ### Container
 
@@ -243,6 +252,7 @@ Margin is 'Y-margin'
    
 ### FlexGrid
 
+TO DO: 
   
 
 ### LogoBanner
@@ -259,10 +269,10 @@ Or maybe
     <Spacer height={6}/>c
 
 
-  
 
 ### SubMenuCards
 
+    <SubMenuCards items={sections.items} columns={2} gap={5}/>
   
 
 ### SitatHero
