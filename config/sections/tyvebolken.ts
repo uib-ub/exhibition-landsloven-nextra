@@ -10,7 +10,7 @@ const sections: PagesConfig = {
     no: "Legg til tekst her",
     en: "Add text here",
   },
-  image: "",
+  image: "/images/sverging.jpg",
   alt: {
     no: "Bildetekst her",
     en: "Image text here",
@@ -55,3 +55,4 @@ const sections: PagesConfig = {
 }
 
 export default sections
+
