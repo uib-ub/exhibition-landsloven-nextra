@@ -16,7 +16,7 @@ const config: DocsThemeConfig = {
        <Image className="svglogo hidden dark:sm:block" 
           src="/images/logo_horizontal_white.svg" alt="Landsloven logo" width={210} height={45} />
       <Image className="sm:hidden dark:hidden block rounded-full" src="/images/logo_nett.svg" alt="Landsloven logo" width={60} height={60} />
-      <Image className="sm:hidden block rounded-full" src="/images/logo_nett_white.svg" alt="Landsloven logo" width={60} height={60} />
+      <Image className="hidden dark:block dark:sm:hidden rounded-full" src="/images/logo_nett_white.svg" alt="Landsloven logo" width={60} height={60} />
       
       <p className='sm:hidden block text-xlg align-middle leading-loose mt-3'>Landsloven</p>
     </div>

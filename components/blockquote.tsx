@@ -15,10 +15,10 @@ const Blockquote = ({ quote, image, alt, footer, gold, full }: { quote: React.Re
   // const footerColor = gold  ?  'text-gray-800 dark:text-ll-blue-50' : 'text-ll-gold-200'  ;
 
   
-  const bgColor = gold ?  'bg-ll-gold-50' : 'bg-ll-sandy border border-solid border-sandy-100 shadow-none py-8 px-12 mt-4'  ;
+  const bgColor = gold ?  'bg-ll-gold-50' : ' dark:bg-ll-blue-950  bg-ll-sandy dark:border-none border border-solid border-sandy-100 shadow-none py-8 px-12 mt-4'  ;
   const bgColorImage = gold ? 'bg-ll-gold-50' : 'bg-white' ;
   const figureSize  = full ? 'w-full' :  'w-1/3';
-  const textColor = gold  ? 'text-black dark:text-ll-blue-200 font-medium' : 'text-black'  ;
+  const textColor = gold  ? 'text-black dark:text-ll-blue-200 font-medium' : 'text-black dark:text-blue-200'  ;
   const footerColor = gold  ?  'text-gray-800 dark:text-ll-blue-50' : 'text-ll-gold-600'  ;
 
 
@@ -39,7 +39,6 @@ const Blockquote = ({ quote, image, alt, footer, gold, full }: { quote: React.Re
          </figure>
          <div className="grow w-full sm:w-2/3 p-6 text-center md:text-left space-y-4">
              <p className="font-serif text-2xl font-medium dark:text-sky-100">{quote}</p>
-             
              <div className="text-center md:text-right text-red-700 dark:text-sky-300">
                {footer}  
              </div>
