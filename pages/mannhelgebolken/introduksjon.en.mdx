@@ -1,15 +1,26 @@
 import SubMenuCards from 'components/sub-menu-cards';
 import Work from 'components/work';
 import sections from 'config/sections/mannhelgebolken';
+import SitatHero from 'components/sitathero';
+import Spacer from 'components/spacer'
+import Container from 'components/container'
 
-# Human inviolability section
+<SitatHero 
+    title= 'From the Human inviolability section'
+    ingress='“… the laws punish …”'  
+    footer='Human Inviolability section, chapter 17'
+/>
 
-“… the laws punish …”
+<Spacer height={12} />
 
-Human Inviolability section, chapter 17
-
-<SubMenuCards items={sections.items} />
+<Container>
+    # Human inviolability section
+    <SubMenuCards items={sections.items} columns={3} gap={10} />
+</Container>
 
 <Work id="ubb-diplom-0130" />
 
-The Old Norse word “mannhelgi” or “mannhelgr” is usually translated as “human inviolability”. The Human Inviolability section precisely concerns the protection of life and one’s body and honour. It enumerates personal injury, mutilation and homicide (both premeditated and negligent), rape, adultery, defamation, and more. It also describes the legal procedures and punishments for inflicting these on others. A decisive difference from older legislation was that peace between the kingdom’s subjects became, to a much greater extent, a matter for the king. This is one of the sections in the Laws of the Land where we see most clearly the king’s intervention to change legal practice and the understanding of laws. In the old provincial laws, which had their origins in the ancestral society of the Viking Age, the kindred of both victims and criminals had been obvious parties in the legal process. The family of the offender, for example, had to pay compensation, called a family fine, to several relatives of the offended party. It was also the family’s duty to avenge violations and injustices, which could lead to bloody and longlasting conflicts. There are many such examples in the Old Norse sagas. It might as well be the stronger party and not justice that prevailed. With the Laws of the Land, the offender himself, not his family or clan, was responsible for making amends. Moreover, only the victim or next of kin would receive compensation—in addition to the king, who was also to be compensated with fines for violations, injuries, and murder of his subjects. This also ensured solid revenues for the crown. Revenge and taking the justice into one’s own hand were no longer allowed. Only the king’s judges had the authority to judge and punish. The law was supposed to ensure justice not only for the offended but also for the accused.
+<Container stil="firstletter text-left text-xl" margin={0}>
+    The Old Norse word “mannhelgi” or “mannhelgr” is usually translated as “human inviolability”. The Human Inviolability section precisely concerns the protection of life and one’s body and honour. It enumerates personal injury, mutilation and homicide (both premeditated and negligent), rape, adultery, defamation, and more. It also describes the legal procedures and punishments for inflicting these on others. A decisive difference from older legislation was that peace between the kingdom’s subjects became, to a much greater extent, a matter for the king. This is one of the sections in the Laws of the Land where we see most clearly the king’s intervention to change legal practice and the understanding of laws. In the old provincial laws, which had their origins in the ancestral society of the Viking Age, the kindred of both victims and criminals had been obvious parties in the legal process. The family of the offender, for example, had to pay compensation, called a family fine, to several relatives of the offended party. It was also the family’s duty to avenge violations and injustices, which could lead to bloody and longlasting conflicts. There are many such examples in the Old Norse sagas. It might as well be the stronger party and not justice that prevailed. With the Laws of the Land, the offender himself, not his family or clan, was responsible for making amends. Moreover, only the victim or next of kin would receive compensation—in addition to the king, who was also to be compensated with fines for violations, injuries, and murder of his subjects. This also ensured solid revenues for the crown. Revenge and taking the justice into one’s own hand were no longer allowed. Only the king’s judges had the authority to judge and punish. The law was supposed to ensure justice not only for the offended but also for the accused.
+</Container>
+

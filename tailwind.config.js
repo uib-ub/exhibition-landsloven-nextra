@@ -20,7 +20,8 @@ module.exports = {
         'll-sandy': {
           DEFAULT: '#f7efdf',
           '50': '#f2efe6', 
-          '100': '#fbfbf8'
+          '100': '#fbfbf8',
+          '200': '#FEFDFD'
         },
         'll-blue': {
           DEFAULT: '#133f6d',
