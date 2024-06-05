@@ -39,7 +39,7 @@ const sections: PagesConfig = {
         no: "Medgift",
         en: "Dowry",
       },
-      href: "/arvetallet/ekteskap",
+      href: "/arvetallet/medgift",
       ingress: {
         no: "Landsloven er ikke en håndbok for romantikk. Ekteskap var knyttet til en kirkelig handling, men var også en forretningsmessig avtale.",
         en: "Add text here",
@@ -56,7 +56,7 @@ const sections: PagesConfig = {
         no: "Tilgave",
         en: "Counter-gift",
       },
-      href: "/arvetallet/ekteskap",
+      href: "/arvetallet/tilgave",
       ingress: {
         no: "Legg til tekst her",
         en: "Add text here",
@@ -73,7 +73,7 @@ const sections: PagesConfig = {
         no: "Løsøre",
         en: "Assets",
       },
-      href: "/arvetallet/ekteskap",
+      href: "/arvetallet/losore",
       ingress: {
         no: "Legg til tekst her",
         en: "Add text here",
