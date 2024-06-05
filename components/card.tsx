@@ -43,7 +43,7 @@ const Card = (props) => {
  
           <div className="px-4 pt-2 pb-4 dark:px-4 pt-0 pb-0">
             <Link href={path} > 
-              <h2 className="nx-mt-2 font-serif text-[1.3em] font-medium leading-tight text-ll-blue-700 dark:dark:text-sky-300 hover:underline">{ title }</h2>   
+              <h2 className="mt-2 mb-1 font-serif text-[1.3em] font-medium leading-tight text-ll-blue-800 dark:dark:text-sky-300 hover:underline">{ title }</h2>   
             </Link>
             <p className="text-xl dark:text-whiten leading-tight">{ ingress }</p> 
             <p className=" text-right">
@@ -51,7 +51,7 @@ const Card = (props) => {
                 {lenkeText} 
                 <svg fill="none" viewBox="0 0 30 30" stroke="currentColor" 
                   className="nx-inline nx-h-5 nx-shrink-0 rtl:nx-rotate-180">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7"></path>
                 </svg>
   
             </Link>    

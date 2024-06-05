@@ -19,8 +19,8 @@ const Work = ({ children, id, url, marcus, config }: { children?: ReactNode, id?
   const buttonText = locale === 'no' ? 'Se mer i Marcus' : 'Read more in Marcus'
 
   return (
-    <div className='my-10 w-full flex flex-col lg:flex-row border-solid border-2 border-orange-200 dark:bg-ll-blue-700'>
-      <div className='w-full h-[500px] md:h-[700px] lg:h-[70vh] relative bg-orange-50 dark:bg-ll-blue-950 z-0'>
+    <div className='my-10 w-full flex flex-col lg:flex-row  bg-ll-sandy border-solid border-2 border-ll-sandy-100 dark:bg-ll-blue-900'>
+      <div className='w-full h-[500px] md:h-[700px] lg:h-[70vh] relative dark:bg-ll-blue-950 z-0'>
         <Viewer
           iiifContent={manifestId}
           options={{
@@ -33,11 +33,11 @@ const Work = ({ children, id, url, marcus, config }: { children?: ReactNode, id?
         />
       </div>
       {children ?
-        <div className='p-5 sm:p-10 flex flex-col justify-between w-full lg:max-w-md bg-orange-200 dark:nx-bg-primary-400/10'>
+        <div className='p-5 sm:p-10 flex flex-col justify-between w-full lg:max-w-md  bg-ll-blue-900 text-white dark:nx-bg-primary-400/10'>
           {children}
           {marcus ?
             <a
-              className='rounded-full self-end px-5 py-2 m-5  bg-red-300 dark:bg-red-700'
+              className='rounded-full self-end px-5 py-2 m-5  bg-ll-red dark:bg-red-700'
               href={marcus}>
               {buttonText}
             </a>
