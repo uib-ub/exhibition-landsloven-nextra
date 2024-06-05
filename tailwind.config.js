@@ -19,6 +19,7 @@ module.exports = {
         //Alternatively, use gold color for 'sandy'
         'll-sandy': {
           DEFAULT: '#f7efdf',
+          '25' : 'f4f2ea',
           '50': '#f2efe6', 
           '100': '#fbfbf8',
           '200': '#FEFDFD'

@@ -17,17 +17,29 @@
     @apply font-serif font-normal;
   }
     
-  /* body {
-	background: #FEFDFD !important;
+  body {
+	@apply bg-ll-sandy-200;
    }
-  */
-
-   
+    
+  
+}
+ 
+ 
+/* Color devider breadcrumbs */ 
+.nextra-breadcrumb svg path {
+	stroke: red;
+} 
+ 
+ 
+.center-text-1  {
+	@apply text-center m-auto;
 }
 
+.center-text-1 h4 {
+	display: inline-block;
+} 
 
-
-/* indent navigation menu lis */
+/* navigation menu lis */
 .nextra-menu-desktop li > a {
 	margin-left:  1rem;;
 }
@@ -40,12 +52,21 @@
     margin-left:  0.5rem;
 }
 
- 
 .nextra-menu-desktop li > a[href$="introduksjon"] {
     margin-left:  0.5rem;
     color:  #333;;
     font-weight: bold;
 }
+
+
+
+.p-disabled  > a  {
+	 color:  #222;
+}
+
+
+
+/* Bottom navigation */
 
 .nx-mb-8.nx-items-center a[href$="introduksjon"] > svg > path{
     transform: rotate(90deg);
@@ -54,19 +75,38 @@
 }
 
 
+
+/* INitialer */
+.redinitial::first-letter,
 .initial::first-letter  {
 	@apply text-9xl text-red-700 float-left inline-block leading-none p-0 -mt-4 -ml-1 mr-2  ; 
 	}  
-	
-         
+
+.blueinitial::first-letter  {
+	@apply text-9xl text-ll-blue-900 float-left inline-block leading-none pt-0 ml-1 mr-3 -mb-5  ; 
+	@apply font-antiqua;
+}  	
+
+.redletter::first-letter,         
 .firstletter::first-letter  {
 	@apply text-9xl text-red-700 float-left inline-block bg-ll-sandy px-4 mr-4  ; 
 }  
 
+.redletter::first-letter  {
+	@apply   bg-ll-sandy-50 ; 
+}      
+    
 
-.p-disabled  > a  {
-	 color:  #222;
+.goldletter::first-letter  {
+	@apply text-9xl text-white float-left bg-ll-gold px-5 pt-3 pb-0 mr-4  ; 
+	@apply font-antiqua;
+}  
+
+.blueletter::first-letter  {
+	@apply text-9xl text-white float-left bg-ll-blue-900 px-5 pt-3 pb-0 mr-4  ; 
+	@apply font-antiqua;
 }
+
 
  
 /* Code block design */
@@ -80,8 +120,7 @@ code.nx-border-black {
 h1.nx-mt-2.nx-text-slate-900 {
 	 @apply text-red-700; 
 	 @apply font-medium leading-tight mb-2 mt-6;
-	 
-	 
+
 }
 
 .smallcard h1.nx-mt-2.nx-text-slate-900 {

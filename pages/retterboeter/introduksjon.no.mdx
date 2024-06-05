@@ -1,7 +1,8 @@
 import SubMenuCards from 'components/sub-menu-cards';
 import sections from 'config/sections/retterboeter';
 import SitatHero from 'components/sitathero';
-import Container from 'components/container'
+import Container from 'components/container';
+import Spacer from 'components/spacer';
 
 
 <SitatHero 
@@ -9,9 +10,10 @@ import Container from 'components/container'
     ingress='«… lovboka som den vørdelege herre kong Magnus, far vår, fekk i stand, nokre stader ikkje synest å gje så klar orskurd som folk treng, og dessutan finst det fleire omstende i sakene enn ein kan vente at ei så lita bok kan avgjere.»'  
     footer='En retterbot fra Eirik Magnussons formynderstyre 2. juli 1280 forteller'
 />
+<Spacer height={10}/>
 
 <Container>
-# Retterbøter
+    # Retterbøter
 </Container>
 
 <Container stil="firstletter text-left text-xl" margin={2}>
@@ -19,7 +21,8 @@ import Container from 'components/container'
 </Container>
 
 <Container>
-    <SubMenuCards items={sections.items} columns={2} gap={10}/>
+    <Spacer height={10}/>
+    <SubMenuCards items={sections.items} columns={3} gap={10}/>
 </Container>
 
 

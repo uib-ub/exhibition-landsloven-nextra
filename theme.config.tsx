@@ -11,9 +11,12 @@ import Image from 'next/image'
 const config: DocsThemeConfig = {
   logo: (
     <div className='flex gap-2'>
-      <Image className="sm:block hidden dark:bg-white rounded-t-lg dark:mb-1 dark:mt-2 dark:px-1" src="/images/logo_horizontal.svg" alt="Landsloven logo" width={210} height={45} />
-      <Image className="sm:hidden block dark:bg-white rounded-full" src="/images/logo_nett.svg" alt="Landsloven logo" width={60} height={60} />
-
+      <Image className="svglogo hidden dark:hidden sm:block" 
+          src="/images/logo_horizontal.svg" alt="Landsloven logo" width={210} height={45} />
+       <Image className="svglogo hidden dark:sm:block" 
+          src="/images/logo_horizontal_white.svg" alt="Landsloven logo" width={210} height={45} />
+      <Image className="sm:hidden dark:hidden block rounded-full" src="/images/logo_nett.svg" alt="Landsloven logo" width={60} height={60} />
+      <Image className="sm:hidden block rounded-full" src="/images/logo_nett_white.svg" alt="Landsloven logo" width={60} height={60} />
       
       <p className='sm:hidden block text-xlg align-middle leading-loose mt-3'>Landsloven</p>
     </div>
