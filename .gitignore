@@ -3,3 +3,6 @@ node_modules
 public/images/standard_Funeral_of_ruthenian_noble_by_Siemiradzki_1_.jpg
 styles/(A Document Being Saved By CSSEdit 2)/globals.css
 styles/(A Document Being Saved By CSSEdit)/globals.css
+.DS_Store
+pages/.DS_Store
+*/.DS_Store
