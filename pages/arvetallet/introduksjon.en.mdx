@@ -1,12 +1,36 @@
 import SubMenuCards from 'components/sub-menu-cards';
 import sections from 'config/sections/arvefallet';
+ 
+import Quoter from 'components/quoter'; 
+import Spacer  from 'components/spacer' 
+import Container from 'components/container'
 
-# List of Inheritance
+import Blockquote from 'components/blockquote';
+import SitatHero from 'components/sitathero';
 
-“A father and a mother are to decide on their daughters’ marriages if they are alive. But if they are dead, the closest paternal kinsmen are to decide.”
+ 
 
-List of Inheritance, chapter 1
+<SitatHero 
+    title='List of Inheritance'
+    ingress='“A father and a mother are to decide on their daughters’ marriages if they are alive. But if they are dead, the closest paternal kinsmen are to decide.”'  
+    footer='
+List of Inheritance, chapter 1'
+/>
 
-<SubMenuCards items={sections.items} />
+<Spacer height='20' />
 
-The List of inheritance describes how the transfer of inheritance should take place. This part of the Laws of the Land begins with the regulation of daughters’ marriages. Because marriage was a Christian sacrament subject to ecclesiastical legislation, only the economic aspects of a wedding agreement are mentioned in the List of Inheritance. Marriage was considered a transaction in which part of the wealth was transferred through dowry from the woman’s family to that of the man. Therefore, the family needed to have control over this process. The List of Inheritance did not state that the parents decided whom the daughter would marry, but if she made a choice against her parents’ wishes, she would not be entitled to bring financial means into the marriage and would lose the right to inheritance. Widows decided for themselves whom they would marry. This section describes in detail who had the right to inheritance. Inheritance went from the first inheritance, which was received by legitimate children, up to the thirteenth inheritance, including third cousins. Women’s inheritance rights were strengthened by the Laws of the Land, but they continued to receive less than men: while a son would inherit two-thirds, a daughter would inherit one-third.
+<Container>
+    # List of Inheritance
+</Container>
+
+<Container stil="redletter" margin={10}> 
+    The List of inheritance describes how the transfer of inheritance should take place. This part of the Laws of the Land begins with the regulation of daughters’ marriages. Because marriage was a Christian sacrament subject to ecclesiastical legislation, only the economic aspects of a wedding agreement are mentioned in the List of Inheritance. Marriage was considered a transaction in which part of the wealth was transferred through dowry from the woman’s family to that of the man. Therefore, the family needed to have control over this process. The List of Inheritance did not state that the parents decided whom the daughter would marry, but if she made a choice against her parents’ wishes, she would not be entitled to bring financial means into the marriage and would lose the right to inheritance. Widows decided for themselves whom they would marry. This section describes in detail who had the right to inheritance. Inheritance went from the first inheritance, which was received by legitimate children, up to the thirteenth inheritance, including third cousins. 
+    
+    **Women’s inheritance rights were strengthened by the Laws of the Land, but they continued to receive less than men: while a son would inherit two-thirds, a daughter would inherit one-third.**          
+</Container>
+
+<Container>
+  <SubMenuCards items={sections.items} columns={2} gap={10} />
+  <Spacer height={24} />
+</Container>
+ 
