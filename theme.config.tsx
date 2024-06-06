@@ -6,7 +6,9 @@ import Image from 'next/image'
 
 // TO DO: Usikker ang hvordan angi width heigh og fill color for svg bildene under siden svg overstyrer dette
 // Vanlig CSS path { fill: red} virker ikke
-  
+
+import React, { Fragment } from 'react';
+
 
 const config: DocsThemeConfig = {
   logo: (
@@ -25,6 +27,7 @@ const config: DocsThemeConfig = {
     { locale: 'no', text: 'Norsk' },
     { locale: 'en', text: 'Engelsk' },
   ],
+  
   // TO DO: English placeholder ?
   search: {
     placeholder: 'Søk',
@@ -37,7 +40,22 @@ const config: DocsThemeConfig = {
       </div>
     ),
   },
-  /* primaryHue: {
+
+  head: (
+    <React.Fragment>
+      <link rel="icon" href="/favicon.png" sizes="any" />
+      <link rel="shortcut icon" href="/favicon.png" type="image/x-icon" />
+      <link rel="apple-touch-icon" sizes="any" href="/favicon.png" />
+    </React.Fragment>
+  ),
+
+  /* 
+  gitTimestamp:{},
+  navigation: {
+    prev: true,
+    next: true
+  },
+  primaryHue: {
     dark: 200,
     light: 200,
   },
