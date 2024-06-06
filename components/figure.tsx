@@ -27,7 +27,9 @@ const Figure = (
           {children}
         </div>
         {/* Make into Button component */}
-        <a href={href} className='flex flex-row gap-3 items-center rounded-full self-end px-5 py-2 m-5 bg-red-700 dark:bg-red-900' target='_blank'>{buttonText} <ExternalLinkIcon /></a>
+        { href && (
+               <a href={href} className='flex flex-row gap-3 items-center rounded-full self-end px-5 py-2 m-5 bg-red-700 dark:bg-red-900' target='_blank'>{buttonText} <ExternalLinkIcon /></a>
+        )}
       </figcaption>
     </figure>
   )
