@@ -40,7 +40,9 @@ const config: DocsThemeConfig = {
       </div>
     ),
   },
-
+  sidebar: {
+    defaultMenuCollapseLevel: 1, // MAKE navigation menu closed for folders on load
+  },
   head: (
     <React.Fragment>
       <link rel="icon" href="/favicon.png" sizes="any" />
@@ -48,7 +50,6 @@ const config: DocsThemeConfig = {
       <link rel="apple-touch-icon" sizes="any" href="/favicon.png" />
     </React.Fragment>
   ),
-
   /* 
   gitTimestamp:{},
   navigation: {
