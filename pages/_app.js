@@ -1,4 +1,5 @@
-import { Alegreya, Alegreya_Sans, MedievalSharp } from 'next/font/google';
+import { Alegreya, Alegreya_Sans, MedievalSharp, Metamorphous } from 'next/font/google';
+// import { Alegreya, Alegreya_Sans, Metamorphous } from 'next/font/google';
 import "../styles/globals.css";
 
 // There was not many antiqua fonts available on Google Fonts, so I chose MedievalSharp 
@@ -14,6 +15,15 @@ const antiqua = MedievalSharp({
   display: 'swap',
   variable: '--font-antiqua',
 })
+
+const gotic = Metamorphous({
+  subsets: ['latin'],
+  weight: ['400'],
+  style: ['normal'],
+  display: 'swap',
+  variable: '--font-gotic',
+})
+
 // Alegreya is a variable font with many weights and styles.
 // No need to add the weight and style properties.
 const serif = Alegreya({
@@ -33,7 +43,7 @@ export default function MyApp({ Component, pageProps }) {
 
   return (
     /* Set base font size here */
-    <main className={`${serif.variable} ${sans.variable} ${antiqua.variable} font-sans text-[20px] nx-text-[20px]`}>
+    <main className={`${serif.variable} ${sans.variable} ${antiqua.variable} ${gotic.variable} font-sans text-[20px] nx-text-[20px]`}>
       <Component {...pageProps} />
     </main>
   )
