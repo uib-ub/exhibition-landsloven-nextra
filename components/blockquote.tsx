@@ -34,7 +34,7 @@ const Blockquote = ({ quote, image, alt, footer, gold, full }: { quote: React.Re
             alt={alt}
             width={768}
             height={468}
-            className=" w-full h-full sm:h-48 sm:min-sm:h-48 max-h-96 xmd:w-48 md:h-auto object-cover" 
+            className="w-full h-full sm:h-48 sm:min-sm:h-48 max-h-96 xmd:w-48 md:h-auto object-cover" 
           />
          </figure>
          <div className="grow w-full sm:w-2/3 p-6 text-center md:text-left space-y-4">

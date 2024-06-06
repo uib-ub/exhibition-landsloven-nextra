@@ -5,22 +5,25 @@ import { ReactNode } from 'react'
 
 const Figure = (
   {
-    children, title, href, image, alt, className
+    children, title, href, image, alt, gotic, light, full, className
   }: {
-    children: ReactNode, title: string, href: string, image: string, alt: string, className?: string
+    children: ReactNode, title: string, href: string, image: string, alt: string, gotic?: boolean, light?: boolean, full?: boolean, className?: string
   }
 ) => {
   const { locale } = useRouter()
   const buttonText = locale === 'no' ? 'Se mer' : 'Read more'
-
+  const fontFamily = gotic ? 'font-antiqua' : 'font-gotic text-[1.55rem] text-ll-blue-200'
+  const bgColor = light ? 'bg-ll-blue-900' : 'bg-ll-blue-950'
+  const disPlay = full ? 'flex-col' : 'flex-row'
+  
   return (
-    <figure className={`${className ?? ''} w-full my-5 flex flex-col bg-ll-blue-950 lg:flex-row`}>
+     <figure className={`${className ?? ''} w-full my-5 flex flex-col ${bgColor} lg:${disPlay}`}>
       <div>
         <Image src={image} alt={alt} width={1200} height={400} className='object-contain' />
       </div>
-      <figcaption className='text-white p-5 flex flex-col justify-between w-full lg:max-w-sm'>
+      <figcaption className='text-white p-5 flex flex-col justify-between w-full xlg:max-w-sm'>
         <div>
-          <h2 className='font-gotic leading-normal text-white text-3xl pt-3 -mb-2'>{title}</h2>
+          <h2 className={`leading-normal text-white text-3xl pt-3 -mb-2 ${fontFamily}`}>{title}</h2>
           {children}
         </div>
         {/* Make into Button component */}
