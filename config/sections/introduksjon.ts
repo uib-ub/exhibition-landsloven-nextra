@@ -22,7 +22,7 @@ const sections: PagesConfig = {
         no: "Kong Magnus VI Håkonsson",
         en: "King Magnus VI Håkonsson",
       },
-      href: "/750-ar/magnus",
+      href: "/introduksjon/magnus",
       ingress: {
         no: "Legg til tekst her",
         en: "Add text here",
@@ -39,7 +39,7 @@ const sections: PagesConfig = {
         no: "Kong Magnus’ rike",
         en: "The kingdom of King Magnus",
       },
-      href: "/750-ar/rike",
+      href: "/introduksjon/rike",
       ingress: {
         no: "Legg til tekst her",
         en: "Add text here",
@@ -56,7 +56,7 @@ const sections: PagesConfig = {
         no: "Det norske samfunnet på kong Magnus Lagabøtes tid",
         en: "Norwegian society at the time of King Magnus",
       },
-      href: "/750-ar/soc",
+      href: "/introduksjon/soc",
       ingress: {
         no: "Legg til tekst her",
         en: "Add text here",
@@ -73,7 +73,7 @@ const sections: PagesConfig = {
         no: "Bergen og bylovgiveren Magnus",
         en: "Bergen and the city legislator Magnus",
       },
-      href: "/750-ar/bergen",
+      href: "/introduksjon/bergen",
       ingress: {
         no: "Legg til tekst her",
         en: "Add text here",
@@ -90,7 +90,7 @@ const sections: PagesConfig = {
         no: "Holmen",
         en: "Holmen",
       },
-      href: "/750-ar/holmen",
+      href: "/introduksjon/holmen",
       ingress: {
         no: "Legg til tekst her",
         en: "Add text here",
@@ -107,7 +107,7 @@ const sections: PagesConfig = {
         no: "Magnus og fransiskanerklosteret",
         en: "King Magnus and the Fransciscan cloister",
       },
-      href: "/750-ar/kloster",
+      href: "/introduksjon/kloster",
       ingress: {
         no: "Legg til tekst her",
         en: "Add text here",
@@ -124,7 +124,7 @@ const sections: PagesConfig = {
         no: "Magnus og Nonneseter kloster",
         en: "King Magnus and the Nonneseter cloister",
       },
-      href: "/750-ar/nonner",
+      href: "/introduksjon/nonner",
       ingress: {
         no: "Legg til tekst her",
         en: "Add text here",
@@ -141,7 +141,7 @@ const sections: PagesConfig = {
         no: "Det internationale bakteppet for Landsloven",
         en: "The international context of the Laws of the Land",
       },
-      href: "/750-ar/intern",
+      href: "/introduksjon/intern",
       ingress: {
         no: "Legg til tekst her",
         en: "Add text here",
@@ -158,7 +158,7 @@ const sections: PagesConfig = {
         no: "Magnus sin suksess som lovgiver",
         en: "Magnus's success as lawgiver",
       },
-      href: "/750-ar/intern2",
+      href: "/introduksjon/intern2",
       ingress: {
         no: "Legg til tekst her",
         en: "Add text here",
@@ -175,7 +175,7 @@ const sections: PagesConfig = {
         no: "Ex oriente lux",
         en: "Ex oriente lux",
       },
-      href: "/750-ar/intern3",
+      href: "/introduksjon/intern3",
       ingress: {
         no: "Legg til tekst her",
         en: "Add text here",
