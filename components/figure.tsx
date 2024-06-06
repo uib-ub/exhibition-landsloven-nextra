@@ -20,7 +20,7 @@ const Figure = (
       </div>
       <figcaption className='text-white p-5 flex flex-col justify-between w-full lg:max-w-sm'>
         <div>
-          <h2 className='font-antiqua text-white text-3xl pt-3 -mb-2'>{title}</h2>
+          <h2 className='font-gotic leading-normal text-white text-3xl pt-3 -mb-2'>{title}</h2>
           {children}
         </div>
         {/* Make into Button component */}

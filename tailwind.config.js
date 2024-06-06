@@ -14,6 +14,7 @@ module.exports = {
         antiqua: ['var(--font-antiqua)'],
         sans: ['var(--font-sans)'],
         serif: ['var(--font-serif)'],
+        gotic: ['var(--font-gotic)'],
       },
       colors: {
         //Alternatively, use gold color for 'sandy'
