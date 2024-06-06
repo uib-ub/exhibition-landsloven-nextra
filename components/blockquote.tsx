@@ -38,7 +38,7 @@ const Blockquote = ({ quote, image, alt, footer, gold, full }: { quote: React.Re
           />
          </figure>
          <div className="grow w-full sm:w-2/3 p-6 text-center md:text-left space-y-4">
-             <p className="font-serif text-2xl font-medium dark:text-sky-100">{quote}</p>
+             <p className="font-serif text-2xl font-medium dark:text-ll-blue-200">{quote}</p>
              <div className="text-center md:text-right text-red-700 dark:text-sky-300">
                {footer}  
              </div>
