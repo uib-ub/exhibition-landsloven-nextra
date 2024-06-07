@@ -24,7 +24,7 @@ const Breadcrumbs = () => {
           <Image className="block rounded-full" src="/images/logo_nett.svg" alt="Landsloven logo" width={24} height={24} />
       </button>
 
-        <div id="dropdown" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
+        <div id="dropdown" class="z-10 xhidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
     
               <div class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefaultButton">
               {Object.keys(items).map(key => (
@@ -37,6 +37,14 @@ const Breadcrumbs = () => {
 
               </div>
             </div>
+
+            <select  >
+      {Object.keys(items).map(key => (
+        <option key={key} value={key}>
+          {items[key].title.en} {/* or items[key].title.no if you want the Norwegian title */}
+        </option>
+      ))}
+    </select>
 
 
 
