@@ -6,3 +6,4 @@ styles/(A Document Being Saved By CSSEdit)/globals.css
 .DS_Store
 pages/.DS_Store
 */.DS_Store
+.env*
