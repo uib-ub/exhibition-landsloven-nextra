@@ -7,5 +7,18 @@ module.exports = withNextra({
   i18n: {
     locales: ['no', 'en'],
     defaultLocale: 'no'
-  }
-})
+  },
+  // async rewrites() {
+  //   return [
+  //     {
+  //       source: '/tyvebolken',
+  //       destination: '/tyvebolken/introduksjon',
+  //     },
+  //     {
+  //       source: '/X-designalternativer',
+  //       destination: '/n',
+  //     },
+  //     // Add more rewrites as needed
+  //   ];
+  // },
+});
