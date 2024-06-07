@@ -1,70 +1,65 @@
 import Link from 'next/link';
 import useBreadcrumbs from '../hooks/usebreadcrumbs';
-import { ArrowRightIcon  } from 'nextra/icons'
+import { ArrowRightIcon, CloseIcon  } from 'nextra/icons'
 import Image from 'next/image'
 import site from 'config/site';
 
 
-// import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 // import { usePathname } from "next/navigation";
  
-
+const items = site.bolkene.items
 
 const Breadcrumbs = () => {
   const breadcrumbs = useBreadcrumbs();
 
-  // const pathname = usePathname();
-  const items = site.bolkene.items
+  const [isVisible, setIsVisible] = useState(false);
+
+  // Function to toggle the visibility state
+  const toggleVisibility = () => {
+    setIsVisible(!isVisible);
+  };
   
   return (
-    <nav className="bg-ll-gold-50 py-1 px-2 nextra-breadcrumb nx-mt-1.5 nx-flex nx-items-center nx-gap-1 nx-overflow-hidden nx-text-sm nx-text-gray-500 dark:nx-text-gray-400 contrast-more:nx-text-current">
-      <button id="dropdownDefaultButton" data-dropdown-toggle="dropdown" 
-        className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" 
-        type="button"> 
-          <Image className="block rounded-full" src="/images/logo_nett.svg" alt="Landsloven logo" width={24} height={24} />
-      </button>
+    <nav className="xbg-ll-gold-50 py-1 px-2 nextra-breadcrumb nx-mt-1.5 nx-flex nx-items-center nx-gap-1 nx-overflow-hidden text-sm nx-text-gray-500 dark:nx-text-gray-400 contrast-more:nx-text-current">
+        
+       <div className="flex flex-row flex-wrap text-normal p-2">
+  
+        <Link href="/">
+              <Image className="block rounded-full" src="/images/logo_nett.svg" alt="Landsloven logo" width={30} height={30} />
+        </Link>
+        <div 
+            className="cursor-pointer pt-2 px-1 hover:text-ll-blue-700 hover:stroke-ll-blue-700 hover:bg-ll-blue-200" 
+            onClick={toggleVisibility}          >
+            <ArrowRightIcon className="nx-w-3.5 nx-shrink-0 hover:stroke-ll-blue-700 hover:rotate-90" />  
+        </div>
+         
 
-        <div id="dropdown" class="z-10 xhidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
-    
-              <div class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefaultButton">
-              {Object.keys(items).map(key => (
-               
-            
-                <Link className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white text-black font-medium font-sans" href={items[key].href}>{items[key].title.en}</Link>  
-              
-              
-              ))}
-
-              </div>
+        <div id="dropdown" className={`px-2 py-4 absolute xtop-0 z-10 ${isVisible ? 'opacity-100 h-auto' : 'opacity-0 h-1 pointer-events-none'} bg-ll-sandy-100 divide-y divide-gray-100 shadow-2xl w-auto dark:bg-gray-700`}
+               onClick={toggleVisibility}     >
+            <div className="cursor-pointer pt-2 px-1 right align-right float-right" 
+            onClick={toggleVisibility}    >X</div>     
+            <div className="px-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefaultButton">
+                {Object.keys(items).map(key => (
+                      <Link className="block px-4 py-0 my-2 hover:text-ll-blue-600 dark:hover:bg-gray-600 dark:hover:text-white text-ll-blue-700 text-base  hover:underline font-medium font-sans" href={items[key].href}>{items[key].title.en}</Link>  
+                ))}
             </div>
-
-            <select  >
-      {Object.keys(items).map(key => (
-        <option key={key} value={key}>
-          {items[key].title.en} {/* or items[key].title.no if you want the Norwegian title */}
-        </option>
-      ))}
-    </select>
+        </div>
 
 
-
-       <ul className="flex flex-row flex-wrap text-normal">
-        <li className="flex flex-row flex-wrap"><Link href="/">
-        <Image className="block rounded-full" src="/images/logo_nett.svg" alt="Landsloven logo" width={24} height={24} />
-          </Link></li>
         {breadcrumbs.map(breadcrumb => (
-          <li className="flex my-1" key={breadcrumb.href}>
-          <ArrowRightIcon className="nx-w-3.5 nx-shrink-0" /> <title/>  
+          <div className="flex my-1 flex-row flex-wrap" key={breadcrumb.href}>
+          
           { (breadcrumb.index !== 1) ? (
-              <Link className="text-black font-medium font-sans" href={breadcrumb.href}>{breadcrumb.label}</Link>
+              <Link className="text-black font-medium font-sans hover:text-ll-blue-500 hover:underline" href={breadcrumb.href}>{breadcrumb.label}</Link>
             ) : (
-              <span>{breadcrumb.label} <title/></span> 
+              <div className="flex "><ArrowRightIcon className="nx-w-3.5 nx-shrink-0 m-1" /> {breadcrumb.label}</div> 
             )
           }
-        </li> 
+        </div> 
         ))}
-      </ul>
-    </nav>
+      </div>
+      </nav>
   );
 };
 
@@ -159,3 +154,12 @@ export default Breadcrumbs;
 // };
 
 // export default Breadcrumbs;
+
+
+// <select id="dropdown" className={`z-10 hidden ${isVisible ? 'opacity-100' : 'opacity-0 pointer-events-none'} bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700`}>
+// {Object.keys(items).map(key => (
+//   <option key={key} value={key}>
+//     {items[key].title.en} {/* or items[key].title.no if you want the Norwegian title */}
+//   </option>
+// ))}
+// </select>
