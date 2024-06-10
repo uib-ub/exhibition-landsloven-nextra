@@ -13,8 +13,8 @@ import Container from 'components/container';
 import Figure from 'components/figure';
 import SitatHero from 'components/sitathero';
 import Spacer from 'components/spacer';
-import SubMenuCards from 'components/sub-menu-cards';
-import sections from 'config/sections/tyvebolken';
+import SubMenuCards from 'components/sub-menu-cards-v2';
+import site from 'config/siteFrontmatter.json';
 
 
 <SitatHero 
@@ -39,7 +39,7 @@ import sections from 'config/sections/tyvebolken';
     <hr
     className="my-12 h-px border-t-0 bg-transparent bg-gradient-to-r from-transparent via-neutral-500 to-transparent opacity-25 dark:via-neutral-400" />
 
-    <SubMenuCards items={sections.items}columns={2}/>
+    <SubMenuCards items={site.tyvebolken} columns={2}/>
 </Container>
 
 

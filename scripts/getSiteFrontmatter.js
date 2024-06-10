@@ -11,23 +11,15 @@ const glob = require('glob');
 const sitePath = path.join(__dirname, '../pages');
 let siteFrontmatter = {};
 
-function insertIntoNestedPath(obj, pathArray, value) {
+function insertIntoNestedPath(obj, pathArray, value, filePath) {
   let current = obj;
-  for (let i = 0; i < pathArray.length - 1; i++) {
-    if (!current[pathArray[i]]) {
-      current[pathArray[i]] = {};
+  for (const element of pathArray) {
+    if (!current[element]) {
+      current[element] = {};
     }
-    current = current[pathArray[i]];
+    current = current[element];
   }
-  const filenameParts = pathArray[pathArray.length - 1].split('.');
-  if (filenameParts.length === 2) {
-    if (!current[filenameParts[0]]) {
-      current[filenameParts[0]] = {};
-    }
-    current[filenameParts[0]][filenameParts[1]] = value;
-  } else {
-    current[pathArray[pathArray.length - 1]] = value;
-  }
+  Object.assign(current, { ...value, filePath });
 }
 
 try {
@@ -36,8 +28,15 @@ try {
     const content = fs.readFileSync(file, 'utf8');
     const frontmatter = matter(content).data;
     const relativePath = path.relative(sitePath, file);
-    const pathArray = relativePath.split(path.sep).map(part => part.replace('.mdx', ''));
-    insertIntoNestedPath(siteFrontmatter, pathArray, frontmatter);
+    let pathArray = relativePath.split(path.sep).map(part => part.replace('.mdx', ''));
+    const fileName = pathArray[pathArray.length - 1];
+    if (fileName.includes('.')) {
+      const [name, locale] = fileName.split('.');
+      pathArray[pathArray.length - 1] = name;
+      pathArray.push(locale);
+    }
+    const filePath = `/${pathArray.slice(0, -1).join(path.sep)}`;
+    insertIntoNestedPath(siteFrontmatter, pathArray, frontmatter, filePath);
   });
 
   fs.writeFileSync(
