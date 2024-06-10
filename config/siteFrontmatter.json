@@ -1,0 +1,456 @@
+{
+  "index": {
+    "no": {},
+    "en": {}
+  },
+  "tyvebolken": {
+    "tyver": {
+      "no": {
+        "title": "Håndtering av tyver før og nå",
+        "description": "Om vi ser på tiden bakenfor Landsloven, beskriver de eldre landskapslovene en bortimot nådeløs praksis når det gjaldt tyveri.",
+        "tags": [
+          "tyveri",
+          "bøter"
+        ],
+        "image": "/images/tyvebolken/Pillory_9105377.jpg",
+        "alt": "Tyv som betaler bot"
+      },
+      "en": {
+        "title": "Treatment of thieves then and now",
+        "description": "The older provincial laws before the Laws of the Land describe an almost merciless practice of punishing theft. Thieves were usually to be executed or banished, in addition to facing fines paid through the confiscation of property.",
+        "tags": [
+          "theft",
+          "fines"
+        ],
+        "image": "/images/tyvebolken/Pillory_9105377.jpg",
+        "alt": "Thief paying fines"
+      }
+    },
+    "introduksjon": {
+      "no": {
+        "title": "Tyvebolken",
+        "description": "Den siste bolken i Landsloven er Tyvebolken, som definerer tyveri og beskriver hvordan man stilte tyver til ansvar.",
+        "tags": [
+          "tyveri",
+          "straff"
+        ],
+        "image": "/images/tyv.jpg",
+        "alt": "Tyv som..."
+      },
+      "en": {
+        "title": "Thieves' section",
+        "description": "The last section of the Laws of the Land is the Thieves’ section, which defines theft and describes how to hold thieves accountable.",
+        "tags": [
+          "theft",
+          "punishment"
+        ],
+        "image": "/images/tyv.jpg",
+        "alt": "Tyv som..."
+      }
+    },
+    "fine": {
+      "no": {},
+      "en": {}
+    }
+  },
+  "tingfarebolken": {
+    "lagmenn": {
+      "no": {},
+      "en": {}
+    },
+    "introduksjon": {
+      "no": {},
+      "en": {}
+    },
+    "hellig-hoytidelig": {
+      "no": {},
+      "en": {}
+    },
+    "gulatinget": {
+      "no": {},
+      "en": {}
+    }
+  },
+  "retterboeter": {
+    "v": {
+      "no": {},
+      "en": {}
+    },
+    "reuse": {
+      "no": {},
+      "en": {}
+    },
+    "print": {
+      "no": {},
+      "en": {}
+    },
+    "introduksjon": {
+      "no": {},
+      "en": {}
+    },
+    "gammels": {
+      "no": {},
+      "en": {}
+    },
+    "dansk": {
+      "no": {},
+      "en": {}
+    },
+    "dagens": {
+      "no": {},
+      "en": {}
+    }
+  },
+  "prologen": {
+    "xian": {
+      "no": {},
+      "en": {}
+    },
+    "utstil": {
+      "no": {},
+      "en": {}
+    },
+    "raude": {
+      "no": {},
+      "en": {}
+    },
+    "provinc": {
+      "no": {},
+      "en": {}
+    },
+    "olav2": {
+      "no": {},
+      "en": {}
+    },
+    "olav": {
+      "no": {},
+      "en": {}
+    },
+    "lovbok": {
+      "no": {},
+      "en": {}
+    },
+    "introduksjon": {
+      "no": {
+        "description": "Prolog er innledningen til Landsloven. Ordet prolog kommer av gresk, og betyr fortale. Landslovens prolog er direkte i stilen, formulert som et brev eller en tale.",
+        "tags": [
+          "fortale",
+          "prolog"
+        ]
+      },
+      "en": {}
+    },
+    "euro": {
+      "no": {},
+      "en": {}
+    },
+    "def": {
+      "no": {},
+      "en": {}
+    },
+    "bolk": {
+      "no": {},
+      "en": {}
+    },
+    "best": {
+      "no": {},
+      "en": {}
+    }
+  },
+  "odelsbolken": {
+    "treasures": {
+      "no": {},
+      "en": {}
+    },
+    "skifte": {
+      "no": {},
+      "en": {}
+    },
+    "odel": {
+      "no": {},
+      "en": {}
+    },
+    "introduksjon": {
+      "no": {},
+      "en": {}
+    }
+  },
+  "mannhelgebolken": {
+    "straff": {
+      "no": {},
+      "en": {}
+    },
+    "kvin": {
+      "no": {},
+      "en": {}
+    },
+    "kniv3": {
+      "no": {},
+      "en": {}
+    },
+    "kniv2": {
+      "no": {},
+      "en": {}
+    },
+    "kniv": {
+      "no": {},
+      "en": {}
+    },
+    "introduksjon": {
+      "no": {},
+      "en": {}
+    },
+    "fire": {
+      "no": {},
+      "en": {}
+    }
+  },
+  "landsleiebolken": {
+    "tun": {
+      "no": {},
+      "en": {}
+    },
+    "slave": {
+      "no": {},
+      "en": {}
+    },
+    "sild": {
+      "no": {},
+      "en": {}
+    },
+    "jord": {
+      "no": {},
+      "en": {}
+    },
+    "introduksjon": {
+      "no": {},
+      "en": {}
+    },
+    "hval": {
+      "no": {},
+      "en": {}
+    },
+    "agri": {
+      "no": {},
+      "en": {}
+    }
+  },
+  "landevernsbolken": {
+    "vete": {
+      "no": {},
+      "en": {}
+    },
+    "vapen": {
+      "no": {},
+      "en": {}
+    },
+    "skip": {
+      "no": {},
+      "en": {}
+    },
+    "seil": {
+      "no": {},
+      "en": {}
+    },
+    "levy": {
+      "no": {},
+      "en": {}
+    },
+    "kirke": {
+      "no": {},
+      "en": {}
+    },
+    "introduksjon": {
+      "no": {},
+      "en": {}
+    },
+    "hard": {
+      "no": {},
+      "en": {}
+    },
+    "bud2": {
+      "no": {},
+      "en": {}
+    },
+    "bud1": {
+      "no": {},
+      "en": {}
+    }
+  },
+  "kristendomsbolken": {
+    "tronfolgelovenkvin": {
+      "no": {},
+      "en": {}
+    },
+    "tronfolgeloven": {
+      "no": {},
+      "en": {}
+    },
+    "tosverd": {
+      "no": {},
+      "en": {}
+    },
+    "nonner": {
+      "no": {},
+      "en": {}
+    },
+    "kirkedoren": {
+      "no": {},
+      "en": {}
+    },
+    "introduksjon": {
+      "no": {},
+      "en": {}
+    },
+    "illuminasjoner": {
+      "no": {},
+      "en": {}
+    },
+    "franciskanmagnus": {
+      "no": {},
+      "en": {}
+    },
+    "fargebruk": {
+      "no": {},
+      "en": {}
+    },
+    "boker": {
+      "no": {},
+      "en": {}
+    }
+  },
+  "kjoepebolken": {
+    "vekter": {
+      "no": {},
+      "en": {}
+    },
+    "mal-vekt": {
+      "no": {},
+      "en": {}
+    },
+    "kongensmynter": {
+      "no": {},
+      "en": {}
+    },
+    "introduksjon": {
+      "no": {},
+      "en": {}
+    },
+    "falskmynteri": {
+      "no": {},
+      "en": {}
+    },
+    "erkebiskopensmynter": {
+      "no": {},
+      "en": {}
+    }
+  },
+  "introduksjon": {
+    "soc": {
+      "no": {},
+      "en": {}
+    },
+    "rike": {
+      "no": {},
+      "en": {}
+    },
+    "nonner": {
+      "no": {},
+      "en": {}
+    },
+    "magnus": {
+      "no": {},
+      "en": {}
+    },
+    "kloster": {
+      "no": {},
+      "en": {}
+    },
+    "intern3": {
+      "no": {},
+      "en": {}
+    },
+    "intern2": {
+      "no": {},
+      "en": {}
+    },
+    "intern": {
+      "no": {},
+      "en": {}
+    },
+    "holmen": {
+      "no": {},
+      "en": {}
+    },
+    "bergen2": {
+      "no": {},
+      "en": {}
+    },
+    "bergen": {
+      "no": {},
+      "en": {}
+    },
+    "750-ar": {
+      "no": {},
+      "en": {}
+    }
+  },
+  "epilog": {
+    "epilog": {
+      "no": {},
+      "en": {}
+    }
+  },
+  "arvetallet": {
+    "tilgave": {
+      "no": {},
+      "en": {}
+    },
+    "medgift": {
+      "no": {},
+      "en": {}
+    },
+    "losore": {
+      "no": {},
+      "en": {}
+    },
+    "introduksjon": {
+      "no": {},
+      "en": {}
+    },
+    "ekteskap": {
+      "no": {},
+      "en": {}
+    }
+  },
+  "X-designalternativer": {
+    "typografi": {
+      "no": {},
+      "en": {}
+    },
+    "tospaltet": {
+      "no": {},
+      "en": {}
+    },
+    "quotes": {
+      "no": {},
+      "en": {}
+    },
+    "initialer": {
+      "no": {},
+      "en": {}
+    },
+    "headers": {
+      "no": {},
+      "en": {}
+    },
+    "figurer": {
+      "no": {},
+      "en": {}
+    },
+    "X_alt_forside": {
+      "no": {},
+      "en": {}
+    }
+  }
+}
