@@ -1,12 +1,12 @@
-
 import { useRouter } from 'next/router';
-import Link from 'next/link';
-import useBreadcrumbs from '../hooks/usebreadcrumbs';
-import { ArrowRightIcon, MenuIcon  } from 'nextra/icons'
 // import { XIcon } from '@heroicons/react/outline';
-import Image from 'next/image'
 import site from 'config/site';
-import React, { useState } from 'react';
+import Image from 'next/image';
+import Link from 'next/link';
+import { ArrowRightIcon } from 'nextra/icons';
+import { useState } from 'react';
+import useBreadcrumbs from '/hooks/useBreadcrumbs';
+ 
 // import { usePathname } from "next/navigation";
  
 const items = site.bolkene.items
@@ -33,7 +33,9 @@ const Breadcrumbs = () => {
   const lang  = router === 'en' ? 'en' : 'no'
   
   return (
+ 
     <nav aria-label="breadcrumb" className="border-b xbg-ll-gold-50 py-1 px-2  nextra-breadcrumb nx-mt-1.5 nx-flex nx-items-center nx-gap-1 nx-overflow-hidden text-sm nx-text-gray-500 dark:nx-text-gray-400 contrast-more:nx-text-current">
+
        <div className="flex flex-row flex-wrap text-normal p-2">
   
         <Link className="-ml-4" href="/">
@@ -53,9 +55,11 @@ const Breadcrumbs = () => {
             <div className="cursor-pointer pt-2 px-1 right align-right float-right" 
             onClick={toggleVisibility} >Close ✕</div>  
             <div className="px-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefaultButton">
-              console.log('hallo')
+ 
                 {Object.keys(items).map(key => (
-                      <Link key={key} className="block px-4 py-0 my-2 hover:text-ll-blue-600 dark:hover:bg-gray-600 dark:hover:text-white text-ll-blue-700 text-base  hover:underline" href={items[key].href}>{items[key].title[lang]}</Link>  
+ 
+                      <Link key={key} className="block px-4 py-0 my-2 hover:text-ll-blue-600 dark:hover:bg-gray-600 dark:hover:text-white text-ll-blue-700 text-base  hover:underline font-medium font-sans" href={items[key].href}>{items[key].title.en}</Link>  
+ 
                 ))}
             </div>
         </div>

@@ -5,7 +5,7 @@ import Card from './card';
 type MenuItems = {
   [key: string]: {
     title: string;
-    href: string;
+    filePath: string;
     ingress?: string;
     image?: string;
     class?: string;
@@ -13,31 +13,18 @@ type MenuItems = {
 };
 
 const SubMenuCards = ({ items, columns = '2', gap = '10', shadow }: { items: MenuItems, columns?: string, gap?: string, shadow?: string }) => {
-
   if (!items) {
     return null;
   }
-
-  const getIngressValue = (value, locale) => {
-    if (typeof value.ingress === 'string') {
-      return value.ingress;
-    } else if (value.ingress && value.ingress[locale] !== undefined) {
-      return value.ingress[locale];
-    } else {
-      return '';
-    }
-  };
-
   // Get the current locale so we can display the correct language
   const { locale } = useRouter();
+  delete items.introduksjon; // Remove introduction from the items, as it's not a subpage
 
   const subPages = Object.entries(items).map(([key, value], i) => {
-    const title = value.title[locale];
-    const path = value.href;
-    const ingress = getIngressValue(value, locale);
-    const image = value.image ? value.image : '/images/dummy_lands_b.jpg';
-
-    // const ingress = value.ingress;
+    const title = value[locale].title ?? 'Add title to frontmatter';
+    const ingress = value[locale].description ?? 'Add description to frontmatter';
+    const image = value[locale].image ? value[locale].image : '/images/dummy_lands_b.jpg';
+    const href = value[locale].filePath;
 
     // Can use "generic" Card component here
     return (
@@ -47,7 +34,7 @@ const SubMenuCards = ({ items, columns = '2', gap = '10', shadow }: { items: Men
         alt={title}
         title={title}
         ingress={ingress}
-        path={path}
+        path={href}
         shadow={shadow}
       />
     );

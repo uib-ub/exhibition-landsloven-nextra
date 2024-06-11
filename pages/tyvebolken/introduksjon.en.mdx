@@ -1,10 +1,20 @@
+---
+title: "Thieves' section"
+description: "The last section of the Laws of the Land is the Thieves’ section, which defines theft and describes how to hold thieves accountable."
+tags:
+  - theft
+  - punishment
+image: '/images/tyv.jpg'
+alt: 'Tyv som...'
+---
+
 import Blockquote from 'components/blockquote';
+import Container from 'components/container';
 import Figure from 'components/figure';
-import SubMenuCards from 'components/sub-menu-cards';
-import sections from 'config/sections/tyvebolken';
-import Spacer  from 'components/spacer' 
-import Container from 'components/container'
 import SitatHero from 'components/sitathero';
+import Spacer from 'components/spacer';
+import SubMenuCards from 'components/sub-menu-cards-v2';
+import site from 'config/siteFrontmatter.json';
 
 
 <SitatHero 
@@ -29,7 +39,7 @@ import SitatHero from 'components/sitathero';
     <hr
     className="my-12 h-px border-t-0 bg-transparent bg-gradient-to-r from-transparent via-neutral-500 to-transparent opacity-25 dark:via-neutral-400" />
 
-    <SubMenuCards items={sections.items}columns={2}/>
+    <SubMenuCards items={site.tyvebolken} columns={2}/>
 </Container>
 
 

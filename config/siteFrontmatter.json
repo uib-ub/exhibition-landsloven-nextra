@@ -1,0 +1,835 @@
+{
+  "index": {
+    "no": {
+      "filePath": "/index"
+    },
+    "en": {
+      "filePath": "/index"
+    }
+  },
+  "tyvebolken": {
+    "tyver": {
+      "no": {
+        "title": "Håndtering av tyver før og nå",
+        "description": "Om vi ser på tiden bakenfor Landsloven, beskriver de eldre landskapslovene en bortimot nådeløs praksis når det gjaldt tyveri.",
+        "tags": [
+          "tyveri",
+          "bøter"
+        ],
+        "image": "/images/tyvebolken/Pillory_9105377.jpg",
+        "alt": "Tyv som betaler bot",
+        "filePath": "/tyvebolken/tyver"
+      },
+      "en": {
+        "title": "Treatment of thieves then and now",
+        "description": "The older provincial laws before the Laws of the Land describe an almost merciless practice of punishing theft. Thieves were usually to be executed or banished, in addition to facing fines paid through the confiscation of property.",
+        "tags": [
+          "theft",
+          "fines"
+        ],
+        "image": "/images/tyvebolken/Pillory_9105377.jpg",
+        "alt": "Thief paying fines",
+        "filePath": "/tyvebolken/tyver"
+      }
+    },
+    "introduksjon": {
+      "no": {
+        "title": "Tyvebolken",
+        "description": "Den siste bolken i Landsloven er Tyvebolken, som definerer tyveri og beskriver hvordan man stilte tyver til ansvar.",
+        "tags": [
+          "tyveri",
+          "straff"
+        ],
+        "image": "/images/tyv.jpg",
+        "alt": "Tyv som...",
+        "filePath": "/tyvebolken/introduksjon"
+      },
+      "en": {
+        "title": "Thieves' section",
+        "description": "The last section of the Laws of the Land is the Thieves’ section, which defines theft and describes how to hold thieves accountable.",
+        "tags": [
+          "theft",
+          "punishment"
+        ],
+        "image": "/images/tyv.jpg",
+        "alt": "Tyv som...",
+        "filePath": "/tyvebolken/introduksjon"
+      }
+    },
+    "fine": {
+      "no": {
+        "filePath": "/tyvebolken/fine"
+      },
+      "en": {
+        "filePath": "/tyvebolken/fine"
+      }
+    }
+  },
+  "tingfarebolken": {
+    "lagmenn": {
+      "no": {
+        "filePath": "/tingfarebolken/lagmenn"
+      },
+      "en": {
+        "filePath": "/tingfarebolken/lagmenn"
+      }
+    },
+    "introduksjon": {
+      "no": {
+        "filePath": "/tingfarebolken/introduksjon"
+      },
+      "en": {
+        "filePath": "/tingfarebolken/introduksjon"
+      }
+    },
+    "hellig-hoytidelig": {
+      "no": {
+        "filePath": "/tingfarebolken/hellig-hoytidelig"
+      },
+      "en": {
+        "filePath": "/tingfarebolken/hellig-hoytidelig"
+      }
+    },
+    "gulatinget": {
+      "no": {
+        "filePath": "/tingfarebolken/gulatinget"
+      },
+      "en": {
+        "filePath": "/tingfarebolken/gulatinget"
+      }
+    }
+  },
+  "retterboeter": {
+    "v": {
+      "no": {
+        "filePath": "/retterboeter/v"
+      },
+      "en": {
+        "filePath": "/retterboeter/v"
+      }
+    },
+    "reuse": {
+      "no": {
+        "filePath": "/retterboeter/reuse"
+      },
+      "en": {
+        "filePath": "/retterboeter/reuse"
+      }
+    },
+    "print": {
+      "no": {
+        "filePath": "/retterboeter/print"
+      },
+      "en": {
+        "filePath": "/retterboeter/print"
+      }
+    },
+    "introduksjon": {
+      "no": {
+        "filePath": "/retterboeter/introduksjon"
+      },
+      "en": {
+        "filePath": "/retterboeter/introduksjon"
+      }
+    },
+    "gammels": {
+      "no": {
+        "filePath": "/retterboeter/gammels"
+      },
+      "en": {
+        "filePath": "/retterboeter/gammels"
+      }
+    },
+    "dansk": {
+      "no": {
+        "filePath": "/retterboeter/dansk"
+      },
+      "en": {
+        "filePath": "/retterboeter/dansk"
+      }
+    },
+    "dagens": {
+      "no": {
+        "filePath": "/retterboeter/dagens"
+      },
+      "en": {
+        "filePath": "/retterboeter/dagens"
+      }
+    }
+  },
+  "prologen": {
+    "xian": {
+      "no": {
+        "filePath": "/prologen/xian"
+      },
+      "en": {
+        "filePath": "/prologen/xian"
+      }
+    },
+    "utstil": {
+      "no": {
+        "filePath": "/prologen/utstil"
+      },
+      "en": {
+        "filePath": "/prologen/utstil"
+      }
+    },
+    "raude": {
+      "no": {
+        "filePath": "/prologen/raude"
+      },
+      "en": {
+        "filePath": "/prologen/raude"
+      }
+    },
+    "provinc": {
+      "no": {
+        "filePath": "/prologen/provinc"
+      },
+      "en": {
+        "filePath": "/prologen/provinc"
+      }
+    },
+    "olav2": {
+      "no": {
+        "filePath": "/prologen/olav2"
+      },
+      "en": {
+        "filePath": "/prologen/olav2"
+      }
+    },
+    "olav": {
+      "no": {
+        "filePath": "/prologen/olav"
+      },
+      "en": {
+        "filePath": "/prologen/olav"
+      }
+    },
+    "lovbok": {
+      "no": {
+        "filePath": "/prologen/lovbok"
+      },
+      "en": {
+        "filePath": "/prologen/lovbok"
+      }
+    },
+    "introduksjon": {
+      "no": {
+        "description": "Prolog er innledningen til Landsloven. Ordet prolog kommer av gresk, og betyr fortale. Landslovens prolog er direkte i stilen, formulert som et brev eller en tale.",
+        "tags": [
+          "fortale",
+          "prolog"
+        ],
+        "filePath": "/prologen/introduksjon"
+      },
+      "en": {
+        "filePath": "/prologen/introduksjon"
+      }
+    },
+    "euro": {
+      "no": {
+        "filePath": "/prologen/euro"
+      },
+      "en": {
+        "filePath": "/prologen/euro"
+      }
+    },
+    "def": {
+      "no": {
+        "filePath": "/prologen/def"
+      },
+      "en": {
+        "filePath": "/prologen/def"
+      }
+    },
+    "bolk": {
+      "no": {
+        "filePath": "/prologen/bolk"
+      },
+      "en": {
+        "filePath": "/prologen/bolk"
+      }
+    },
+    "best": {
+      "no": {
+        "filePath": "/prologen/best"
+      },
+      "en": {
+        "filePath": "/prologen/best"
+      }
+    }
+  },
+  "odelsbolken": {
+    "treasures": {
+      "no": {
+        "filePath": "/odelsbolken/treasures"
+      },
+      "en": {
+        "filePath": "/odelsbolken/treasures"
+      }
+    },
+    "skifte": {
+      "no": {
+        "filePath": "/odelsbolken/skifte"
+      },
+      "en": {
+        "filePath": "/odelsbolken/skifte"
+      }
+    },
+    "odel": {
+      "no": {
+        "filePath": "/odelsbolken/odel"
+      },
+      "en": {
+        "filePath": "/odelsbolken/odel"
+      }
+    },
+    "introduksjon": {
+      "no": {
+        "filePath": "/odelsbolken/introduksjon"
+      },
+      "en": {
+        "filePath": "/odelsbolken/introduksjon"
+      }
+    }
+  },
+  "mannhelgebolken": {
+    "straff": {
+      "no": {
+        "filePath": "/mannhelgebolken/straff"
+      },
+      "en": {
+        "filePath": "/mannhelgebolken/straff"
+      }
+    },
+    "kvin": {
+      "no": {
+        "filePath": "/mannhelgebolken/kvin"
+      },
+      "en": {
+        "filePath": "/mannhelgebolken/kvin"
+      }
+    },
+    "kniv3": {
+      "no": {
+        "filePath": "/mannhelgebolken/kniv3"
+      },
+      "en": {
+        "filePath": "/mannhelgebolken/kniv3"
+      }
+    },
+    "kniv2": {
+      "no": {
+        "filePath": "/mannhelgebolken/kniv2"
+      },
+      "en": {
+        "filePath": "/mannhelgebolken/kniv2"
+      }
+    },
+    "kniv": {
+      "no": {
+        "filePath": "/mannhelgebolken/kniv"
+      },
+      "en": {
+        "filePath": "/mannhelgebolken/kniv"
+      }
+    },
+    "introduksjon": {
+      "no": {
+        "filePath": "/mannhelgebolken/introduksjon"
+      },
+      "en": {
+        "filePath": "/mannhelgebolken/introduksjon"
+      }
+    },
+    "fire": {
+      "no": {
+        "filePath": "/mannhelgebolken/fire"
+      },
+      "en": {
+        "filePath": "/mannhelgebolken/fire"
+      }
+    }
+  },
+  "landsleiebolken": {
+    "tun": {
+      "no": {
+        "filePath": "/landsleiebolken/tun"
+      },
+      "en": {
+        "filePath": "/landsleiebolken/tun"
+      }
+    },
+    "slave": {
+      "no": {
+        "filePath": "/landsleiebolken/slave"
+      },
+      "en": {
+        "filePath": "/landsleiebolken/slave"
+      }
+    },
+    "sild": {
+      "no": {
+        "filePath": "/landsleiebolken/sild"
+      },
+      "en": {
+        "filePath": "/landsleiebolken/sild"
+      }
+    },
+    "jord": {
+      "no": {
+        "filePath": "/landsleiebolken/jord"
+      },
+      "en": {
+        "filePath": "/landsleiebolken/jord"
+      }
+    },
+    "introduksjon": {
+      "no": {
+        "filePath": "/landsleiebolken/introduksjon"
+      },
+      "en": {
+        "filePath": "/landsleiebolken/introduksjon"
+      }
+    },
+    "hval": {
+      "no": {
+        "filePath": "/landsleiebolken/hval"
+      },
+      "en": {
+        "filePath": "/landsleiebolken/hval"
+      }
+    },
+    "agri": {
+      "no": {
+        "filePath": "/landsleiebolken/agri"
+      },
+      "en": {
+        "filePath": "/landsleiebolken/agri"
+      }
+    }
+  },
+  "landevernsbolken": {
+    "vete": {
+      "no": {
+        "filePath": "/landevernsbolken/vete"
+      },
+      "en": {
+        "filePath": "/landevernsbolken/vete"
+      }
+    },
+    "vapen": {
+      "no": {
+        "filePath": "/landevernsbolken/vapen"
+      },
+      "en": {
+        "filePath": "/landevernsbolken/vapen"
+      }
+    },
+    "skip": {
+      "no": {
+        "filePath": "/landevernsbolken/skip"
+      },
+      "en": {
+        "filePath": "/landevernsbolken/skip"
+      }
+    },
+    "seil": {
+      "no": {
+        "filePath": "/landevernsbolken/seil"
+      },
+      "en": {
+        "filePath": "/landevernsbolken/seil"
+      }
+    },
+    "levy": {
+      "no": {
+        "filePath": "/landevernsbolken/levy"
+      },
+      "en": {
+        "filePath": "/landevernsbolken/levy"
+      }
+    },
+    "kirke": {
+      "no": {
+        "filePath": "/landevernsbolken/kirke"
+      },
+      "en": {
+        "filePath": "/landevernsbolken/kirke"
+      }
+    },
+    "introduksjon": {
+      "no": {
+        "filePath": "/landevernsbolken/introduksjon"
+      },
+      "en": {
+        "filePath": "/landevernsbolken/introduksjon"
+      }
+    },
+    "hard": {
+      "no": {
+        "filePath": "/landevernsbolken/hard"
+      },
+      "en": {
+        "filePath": "/landevernsbolken/hard"
+      }
+    },
+    "bud2": {
+      "no": {
+        "filePath": "/landevernsbolken/bud2"
+      },
+      "en": {
+        "filePath": "/landevernsbolken/bud2"
+      }
+    },
+    "bud1": {
+      "no": {
+        "filePath": "/landevernsbolken/bud1"
+      },
+      "en": {
+        "filePath": "/landevernsbolken/bud1"
+      }
+    }
+  },
+  "kristendomsbolken": {
+    "tronfolgelovenkvin": {
+      "no": {
+        "filePath": "/kristendomsbolken/tronfolgelovenkvin"
+      },
+      "en": {
+        "filePath": "/kristendomsbolken/tronfolgelovenkvin"
+      }
+    },
+    "tronfolgeloven": {
+      "no": {
+        "filePath": "/kristendomsbolken/tronfolgeloven"
+      },
+      "en": {
+        "filePath": "/kristendomsbolken/tronfolgeloven"
+      }
+    },
+    "tosverd": {
+      "no": {
+        "filePath": "/kristendomsbolken/tosverd"
+      },
+      "en": {
+        "filePath": "/kristendomsbolken/tosverd"
+      }
+    },
+    "nonner": {
+      "no": {
+        "filePath": "/kristendomsbolken/nonner"
+      },
+      "en": {
+        "filePath": "/kristendomsbolken/nonner"
+      }
+    },
+    "kirkedoren": {
+      "no": {
+        "filePath": "/kristendomsbolken/kirkedoren"
+      },
+      "en": {
+        "filePath": "/kristendomsbolken/kirkedoren"
+      }
+    },
+    "introduksjon": {
+      "no": {
+        "filePath": "/kristendomsbolken/introduksjon"
+      },
+      "en": {
+        "filePath": "/kristendomsbolken/introduksjon"
+      }
+    },
+    "illuminasjoner": {
+      "no": {
+        "filePath": "/kristendomsbolken/illuminasjoner"
+      },
+      "en": {
+        "filePath": "/kristendomsbolken/illuminasjoner"
+      }
+    },
+    "franciskanmagnus": {
+      "no": {
+        "filePath": "/kristendomsbolken/franciskanmagnus"
+      },
+      "en": {
+        "filePath": "/kristendomsbolken/franciskanmagnus"
+      }
+    },
+    "fargebruk": {
+      "no": {
+        "filePath": "/kristendomsbolken/fargebruk"
+      },
+      "en": {
+        "filePath": "/kristendomsbolken/fargebruk"
+      }
+    },
+    "boker": {
+      "no": {
+        "filePath": "/kristendomsbolken/boker"
+      },
+      "en": {
+        "filePath": "/kristendomsbolken/boker"
+      }
+    }
+  },
+  "kjoepebolken": {
+    "vekter": {
+      "no": {
+        "filePath": "/kjoepebolken/vekter"
+      },
+      "en": {
+        "filePath": "/kjoepebolken/vekter"
+      }
+    },
+    "mal-vekt": {
+      "no": {
+        "filePath": "/kjoepebolken/mal-vekt"
+      },
+      "en": {
+        "filePath": "/kjoepebolken/mal-vekt"
+      }
+    },
+    "kongensmynter": {
+      "no": {
+        "filePath": "/kjoepebolken/kongensmynter"
+      },
+      "en": {
+        "filePath": "/kjoepebolken/kongensmynter"
+      }
+    },
+    "introduksjon": {
+      "no": {
+        "filePath": "/kjoepebolken/introduksjon"
+      },
+      "en": {
+        "filePath": "/kjoepebolken/introduksjon"
+      }
+    },
+    "falskmynteri": {
+      "no": {
+        "filePath": "/kjoepebolken/falskmynteri"
+      },
+      "en": {
+        "filePath": "/kjoepebolken/falskmynteri"
+      }
+    },
+    "erkebiskopensmynter": {
+      "no": {
+        "filePath": "/kjoepebolken/erkebiskopensmynter"
+      },
+      "en": {
+        "filePath": "/kjoepebolken/erkebiskopensmynter"
+      }
+    }
+  },
+  "introduksjon": {
+    "soc": {
+      "no": {
+        "filePath": "/introduksjon/soc"
+      },
+      "en": {
+        "filePath": "/introduksjon/soc"
+      }
+    },
+    "rike": {
+      "no": {
+        "filePath": "/introduksjon/rike"
+      },
+      "en": {
+        "filePath": "/introduksjon/rike"
+      }
+    },
+    "nonner": {
+      "no": {
+        "filePath": "/introduksjon/nonner"
+      },
+      "en": {
+        "filePath": "/introduksjon/nonner"
+      }
+    },
+    "magnus": {
+      "no": {
+        "filePath": "/introduksjon/magnus"
+      },
+      "en": {
+        "filePath": "/introduksjon/magnus"
+      }
+    },
+    "kloster": {
+      "no": {
+        "filePath": "/introduksjon/kloster"
+      },
+      "en": {
+        "filePath": "/introduksjon/kloster"
+      }
+    },
+    "intern3": {
+      "no": {
+        "filePath": "/introduksjon/intern3"
+      },
+      "en": {
+        "filePath": "/introduksjon/intern3"
+      }
+    },
+    "intern2": {
+      "no": {
+        "filePath": "/introduksjon/intern2"
+      },
+      "en": {
+        "filePath": "/introduksjon/intern2"
+      }
+    },
+    "intern": {
+      "no": {
+        "filePath": "/introduksjon/intern"
+      },
+      "en": {
+        "filePath": "/introduksjon/intern"
+      }
+    },
+    "holmen": {
+      "no": {
+        "filePath": "/introduksjon/holmen"
+      },
+      "en": {
+        "filePath": "/introduksjon/holmen"
+      }
+    },
+    "bergen2": {
+      "no": {
+        "filePath": "/introduksjon/bergen2"
+      },
+      "en": {
+        "filePath": "/introduksjon/bergen2"
+      }
+    },
+    "bergen": {
+      "no": {
+        "filePath": "/introduksjon/bergen"
+      },
+      "en": {
+        "filePath": "/introduksjon/bergen"
+      }
+    },
+    "750-ar": {
+      "no": {
+        "filePath": "/introduksjon/750-ar"
+      },
+      "en": {
+        "filePath": "/introduksjon/750-ar"
+      }
+    }
+  },
+  "epilog": {
+    "epilog": {
+      "no": {
+        "filePath": "/epilog/epilog"
+      },
+      "en": {
+        "filePath": "/epilog/epilog"
+      }
+    }
+  },
+  "arvetallet": {
+    "tilgave": {
+      "no": {
+        "filePath": "/arvetallet/tilgave"
+      },
+      "en": {
+        "filePath": "/arvetallet/tilgave"
+      }
+    },
+    "medgift": {
+      "no": {
+        "filePath": "/arvetallet/medgift"
+      },
+      "en": {
+        "filePath": "/arvetallet/medgift"
+      }
+    },
+    "losore": {
+      "no": {
+        "filePath": "/arvetallet/losore"
+      },
+      "en": {
+        "filePath": "/arvetallet/losore"
+      }
+    },
+    "introduksjon": {
+      "no": {
+        "filePath": "/arvetallet/introduksjon"
+      },
+      "en": {
+        "filePath": "/arvetallet/introduksjon"
+      }
+    },
+    "ekteskap": {
+      "no": {
+        "filePath": "/arvetallet/ekteskap"
+      },
+      "en": {
+        "filePath": "/arvetallet/ekteskap"
+      }
+    }
+  },
+  "X-designalternativer": {
+    "typografi": {
+      "no": {
+        "filePath": "/X-designalternativer/typografi"
+      },
+      "en": {
+        "filePath": "/X-designalternativer/typografi"
+      }
+    },
+    "tospaltet": {
+      "no": {
+        "filePath": "/X-designalternativer/tospaltet"
+      },
+      "en": {
+        "filePath": "/X-designalternativer/tospaltet"
+      }
+    },
+    "quotes": {
+      "no": {
+        "filePath": "/X-designalternativer/quotes"
+      },
+      "en": {
+        "filePath": "/X-designalternativer/quotes"
+      }
+    },
+    "initialer": {
+      "no": {
+        "filePath": "/X-designalternativer/initialer"
+      },
+      "en": {
+        "filePath": "/X-designalternativer/initialer"
+      }
+    },
+    "headers": {
+      "no": {
+        "filePath": "/X-designalternativer/headers"
+      },
+      "en": {
+        "filePath": "/X-designalternativer/headers"
+      }
+    },
+    "figurer": {
+      "no": {
+        "filePath": "/X-designalternativer/figurer"
+      },
+      "en": {
+        "filePath": "/X-designalternativer/figurer"
+      }
+    },
+    "X_alt_forside": {
+      "no": {
+        "filePath": "/X-designalternativer/X_alt_forside"
+      },
+      "en": {
+        "filePath": "/X-designalternativer/X_alt_forside"
+      }
+    }
+  }
+}

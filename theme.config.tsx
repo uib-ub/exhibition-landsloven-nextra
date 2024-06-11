@@ -3,14 +3,15 @@ import { format } from 'date-fns';
 import { enGB, nb } from 'date-fns/locale';
 import Image from 'next/image';
 import { useRouter } from 'next/router';
-import { DocsThemeConfig } from 'nextra-theme-docs';
-import React from 'react';
+import { DocsThemeConfig, useConfig } from 'nextra-theme-docs';
 
 //Alternative logo
 // <!--Image src="/images/logo_horizontal.svg" alt="Landsloven logo" width={240} height={45} /-->
 
 // TO DO: Usikker ang hvordan angi width heigh og fill color for svg bildene under siden svg overstyrer dette
 // Vanlig CSS path { fill: red} virker ikke
+
+const SITE_URL = process.env.NODE_ENV === 'development' ? 'http://localhost:3000' : 'https://exhibition-landsloven-nextra.vercel.app/';
 
 const config: DocsThemeConfig = {
   /* Needs some tweaking, Landsloven not mentioned :-( */
@@ -26,6 +27,31 @@ const config: DocsThemeConfig = {
         titleTemplate: `${site.index.title[locale]}`
       }
     }
+  },
+  head: () => {
+    const { asPath, defaultLocale, locale } = useRouter()
+    const { frontMatter } = useConfig()
+    const url =
+      SITE_URL +
+      (defaultLocale === locale ? asPath : `/${locale}${asPath}`)
+
+    return (
+      <>
+        <meta property="og:url" content={url} />
+        <meta
+          name="keywords"
+          content={frontMatter.tags}
+        />
+        <meta name="color-scheme" content="light dark"></meta>
+        <meta property="og:image" content={`${SITE_URL}${frontMatter.image ?? '/images/landslovbanner.jpg'}`}></meta>
+        <meta name="twitter:card" content="summary_large_image"></meta>
+        <meta name="twitter:description" content={frontMatter.description || ''}></meta>
+        <meta property="og:locale" content={locale} />
+        <link rel="icon" href="/favicon.png" sizes="any" />
+        <link rel="shortcut icon" href="/favicon.png" type="image/x-icon" />
+        <link rel="apple-touch-icon" sizes="any" href="/favicon.png" />
+      </>
+    )
   },
   logo: (
     <div className='flex gap-2'>
@@ -78,13 +104,6 @@ const config: DocsThemeConfig = {
   feedback: {
     content: null,
   },
-  head: (
-    <React.Fragment>
-      <link rel="icon" href="/favicon.png" sizes="any" />
-      <link rel="shortcut icon" href="/favicon.png" type="image/x-icon" />
-      <link rel="apple-touch-icon" sizes="any" href="/favicon.png" />
-    </React.Fragment>
-  ),
   gitTimestamp({ timestamp }) {
     const { locale } = useRouter()
     return (
