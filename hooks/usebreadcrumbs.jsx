@@ -20,7 +20,7 @@ const useBreadcrumbs = () => {
     // console.log(router)
 
     if (index == 0 ) {
-      label = site?.bolkene?.items[seg]?.title[lang]  ?? '';
+      label = site?.bolkene?.items[seg]?.title[lang]  ?? router === 'Folder' ? 'en' : 'Folder'
       href =  site?.bolkene?.items[seg]?.href ?? '';
       // seksjon = site.bolkene.items[seg] ?? '';
       // return { href, label, index, key: seg+label+index  };
@@ -31,7 +31,7 @@ const useBreadcrumbs = () => {
     if (index == 1 ) {
       // get title by looking it up from 'combinedsections'
       const bolk = pathSegments.slice(0, 1)[0];
-      label = sections[bolk].items[label].title[lang] ?? '';
+      label = sections[bolk]?.items[label].title[lang] ?? router === '…' ? 'en' : '…'
       folder = sections[bolk]?.items;
       // return { href, label, index, folder: sections[bolk].items, key: seg+label+index  };
      }
