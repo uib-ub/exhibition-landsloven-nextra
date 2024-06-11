@@ -67,7 +67,7 @@ const Breadcrumbs = () => {
             onClick={toggleVisibility} >Close ✕</div>  
             <div className="px-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefaultButton">
                 {Object.keys(items).map(key => (
-                      <Link className="block px-4 py-0 my-2 hover:text-ll-blue-600 dark:hover:bg-gray-600 dark:hover:text-white text-ll-blue-700 text-base  hover:underline" href={items[key].href}>{items[key].title[lang]}</Link>  
+                      <Link key={key} className="block px-4 py-0 my-2 hover:text-ll-blue-600 dark:hover:bg-gray-600 dark:hover:text-white text-ll-blue-700 text-base  hover:underline" href={items[key].href}>{items[key].title[lang]}</Link>  
                 ))}
             </div>
         </div>
@@ -77,14 +77,13 @@ const Breadcrumbs = () => {
           <div className="flex my-1 flex-row flex-wrap" key={breadcrumb.href}>
           
           { (breadcrumb.index !== 1) ? (
-              <Link className="block text-black font-medium text-[15px] font-sans hover:text-ll-blue-500 hover:underline" href={breadcrumb.href}>{breadcrumb.label}</Link>
+              <Link key={breadcrumb.href} className="block text-black font-medium text-[15px] font-sans hover:text-ll-blue-500 hover:underline" href={breadcrumb.href}>{breadcrumb.label}</Link>
             ) : (
               <div 
                   className="flex flex-row flex-wrap cursor-pointer  px-1" 
-                  onClick={toggleVisibility2}          >
+                  onClick={toggleVisibility2} >
                   <ArrowRightIcon className="hover:bg-ll-blue-200 mx-1 block nx-w-3.5 nx-shrink-0 hover:stroke-ll-blue-700 hover:rotate-90" />  
-               
-              <div className="text-[15px] font-sans ">{breadcrumb.label}</div>
+                  <div className="text-[15px] font-sans ">{breadcrumb.label}</div>
               </div> 
             )
           }
@@ -97,7 +96,7 @@ const Breadcrumbs = () => {
             onClick={toggleVisibility2} >Close ✕</div>  
             <div className="px-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefaultButton">
                 {Object.keys(items2).map(key => (
-                      <Link className="block px-4 py-0 my-2  hover:text-ll-blue-600 dark:hover:bg-gray-600 dark:hover:text-white text-ll-blue-700 text-base  hover:underline" 
+                      <Link key={key} className="block px-4 py-0 my-2  hover:text-ll-blue-600 dark:hover:bg-gray-600 dark:hover:text-white text-ll-blue-700 text-base  hover:underline" 
                       href={items2[key].href}>{items2[key].title[lang]}</Link>  
                 ))}
             </div>
