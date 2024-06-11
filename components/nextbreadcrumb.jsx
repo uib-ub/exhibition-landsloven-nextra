@@ -6,28 +6,16 @@ import { ArrowRightIcon, MenuIcon  } from 'nextra/icons'
 // import { XIcon } from '@heroicons/react/outline';
 import Image from 'next/image'
 import site from 'config/site';
-import { items as arvefallet }from 'config/sections/arvefallet';
-import {items as introduksjon} from 'config/sections/introduksjon';
-import {items as kjopebolken} from 'config/sections/kjopebolken';
-import {items as kristendomsbolken} from 'config/sections/kristendomsbolken';
-import {items as landevernsbolken} from 'config/sections/landevernsbolken';
-import {items as mannhelgebolken} from 'config/sections/mannhelgebolken';
-import {items as odelsbolken} from 'config/sections/odelsbolken';
-import {items as prologen} from 'config/sections/prologen';
-import {items as retterboeter} from 'config/sections/retterboeter';
-import {items as tingfarebolken} from 'config/sections/tingfarebolken';
-import tyvebolken from 'config/sections/tyvebolken';
-
-
-
 import React, { useState } from 'react';
 // import { usePathname } from "next/navigation";
  
 const items = site.bolkene.items
-const items2 = tyvebolken.items
+// import sections from 'components/combindesections'; 
 
 const Breadcrumbs = () => {
   const breadcrumbs = useBreadcrumbs();
+  // console.log(breadcrumbs)
+  const items2 = breadcrumbs[1].folder ?? false;
 
   const [isVisible, setIsVisible] = useState(false);
   const [isVisible2, setIsVisible2] = useState(false);
@@ -45,7 +33,7 @@ const Breadcrumbs = () => {
   const lang  = router === 'en' ? 'en' : 'no'
   
   return (
-    <nav className="xbg-ll-gold-50 py-1 px-2 nextra-breadcrumb nx-mt-1.5 nx-flex nx-items-center nx-gap-1 nx-overflow-hidden text-sm nx-text-gray-500 dark:nx-text-gray-400 contrast-more:nx-text-current">
+    <nav aria-label="breadcrumb" className="border-b xbg-ll-gold-50 py-1 px-2 nextra-breadcrumb nx-mt-1.5 nx-flex nx-items-center nx-gap-1 nx-overflow-hidden text-sm nx-text-gray-500 dark:nx-text-gray-400 contrast-more:nx-text-current">
         
        <div className="flex flex-row flex-wrap text-normal p-2">
   
@@ -61,7 +49,7 @@ const Breadcrumbs = () => {
         </div>
          
 
-        <div id="dropdown" className={`px-2 py-4 absolute xtop-0 z-10 ${isVisible ? 'opacity-100 h-auto' : 'opacity-0 h-1 pointer-events-none'} bg-ll-sandy-100 divide-y divide-gray-100 shadow-2xl w-auto dark:bg-gray-700`}
+        <div aria-label="dropdown for sections" id="dropdown" className={`px-2 py-4 absolute xtop-0 z-10 ${isVisible ? 'opacity-100 h-auto' : 'opacity-0 h-1 pointer-events-none'} bg-ll-sandy-100 divide-y divide-gray-100 shadow-2xl w-auto dark:bg-gray-700`}
                onClick={toggleVisibility}     >
             <div className="cursor-pointer pt-2 px-1 right align-right float-right" 
             onClick={toggleVisibility} >Close ✕</div>  
@@ -77,30 +65,38 @@ const Breadcrumbs = () => {
           <div className="flex my-1 flex-row flex-wrap" key={breadcrumb.href}>
           
           { (breadcrumb.index !== 1) ? (
-              <Link key={breadcrumb.href} className="block text-black font-medium text-[15px] font-sans hover:text-ll-blue-500 hover:underline" href={breadcrumb.href}>{breadcrumb.label}</Link>
+              <Link aria-label="link to current section" key={breadcrumb.href} className="block text-black font-medium text-[15px] font-sans hover:text-ll-blue-500 hover:underline" href={breadcrumb.href}>{breadcrumb.label}</Link>
             ) : (
               <div 
                   className="flex flex-row flex-wrap cursor-pointer  px-1" 
                   onClick={toggleVisibility2} >
                   <ArrowRightIcon className="hover:bg-ll-blue-200 mx-1 block nx-w-3.5 nx-shrink-0 hover:stroke-ll-blue-700 hover:rotate-90" />  
-                  <div className="text-[15px] font-sans ">{breadcrumb.label}</div>
+                  <div aria-current="page" className="text-[15px] font-sans ">{breadcrumb.label}</div>
               </div> 
             )
           }
            
         </div> 
         ))}
-        <div id="dropdown2" className={`px-2 py-4 absolute xtop-0 z-10 ${isVisible2 ? 'opacity-100 h-auto' : 'opacity-0 h-1 pointer-events-none'} bg-ll-sandy-100 divide-y divide-gray-100 shadow-2xl w-auto dark:bg-gray-700`}
-               onClick={toggleVisibility2}     >
+        
+        <div aria-label="dropdown for pages" 
+               id="dropdown2" 
+               className={`px-2 py-4 absolute xtop-0 z-10 ${isVisible2 ? 'opacity-100 h-auto' : 'opacity-0 h-1 pointer-events-none'} bg-ll-sandy-100 divide-y divide-gray-100 shadow-2xl w-auto dark:bg-gray-700`}
+               onClick={toggleVisibility2} >
             <div className="cursor-pointer pt-2 px-1 right align-right float-right" 
-            onClick={toggleVisibility2} >Close ✕</div>  
+                 onClick={toggleVisibility2} >Close ✕</div>  
+            {items2 && (
             <div className="px-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefaultButton">
                 {Object.keys(items2).map(key => (
-                      <Link key={key} className="block px-4 py-0 my-2  hover:text-ll-blue-600 dark:hover:bg-gray-600 dark:hover:text-white text-ll-blue-700 text-base  hover:underline" 
-                      href={items2[key].href}>{items2[key].title[lang]}</Link>  
+                  <Link key={key} className="block px-4 py-0 my-2  hover:text-ll-blue-600 dark:hover:bg-gray-600 dark:hover:text-white text-ll-blue-700 text-base  hover:underline" 
+                      href={items2[key].href}>{items2[key].title[lang]}
+                  </Link>  
                 ))}
             </div>
+            )}
         </div>
+
+
       </div>
       </nav>
   );

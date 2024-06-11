@@ -4,6 +4,7 @@ import introduksjon from 'config/sections/introduksjon';
 import kjopebolken from 'config/sections/kjopebolken';
 import kristendomsbolken from 'config/sections/kristendomsbolken';
 import landevernsbolken from 'config/sections/landevernsbolken';
+import landsleiebolken from 'config/sections/landsleiebolken';
 import mannhelgebolken from 'config/sections/mannhelgebolken';
 import odelsbolken from 'config/sections/odelsbolken';
 import prologen from 'config/sections/prologen';
@@ -19,6 +20,7 @@ const sections = {
   kjopebolken,
   kristendomsbolken,
   landevernsbolken,
+  landsleiebolken,
   mannhelgebolken,
   odelsbolken,
   prologen,
