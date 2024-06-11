@@ -43,7 +43,7 @@ const config: DocsThemeConfig = {
           content={frontMatter.tags}
         />
         <meta name="color-scheme" content="light dark"></meta>
-        <meta property="og:image" content={`${SITE_URL}/images/landslovbanner.jpg`}></meta>
+        <meta property="og:image" content={`${SITE_URL}${frontMatter.image ?? '/images/landslovbanner.jpg'}`}></meta>
         <meta name="twitter:card" content="summary_large_image"></meta>
         <meta name="twitter:description" content={frontMatter.description || ''}></meta>
         <meta property="og:locale" content={locale} />
