@@ -1,7 +1,8 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
+  siteUrl: process.env.SITE_URL || 'http://localhost:3000/',
   // siteUrl: process.env.SITE_URL || 'http://ubuntu.local:3000/',
-  siteUrl: process.env.SITE_URL || 'https://exhibition-landsloven-nextra.vercel.app/',
+  // siteUrl: process.env.SITE_URL || 'https://exhibition-landsloven-nextra.vercel.app/',
   // transform: async (config, path) => {
   //   // Remove the language code (e.g., '.en') from the URL
   //   const newPath = path.replace(/\.[a-z]{2}$/, ''); 
