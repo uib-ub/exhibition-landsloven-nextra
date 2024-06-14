@@ -15,11 +15,13 @@ const Blockquote = ({ quote, image, alt, footer, gold, full }: { quote: React.Re
   // const footerColor = gold  ?  'text-gray-800 dark:text-ll-blue-50' : 'text-ll-gold-200'  ;
 
   
-  const bgColor = gold ?  'bg-ll-gold-50' : ' dark:bg-ll-blue-950  bg-ll-sandy dark:border-none border border-solid border-sandy-100 shadow-none py-8 px-12 mt-4'  ;
+  // const bgColor = gold ?  'bg-ll-gold-50' : ' dark:bg-ll-blue-950  bg-ll-sandy dark:border-none border border-solid border-sandy-100 shadow-none py-8 px-12 mt-4'  ;
+  const bgColor = gold ?  'bg-ll-gold-50' : ' dark:bg-ll-blue-950 dark:border-none border border-solid border-sandy-100 py-8 px-12 mt-4'  ;
   const bgColorImage = gold ? 'bg-ll-gold-50' : 'bg-white' ;
   const figureSize  = full ? 'w-full' :  'w-1/3';
   const textColor = gold  ? 'text-black dark:text-ll-blue-200 font-medium' : 'text-black dark:text-blue-200'  ;
-  const footerColor = gold  ?  'text-gray-800 dark:text-ll-blue-50' : 'text-ll-gold-600'  ;
+  // const footerColor = gold  ?  'text-gray-800 dark:text-ll-blue-50' : 'text-ll-gold-600'  ;
+  const footerColor = gold  ?  'text-gray-800 dark:text-ll-blue-50' : 'text-ll-red-700'  ;
 
 
   return (
@@ -47,7 +49,7 @@ const Blockquote = ({ quote, image, alt, footer, gold, full }: { quote: React.Re
      </blockquote>
      ) : (
       
-     <blockquote className={`w-full rounded type-blockquote overflow-hidden border-1 border-white border-solid shadow-md  grow p-6 text-left xmd:text-left space-y-4 ${bgColor} ${textColor} dark:bg-gray-900`} >
+     <blockquote className={`w-full rounded type-blockquote overflow-hidden border border-dotted shadow-md  grow p-6 text-left xmd:text-left space-y-4 ${bgColor} ${textColor} dark:bg-gray-900`} >
                <p className={`text-2xl  ${textColor}`}>
                {quote}
              </p>
