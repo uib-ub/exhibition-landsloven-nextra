@@ -14,7 +14,7 @@ interface CardProps {
 // TO DO: Deafault image or 'check if it exists)
 
 const Card = (props) => {
-  const { path = '', title, ingress = '', alt = '', image = '', shadow = 'shadow-lg' } = props;
+  const { path = '', title, ingress = '', alt = '', image = '', shadow = 'shadow-md' } = props;
 
   // TO DO: Change Read more text to 'english or norwegian'
   const { locale } = useRouter()

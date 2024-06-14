@@ -26,7 +26,7 @@ const Blockquote = ({ quote, image, alt, footer, gold, full }: { quote: React.Re
     // Layout 1 if iamge exists
     <div>
     {image ? (
-     <blockquote className={`flex flex-wrap w-full border dark:border-none border-dotted rounded type-blockquote ${bgColorImage} dark:bg-gray-900 shadow-lg`}>
+     <blockquote className={`flex flex-wrap w-full border dark:border-none border-dotted rounded type-blockquote ${bgColorImage} dark:bg-gray-900 shadow-md`}>
 
          <figure className={`w-full sm:${figureSize}`}>
           <Image
@@ -47,7 +47,7 @@ const Blockquote = ({ quote, image, alt, footer, gold, full }: { quote: React.Re
      </blockquote>
      ) : (
       
-     <blockquote className={`w-full rounded type-blockquote overflow-hidden border-1 border-white border-solid shadow-lg  grow p-6 text-left xmd:text-left space-y-4 ${bgColor} ${textColor} dark:bg-gray-900`} >
+     <blockquote className={`w-full rounded type-blockquote overflow-hidden border-1 border-white border-solid shadow-md  grow p-6 text-left xmd:text-left space-y-4 ${bgColor} ${textColor} dark:bg-gray-900`} >
                <p className={`text-2xl  ${textColor}`}>
                {quote}
              </p>
