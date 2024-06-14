@@ -3,7 +3,6 @@ import { useRouter } from 'next/router';
 import Link from 'next/link';
 import useBreadcrumbs from '../hooks/usebreadcrumbs';
 import { ArrowRightIcon, MenuIcon  } from 'nextra/icons'
-// import { XIcon } from '@heroicons/react/outline';
 import Image from 'next/image'
 import site from 'config/site';
 import React, { useState, Fragment } from 'react';
@@ -13,7 +12,7 @@ import React, { useState, Fragment } from 'react';
 const items = site.bolkene.items
 // import sections from 'components/combindesections'; 
 
-const Breadcrumbs = () => {
+const BreadCrumbs = () => {
   const breadcrumbs = useBreadcrumbs();
   // console.log(breadcrumbs)
   const items2 = breadcrumbs[1].folder ?? false;
@@ -34,7 +33,7 @@ const Breadcrumbs = () => {
   const lang  = router === 'en' ? 'en' : 'no'
   
   return (
-    <nav aria-label="breadcrumb" data-nav="breadcrumb" className="border-b xbg-ll-gold-50 py-1 px-2 nextra-breadcrumb nx-mt-1.5 nx-flex nx-items-center nx-gap-1 nx-overflow-hidden text-sm nx-text-gray-500 dark:nx-text-gray-400 contrast-more:nx-text-current">
+    <nav aria-label="breadcrumb" data-nav="breadcrumb" className="xbg-ll-gold-50 py-1 px-2 nextra-breadcrumb nx-mt-1.5 nx-flex nx-items-center nx-gap-1 nx-overflow-hidden text-sm nx-text-gray-500 dark:nx-text-gray-400 contrast-more:nx-text-current">
        <ol className="flex flex-row justify-items-center justify-center xh-10">
         <li className="breadcrumb-item flex my-1 flex-row flex-wrap justify-items-center justify-items-center">
             <Link className="-mt-1 -ml-2" href="/" aria-label="link to home/forsiden">
@@ -56,9 +55,11 @@ const Breadcrumbs = () => {
                     <span hide-aria="true" class="pl-2 pr-4"> | </span>
                     <ul  className={`px-2 py-4 absolute mt-4 z-10 ${isVisible ? 'opacity-100 h-auto' : 'opacity-0 h-1 pointer-events-none'} bg-ll-sandy-100 divide-y divide-gray-100 shadow-2xl w-auto dark:bg-gray-700`} 
                       aria-labelledby="dropdownDefaultButton">
+                      <div className="cursor-pointer pt-2 px-1 right align-right float-right" 
+                          onClick={toggleVisibility} >Close ✕</div>  
                     {Object.keys(items).map(key => (
-                      <li className="breadcrumb-item__sub-menu-item">
-                          <Link key={key} className="block px-4 py-0 my-2 mr- hover:text-ll-blue-600 dark:hover:bg-gray-600 dark:hover:text-white text-ll-blue-700 text-base hover:underline" href={items[key].href}>{items[key].title[lang]}</Link>  
+                      <li key={key} className="breadcrumb-item__sub-menu-item">
+                          <Link className="block px-4 py-0 my-2 mr- hover:text-ll-blue-600 dark:hover:bg-gray-600 dark:hover:text-white text-ll-blue-700 dark:text-ll-gold-200 text-base hover:underline" href={items[key].href}>{items[key].title[lang]}</Link>  
                       </li>
                     ))}
                   </ul>
@@ -83,7 +84,7 @@ const Breadcrumbs = () => {
                       {items2 && (
                        <li className="px-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefaultButton">
                            {Object.keys(items2).map(key => (
-                             <Link key={key} className="block px-4 my-2  hover:text-ll-blue-600 dark:hover:bg-gray-600 dark:hover:text-white text-ll-blue-700 text-base  hover:underline" 
+                             <Link key={key} className="block px-4 my-2  hover:text-ll-blue-600 dark:hover:bg-gray-600 dark:hover:text-white text-ll-blue-700 dark:text-ll-gold-200 text-base  hover:underline" 
                                  href={items2[key].href}>{items2[key].title[lang]}
                              </Link>  
                            ))}
@@ -105,4 +106,4 @@ const Breadcrumbs = () => {
   )
 };
 
-export default Breadcrumbs;
+export default BreadCrumbs;

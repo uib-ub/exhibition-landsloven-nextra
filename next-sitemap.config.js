@@ -1,6 +1,6 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: process.env.SITE_URL || 'http://localhost:3000/',
+  siteUrl: process.env.NODE_ENV === 'development' ? 'http://localhost:3000' : 'https://exhibition-landsloven-nextra.vercel.app/',
   // siteUrl: process.env.SITE_URL || 'http://ubuntu.local:3000/',
   // siteUrl: process.env.SITE_URL || 'https://exhibition-landsloven-nextra.vercel.app/',
   // transform: async (config, path) => {

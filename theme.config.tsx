@@ -5,6 +5,10 @@ import Image from 'next/image';
 import { useRouter } from 'next/router';
 import { DocsThemeConfig, useConfig } from 'nextra-theme-docs';
 
+//override breadcrumbs
+// import Breadcrumb  from 'components/nextbreadcrumb';
+import NextBreadcrumb from 'components/nextbreadcrumb';
+
 //Alternative logo
 // <!--Image src="/images/logo_horizontal.svg" alt="Landsloven logo" width={240} height={45} /-->
 
@@ -12,6 +16,13 @@ import { DocsThemeConfig, useConfig } from 'nextra-theme-docs';
 // Vanlig CSS path { fill: red} virker ikke
 
 const SITE_URL = process.env.NODE_ENV === 'development' ? 'http://localhost:3000' : 'https://exhibition-landsloven-nextra.vercel.app/';
+
+
+
+// theme.config.js
+
+ 
+
 
 const config: DocsThemeConfig = {
   /* Needs some tweaking, Landsloven not mentioned :-( */
@@ -76,17 +87,31 @@ const config: DocsThemeConfig = {
       return locale === 'en' ? 'Search' : 'Søk'
     },
   },
+  // banner: {
+  //   key: '2.0-release',
+  //   text: (
+  //   <p>Utsillingen er åpen</p> 
+  //   )
+  // },
   docsRepositoryBase: 'https://github.com/uib-ub/exhibition-landsloven-nextra',
   footer: {
     text: (
       <div className='font-serif'>
         <p>Universitetsbiblioteket i Bergen, Høyskolen på Vestlandet, Vestland fylkeskommune</p>
+        {/* <NextBreadcrumb></NextBreadcrumb> */}
       </div>
+      
     ),
+    // component: NextBreadcrumb
   },
+  // Override breadcrumb
+  // components: {
+  //  Breadcrumbs:  NextBreadcrumb
+  // },
   sidebar: {
     defaultMenuCollapseLevel: 1, // MAKE navigation menu closed for folders on load
   },
+   
   toc: {
     title: () => {
       const { locale } = useRouter()

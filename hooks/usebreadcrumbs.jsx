@@ -1,6 +1,4 @@
 ﻿import { useRouter } from 'next/router';
-
-
 import sections from 'components/combindesections'; 
 import site from 'config/site';
 
@@ -27,7 +25,7 @@ const useBreadcrumbs = () => {
     if (index == 1 ) {
       // get title by looking it up from 'combinedsections'
       const bolk = pathSegments.slice(0, 1)[0];
-      label = sections[bolk]?.items[label].title[lang] ??   '…'
+      label = sections[bolk]?.items[label]?.title[lang] ??   '…'
       folder = sections[bolk]?.items;
       // return { href, label, index, folder: sections[bolk].items, key: seg+label+index  };
      }
