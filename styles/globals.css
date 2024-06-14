@@ -35,7 +35,8 @@
 	}
 
 .initial::first-letter,
-.blueinitial::first-letter  {
+.blueinitial::first-letter,
+.firstletter::first-letter {
 	@apply text-9xl text-ll-blue-900 float-left inline-block leading-none pt-0 ml-1 mr-3 -mb-5  ; 
 	@apply font-antiqua;
 }  
@@ -52,7 +53,7 @@
 }  	
 
 .redletter::first-letter,         
-.firstletter::first-letter  {
+.xfirstletter::first-letter  {
 	@apply text-9xl text-red-700 float-left inline-block bg-ll-sandy px-4 mr-4  ; 
 }  
 
