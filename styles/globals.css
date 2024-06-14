@@ -26,10 +26,25 @@
 
 
 /* INitialer */
-.redinitial::first-letter,
-.initial::first-letter  {
+.redinitial::first-letter  {
 	@apply text-9xl text-red-700 float-left inline-block leading-none p-0 -mt-4 -ml-1 mr-2  ; 
 	}  
+
+.binitial::first-letter  {
+	@apply text-9xl text-ll-blue-700 float-left inline-block leading-none p-0 -mt-4 -ml-1 mr-2  ; 
+	}
+
+.initial::first-letter,
+.blueinitial::first-letter  {
+	@apply text-9xl text-ll-blue-900 float-left inline-block leading-none pt-0 ml-1 mr-3 -mb-5  ; 
+	@apply font-antiqua;
+}  
+
+ 
+.blueinitial::first-letter  {
+	@apply text-9xl text-ll-blue-900 float-left inline-block leading-none pt-0 ml-1 mr-3 -mb-5  ; 
+	@apply font-antiqua;
+}  	
 
 .blueinitial::first-letter  {
 	@apply text-9xl text-ll-blue-900 float-left inline-block leading-none pt-0 ml-1 mr-3 -mb-5  ; 
@@ -50,10 +65,12 @@
 	@apply font-gotic;
 }  
 
+
 .blueletter::first-letter  {
 	@apply text-9xl text-white float-left bg-ll-blue-900 px-5 pt-3 pb-0 mr-4  ; 
 	@apply font-antiqua;
 }
+
 
 .goticletter::first-letter  {
 	@apply text-9xl text-white float-left bg-ll-gold px-5 pt-3 pb-0 mr-4  ; 
