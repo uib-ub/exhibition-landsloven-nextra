@@ -12,7 +12,7 @@ const Figure = (
 ) => {
   const { locale } = useRouter()
   const buttonText = locale === 'no' ? 'Se mer' : 'Read more'
-  const fontFamily = serif ?  'font-serif' : gotic ? 'font-antiqua' : 'font-gotic text-[1.55rem] text-ll-blue-200'
+  const fontFamily = serif ?  'font-serif' : gotic ? 'font-antiqua' : 'font-serif text-[2rem] text-ll-blue-200'
   const bgColor = light ? 'bg-ll-blue-900' : 'bg-ll-blue-950'
   const disPlay = full ? 'flex-col' : 'flex-row'
   
