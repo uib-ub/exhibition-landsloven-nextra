@@ -1,0 +1,237 @@
+{
+  "tyvebolken": {
+    "no": {
+      "title": "Tyvebolken",
+      "description": "Den siste bolken i Landsloven er Tyvebolken, som definerer tyveri og beskriver hvordan man stilte tyver til ansvar.",
+      "tags": [
+        "tyveri",
+        "straff"
+      ],
+      "image": "/images/tyv.jpg",
+      "alt": "Tyv som...",
+      "breadcrumb": false,
+      "href": "/tyvebolken/introduksjon"
+    },
+    "en": {
+      "title": "Thieves' section",
+      "description": "The last section of the Laws of the Land is the Thieves’ section, which defines theft and describes how to hold thieves accountable.",
+      "tags": [
+        "theft",
+        "punishment"
+      ],
+      "image": "/images/tyv.jpg",
+      "alt": "Tyv som...",
+      "breadcrumb": false,
+      "href": "/tyvebolken/introduksjon"
+    }
+  },
+  "tingfarebolken": {
+    "no": {
+      "title": "Tingfarebolken",
+      "description": "",
+      "tags": null,
+      "image": null,
+      "alt": null,
+      "breadcrumb": false,
+      "href": "/tingfarebolken/introduksjon"
+    },
+    "en": {
+      "title": "Section about going to Assemblies",
+      "description": "",
+      "tags": null,
+      "image": null,
+      "alt": null,
+      "breadcrumb": false,
+      "href": "/tingfarebolken/introduksjon"
+    }
+  },
+  "retterboeter": {
+    "no": {
+      "title": "Retterbøter",
+      "description": "",
+      "tags": null,
+      "image": null,
+      "alt": null,
+      "breadcrumb": false,
+      "href": "/retterboeter/introduksjon"
+    },
+    "en": {
+      "title": "Law",
+      "description": "",
+      "tags": null,
+      "image": null,
+      "alt": null,
+      "breadcrumb": false,
+      "href": "/retterboeter/introduksjon"
+    }
+  },
+  "prologen": {
+    "no": {
+      "title": "Prologen",
+      "description": "Prolog er innledningen til Landsloven. Ordet prolog kommer av gresk, og betyr fortale. Landslovens prolog er direkte i stilen, formulert som et brev eller en tale.",
+      "tags": [
+        "fortale",
+        "prolog"
+      ],
+      "image": null,
+      "alt": null,
+      "breadcrumb": false,
+      "href": "/prologen/introduksjon"
+    },
+    "en": {
+      "title": "Prologue",
+      "description": "",
+      "tags": null,
+      "image": null,
+      "alt": null,
+      "breadcrumb": false,
+      "href": "/prologen/introduksjon"
+    }
+  },
+  "odelsbolken": {
+    "no": {
+      "title": "Odelsbolken",
+      "description": "",
+      "tags": null,
+      "image": null,
+      "alt": null,
+      "breadcrumb": false,
+      "href": "/odelsbolken/introduksjon"
+    },
+    "en": {
+      "title": "Land redemption section",
+      "description": "",
+      "tags": null,
+      "image": null,
+      "alt": null,
+      "breadcrumb": false,
+      "href": "/odelsbolken/introduksjon"
+    }
+  },
+  "mannhelgebolken": {
+    "no": {
+      "title": "Mannhelgebolken",
+      "description": "",
+      "tags": null,
+      "image": null,
+      "alt": null,
+      "breadcrumb": false,
+      "href": "/mannhelgebolken/introduksjon"
+    },
+    "en": {
+      "title": "Human inviolability section",
+      "description": "",
+      "tags": null,
+      "image": null,
+      "alt": null,
+      "breadcrumb": false,
+      "href": "/mannhelgebolken/introduksjon"
+    }
+  },
+  "landsleiebolken": {
+    "no": {
+      "title": "Landsleiebolken",
+      "description": "",
+      "tags": null,
+      "image": null,
+      "alt": null,
+      "breadcrumb": false,
+      "href": "/landsleiebolken/introduksjon"
+    },
+    "en": {
+      "title": "Land tenancy section",
+      "description": "",
+      "tags": null,
+      "image": null,
+      "alt": null,
+      "breadcrumb": false,
+      "href": "/landsleiebolken/introduksjon"
+    }
+  },
+  "landevernsbolken": {
+    "no": {
+      "title": "Landevernsbolken",
+      "description": "",
+      "tags": null,
+      "image": null,
+      "alt": null,
+      "breadcrumb": false,
+      "href": "/landevernsbolken/introduksjon"
+    },
+    "en": {
+      "title": "Land Defence",
+      "description": "",
+      "tags": null,
+      "image": null,
+      "alt": null,
+      "breadcrumb": false,
+      "href": "/landevernsbolken/introduksjon"
+    }
+  },
+  "kristendomsbolken": {
+    "no": {
+      "title": "Kristendomsbolken",
+      "description": "",
+      "tags": null,
+      "image": null,
+      "alt": null,
+      "breadcrumb": false,
+      "href": "/kristendomsbolken/introduksjon"
+    },
+    "en": {
+      "title": "Christianity Section",
+      "description": "",
+      "tags": null,
+      "image": null,
+      "alt": null,
+      "breadcrumb": false,
+      "href": "/kristendomsbolken/introduksjon"
+    }
+  },
+  "kjoepebolken": {
+    "no": {
+      "title": "Kjøpebolken",
+      "description": "",
+      "tags": null,
+      "image": null,
+      "alt": null,
+      "breadcrumb": false,
+      "href": "/kjoepebolken/introduksjon"
+    },
+    "en": {
+      "title": "Trade section",
+      "description": "",
+      "tags": null,
+      "image": null,
+      "alt": null,
+      "breadcrumb": false,
+      "href": "/kjoepebolken/introduksjon"
+    }
+  },
+  "arvetallet": {
+    "no": {
+      "title": "Arvetallet",
+      "description": "",
+      "tags": null,
+      "image": null,
+      "alt": null,
+      "breadcrumb": false,
+      "href": "/arvetallet/introduksjon"
+    },
+    "en": {
+      "title": "List of Inheritance",
+      "description": "",
+      "tags": null,
+      "image": null,
+      "alt": null,
+      "breadcrumb": false,
+      "href": "/arvetallet/introduksjon"
+    }
+  },
+  "X-designalternativer": {
+    "no": {},
+    "en": {
+      "href": "/X-designalternativer/introduksjon"
+    }
+  }
+}
