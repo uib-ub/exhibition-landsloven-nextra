@@ -1,4 +1,9 @@
 {
+  "*": {
+    "theme": {
+      "breadcrumb": false
+    }
+  },
   "index": {
     "title": "Anniversary exhibition",
     "theme": {
