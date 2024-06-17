@@ -13,21 +13,19 @@ type MenuItems = {
 
 
 const SubTextsCards = ({ items, meta, columns = '2', gap = '10', shadow }: { items: MenuItems, meta: any, columns?: string, gap?: string, shadow?: string }) => {
-  if (!items) {
-    return null;
-  }
+  if (!items) return null
+
+  // If we get these keys, we remove them from the object
   delete items.index;
   delete items['X-designalternativer'];
 
   // Get the current locale so we can display the correct language
-  const { locale, asPath } = useRouter();
+  const { locale } = useRouter();
 
   const subPages = Object.keys(meta).filter(k => !['---', 'introduksjon'].includes(k)).map((key) => {
-    const value = items[key][locale];
-    if (!value) return null;
+    const value = items[key]?.[locale];
 
-    // Skip the introduction page we are already on
-    if (!asPath.includes('index') && (value.href.endsWith('/introduksjon') || value.href.endsWith('/750-ar'))) return null;
+    if (!value) return null;
 
     const title = value.title;
     const path = value.href;
@@ -37,7 +35,7 @@ const SubTextsCards = ({ items, meta, columns = '2', gap = '10', shadow }: { ite
     // Can use "generic" Card component here
     return (
       <Card
-        key={key}
+        key={`${key}-${locale}`}
         image={image}
         alt={title}
         title={title}
@@ -68,7 +66,6 @@ const SubTextsCards = ({ items, meta, columns = '2', gap = '10', shadow }: { ite
     30: 'gap-30',
     40: 'gap-40',
   };
-
 
   // Fallback to 2 column if no columns prop is provided
   const gridClass = columns ? columnsClass[columns] : 'dm:grid-cols-2';

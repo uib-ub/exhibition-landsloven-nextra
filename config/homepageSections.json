@@ -208,6 +208,24 @@
       "href": "/kjoepebolken/introduksjon"
     }
   },
+  "epilog": {
+    "no": {
+      "title": "Epilog",
+      "description": "",
+      "tags": null,
+      "image": null,
+      "alt": null,
+      "href": "/epilog/epilog"
+    },
+    "en": {
+      "title": "Epilogue",
+      "description": "",
+      "tags": null,
+      "image": null,
+      "alt": null,
+      "href": "/epilog/epilog"
+    }
+  },
   "arvetallet": {
     "no": {
       "title": "Arvetallet",

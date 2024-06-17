@@ -18,6 +18,13 @@ function reduceToMainPages(data) {
         en: { ...data[section].introduksjon.en }
       };
     }
+    // Special case for epilog
+    if (section === 'epilog') {
+      result[section] = {
+        no: { ...data[section].epilog.no },
+        en: { ...data[section].epilog.en }
+      };
+    }
   }
 
   return result;
