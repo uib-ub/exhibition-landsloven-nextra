@@ -1,8 +1,18 @@
-import SubMenuCards from 'components/sub-menu-cards';
-import sections from 'config/sections/retterboeter';
-import Spacer from 'components/spacer';
+---
+title: Law
+description: ''
+tags:
+image: 
+alt: 
+breadcrumb: false
+---
+
 import Container from 'components/container';
 import Figure from 'components/figure';
+import Spacer from 'components/spacer';
+import SubTextsCards from 'components/sub-texts-cards';
+import site from 'config/siteFrontmatter.json';
+import meta from './_meta.en.json';
 
 <Spacer />
 
@@ -27,11 +37,12 @@ import Figure from 'components/figure';
         
     </Figure>
 
-    <Spacer /><Spacer />
+    <Spacer />
+    <Spacer />
 
     # Law amendments
 
-    <SubMenuCards items={sections.items} />
+    <SubTextsCards items={site.retterboeter} meta={meta} />
         Laws of the Land manuscripts often end with a series of amendments added to the original text. Norwegian laws were constantly changed and expanded during the Viking Age and the Middle Ages. King Magnus VI Håkonsson was nicknamed the Lawmender because he improved the laws. Large parts of the Laws of the Land were based on the old provincial laws. In earlier times, two terms were used to describe changes to laws: the so-called nýmæli, which were new statutory provisions, and retterbøter, which were amendments to existing laws. After the introduction of the Laws of the Land in 1274, nýmæli disappeared, while amendments increased. Even in the main text of the Laws of the Land, before the Epilogue, there are two amendments, one introduced by King Magnus himself and the other introduced by his father, King Håkon Håkonsson. Two amendments by King Magnus are also included in the Human Inviolability and Land Redemption sections. King Magnus Håkonsson’s sons, Eirik (1280–1299) and Håkon (1299–1319), who reigned after him, issued a great many law amendments. Their law amendments covered a wide range of topics and were linked to most sections of the Laws of the Land. An important recurring theme among Magnus’s sons was the tug-of-war between the king and the Church. Håkon V Magnusson was also particularly concerned with preventing corruption and abuse of power among the king’s officials at all levels. With his law amendment from 1302 regarding succession to the throne and guardian council, he dealt with the misrule ensuing after King Magnus’s death to “avoid in the future the unprecedented damage that the kingdom suffered while both of us brothers were in childhood”. Reading between the lines of these law amendments, one can perhaps infer why Audun Hugleiksson, one of the most important figures behind the Laws of the Land, ended up on the gallows in Nordnes in 1302. There are no reliable sources as to what happened, but after Håkon was crowned in 1299, he had Audun arrested. There is reason to believe that Audun had abused his power and authority and was convicted of treason—a crime that could not be pardoned.
 
 </Container>

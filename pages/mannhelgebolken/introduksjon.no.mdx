@@ -1,9 +1,19 @@
-import SubMenuCards from 'components/sub-menu-cards';
-import Work from 'components/work';
-import sections from 'config/sections/mannhelgebolken';
+---
+title: Mannhelgebolken
+description: ''
+tags:
+image: 
+alt: 
+breadcrumb: false
+---
+
+import Container from 'components/container';
 import SitatHero from 'components/sitathero';
-import Spacer from 'components/spacer'
-import Container from 'components/container'
+import Spacer from 'components/spacer';
+import SubTextsCards from 'components/sub-texts-cards';
+import Work from 'components/work';
+import site from 'config/siteFrontmatter.json';
+import meta from './_meta.no.json';
 
 <SitatHero 
     title= 'Fra Mannhelge&shy;bolken'
@@ -16,7 +26,8 @@ import Container from 'components/container'
 <Container>
 # Mannhelgebolken
 
-<SubMenuCards items={sections.items} columns={3} gap={10} />
+<SubTextsCards items={site.mannhelgebolken} meta={meta} columns={3} gap={10} />
+
 </Container>
 
 <Work id="ubb-diplom-0130" />

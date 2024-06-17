@@ -1,10 +1,21 @@
+---
+title: Landslovjubileet 2024
+description: ''
+tags:
+image: 
+alt: 
+breadcrumb: false
+---
+
 import Blockquote from 'components/blockquote';
 import Container from 'components/container';
 import Spacer from 'components/spacer';
 import SubMenuCards from 'components/sub-menu-cards';
+import SubTextsCards from 'components/sub-texts-cards';
 import SubBox from 'components/subbox';
-import site from 'config/site';
+import site from 'config/homepageSections.json';
 import Image from 'next/image';
+import meta from './_meta.no.json';
 
 {/* # Landslovjubileets nettutstilling
  
@@ -29,7 +40,7 @@ Dette er et forslag til nye nettside for Landslovsutstillingen i Bergen.
 {/* Ny component om partnerne */}
 
 <Container>
-<Spacer  height={50} />
+<Spacer height={50} />
 
     <Blockquote
         quote='«Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in volu.»'
@@ -41,8 +52,7 @@ Dette er et forslag til nye nettside for Landslovsutstillingen i Bergen.
     
     <Spacer height={50} />
 
- 
-    <SubMenuCards items={site.bolkene.items} columns={3} gap={10}/>
+    <SubTextsCards items={site} meta={meta.bolkene.items} columns={3} gap={10} />
 
     <Spacer height={50} />
  

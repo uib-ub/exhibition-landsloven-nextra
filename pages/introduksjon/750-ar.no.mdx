@@ -1,10 +1,19 @@
-import SubMenuCards from 'components/sub-menu-cards';
-import sections from 'config/sections/introduksjon';
-import Container from 'components/container'
-import SitatHero from 'components/sitathero';
-import Spacer  from 'components/spacer';
-import Image from 'next/image';
+---
+title: Magnus Lagabøtes landslov 750 år
+description: ''
+tags:
+image: 
+alt: 
+breadcrumb: false
+---
 
+import Container from 'components/container';
+import SitatHero from 'components/sitathero';
+import Spacer from 'components/spacer';
+import SubTextsCards from 'components/sub-texts-cards';
+import site from 'config/siteFrontmatter.json';
+import Image from 'next/image';
+import meta from './_meta.no.json';
 
 <Image
     src='/images/landslovbanner_750b.jpg'
@@ -29,5 +38,7 @@ I 1274 la kong Magnus VI Håkonsson fram sin landslov. Mellom 1274 og 1276 ble d
 <Spacer height={30} />
 
 <Container>
-    <SubMenuCards items={sections.items} columns={3} gap={10} />
+
+    <SubTextsCards items={site.introduksjon} meta={meta} columns={2} gap={10} />
+
 </Container>

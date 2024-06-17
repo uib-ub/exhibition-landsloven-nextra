@@ -1,10 +1,20 @@
-import SubMenuCards from 'components/sub-menu-cards';
+---
+title: Anniversary exhibition
+description: ''
+tags:
+image: 
+alt: 
+breadcrumb: false
+---
+
 import Blockquote from 'components/blockquote';
-import Spacer  from 'components/spacer';
 import Container from 'components/container';
 import SitatHero from 'components/sitathero';
+import Spacer from 'components/spacer';
+import SubTextsCards from 'components/sub-texts-cards';
+import site from 'config/homepageSections.json';
 import Image from 'next/image';
-import site from 'config/site';
+import meta from './_meta.en.json';
 
 <SitatHero 
     title='About the Anniversary exhibition'
@@ -16,7 +26,7 @@ import site from 'config/site';
 
 <Container>
     # Anniversary exhibition 
-    <SubMenuCards items={site.bolkene.items} columns={3} gap={10} />
+    <SubTextsCards items={site} meta={meta.bolkene.items} columns={3} gap={10} />
 </Container>
 
 

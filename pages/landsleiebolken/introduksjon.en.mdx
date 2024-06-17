@@ -1,7 +1,17 @@
-import SubMenuCards from 'components/sub-menu-cards';
-import sections from 'config/sections/landsleiebolken';
+---
+title: Land tenancy section
+description: ''
+tags:
+image: 
+alt: 
+breadcrumb: false
+---
+
+import Container from 'components/container';
 import SitatHero from 'components/sitathero';
-import Container from 'components/container'
+import SubTextsCards from 'components/sub-texts-cards';
+import site from 'config/siteFrontmatter.json';
+import meta from './_meta.en.json';
 
 <SitatHero 
     title='Land tenancy' 
@@ -18,5 +28,5 @@ import Container from 'components/container'
 </Container>
 
 <Container>
-    <SubMenuCards items={sections.items} columns={3} gap={10}/>
+    <SubTextsCards items={site.landsleiebolken} meta={meta} columns={3} gap={10}/>
 </Container>

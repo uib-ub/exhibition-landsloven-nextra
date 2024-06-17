@@ -1,13 +1,22 @@
+---
+title: Kristendomsbolken
+description: ''
+tags:
+image: 
+alt: 
+breadcrumb: false
+---
+
 import Blockquote from 'components/blockquote';
 import Container from 'components/container';
 import Quoter from 'components/quoter';
 import SitatHero from 'components/sitathero';
 import Spacer from 'components/spacer';
-import SubMenuCards from 'components/sub-menu-cards';
+import SubTextsCards from 'components/sub-texts-cards';
 import SubBox from 'components/subbox';
+import site from 'config/siteFrontmatter.json';
 import Image from 'next/image';
-
-import sections from 'config/sections/kristendomsbolken';
+import meta from './_meta.no.json';
 
 <SitatHero 
     title='Kristendomsbolken' 
@@ -31,7 +40,7 @@ import sections from 'config/sections/kristendomsbolken';
       Til sist defineres kongens edsavleggelse og stormennenes lojalitetseder, fra hertug til bonde. Den gir dermed et glimt inn i den konge-ed og de lojalitetserklæringer som må være tenkt gitt, enten når kongsemnet fikk kongsnavn på tinget eller ved kroningene. Fordi Kristendomsbolken går inn på det rettslige fundamentet til riket, forholdet mellom kirkelig og kongelig makt, og mellom kongen og folket, kan den gjerne kalles en «forfatningslov».  Kristendomsbolken bygger på den første kristenretten, som ifølge sagaforfatteren Snorre Sturlason skal ha blitt vedtatt på tinget på Moster rundt 250 år tidligere, omkring år 1024. I år feirer vi dermed ikke bare et 750-årsjubileum for Landsloven, men også tusen år for Kristenretten.
 </Container>
 
-<SubMenuCards items={sections.items} columns={3} gap={10} />
+<SubTextsCards items={site.kristendomsbolken} meta={meta} columns={3} gap={10} />
 <Spacer height={24} />
 
 

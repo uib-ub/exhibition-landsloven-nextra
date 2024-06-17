@@ -1,17 +1,21 @@
 ---
+title: Prologen
 description: 'Prolog er innledningen til Landsloven. Ordet prolog kommer av gresk, og betyr fortale. Landslovens prolog er direkte i stilen, formulert som et brev eller en tale.'
 tags:
   - fortale
   - prolog
+image: 
+alt: 
+breadcrumb: false
 ---
 
 import Container from 'components/container';
 import SitatHero from 'components/sitathero';
 import Spacer from 'components/spacer';
-import SubMenuCards from 'components/sub-menu-cards';
+import SubTextsCards from 'components/sub-texts-cards';
 import Work from 'components/work';
-import sections from 'config/sections/prologen';
-
+import site from 'config/siteFrontmatter.json';
+import meta from './_meta.no.json';
 
 <SitatHero 
     title='Prolog' 
@@ -36,7 +40,7 @@ import sections from 'config/sections/prologen';
 
 
 <Container>
-    <SubMenuCards items={sections.items} columns={3} gap={10} />
+    <SubTextsCards items={site.prologen} meta={meta} columns={3} gap={10} />
     <Spacer  />
  </Container>
 

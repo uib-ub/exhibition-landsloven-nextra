@@ -1,12 +1,21 @@
-import SubMenuCards from 'components/sub-menu-cards';
-import Work from 'components/work';
-import sections from 'config/sections/tingfarebolken';
-import SitatHero from 'components/sitathero';
-import Container from 'components/container';
-import Spacer  from 'components/spacer' ;
-import Blockquote from 'components/blockquote';
-import Divider from 'components/divider';
+---
+title: Section about going to Assemblies
+description: ''
+tags:
+image: 
+alt: 
+breadcrumb: false
+---
 
+import Blockquote from 'components/blockquote';
+import Container from 'components/container';
+import Divider from 'components/divider';
+import SitatHero from 'components/sitathero';
+import Spacer from 'components/spacer';
+import SubTextsCards from 'components/sub-texts-cards';
+import Work from 'components/work';
+import site from 'config/siteFrontmatter.json';
+import meta from './_meta.en.json';
 
 <Container>
   <Spacer/>
@@ -26,7 +35,7 @@ import Divider from 'components/divider';
 
   <Divider/>
 
-  <SubMenuCards items={sections.items} />
+  <SubTextsCards items={site.tingfarebolken} meta={meta} />
 
 </Container>
 

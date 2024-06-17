@@ -1,9 +1,18 @@
-import SubMenuCards from 'components/sub-menu-cards';
-import sections from 'config/sections/retterboeter';
-import SitatHero from 'components/sitathero';
-import Container from 'components/container';
-import Spacer from 'components/spacer';
+---
+title: Retterbøter
+description: ''
+tags:
+image: 
+alt: 
+breadcrumb: false
+---
 
+import Container from 'components/container';
+import SitatHero from 'components/sitathero';
+import Spacer from 'components/spacer';
+import SubTextsCards from 'components/sub-texts-cards';
+import site from 'config/siteFrontmatter.json';
+import meta from './_meta.no.json';
 
 <SitatHero 
     title='Retterbøter'
@@ -22,7 +31,7 @@ import Spacer from 'components/spacer';
 
 <Container>
     <Spacer height={10}/>
-    <SubMenuCards items={sections.items} columns={3} gap={10}/>
+    <SubTextsCards items={site.retterboeter} meta={meta} columns={3} gap={10}/>
 </Container>
 
 

@@ -6,22 +6,22 @@ tags:
   - straff
 image: '/images/tyv.jpg'
 alt: 'Tyv som...'
+breadcrumb: false
 ---
 
 import Blockquote from 'components/blockquote';
 import Figure from 'components/figure';
-import SubMenuCards from 'components/sub-menu-cards';
+import SubTextsCards from 'components/sub-texts-cards';
 
-import sections from 'config/sections/tyvebolken';
 
 import Container from 'components/container';
 import FlexGrid from 'components/flexgrid';
 import Quoter from 'components/quoter';
 import Spacer from 'components/spacer';
 import SubBox from 'components/subbox';
-
+import site from 'config/siteFrontmatter.json';
 import Image from 'next/image';
-
+import meta from './_meta.no.json';
 
 <Image
     src='/images/Jubileumsutstillingen_1920x800.jpg'
@@ -34,7 +34,6 @@ import Image from 'next/image';
 
 <Container margin={0} >
 
- 
 <Spacer height={26} />
 
 # Tyvebolken
@@ -58,7 +57,7 @@ import Image from 'next/image';
 
 <Spacer height={36} />
 
-<SubMenuCards items={sections.items} columns={2} gap={5}/>
+<SubTextsCards items={site.tyvebolken} meta={meta} columns={2} gap={5}/>
  
 <Spacer height={6} />
 

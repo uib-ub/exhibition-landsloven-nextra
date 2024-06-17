@@ -8,10 +8,32 @@ const path = require('path');
 const matter = require('gray-matter');
 const glob = require('glob');
 
+function reduceToMainPages(data) {
+  const result = {};
+
+  for (const section in data) {
+    if (data[section].introduksjon) {
+      result[section] = {
+        no: { ...data[section].introduksjon.no },
+        en: { ...data[section].introduksjon.en }
+      };
+    }
+    // Special case for epilog
+    if (section === 'epilog') {
+      result[section] = {
+        no: { ...data[section].epilog.no },
+        en: { ...data[section].epilog.en }
+      };
+    }
+  }
+
+  return result;
+};
+
 const sitePath = path.join(__dirname, '../pages');
 let siteFrontmatter = {};
 
-function insertIntoNestedPath(obj, pathArray, value, filePath) {
+function insertIntoNestedPath(obj, pathArray, value, href) {
   let current = obj;
   for (const element of pathArray) {
     if (!current[element]) {
@@ -19,7 +41,7 @@ function insertIntoNestedPath(obj, pathArray, value, filePath) {
     }
     current = current[element];
   }
-  Object.assign(current, { ...value, filePath });
+  Object.assign(current, { ...value, href });
 }
 
 try {
@@ -35,13 +57,17 @@ try {
       pathArray[pathArray.length - 1] = name;
       pathArray.push(locale);
     }
-    const filePath = `/${pathArray.slice(0, -1).join(path.sep)}`;
-    insertIntoNestedPath(siteFrontmatter, pathArray, frontmatter, filePath);
+    const href = `/${pathArray.slice(0, -1).join(path.sep)}`;
+    insertIntoNestedPath(siteFrontmatter, pathArray, frontmatter, href);
   });
 
   fs.writeFileSync(
     path.join(__dirname, '../config/siteFrontmatter.json'),
     JSON.stringify(siteFrontmatter, null, 2)
+  );
+  fs.writeFileSync(
+    path.join(__dirname, '../config/homepageSections.json'),
+    JSON.stringify(reduceToMainPages(siteFrontmatter), null, 2)
   );
 } catch (err) {
   console.error("Error occurred while globbing:", err);

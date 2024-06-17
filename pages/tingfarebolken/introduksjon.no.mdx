@@ -1,9 +1,19 @@
-import SubMenuCards from 'components/sub-menu-cards';
-import Work from 'components/work';
-import sections from 'config/sections/tingfarebolken';
-import SitatHero from 'components/sitathero';
+---
+title: Tingfarebolken
+description: ''
+tags:
+image: 
+alt: 
+breadcrumb: false
+---
+
 import Container from 'components/container';
-import Spacer  from 'components/spacer' 
+import SitatHero from 'components/sitathero';
+import Spacer from 'components/spacer';
+import SubTextsCards from 'components/sub-texts-cards';
+import Work from 'components/work';
+import site from 'config/siteFrontmatter.json';
+import meta from './_meta.no.json';
 
 <SitatHero 
     title='Tingfarebolken' 
@@ -16,7 +26,7 @@ import Spacer  from 'components/spacer'
 
 <Container>
     # Tingfarebolken
-    <SubMenuCards items={sections.items} columns={3} gap={10} />
+    <SubTextsCards items={site.tingfarebolken} meta={meta} columns={3} gap={10} />
  
 </Container>
 
