@@ -6,14 +6,15 @@ image:
 alt: 
 breadcrumb: false
 ---
- 
-import Quoter from 'components/quoter'; 
-import Spacer  from 'components/spacer' 
-import Container from 'components/container'
 
 import Blockquote from 'components/blockquote';
+import Container from 'components/container';
+import Quoter from 'components/quoter';
 import SitatHero from 'components/sitathero';
-
+import Spacer from 'components/spacer';
+import SubTextsCards from 'components/sub-texts-cards';
+import site from 'config/siteFrontmatter.json';
+import meta from './_meta.en.json';
  
 
 <SitatHero 
@@ -35,7 +36,7 @@ import SitatHero from 'components/sitathero';
 </Container>
 
 <Container>
-  <SubMenuCards items={sections.items} columns={2} gap={10} />
+  <SubTextsCards items={site.arvetallet} meta={meta} columns={2} gap={10} />
   <Spacer height={24} />
 </Container>
  

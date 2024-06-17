@@ -5,12 +5,14 @@ tags:
 image: 
 alt: 
 breadcrumb: false
-order: 1
 ---
 
+import Container from 'components/container';
 import SitatHero from 'components/sitathero';
-import Container from 'components/container'
-import Spacer  from 'components/spacer' 
+import Spacer from 'components/spacer';
+import SubTextsCards from 'components/sub-texts-cards';
+import site from 'config/siteFrontmatter.json';
+import meta from './_meta.en.json';
 
 <SitatHero 
     title='Trade'
@@ -26,5 +28,5 @@ import Spacer  from 'components/spacer'
 </Container>
 
 <Container>
-    <SubMenuCards items={sections.items}  columns={2} gap={10}/>
+    <SubTextsCards items={site.kjoepebolken} meta={meta} columns={2} gap={10}/>
 </Container>

@@ -8,8 +8,14 @@ breadcrumb: false
 ---
 
 import Blockquote from 'components/blockquote';
+import Container from 'components/container';
 import Divider from 'components/divider';
-
+import SitatHero from 'components/sitathero';
+import Spacer from 'components/spacer';
+import SubTextsCards from 'components/sub-texts-cards';
+import Work from 'components/work';
+import site from 'config/siteFrontmatter.json';
+import meta from './_meta.en.json';
 
 <Container>
   <Spacer/>
@@ -29,7 +35,7 @@ import Divider from 'components/divider';
 
   <Divider/>
 
-  <SubMenuCards items={sections.items} />
+  <SubTextsCards items={site.tingfarebolken} meta={meta} />
 
 </Container>
 

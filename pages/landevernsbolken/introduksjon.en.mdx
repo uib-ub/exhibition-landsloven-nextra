@@ -7,9 +7,12 @@ alt:
 breadcrumb: false
 ---
 
+import Container from 'components/container';
 import SitatHero from 'components/sitathero';
-import Container from 'components/container'
-import Spacer from 'components/spacer'
+import Spacer from 'components/spacer';
+import SubTextsCards from 'components/sub-texts-cards';
+import site from 'config/siteFrontmatter.json';
+import meta from './_meta.en.json';
 
 <SitatHero 
     title='Land defence' 
@@ -29,6 +32,6 @@ import Spacer from 'components/spacer'
 <Spacer height={6} />
 
 <Container>
-    <SubMenuCards items={sections.items} columns={3} gap={10}/>
+   <SubTextsCards items={site.landevernsbolken} meta={meta} columns={3} gap={10} />
 </Container>
 
