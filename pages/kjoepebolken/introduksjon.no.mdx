@@ -15,23 +15,25 @@ import site from 'config/siteFrontmatter.json';
 import meta from './_meta.no.json';
 
 <SitatHero 
-    title='Kjøp'
+    title='Kjøpebolken'
     ingress='«De avtalene som er inngått ved håndslag, og som kan holdes i samsvar med lovene, skal holdes.»'  
     footer='Kjøpebolken, kapittel 13'
 />
  
-<Spacer height={6}/>
+<Spacer height={10}/>
 
-<Container stil="firstletter text-left text-xl" margin={10}>
+<Container>
     # Kjøpebolken
+</Container>
+
+<Container stil="firstletter text-left text-xl" columns={2} margin={10}>
     Kjøpebolken handler om kjøp og salg av eiendom, varer og tjenester. Her har det åpenbart vært behov for bedre regelverk, for dette er en av bolkene i Landsloven som skiller seg mest fra det som står om samme tema i tidligere landskapslovene. Avtaler skulle bekreftes med håndslag, i vitners nærvær. Når jord, hus og andre store verdier skiftet hender krevdes det brev med vitner og segl. Avtaler om bortgifting av kvinner er inkludert her, kanskje overraskende for oss moderne mennesker, men naturlig den gang fordi dette også handlet om overføring av eiendom og verdier. Kjøpebolken beskriver hvordan man skulle forholde seg til oppgjør, mislighold, gjeld og pant. Den tar også for seg leie og utlån av løsøre, båter, hester og kyr. Videre nevner Kjøpebolken handelsferder og frakt av varer. Selv i et jordbrukssamfunn, som for en stor del var basert på selvforsyning, hadde mange et overskudd å selge, og trengte dessuten å handle til seg det de ikke produserte selv. Varene som nevnes er først og fremst tekstiler, næringsmidler og andre nødvendigheter. Det gjøres rede for standarder for vekt og mål for ulike varer, og om påbudt kontroll og merking av vekter og målebeger. Arkeologiske funn av vektlodd og handelsvarer er vitnesbyrd om handel. Det er tydelig at kjøp og salg var et domene for voksne menn. Umyndige fikk ikke kjøpe noe. Kvinner kunne bare handle for begrensede verdier, avhengig av hvilken stand de tilhørte, og kjøp som overskred dette kunne omgjøres.
 </Container>
 
-<Container>
 
-<SubTextsCards items={site.kjoepebolken} meta={meta} columns={2} gap={10}/>
+<Container>
+    <Spacer height={10}/>
+<SubTextsCards items={site.kjoepebolken} meta={meta} columns={3} gap={10}/>
 
 </Container>
-
-# Kjøpebolken
 

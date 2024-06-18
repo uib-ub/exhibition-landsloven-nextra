@@ -10,112 +10,35 @@ breadcrumb: false
 ---
 
 import Blockquote from 'components/blockquote';
-import Figure from 'components/figure';
 import SubTextsCards from 'components/sub-texts-cards';
-
 
 import Container from 'components/container';
 import FlexGrid from 'components/flexgrid';
 import Quoter from 'components/quoter';
+import SitatHero from 'components/sitathero';
 import Spacer from 'components/spacer';
-import SubBox from 'components/subbox';
 import site from 'config/siteFrontmatter.json';
 import Image from 'next/image';
 import meta from './_meta.no.json';
 
-<Image
-    src='/images/Jubileumsutstillingen_1920x800.jpg'
-    alt="banneri image"
-    width={3500}
-    height={1600}
-    className="object-cover" 
+<SitatHero 
+    title='Tyvebolken'
+    ingress='«Det er forståelig at noen som ikke kan få seg arbeid til livsopphold, stjeler mat, og på den måten berger livet sitt fra sult, da skal han ikke straffes for det tjuveriet.»'
+    footer='Tyvebolken, kapittel 1'
 />
- 
 
-<Container margin={0} >
+<Spacer height={10} />
 
-<Spacer height={26} />
+<Container>
+  # Tyvebolken
+</Container>
 
-# Tyvebolken
-
-<Container stil="firstletter text-left text-xl" margin={6}>
+<Container stil="firstletter text-left text-xl" columns={2} margin={10}>
   Den siste bolken i Landsloven er Tyvebolken, som definerer tyveri og beskriver hvordan man stilte tyver til ansvar. Her er prosedyrer for kunngjøring og stevning, forfølgelse og ransakelse, pågripelse, varetekt, rettergang og straff. Hvis for eksempel tyven ble tatt på fersk gjerning, skulle han bringes til kongens ombudsmann med tyvegodset bundet på ryggen. Det legges vekt på at tyvens straff skulle utmåles etter omstendighetene. Den som stjal mat når han sultet, fordi han ikke fikk arbeid til å forsørge seg, skulle slippe straff. Bøter var den vanligste straffen, men den som stjal mye eller ofte risikerte dødsstraff. Det gis flere konkrete eksempel på hva som var regnet som tyveri: Grønnsaks- og fruktslang, melking av andres kuer, tyveri av katt og hund, nasking av kniv og belte, bortføring av hauker, flytting av grensesteiner osv. En person ble beskyldt for tyveri kunne prøve å fri seg fra anklagen ved å sverge ed på sin uskyld. Tyvebolken skildrer på hvilken måte eder skulle sverges, og hvor mange personer som skulle sverge sammen med den anklagede for å forsterke eden. Størrelsen på bøtene og omfanget av forbrytelsen var avgjørende for hvor mange vitner en trengte. Loven skildrer også hvordan personer som svor falskt skulle straffes.
 </Container>
 
-<Spacer height={36} />
 
-
-<Container  />
-<Spacer height={26} />
-<Blockquote
-    quote='«Det er forståelig at noen som ikke kan få seg arbeid til livsopphold, stjeler mat, og på den måten berger livet sitt fra sult, da skal han ikke straffes for det tjuveriet.»'
-    footer='Tyvebolken, kapittel 1'
-    image = '/images/tigging.jpg' 
-    alt='tyveri bilde'
-    gold={1}
-/>
-
-<Spacer height={36} />
-
-<SubTextsCards items={site.tyvebolken} meta={meta} columns={2} gap={5}/>
- 
-<Spacer height={6} />
-
-<hr
-  className="my-12 h-px border-t-0 bg-transparent bg-gradient-to-r from-transparent via-neutral-500 to-transparent opacity-25 dark:via-neutral-400" />
-
-<Spacer height={6} />
-
-<Figure
-    image="/images/tyvebolken/Bf_BRM0_47891_FK_02.jpg"
-    title="Stor bronsenøkkel til Eidfjord kirke"
-    alt="Stor bronsenøkkel liggende på en hvit duk"
-    href="https://digitaltmuseum.org/0210112472912/brm0-47891-for-konservering-2"
->
-    Tyvebolken forteller at en person som begikk tyveri for annen gang, og ikke kunne betale bøter, skulle brennemerkes – med en nøkkel!
-</Figure>
- 
-
-<Spacer height={36} />
-
-<div className="flex grid gap-3 grid-cols-1 sm:grid-cols-3  p-0 my-3">
-<Image
-    src='/images/tjuvebolk1.jpg'
-    alt='Plakat'
-    width={500}
-    height={500}
-    className="object-cover" 
-/>
-<Image
-    src='/images/tjuvebolk2.jpg'
-    alt='Plakat'
-    width={500}
-    height={500}
-    className="object-cover" 
-/>
-<Image
-    src='/images/tjuvebolk3.jpg'
-    alt='Plakat'
-    width={500}
-    height={500}
-    className="object-cover" 
-/>
-</div>
-
-
-
-
-<Spacer height={36} />
-
-<Blockquote
-    quote='«Det er forståelig at noen som ikke kan få seg arbeid til livsopphold, stjeler mat, og på den måten berger livet sitt fra sult, da skal han ikke straffes for det tjuveriet.»'
-    footer='Tyvebolken, kapittel 1'
-    gold={1}
-/>
-
-<Spacer height={36} />
-
- 
-
-
+<Container>
+    <Spacer height={10}/>
+    <SubTextsCards items={site.tyvebolken} meta={meta} columns={2} gap={5}/>
 </Container>
