@@ -22,10 +22,9 @@ import meta from './_meta.no.json';
 Dette er et forslag til nye nettside for Landslovsutstillingen i Bergen.
  */}
 
-
 <Image
     src='/images/landslovbanner.jpg'
-    alt='banneri image'
+    alt='banner image'
     width={3500}
     height={1600}
     className="object-cover" 
@@ -40,30 +39,17 @@ Dette er et forslag til nye nettside for Landslovsutstillingen i Bergen.
 {/* Ny component om partnerne */}
 
 <Container>
+
 <Spacer height={50} />
-
-    <Blockquote
-        quote='«Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in volu.»'
-        footer='Commandante Elit'
-        image = '/images/lorum.jpg'
-        alt= 'lorum'
-        gold={0} 
-    />
-    
-    <Spacer height={50} />
-
     <SubTextsCards items={site} meta={meta.bolkene.items} columns={3} gap={10} />
-
-    <Spacer height={50} />
  
-    <Blockquote
+    {/* <Blockquote
         quote='«Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in volu.»'
         footer='Commandante Elit'
         image = '/images/lorum.jpg' 
         gold={1}
         full = {1}
-    />
-
+    /> */}
 </Container>
 
  

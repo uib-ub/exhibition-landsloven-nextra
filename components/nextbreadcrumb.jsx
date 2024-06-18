@@ -43,7 +43,7 @@ const BreadCrumbs = () => {
             <Image className="block rounded-full" src="/images/logo_nett.svg" alt="Landsloven logo" width={30} height={30} />
             {/* ⌂  Home */}
           </Link>
-          <span hide-aria="true" class="px-4 block"> | </span>
+          <span hide-aria="true" className="px-4 block"> | </span>
         </li>
         {breadcrumbs.map(breadcrumb => (
           <li aria-label="breadcrumb item" className="flex my-1 flex-row flex-wrap justify-items-center justify-items-center " key={breadcrumb.href}>
@@ -55,7 +55,7 @@ const BreadCrumbs = () => {
 
                 <ArrowRightIcon className="rotate-90  h-7 w-6  -mt-1 p-0 hover:stroke-ll-blue-700 hover:rotate-270 cursor-pointer px-1 hover:text-ll-blue-700 hover:stroke-ll-blue-700 hover:bg-ll-blue-200"
                   onClick={toggleVisibility} />
-                <span hide-aria="true" class="pl-2 pr-4"> | </span>
+                <span hide-aria="true" className="pl-2 pr-4"> | </span>
                 <ul className={`px-2 py-4 absolute mt-4 z-10 ${isVisible ? 'opacity-100 h-auto' : 'opacity-0 h-1 pointer-events-none'} bg-ll-sandy-100 divide-y divide-gray-100 shadow-2xl w-auto dark:bg-gray-700`}
                   aria-labelledby="dropdownDefaultButton">
                   <div className="cursor-pointer pt-2 px-1 right align-right float-right"

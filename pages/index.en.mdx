@@ -16,12 +16,22 @@ import site from 'config/homepageSections.json';
 import Image from 'next/image';
 import meta from './_meta.en.json';
 
-<SitatHero 
+
+<Image
+    src='/images/landslovbanner.jpg'
+    alt='banneri image'
+    width={3500}
+    height={1600}
+    className="object-cover" 
+/>
+
+{/* <SitatHero 
     title='About the Anniversary exhibition'
     ingress='«Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
     quis nostrud e. Duis aute irure dolor in reprehenderit in volu.»'
-    footer='LANDSLOVJUBILEET' 
-/>
+    footer='Landslovjubileet' 
+/> */}
+
 <Spacer height={30} />
 
 <Container>
@@ -29,16 +39,3 @@ import meta from './_meta.en.json';
     <SubTextsCards items={site} meta={meta.bolkene.items} columns={3} gap={10} />
 </Container>
 
-
-
-
- 
-
-
- 
-
-{/* TO DO: Update missing text */}
-
-
-
- 
