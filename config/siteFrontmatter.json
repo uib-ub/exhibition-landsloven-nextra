@@ -1,10 +1,22 @@
 {
   "index": {
     "no": {
-      "filePath": "/index"
+      "title": "Landslovjubileet 2024",
+      "description": "",
+      "tags": null,
+      "image": null,
+      "alt": null,
+      "breadcrumb": false,
+      "href": "/index"
     },
     "en": {
-      "filePath": "/index"
+      "title": "Anniversary exhibition",
+      "description": "",
+      "tags": null,
+      "image": null,
+      "alt": null,
+      "breadcrumb": false,
+      "href": "/index"
     }
   },
   "tyvebolken": {
@@ -18,7 +30,7 @@
         ],
         "image": "/images/tyvebolken/Pillory_9105377.jpg",
         "alt": "Tyv som betaler bot",
-        "filePath": "/tyvebolken/tyver"
+        "href": "/tyvebolken/tyver"
       },
       "en": {
         "title": "Treatment of thieves then and now",
@@ -29,7 +41,7 @@
         ],
         "image": "/images/tyvebolken/Pillory_9105377.jpg",
         "alt": "Thief paying fines",
-        "filePath": "/tyvebolken/tyver"
+        "href": "/tyvebolken/tyver"
       }
     },
     "introduksjon": {
@@ -42,7 +54,8 @@
         ],
         "image": "/images/tyv.jpg",
         "alt": "Tyv som...",
-        "filePath": "/tyvebolken/introduksjon"
+        "breadcrumb": false,
+        "href": "/tyvebolken/introduksjon"
       },
       "en": {
         "title": "Thieves' section",
@@ -53,782 +66,1677 @@
         ],
         "image": "/images/tyv.jpg",
         "alt": "Tyv som...",
-        "filePath": "/tyvebolken/introduksjon"
+        "breadcrumb": false,
+        "href": "/tyvebolken/introduksjon"
       }
     },
     "fine": {
       "no": {
-        "filePath": "/tyvebolken/fine"
+        "title": "Bøter og fysisk avstraffelse",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/tyvebolken/fine"
       },
       "en": {
-        "filePath": "/tyvebolken/fine"
+        "title": "Fines and corporal punishment",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/tyvebolken/fine"
       }
     }
   },
   "tingfarebolken": {
     "lagmenn": {
       "no": {
-        "filePath": "/tingfarebolken/lagmenn"
+        "title": "Lagmenn",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/tingfarebolken/lagmenn"
       },
       "en": {
-        "filePath": "/tingfarebolken/lagmenn"
+        "title": "The royal magistrate",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/tingfarebolken/lagmenn"
       }
     },
     "introduksjon": {
       "no": {
-        "filePath": "/tingfarebolken/introduksjon"
+        "title": "Tingfarebolken",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "breadcrumb": false,
+        "href": "/tingfarebolken/introduksjon"
       },
       "en": {
-        "filePath": "/tingfarebolken/introduksjon"
+        "title": "Section about going to Assemblies",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "breadcrumb": false,
+        "href": "/tingfarebolken/introduksjon"
       }
     },
     "hellig-hoytidelig": {
       "no": {
-        "filePath": "/tingfarebolken/hellig-hoytidelig"
+        "title": "Hellig og høytidelig",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/tingfarebolken/hellig-hoytidelig"
       },
       "en": {
-        "filePath": "/tingfarebolken/hellig-hoytidelig"
+        "title": "Holy and solemn",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/tingfarebolken/hellig-hoytidelig"
       }
     },
     "gulatinget": {
       "no": {
-        "filePath": "/tingfarebolken/gulatinget"
+        "title": "Gulatinget",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/tingfarebolken/gulatinget"
       },
       "en": {
-        "filePath": "/tingfarebolken/gulatinget"
+        "title": "The Gulating assembly",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/tingfarebolken/gulatinget"
       }
     }
   },
   "retterboeter": {
     "v": {
       "no": {
-        "filePath": "/retterboeter/v"
+        "title": "Christian Vs Norske Lov",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/retterboeter/v"
       },
       "en": {
-        "filePath": "/retterboeter/v"
+        "title": "Christian V’s Norwegian Code",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/retterboeter/v"
       }
     },
     "reuse": {
       "no": {
-        "filePath": "/retterboeter/reuse"
+        "title": "Gjenbruk av manuskripter",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/retterboeter/reuse"
       },
       "en": {
-        "filePath": "/retterboeter/reuse"
+        "title": "Reuse of manuscripts",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/retterboeter/reuse"
       }
     },
     "print": {
       "no": {
-        "filePath": "/retterboeter/print"
+        "title": "Om trykkeri og papir",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/retterboeter/print"
       },
       "en": {
-        "filePath": "/retterboeter/print"
+        "title": "On printing and paper",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/retterboeter/print"
       }
     },
     "introduksjon": {
       "no": {
-        "filePath": "/retterboeter/introduksjon"
+        "title": "Retterbøter",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "breadcrumb": false,
+        "href": "/retterboeter/introduksjon"
       },
       "en": {
-        "filePath": "/retterboeter/introduksjon"
+        "title": "Law",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "breadcrumb": false,
+        "href": "/retterboeter/introduksjon"
       }
     },
     "gammels": {
       "no": {
-        "filePath": "/retterboeter/gammels"
+        "title": "Gammelnorske lover i en ny tid",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/retterboeter/gammels"
       },
       "en": {
-        "filePath": "/retterboeter/gammels"
+        "title": "Old Norse laws in a new era",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/retterboeter/gammels"
       }
     },
     "dansk": {
       "no": {
-        "filePath": "/retterboeter/dansk"
+        "title": "Danske oversettelser",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/retterboeter/dansk"
       },
       "en": {
-        "filePath": "/retterboeter/dansk"
+        "title": "Danish translations",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/retterboeter/dansk"
       }
     },
     "dagens": {
       "no": {
-        "filePath": "/retterboeter/dagens"
+        "title": "Norsk lov i dag",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/retterboeter/dagens"
       },
       "en": {
-        "filePath": "/retterboeter/dagens"
+        "title": "Norwegian law today",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/retterboeter/dagens"
       }
     }
   },
   "prologen": {
     "xian": {
       "no": {
-        "filePath": "/prologen/xian"
+        "title": "Kristenretten og Landsloven",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/prologen/xian"
       },
       "en": {
-        "filePath": "/prologen/xian"
+        "title": "The Christian Law and the Laws of the Land",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/prologen/xian"
       }
     },
     "utstil": {
       "no": {
-        "filePath": "/prologen/utstil"
+        "title": "Landsloven i utstillingen",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/prologen/utstil"
       },
       "en": {
-        "filePath": "/prologen/utstil"
+        "title": "The Laws of the Land in the exhibition",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/prologen/utstil"
       }
     },
     "raude": {
       "no": {
-        "filePath": "/prologen/raude"
+        "title": "Erkebiskop Jon Raude",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/prologen/raude"
       },
       "en": {
-        "filePath": "/prologen/raude"
+        "title": "Archbishop Jon Raude",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/prologen/raude"
       }
     },
     "provinc": {
       "no": {
-        "filePath": "/prologen/provinc"
+        "title": "Fra landskapslover til Landsloven",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/prologen/provinc"
       },
       "en": {
-        "filePath": "/prologen/provinc"
+        "title": "From the provincial laws to the Law of the Land",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/prologen/provinc"
       }
     },
     "olav2": {
       "no": {
-        "filePath": "/prologen/olav2"
+        "title": "St. Olav og norske lover",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/prologen/olav2"
       },
       "en": {
-        "filePath": "/prologen/olav2"
+        "title": "St Olav and Norwegian laws",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/prologen/olav2"
       }
     },
     "olav": {
       "no": {
-        "filePath": "/prologen/olav"
+        "title": "Lovboken som ble i landet",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/prologen/olav"
       },
       "en": {
-        "filePath": "/prologen/olav"
+        "title": "Olav’s text: A fragment of the Gulating law",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/prologen/olav"
       }
     },
     "lovbok": {
       "no": {
-        "filePath": "/prologen/lovbok"
+        "title": "Olavsteksten. Fragment av Gulatingsloven",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/prologen/lovbok"
       },
       "en": {
-        "filePath": "/prologen/lovbok"
+        "title": "A law book that has remained in the country",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/prologen/lovbok"
       }
     },
     "introduksjon": {
       "no": {
+        "title": "Prologen",
         "description": "Prolog er innledningen til Landsloven. Ordet prolog kommer av gresk, og betyr fortale. Landslovens prolog er direkte i stilen, formulert som et brev eller en tale.",
         "tags": [
           "fortale",
           "prolog"
         ],
-        "filePath": "/prologen/introduksjon"
+        "image": null,
+        "alt": null,
+        "breadcrumb": false,
+        "href": "/prologen/introduksjon"
       },
       "en": {
-        "filePath": "/prologen/introduksjon"
+        "title": "Prologue",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "breadcrumb": false,
+        "href": "/prologen/introduksjon"
       }
     },
     "euro": {
       "no": {
-        "filePath": "/prologen/euro"
+        "title": "Europeisk innflytelse",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/prologen/euro"
       },
       "en": {
-        "filePath": "/prologen/euro"
+        "title": "European influences",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/prologen/euro"
       }
     },
     "def": {
       "no": {
-        "filePath": "/prologen/def"
+        "title": "Noen definisjoner",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/prologen/def"
       },
       "en": {
-        "filePath": "/prologen/def"
+        "title": "Some definitions",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/prologen/def"
       }
     },
     "bolk": {
       "no": {
-        "filePath": "/prologen/bolk"
+        "title": "Bolker",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/prologen/bolk"
       },
       "en": {
-        "filePath": "/prologen/bolk"
+        "title": "Sections",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/prologen/bolk"
       }
     },
     "best": {
       "no": {
-        "filePath": "/prologen/best"
+        "title": "De beste menn",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/prologen/best"
       },
       "en": {
-        "filePath": "/prologen/best"
+        "title": "The best men",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/prologen/best"
       }
     }
   },
   "odelsbolken": {
     "treasures": {
       "no": {
-        "filePath": "/odelsbolken/treasures"
+        "title": "Skjulte rikdommer",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/odelsbolken/treasures"
       },
       "en": {
-        "filePath": "/odelsbolken/treasures"
+        "title": "Hidden treasures",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/odelsbolken/treasures"
       }
     },
     "skifte": {
       "no": {
-        "filePath": "/odelsbolken/skifte"
+        "title": "Skifte av eiendom",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/odelsbolken/skifte"
       },
       "en": {
-        "filePath": "/odelsbolken/skifte"
+        "title": "Property exchanges",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/odelsbolken/skifte"
       }
     },
     "odel": {
       "no": {
-        "filePath": "/odelsbolken/odel"
+        "title": "Odel før og nå",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/odelsbolken/odel"
       },
       "en": {
-        "filePath": "/odelsbolken/odel"
+        "title": "The right to allodial land then and now",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/odelsbolken/odel"
       }
     },
     "introduksjon": {
       "no": {
-        "filePath": "/odelsbolken/introduksjon"
+        "title": "Odelsbolken",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "breadcrumb": false,
+        "href": "/odelsbolken/introduksjon"
       },
       "en": {
-        "filePath": "/odelsbolken/introduksjon"
+        "title": "Land redemption section",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "breadcrumb": false,
+        "href": "/odelsbolken/introduksjon"
       }
     }
   },
   "mannhelgebolken": {
     "straff": {
       "no": {
-        "filePath": "/mannhelgebolken/straff"
+        "title": "Forbrytelse og straff",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/mannhelgebolken/straff"
       },
       "en": {
-        "filePath": "/mannhelgebolken/straff"
+        "title": "Crime and punishment",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/mannhelgebolken/straff"
       }
     },
     "kvin": {
       "no": {
-        "filePath": "/mannhelgebolken/kvin"
+        "title": "Kvinner - ære og ansvar",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/mannhelgebolken/kvin"
       },
       "en": {
-        "filePath": "/mannhelgebolken/kvin"
+        "title": "Women: pride and responsibility",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/mannhelgebolken/kvin"
       }
     },
     "kniv3": {
       "no": {
-        "filePath": "/mannhelgebolken/kniv3"
+        "title": "Knivforbud i dag",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/mannhelgebolken/kniv3"
       },
       "en": {
-        "filePath": "/mannhelgebolken/kniv3"
+        "title": "Knife ban today",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/mannhelgebolken/kniv3"
       }
     },
     "kniv2": {
       "no": {
-        "filePath": "/mannhelgebolken/kniv2"
+        "title": "Dolker med baller",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/mannhelgebolken/kniv2"
       },
       "en": {
-        "filePath": "/mannhelgebolken/kniv2"
+        "title": "Daggers with balls",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/mannhelgebolken/kniv2"
       }
     },
     "kniv": {
       "no": {
-        "filePath": "/mannhelgebolken/kniv"
+        "title": "Kniv til nytte og besvær",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "breadcrumb": false,
+        "href": "/mannhelgebolken/kniv"
       },
       "en": {
-        "filePath": "/mannhelgebolken/kniv"
+        "title": "Knives for utility and trouble",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/mannhelgebolken/kniv"
       }
     },
     "introduksjon": {
       "no": {
-        "filePath": "/mannhelgebolken/introduksjon"
+        "title": "Mannhelgebolken",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "breadcrumb": false,
+        "href": "/mannhelgebolken/introduksjon"
       },
       "en": {
-        "filePath": "/mannhelgebolken/introduksjon"
+        "title": "Human inviolability section",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "breadcrumb": false,
+        "href": "/mannhelgebolken/introduksjon"
       }
     },
     "fire": {
       "no": {
-        "filePath": "/mannhelgebolken/fire"
+        "title": "\"Guds fire døtre\"",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/mannhelgebolken/fire"
       },
       "en": {
-        "filePath": "/mannhelgebolken/fire"
+        "title": "God’s four daughters",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/mannhelgebolken/fire"
       }
     }
   },
   "landsleiebolken": {
     "tun": {
       "no": {
-        "filePath": "/landsleiebolken/tun"
+        "title": "Tunet",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/landsleiebolken/tun"
       },
       "en": {
-        "filePath": "/landsleiebolken/tun"
+        "title": "Farmyards",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/landsleiebolken/tun"
       }
     },
     "slave": {
       "no": {
-        "filePath": "/landsleiebolken/slave"
+        "title": "Treller, livegne og leilendinger",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/landsleiebolken/slave"
       },
       "en": {
-        "filePath": "/landsleiebolken/slave"
+        "title": "Slaves, serfs, and tenants",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "breadcrumb": false,
+        "href": "/landsleiebolken/slave"
       }
     },
     "sild": {
       "no": {
-        "filePath": "/landsleiebolken/sild"
+        "title": "Sildefiske",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/landsleiebolken/sild"
       },
       "en": {
-        "filePath": "/landsleiebolken/sild"
+        "title": "Herring fishing",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/landsleiebolken/sild"
       }
     },
     "jord": {
       "no": {
-        "filePath": "/landsleiebolken/jord"
+        "title": "Jordleie",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/landsleiebolken/jord"
       },
       "en": {
-        "filePath": "/landsleiebolken/jord"
+        "title": "Land tenancy",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/landsleiebolken/jord"
       }
     },
     "introduksjon": {
       "no": {
-        "filePath": "/landsleiebolken/introduksjon"
+        "title": "Landsleiebolken",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "breadcrumb": false,
+        "href": "/landsleiebolken/introduksjon"
       },
       "en": {
-        "filePath": "/landsleiebolken/introduksjon"
+        "title": "Land tenancy section",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "breadcrumb": false,
+        "href": "/landsleiebolken/introduksjon"
       }
     },
     "hval": {
       "no": {
-        "filePath": "/landsleiebolken/hval"
+        "title": "Hval",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/landsleiebolken/hval"
       },
       "en": {
-        "filePath": "/landsleiebolken/hval"
+        "title": "Whales",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/landsleiebolken/hval"
       }
     },
     "agri": {
       "no": {
-        "filePath": "/landsleiebolken/agri"
+        "title": "Jordbruket",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/landsleiebolken/agri"
       },
       "en": {
-        "filePath": "/landsleiebolken/agri"
+        "title": "Agriculture",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/landsleiebolken/agri"
       }
     }
   },
   "landevernsbolken": {
     "vete": {
       "no": {
-        "filePath": "/landevernsbolken/vete"
+        "title": "Vetene",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/landevernsbolken/vete"
       },
       "en": {
-        "filePath": "/landevernsbolken/vete"
+        "title": "Beacons",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/landevernsbolken/vete"
       }
     },
     "vapen": {
       "no": {
-        "filePath": "/landevernsbolken/vapen"
+        "title": "Våpen og våpenting",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/landevernsbolken/vapen"
       },
       "en": {
-        "filePath": "/landevernsbolken/vapen"
+        "title": "Weapons and weapon assembly",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/landevernsbolken/vapen"
       }
     },
     "skip": {
       "no": {
-        "filePath": "/landevernsbolken/skip"
+        "title": "Skip og naust",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/landevernsbolken/skip"
       },
       "en": {
-        "filePath": "/landevernsbolken/skip"
+        "title": "Ships and boathouses",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/landevernsbolken/skip"
       }
     },
     "seil": {
       "no": {
-        "filePath": "/landevernsbolken/seil"
+        "title": "Seilet – kvinnenes krigsinnsats",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/landevernsbolken/seil"
       },
       "en": {
-        "filePath": "/landevernsbolken/seil"
+        "title": "Sails: Women’s contribution to the war effort",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/landevernsbolken/seil"
       }
     },
     "levy": {
       "no": {
-        "filePath": "/landevernsbolken/levy"
+        "title": "Leidang",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/landevernsbolken/levy"
       },
       "en": {
-        "filePath": "/landevernsbolken/levy"
+        "title": "Levy",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/landevernsbolken/levy"
       }
     },
     "kirke": {
       "no": {
-        "filePath": "/landevernsbolken/kirke"
+        "title": "Kirken - en velsignet lagringsplass",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/landevernsbolken/kirke"
       },
       "en": {
-        "filePath": "/landevernsbolken/kirke"
+        "title": "The church – A blessed repository",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/landevernsbolken/kirke"
       }
     },
     "introduksjon": {
       "no": {
-        "filePath": "/landevernsbolken/introduksjon"
+        "title": "Landevernsbolken",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "breadcrumb": false,
+        "href": "/landevernsbolken/introduksjon"
       },
       "en": {
-        "filePath": "/landevernsbolken/introduksjon"
+        "title": "Land Defence",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "breadcrumb": false,
+        "href": "/landevernsbolken/introduksjon"
       }
     },
     "hard": {
       "no": {
-        "filePath": "/landevernsbolken/hard"
+        "title": "\"Her farer den havdjerve\"",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/landevernsbolken/hard"
       },
       "en": {
-        "filePath": "/landevernsbolken/hard"
+        "title": "\"Here fares the courageous seafarer\"",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/landevernsbolken/hard"
       }
     },
     "bud2": {
       "no": {
-        "filePath": "/landevernsbolken/bud2"
+        "title": "Budstikker",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/landevernsbolken/bud2"
       },
       "en": {
-        "filePath": "/landevernsbolken/bud2"
+        "title": "Bidding sticks",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/landevernsbolken/bud2"
       }
     },
     "bud1": {
       "no": {
-        "filePath": "/landevernsbolken/bud1"
+        "title": "Budbæring",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/landevernsbolken/bud1"
       },
       "en": {
-        "filePath": "/landevernsbolken/bud1"
+        "title": "Sending messages",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/landevernsbolken/bud1"
       }
     }
   },
   "kristendomsbolken": {
     "tronfolgelovenkvin": {
       "no": {
-        "filePath": "/kristendomsbolken/tronfolgelovenkvin"
+        "title": "Tronfølgeloven: Arverett gjennom kvinneledd",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/kristendomsbolken/tronfolgelovenkvin"
       },
       "en": {
-        "filePath": "/kristendomsbolken/tronfolgelovenkvin"
+        "title": "The law of the succession to the throne: the right to succession through the female line",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/kristendomsbolken/tronfolgelovenkvin"
       }
     },
     "tronfolgeloven": {
       "no": {
-        "filePath": "/kristendomsbolken/tronfolgeloven"
+        "title": "Tronfølgeloven: Den ektefødte og førstefødtes rett",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/kristendomsbolken/tronfolgeloven"
       },
       "en": {
-        "filePath": "/kristendomsbolken/tronfolgeloven"
+        "title": "The law of succession to the throne: the rights of the legitimate child and the firstborn child",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/kristendomsbolken/tronfolgeloven"
       }
     },
     "tosverd": {
       "no": {
-        "filePath": "/kristendomsbolken/tosverd"
+        "title": "Konge og biskop – de to sverdene",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/kristendomsbolken/tosverd"
       },
       "en": {
-        "filePath": "/kristendomsbolken/tosverd"
+        "title": "The king and the bishop: the two swords",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/kristendomsbolken/tosverd"
       }
     },
     "nonner": {
       "no": {
-        "filePath": "/kristendomsbolken/nonner"
+        "title": "Kongssønnen Olav og nonnene i Nonneseter",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/kristendomsbolken/nonner"
       },
       "en": {
-        "filePath": "/kristendomsbolken/nonner"
+        "title": "The king’s son Olav and the nuns in Nonneseter",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/kristendomsbolken/nonner"
       }
     },
     "kirkedoren": {
       "no": {
-        "filePath": "/kristendomsbolken/kirkedoren"
+        "title": "Fremfor irkedøren",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/kristendomsbolken/kirkedoren"
       },
       "en": {
-        "filePath": "/kristendomsbolken/kirkedoren"
+        "title": "In front of the church door",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/kristendomsbolken/kirkedoren"
       }
     },
     "introduksjon": {
       "no": {
-        "filePath": "/kristendomsbolken/introduksjon"
+        "title": "Kristendomsbolken",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "breadcrumb": false,
+        "href": "/kristendomsbolken/introduksjon"
       },
       "en": {
-        "filePath": "/kristendomsbolken/introduksjon"
+        "title": "Christianity Section",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "breadcrumb": false,
+        "href": "/kristendomsbolken/introduksjon"
       }
     },
     "illuminasjoner": {
       "no": {
-        "filePath": "/kristendomsbolken/illuminasjoner"
+        "title": "Illuminasjoner, en fryd for øyet",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/kristendomsbolken/illuminasjoner"
       },
       "en": {
-        "filePath": "/kristendomsbolken/illuminasjoner"
+        "title": "Illuminations: a delight for the eye",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/kristendomsbolken/illuminasjoner"
       }
     },
     "franciskanmagnus": {
       "no": {
-        "filePath": "/kristendomsbolken/franciskanmagnus"
+        "title": "Kong Magnus, fransiskanerne og dagens Bergen domkirke",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/kristendomsbolken/franciskanmagnus"
       },
       "en": {
-        "filePath": "/kristendomsbolken/franciskanmagnus"
+        "title": "King Magnus, the Franciscans, and today’s Bergen Cathedral",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/kristendomsbolken/franciskanmagnus"
       }
     },
     "fargebruk": {
       "no": {
-        "filePath": "/kristendomsbolken/fargebruk"
+        "title": "Middelalderens farger",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/kristendomsbolken/fargebruk"
       },
       "en": {
-        "filePath": "/kristendomsbolken/fargebruk"
+        "title": "The colours of the Middle Ages",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/kristendomsbolken/fargebruk"
       }
     },
     "boker": {
       "no": {
-        "filePath": "/kristendomsbolken/boker"
+        "title": "Bokproduksjon",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/kristendomsbolken/boker"
       },
       "en": {
-        "filePath": "/kristendomsbolken/boker"
+        "title": "Book production",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/kristendomsbolken/boker"
       }
     }
   },
   "kjoepebolken": {
     "vekter": {
       "no": {
-        "filePath": "/kjoepebolken/vekter"
+        "title": "Vekter",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "breadcrumb": false,
+        "href": "/kjoepebolken/vekter"
       },
       "en": {
-        "filePath": "/kjoepebolken/vekter"
+        "title": "Scales",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/kjoepebolken/vekter"
       }
     },
     "mal-vekt": {
       "no": {
-        "filePath": "/kjoepebolken/mal-vekt"
+        "title": "Mål og vekt",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/kjoepebolken/mal-vekt"
       },
       "en": {
-        "filePath": "/kjoepebolken/mal-vekt"
+        "title": "Weights and measures",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/kjoepebolken/mal-vekt"
       }
     },
     "kongensmynter": {
       "no": {
-        "filePath": "/kjoepebolken/kongensmynter"
+        "title": "Kongens mynter",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/kjoepebolken/kongensmynter"
       },
       "en": {
-        "filePath": "/kjoepebolken/kongensmynter"
+        "title": "The king’s coins",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/kjoepebolken/kongensmynter"
       }
     },
     "introduksjon": {
       "no": {
-        "filePath": "/kjoepebolken/introduksjon"
+        "title": "Kjøpebolken",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "breadcrumb": false,
+        "href": "/kjoepebolken/introduksjon"
       },
       "en": {
-        "filePath": "/kjoepebolken/introduksjon"
+        "title": "Trade section",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "breadcrumb": false,
+        "href": "/kjoepebolken/introduksjon"
       }
     },
     "falskmynteri": {
       "no": {
-        "filePath": "/kjoepebolken/falskmynteri"
+        "title": "Falskmyntneri – en forbrytelse mot kongen",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/kjoepebolken/falskmynteri"
       },
       "en": {
-        "filePath": "/kjoepebolken/falskmynteri"
+        "title": "Counterfeiting: A crime against the king",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/kjoepebolken/falskmynteri"
       }
     },
     "erkebiskopensmynter": {
       "no": {
-        "filePath": "/kjoepebolken/erkebiskopensmynter"
+        "title": "Erkebiskopens mynter",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/kjoepebolken/erkebiskopensmynter"
       },
       "en": {
-        "filePath": "/kjoepebolken/erkebiskopensmynter"
+        "title": "The archbishop’s coins",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/kjoepebolken/erkebiskopensmynter"
       }
     }
   },
   "introduksjon": {
     "soc": {
       "no": {
-        "filePath": "/introduksjon/soc"
+        "title": "Det norske samfunnet på kong Magnus Lagabøtes tid",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/introduksjon/soc"
       },
       "en": {
-        "filePath": "/introduksjon/soc"
+        "title": "Norwegian society at the time of King Magnus the Lawmender",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/introduksjon/soc"
       }
     },
     "rike": {
       "no": {
-        "filePath": "/introduksjon/rike"
+        "title": "Kong Magnus’ rike: Norge og Skattlandene",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/introduksjon/rike"
       },
       "en": {
-        "filePath": "/introduksjon/rike"
+        "title": "The kingdom of King Magnus: Norway and the taxed territories",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/introduksjon/rike"
       }
     },
     "nonner": {
       "no": {
-        "filePath": "/introduksjon/nonner"
+        "title": "Kongens sønn Olav og nonnene i Nonneseter",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/introduksjon/nonner"
       },
       "en": {
-        "filePath": "/introduksjon/nonner"
+        "title": "The king’s son Olav and the nuns in Nonneseter",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/introduksjon/nonner"
       }
     },
     "magnus": {
       "no": {
-        "filePath": "/introduksjon/magnus"
+        "title": "Kong Magnus VI Håkonsson",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/introduksjon/magnus"
       },
       "en": {
-        "filePath": "/introduksjon/magnus"
+        "title": "King Magnus VI Håkonsson",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/introduksjon/magnus"
       }
     },
     "kloster": {
       "no": {
-        "filePath": "/introduksjon/kloster"
+        "title": "Kong Magnus, fransiskanerne og dagens Bergen domkirke",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/introduksjon/kloster"
       },
       "en": {
-        "filePath": "/introduksjon/kloster"
+        "title": "King Magnus, the Franciscans, and today’s Bergen Cathedral",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "breadcrumb": false,
+        "href": "/introduksjon/kloster"
       }
     },
     "intern3": {
       "no": {
-        "filePath": "/introduksjon/intern3"
+        "title": "Ex oriente lux",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/introduksjon/intern3"
       },
       "en": {
-        "filePath": "/introduksjon/intern3"
+        "title": "Ex oriente lux",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/introduksjon/intern3"
       }
     },
     "intern2": {
       "no": {
-        "filePath": "/introduksjon/intern2"
+        "title": "Magnus sin suksess som lovgiver",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/introduksjon/intern2"
       },
       "en": {
-        "filePath": "/introduksjon/intern2"
+        "title": "Magnus’s success as lawgiver",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/introduksjon/intern2"
       }
     },
     "intern": {
       "no": {
-        "filePath": "/introduksjon/intern"
+        "title": "Kulturutvekslingen i middelalderen",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/introduksjon/intern"
       },
       "en": {
-        "filePath": "/introduksjon/intern"
+        "title": "Cultural exchanges in the Middle Ages",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/introduksjon/intern"
       }
     },
     "holmen": {
       "no": {
-        "filePath": "/introduksjon/holmen"
+        "title": "Kongsgården i Bergen",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/introduksjon/holmen"
       },
       "en": {
-        "filePath": "/introduksjon/holmen"
+        "title": "The royal estate in Bergen",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/introduksjon/holmen"
       }
     },
     "bergen2": {
       "no": {
-        "filePath": "/introduksjon/bergen2"
+        "title": "Bergen og bylovgiveren Magnus",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/introduksjon/bergen2"
       },
       "en": {
-        "filePath": "/introduksjon/bergen2"
+        "title": "Bergen and the town legislator Magnus",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/introduksjon/bergen2"
       }
     },
     "bergen": {
       "no": {
-        "filePath": "/introduksjon/bergen"
+        "title": "Håkonshallen og lovgivningsarbeidet",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/introduksjon/bergen"
       },
       "en": {
-        "filePath": "/introduksjon/bergen"
+        "title": "King Håkons’s Hall and the legislative work",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/introduksjon/bergen"
       }
     },
     "750-ar": {
       "no": {
-        "filePath": "/introduksjon/750-ar"
+        "title": "Magnus Lagabøtes landslov 750 år",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "breadcrumb": false,
+        "href": "/introduksjon/750-ar"
       },
       "en": {
-        "filePath": "/introduksjon/750-ar"
+        "title": "Magnus the Lawmender’s Laws of the Land: 750 years",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "breadcrumb": false,
+        "href": "/introduksjon/750-ar"
       }
     }
   },
   "epilog": {
     "epilog": {
       "no": {
-        "filePath": "/epilog/epilog"
+        "title": "Epilog",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/epilog/epilog"
       },
       "en": {
-        "filePath": "/epilog/epilog"
+        "title": "Epilogue",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/epilog/epilog"
       }
     }
   },
   "arvetallet": {
     "tilgave": {
       "no": {
-        "filePath": "/arvetallet/tilgave"
+        "title": "Tilgave",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/arvetallet/tilgave"
       },
       "en": {
-        "filePath": "/arvetallet/tilgave"
+        "title": "Counter-gift",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/arvetallet/tilgave"
       }
     },
     "medgift": {
       "no": {
-        "filePath": "/arvetallet/medgift"
+        "title": "Medgift",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/arvetallet/medgift"
       },
       "en": {
-        "filePath": "/arvetallet/medgift"
+        "title": "Dowry",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/arvetallet/medgift"
       }
     },
     "losore": {
       "no": {
-        "filePath": "/arvetallet/losore"
+        "title": "Løsøre",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/arvetallet/losore"
       },
       "en": {
-        "filePath": "/arvetallet/losore"
+        "title": "Assets",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/arvetallet/losore"
       }
     },
     "introduksjon": {
       "no": {
-        "filePath": "/arvetallet/introduksjon"
+        "title": "Arvetallet",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "breadcrumb": false,
+        "href": "/arvetallet/introduksjon"
       },
       "en": {
-        "filePath": "/arvetallet/introduksjon"
+        "title": "List of Inheritance",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "breadcrumb": false,
+        "href": "/arvetallet/introduksjon"
       }
     },
     "ekteskap": {
       "no": {
-        "filePath": "/arvetallet/ekteskap"
+        "title": "Ekteskap",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/arvetallet/ekteskap"
       },
       "en": {
-        "filePath": "/arvetallet/ekteskap"
+        "title": "Marriage",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/arvetallet/ekteskap"
       }
     }
   },
   "X-designalternativer": {
     "typografi": {
       "no": {
-        "filePath": "/X-designalternativer/typografi"
+        "href": "/X-designalternativer/typografi"
       },
       "en": {
-        "filePath": "/X-designalternativer/typografi"
+        "href": "/X-designalternativer/typografi"
       }
     },
     "tospaltet": {
       "no": {
-        "filePath": "/X-designalternativer/tospaltet"
+        "href": "/X-designalternativer/tospaltet"
       },
       "en": {
-        "filePath": "/X-designalternativer/tospaltet"
+        "href": "/X-designalternativer/tospaltet"
       }
     },
     "quotes": {
       "no": {
-        "filePath": "/X-designalternativer/quotes"
+        "href": "/X-designalternativer/quotes"
       },
       "en": {
-        "filePath": "/X-designalternativer/quotes"
+        "href": "/X-designalternativer/quotes"
+      }
+    },
+    "introduksjon": {
+      "en": {
+        "href": "/X-designalternativer/introduksjon"
       }
     },
     "initialer": {
       "no": {
-        "filePath": "/X-designalternativer/initialer"
+        "href": "/X-designalternativer/initialer"
       },
       "en": {
-        "filePath": "/X-designalternativer/initialer"
+        "href": "/X-designalternativer/initialer"
       }
     },
     "headers": {
       "no": {
-        "filePath": "/X-designalternativer/headers"
+        "href": "/X-designalternativer/headers"
       },
       "en": {
-        "filePath": "/X-designalternativer/headers"
+        "href": "/X-designalternativer/headers"
       }
     },
     "figurer": {
       "no": {
-        "filePath": "/X-designalternativer/figurer"
+        "href": "/X-designalternativer/figurer"
       },
       "en": {
-        "filePath": "/X-designalternativer/figurer"
+        "href": "/X-designalternativer/figurer"
+      }
+    },
+    "breadcrumbs": {
+      "no": {
+        "href": "/X-designalternativer/breadcrumbs"
       }
     },
     "X_alt_forside": {
       "no": {
-        "filePath": "/X-designalternativer/X_alt_forside"
+        "href": "/X-designalternativer/X_alt_forside"
       },
       "en": {
-        "filePath": "/X-designalternativer/X_alt_forside"
+        "href": "/X-designalternativer/X_alt_forside"
       }
     }
   }

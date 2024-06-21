@@ -1,10 +1,19 @@
+---
+title: Prologue
+description: ''
+tags:
+image: 
+alt: 
+breadcrumb: false
+---
+
 import Container from 'components/container';
 import SitatHero from 'components/sitathero';
 import Spacer from 'components/spacer';
-import SubMenuCards from 'components/sub-menu-cards';
+import SubTextsCards from 'components/sub-texts-cards';
 import Work from 'components/work';
-import sections from 'config/sections/prologen';
-
+import site from 'config/siteFrontmatter.json';
+import meta from './_meta.en.json';
 
 <SitatHero 
     title='Prologue' 
@@ -12,22 +21,19 @@ import sections from 'config/sections/prologen';
     footer=''
 />
 
-<Work id="ubb-diplom-0035" />
-
 <Container>
-    <Spacer />
     # Prologue
-    <div className="py-6 text-left text-xl">
-        <span className="text-bold text-9xl text-red-700 float-left inline-block bg-orange-100 px-4 mr-4 h-50" >T</span>he Prologue is an introductory text to the Laws of the Land. The Prologue is direct in style, worded like a letter or a speech, which suggests that it was also meant to be read aloud. At the start of the exhibition, one can hear the Prologue read out in Old Norse, as it would have been heard at the regional assemblies. Here, King Magnus Håkonsson initially salutes the people of the various regional assemblies and, in some versions, the archbishop and bishops by their names. Then he explains the background to the legislative work, how the law book is organized, and what the various parts roughly concern. He relates how the provincial laws have been changed and adapted according to a desire to improve them. In this work, the king has received the help of “the best men” – wise legal experts and noblemen in his immediate circle. It is an apparently humble king who addresses his readers or listeners. At the same time, the Laws of the Land are undoubtedly the work of a powerful king with great authority. He has taken over the role of legislator at the expense of the regional assemblies and has made legislation a tool for governance and development of the society.
-    </div>
 </Container>
 
+<Container stil="firstletter text-left text-xl" columns={2} margin={10}>
+    The Prologue is an introductory text to the Laws of the Land. The Prologue is direct in style, worded like a letter or a speech, which suggests that it was also meant to be read aloud. At the start of the exhibition, one can hear the Prologue read out in Old Norse, as it would have been heard at the regional assemblies. Here, King Magnus Håkonsson initially salutes the people of the various regional assemblies and, in some versions, the archbishop and bishops by their names. Then he explains the background to the legislative work, how the law book is organized, and what the various parts roughly concern. He relates how the provincial laws have been changed and adapted according to a desire to improve them. In this work, the king has received the help of “the best men” – wise legal experts and noblemen in his immediate circle. It is an apparently humble king who addresses his readers or listeners. At the same time, the Laws of the Land are undoubtedly the work of a powerful king with great authority. He has taken over the role of legislator at the expense of the regional assemblies and has made legislation a tool for governance and development of the society.
+</Container>
 
 <Container>
-    <SubMenuCards items={sections.items} columns={3} gap={10} />
-    <Spacer  />
+    <Spacer height={10} />
+    <SubTextsCards items={site.prologen} meta={meta} columns={3} gap={10} />
  </Container>
 
-
+<Work id="ubb-diplom-0035" />
 
  

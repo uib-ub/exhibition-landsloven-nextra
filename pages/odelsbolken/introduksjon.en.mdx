@@ -1,27 +1,38 @@
-import SubMenuCards from 'components/sub-menu-cards';
-import sections from 'config/sections/odelsbolken';
+---
+title: Land redemption section
+description: ''
+tags:
+image: 
+alt: 
+breadcrumb: false
+---
+
+import Container from 'components/container';
 import SitatHero from 'components/sitathero';
-import Spacer  from 'components/spacer' 
-import Container from 'components/container'
+import Spacer from 'components/spacer';
+import SubTextsCards from 'components/sub-texts-cards';
+import site from 'config/siteFrontmatter.json';
+import meta from './_meta.en.json';
 
 <SitatHero 
     title='Land redemption' 
     ingress='“If a land is in the possession of the same branch of a family for sixty years or more, it becomes the allodial land of the person who possesses it.”'
     footer='Land Redemption section, chapter 2'
 />
-<Spacer />
+
+<Spacer height={10} />
+
 <Container>
     # Land redemption section
-    <Spacer height={10}/>
 </Container>
 
-<Container stil="firstletter">
+<Container stil="firstletter text-left text-xl" columns={2} margin={10}>
     This section mainly concerns what is now called the right to allodial land. In simple terms, allodial land is an agricultural property that has been in the possession of a family for a long time, and the right to allodial land gives heirs, in order of priority, the preferential right to take over the property. The owner of allodial land cannot sell it freely. According to the Laws of the Land, a land property became allodial when it had been owned by the same family for 60 years or four successive generations. Land gifted by the king could also become allodial land. If someone wanted to sell allodial land, it had to be offered during a county assembly so that those who had the strongest right in the family or clan would have the preferential right to buy it. The right to allodial land was so strong in medieval Norwegian society that one could legally extend the right of redemption for up to 60 years if one lacked the means to redeem the land. Thus, the right to allodial land could be maintained until a new right was obtained. If someone with the right to allodial land was absent when the sale was announced, the deadline for claiming the right was extended. Like the List of Inheritance, the Land Redemption section also gave women increased rights to inherit land compared to the earlier provincial laws. The provincial laws gave the right to allodial land only to male heirs. In the Laws of the Land, brothers still had the right to allodial land, but it is clear that the law placed greater emphasis on family lines than on gender. The Laws of the Land mention the following women as having the right to allodial land: daughters, paternal granddaughters, paternal sisters, and fraternal nieces. It is stated that the right to allodial land should go to the family line on which the lot fell.
 </Container>
 
-<Spacer />
 <Container>
-    <SubMenuCards items={sections.items} columns={3}/>
+    <Spacer height={10}/>
+    <SubTextsCards items={site.odelsbolken} meta={meta} columns={3}/>
 </Container>
 
  

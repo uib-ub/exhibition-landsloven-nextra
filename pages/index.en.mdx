@@ -1,34 +1,41 @@
-import SubMenuCards from 'components/sub-menu-cards';
+---
+title: Anniversary exhibition
+description: ''
+tags:
+image: 
+alt: 
+breadcrumb: false
+---
+
 import Blockquote from 'components/blockquote';
-import Spacer  from 'components/spacer';
 import Container from 'components/container';
 import SitatHero from 'components/sitathero';
+import Spacer from 'components/spacer';
+import SubTextsCards from 'components/sub-texts-cards';
+import site from 'config/homepageSections.json';
 import Image from 'next/image';
-import site from 'config/site';
+import meta from './_meta.en.json';
 
-<SitatHero 
+
+<Image
+    src='/images/landslovbanner.jpg'
+    alt='banneri image'
+    width={3500}
+    height={1600}
+    className="object-cover" 
+/>
+
+{/* <SitatHero 
     title='About the Anniversary exhibition'
     ingress='«Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
     quis nostrud e. Duis aute irure dolor in reprehenderit in volu.»'
-    footer='LANDSLOVJUBILEET' 
-/>
+    footer='Landslovjubileet' 
+/> */}
+
 <Spacer height={30} />
 
 <Container>
     # Anniversary exhibition 
-    <SubMenuCards items={site.bolkene.items} columns={3} gap={10} />
+    <SubTextsCards items={site} meta={meta.bolkene.items} columns={3} gap={10} />
 </Container>
 
-
-
-
- 
-
-
- 
-
-{/* TO DO: Update missing text */}
-
-
-
- 
