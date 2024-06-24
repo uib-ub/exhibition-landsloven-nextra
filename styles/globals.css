@@ -97,7 +97,7 @@
 
 /* navigation menu lis */
 .nextra-menu-desktop li > a {
-	margin-left:  1rem;;
+	margin-left: 1rem;
 }
 
 .nextra-menu-desktop .active a {
@@ -110,7 +110,7 @@
 
 .nextra-menu-desktop li > a[href$="introduksjon"] {
     margin-left:  0.5rem;
-    color:  #333;;
+    color:  #333;
     font-weight: bold;
 }
 
@@ -132,7 +132,7 @@
  
 /* Code block design */
 code.nx-border-black {
-  font-family: Consolas,"courier new";
+  font-family: Consolas, "courier new", monospace;
   padding: 2px;
   font-size: 105%;
 }
@@ -160,7 +160,6 @@ h1.nx-mt-2.nx-text-slate-900 {
 blockquote p {
 	/* 'drop italic på sitater */
 	font-style: normal; 
-		
 }
 
 /* 'map' css sitat / author / copyright / kilde */

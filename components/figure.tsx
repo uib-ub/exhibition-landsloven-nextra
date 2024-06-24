@@ -5,19 +5,19 @@ import { ReactNode } from 'react'
 
 const Figure = (
   {
-    children, title, href, image, alt, gotic, serif, light, full, className
+    children, title, href, image, alt, light, full, className
   }: {
-    children: ReactNode, title: string, href: string, image: string, alt: string, gotic?: boolean, serif?: boolean, light?: boolean, full?: boolean, className?: string
+    children: ReactNode, title: string, href: string, image: string, alt: string, light?: boolean, full?: boolean, className?: string
   }
 ) => {
   const { locale } = useRouter()
   const buttonText = locale === 'no' ? 'Se mer' : 'Read more'
-  const fontFamily = serif ?  'font-serif' : gotic ? 'font-antiqua' : 'font-serif text-[2rem] text-ll-blue-200'
+  const fontFamily = 'font-serif text-[2rem] text-ll-blue-200'
   const bgColor = light ? 'bg-ll-blue-900' : 'bg-ll-blue-950'
   const disPlay = full ? 'flex-col' : 'flex-row'
-  
+
   return (
-     <figure className={`${className ?? ''} w-full my-5 flex flex-col ${bgColor} lg:${disPlay}`}>
+    <figure className={`${className ?? ''} w-full my-5 flex flex-col ${bgColor} lg:${disPlay}`}>
       <div>
         <Image src={image} alt={alt} width={1200} height={400} className='object-contain' />
       </div>
@@ -27,8 +27,8 @@ const Figure = (
           {children}
         </div>
         {/* Make into Button component */}
-        { href && (
-               <a href={href} className='flex flex-row gap-3 items-center rounded-full self-end px-5 py-2 m-5 bg-red-700 dark:bg-red-900' target='_blank'>{buttonText} <ExternalLinkIcon /></a>
+        {href && (
+          <a href={href} className='flex flex-row gap-3 items-center rounded-full self-end px-5 py-2 m-5 bg-red-700 dark:bg-red-900' target='_blank'>{buttonText} <ExternalLinkIcon /></a>
         )}
       </figcaption>
     </figure>

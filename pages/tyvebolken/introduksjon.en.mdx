@@ -6,16 +6,16 @@ tags:
   - punishment
 image: '/images/tyv.jpg'
 alt: 'Tyv som...'
+breadcrumb: false
 ---
 
 import Blockquote from 'components/blockquote';
 import Container from 'components/container';
-import Figure from 'components/figure';
 import SitatHero from 'components/sitathero';
 import Spacer from 'components/spacer';
-import SubMenuCards from 'components/sub-menu-cards-v2';
+import SubTextsCards from 'components/sub-texts-cards';
 import site from 'config/siteFrontmatter.json';
-
+import meta from './_meta.en.json';
 
 <SitatHero 
     title='"Now, it can be told that if someone steals food who is unable to get work to support themselves, and so, on account of hunger, saves their life, that theft is by no means worthy of punishment."'
@@ -35,26 +35,11 @@ import site from 'config/siteFrontmatter.json';
 
 
 <Container>
-
-    <hr
-    className="my-12 h-px border-t-0 bg-transparent bg-gradient-to-r from-transparent via-neutral-500 to-transparent opacity-25 dark:via-neutral-400" />
-
-    <SubMenuCards items={site.tyvebolken} columns={2}/>
+<Spacer height={10}/>
+    <SubTextsCards items={site.tyvebolken} meta={meta} columns={2}/>
 </Container>
 
 
-<Spacer height={60 }/>
-
-<Figure
-    image="/images/tyvebolken/Bf_BRM0_47891_FK_02.jpg"
-    title="Large bronze key to Eidfjord Church, Eidfjord."
-    alt="Large bronze key lying on a white cloth"
-    href="https://digitaltmuseum.org/0210112472912/brm0-47891-for-konservering-2"
->
-    According to the Thieves’ Section, a person who committed theft for the second time and could not pay fines was to be branded—with a key! 
-</Figure>
-
- 
  
 
  

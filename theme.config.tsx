@@ -17,13 +17,7 @@ import NextBreadcrumb from 'components/nextbreadcrumb';
 
 const SITE_URL = process.env.NODE_ENV === 'development' ? 'http://localhost:3000' : 'https://exhibition-landsloven-nextra.vercel.app/';
 
-
-
 // theme.config.js
-
- 
-
-
 const config: DocsThemeConfig = {
   /* Needs some tweaking, Landsloven not mentioned :-( */
   useNextSeoProps() {
@@ -80,7 +74,6 @@ const config: DocsThemeConfig = {
     { locale: 'no', text: 'Norsk' },
     { locale: 'en', text: 'Engelsk' },
   ],
-  // TO DO: English placeholder ?
   search: {
     placeholder: () => {
       const { locale } = useRouter()
@@ -88,7 +81,7 @@ const config: DocsThemeConfig = {
     },
   },
   // banner: {
-  //   key: '2.0-release',
+  //   key: '1.0-release',
   //   text: (
   //   <p>Utsillingen er åpen</p> 
   //   )
@@ -98,20 +91,21 @@ const config: DocsThemeConfig = {
     text: (
       <div className='font-serif'>
         <p>Universitetsbiblioteket i Bergen, Høyskolen på Vestlandet, Vestland fylkeskommune</p>
-        {/* <NextBreadcrumb></NextBreadcrumb> */}
       </div>
-      
     ),
-    // component: NextBreadcrumb
   },
   // Override breadcrumb
-  // components: {
-  //  Breadcrumbs:  NextBreadcrumb
-  // },
+  main: ({ children }) => {
+    return (
+      <>
+        <NextBreadcrumb />
+        {children}
+      </>
+    )
+  },
   sidebar: {
     defaultMenuCollapseLevel: 1, // MAKE navigation menu closed for folders on load
   },
-   
   toc: {
     title: () => {
       const { locale } = useRouter()
