@@ -24,11 +24,16 @@ const BreadCrumbs = () => {
   // Function to toggle the visibility state
   const toggleVisibility = () => {
     setIsVisible(!isVisible);
+    setIsVisible2(false);
   };
 
   const toggleVisibility2 = () => {
     setIsVisible2(!isVisible2);
+    setIsVisible(false);
   };
+
+ 
+
 
   const { locale, asPath } = useRouter();
   const { frontMatter } = useConfig();
@@ -38,24 +43,24 @@ const BreadCrumbs = () => {
   return (
     <nav aria-label="breadcrumb" data-nav="breadcrumb" className="xbg-ll-gold-50 py-1 px-2 nextra-breadcrumb nx-mt-1.5 nx-flex nx-items-center nx-gap-1 nx-overflow-hidden text-sm nx-text-gray-500 dark:nx-text-gray-400 contrast-more:nx-text-current">
       <ol className="flex flex-row justify-items-center justify-center xh-10">
-        <li className="breadcrumb-item flex my-1 flex-row flex-wrap justify-items-center justify-items-center">
+        <li className="breadcrumb-item hidden sm:flex my-1 sm:flex-row flex-nowrap justify-items-center justify-items-center "> 
           <Link className="-mt-1 -ml-2" href="/" aria-label="link to home/forsiden">
             <Image className="block rounded-full" src="/images/logo_nett.svg" alt="Landsloven logo" width={30} height={30} />
             {/* ⌂  Home */}
           </Link>
-          <span hide-aria="true" className="px-4 block"> | </span>
+          <span hide-aria="true" className="pl-2 pr-4"> | </span>
         </li>
         {breadcrumbs.map(breadcrumb => (
-          <li aria-label="breadcrumb item" className="flex my-1 flex-row flex-wrap justify-items-center justify-items-center " key={breadcrumb.href}>
+          <li aria-label="breadcrumb item" className="flex my-1 flex-row flex-nowrap justify-items-center justify-items-center " key={breadcrumb.href}>
 
             {(breadcrumb.index !== 1) ? (
 
               <Fragment>
                 <Link aria-label="link to current section" key={breadcrumb.href} className="block text-black font-medium text-[15px] mr-2 font-sans hover:text-ll-blue-500 hover:underline dark:text-ll-gold-200" href={breadcrumb.href}>{breadcrumb.label}</Link>
 
-                <ArrowRightIcon className="rotate-90  h-7 w-6  -mt-1 p-0 hover:stroke-ll-blue-700 hover:rotate-270 cursor-pointer px-1 hover:text-ll-blue-700 hover:stroke-ll-blue-700 hover:bg-ll-blue-200"
+                <ArrowRightIcon className="rotate-90  h-7 w-6 shrink-0 -mt-1 p-0 hover:stroke-ll-blue-700 hover:rotate-270 cursor-pointer px-1 hover:text-ll-blue-700 hover:stroke-ll-blue-700 hover:bg-ll-blue-200"
                   onClick={toggleVisibility} />
-                <span hide-aria="true" className="pl-2 pr-4"> | </span>
+                <span hide-aria="true" className="pl-2 pr-4 sm:visible"> | </span>
                 <ul className={`px-2 py-4 absolute mt-4 z-10 ${isVisible ? 'opacity-100 h-auto' : 'opacity-0 h-1 pointer-events-none'} bg-ll-sandy-100 divide-y divide-gray-100 shadow-2xl w-auto dark:bg-gray-700`}
                   aria-labelledby="dropdownDefaultButton">
                   <div className="cursor-pointer pt-2 px-1 right align-right float-right"
@@ -75,7 +80,7 @@ const BreadCrumbs = () => {
                 <span aria-current="page" className="text-[15px] font-sans  flex flex-row"
                   onClick={toggleVisibility2} >
                   {breadcrumb.label}
-                  <ArrowRightIcon className="rotate-90  h-7 w-6 -mt-1 ml-2 p-0 hover:stroke-ll-blue-700 hover:rotate-270 cursor-pointer px-1 hover:text-ll-blue-700 hover:stroke-ll-blue-700 hover:bg-ll-blue-200"
+                  <ArrowRightIcon className="rotate-90  h-7 w-6 shrink-0 -mt-1 ml-2 p-0 hover:stroke-ll-blue-700 hover:rotate-270 cursor-pointer px-1 hover:text-ll-blue-700 hover:stroke-ll-blue-700 hover:bg-ll-blue-200"
                     onClick={toggleVisibility2} />
                 </span>
                 <ul aria-label="dropdown for sections" aria-hidden="true"
