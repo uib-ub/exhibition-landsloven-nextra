@@ -1,7 +1,7 @@
 // Import individual modules
 import arvefallet from 'config/sections/arvefallet';
 import introduksjon from 'config/sections/introduksjon';
-import kjopebolken from 'config/sections/kjopebolken';
+import kjoepebolken from 'config/sections/kjoepebolken';
 import kristendomsbolken from 'config/sections/kristendomsbolken';
 import landevernsbolken from 'config/sections/landevernsbolken';
 import landsleiebolken from 'config/sections/landsleiebolken';
@@ -11,13 +11,14 @@ import prologen from 'config/sections/prologen';
 import retterboeter from 'config/sections/retterboeter';
 import tingfarebolken from 'config/sections/tingfarebolken';
 import tyvebolken from 'config/sections/tyvebolken';
+import epilog from 'config/sections/epilog';
 import site from 'config/site';
 
 // Combine them into an array
 const sections = {
   arvefallet,
   introduksjon,
-  kjopebolken,
+  kjoepebolken,
   kristendomsbolken,
   landevernsbolken,
   landsleiebolken,
@@ -27,6 +28,7 @@ const sections = {
   retterboeter,
   tingfarebolken,
   tyvebolken,
+  epilog,
   site
 };
 
