@@ -53,7 +53,7 @@ const sections: PagesConfig = {
     },
     kvin: {
       title: {
-        no: "Kvinner - ære og ansvar",
+        no: "Kvinner – ære og ansvar",
         en: "Women: pride and responsibility",
       },
       href: "/mannhelgebolken/kvin",
