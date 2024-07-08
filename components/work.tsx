@@ -20,11 +20,12 @@ const Work = ({ children, id, url, marcus, config }: { children?: ReactNode, id?
 
   return (
     <div className='my-10 w-full flex flex-col lg:flex-row  bg-ll-sandy border-solid border-2 border-ll-sandy-100 dark:bg-ll-blue-900'>
-      <div className='w-full h-[500px] md:h-[700px] lg:h-[70vh] relative dark:bg-ll-blue-950 z-0'>
+      <div className='w-full h-[600px] md:h-[700px] lg:h-[70vh] relative dark:bg-ll-blue-950 z-0'>
         <Viewer
           iiifContent={manifestId}
           options={{
-            canvasHeight: '100%', // @TODO: Height bug reported to samvera (https://github.com/samvera-labs/clover-iiif/issues/214)
+            canvasHeight: '600px',  // @TODO: Better to Hard coded unitl bug (see line below) is fixed
+            //canvasHeight: '100%', // @TODO: Height bug reported to samvera (https://github.com/samvera-labs/clover-iiif/issues/214)
             informationPanel: {
               open: false
             },

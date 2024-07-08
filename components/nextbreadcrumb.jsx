@@ -56,7 +56,7 @@ const BreadCrumbs = () => {
             {(breadcrumb.index !== 1) ? (
 
               <Fragment>
-                <Link aria-label="link to current section" key={breadcrumb.href} className="block text-black font-medium text-[15px] mr-2 font-sans hover:text-ll-blue-500 hover:underline dark:text-ll-gold-200" href={breadcrumb.href}>{breadcrumb.label}</Link>
+                <Link aria-label="link to current section" key={breadcrumb.href} className="block text-ll-blue-700  font-medium underline text-[15px] mr-2 font-sans hover:text-ll-blue-500 hover:underline dark:text-ll-gold-200" href={breadcrumb.href}>{breadcrumb.label}</Link>
 
                 <ArrowRightIcon className="rotate-90  h-7 w-6 shrink-0 -mt-1 p-0 hover:stroke-ll-blue-700 hover:rotate-270 cursor-pointer px-1 hover:text-ll-blue-700 hover:stroke-ll-blue-700 hover:bg-ll-blue-200"
                   onClick={toggleVisibility} />

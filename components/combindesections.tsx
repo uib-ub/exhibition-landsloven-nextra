@@ -1,5 +1,5 @@
 // Import individual modules
-import arvefallet from 'config/sections/arvefallet';
+import arvetallet from 'config/sections/arvetallet';
 import introduksjon from 'config/sections/introduksjon';
 import kjoepebolken from 'config/sections/kjoepebolken';
 import kristendomsbolken from 'config/sections/kristendomsbolken';
@@ -16,7 +16,7 @@ import site from 'config/site';
 
 // Combine them into an array
 const sections = {
-  arvefallet,
+  arvetallet,
   introduksjon,
   kjoepebolken,
   kristendomsbolken,

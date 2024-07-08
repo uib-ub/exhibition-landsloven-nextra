@@ -74,7 +74,7 @@ const sections: PagesConfig = {
     seil: {
       title:
       {
-        no: "Seilet - kvinnenes krigsinnsats",
+        no: "Seilet – kvinnenes krigsinnsats",
         en: "Sails: Women’s contribution to the war effort",
       },
       href: "/landevernsbolken/seil",
@@ -92,7 +92,7 @@ const sections: PagesConfig = {
     kirke: {
       title:
       {
-        no: "Kirken - en velsignet lagringsplass",
+        no: "Kirken – en velsignet lagringsplass",
         en: "The church: A blessed repository",
       },
       href: "/landevernsbolken/kirke",
