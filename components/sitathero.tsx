@@ -3,26 +3,28 @@ import Container from 'components/container'
 import React, { Fragment } from "react"; 
 
 const SitatHero = ({ title, ingress, footer, logo  }: { title?: string, ingress?: string, footer?: string, logo?: boolean }) => {
+const bgColor =  logo ? 'red-950' : 'blue-950';
+
 return (
  
-      <div className={`flex has-logo-${logo} bg-ll-gold-50 dark:bg-ll-blue-950 
+      <div className={`flex has-logo-${logo} bg-ll-gold-50 dark:bg-ll-${bgColor} 
           relative left-0 right-0 min-h-[32vw] sm:min-h-[25vw] 
           dark:sm:bg-[url('/images/banner_overlay-neg.png')] -mx-6 dm:m-0 mb-3 p-8  
           bg-[url('/images/banner_overlay_transp.png')] 
           sm:bg-[url('/images/banner_overlay.png')] sm:bg-contain bg-no-repeat bg-left`}>
         <Container>
-        <div className={`flex flex-wrap float-right sm:bg-ll-gold-50 dark:sm:bg-ll-blue-950 sm:pl-4 md:bg-none md:pl-0 sm:w-3/5 max-w-4xl h-auto center-text-${logo}`}>
+        <div className={`flex flex-wrap float-right sm:bg-ll-gold-50 dark:sm:bg-ll-${bgColor} sm:pl-4 md:bg-none md:pl-0 sm:w-3/5 max-w-4xl h-auto center-text-${logo}`}>
             { logo && (
               <Fragment>
                <Image 
-                    className="py-0 px-4 -mt-6 mb-5 svglogo hidden dark:hidden sm:block" 
+                    className="py-0 px-4 -mt-6 mb-5 svglogo block dark:hidden" 
                     src="/images/logo_horizontal.svg" 
                     alt="Landsloven logo" 
                     width={550} 
                     height={100}  />
                 
               <Image 
-                    className="py-0 px-4 -mt-6 mb-5 svglogo hidden dark:sm:block" 
+                    className="py-0 px-4 -mt-6 mb-5 svglogo hidden dark:block" 
                     src="/images/logo_horizontal_white.svg" 
                     alt="Landsloven logo" 
                     width={550} 
