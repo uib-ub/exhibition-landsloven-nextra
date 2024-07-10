@@ -7,6 +7,7 @@ import { useConfig } from 'nextra-theme-docs';
 import { ArrowRightIcon } from 'nextra/icons';
 import { Fragment, useState } from 'react';
 import useBreadcrumbs from '../hooks/usebreadcrumbs';
+
 // import React, { Fragment } from "react"; 
 // import { usePathname } from "next/navigation";
 
@@ -37,14 +38,16 @@ const BreadCrumbs = () => {
 
   const { locale, asPath } = useRouter();
   const { frontMatter } = useConfig();
+  const seksjonsNavn = locale == 'no' ? 'Forside Bolk' : 'Current Section' 
 
   if (asPath === '/' || frontMatter.breadcrumb === false) return null
+  
 
   return (
     <nav aria-label="breadcrumb" data-nav="breadcrumb" className="xbg-ll-gold-50 py-1 px-2 nextra-breadcrumb nx-mt-1.5 nx-flex nx-items-center nx-gap-1 nx-overflow-hidden text-sm nx-text-gray-500 dark:nx-text-gray-400 contrast-more:nx-text-current">
       <ol className="flex flex-row justify-items-center justify-center xh-10">
         <li className="breadcrumb-item hidden sm:flex my-1 sm:flex-row flex-nowrap justify-items-center justify-items-center "> 
-          <Link className="-mt-1 -ml-2" href="/" aria-label="link to home/forsiden">
+          <Link className="-mt-1 -ml-2" href="/" aria-label="link to home/forsiden" title="Home/Forside">
             <Image className="block rounded-full" src="/images/logo_nett.svg" alt="Landsloven logo" width={30} height={30} />
             {/* ⌂  Home */}
           </Link>
@@ -56,7 +59,7 @@ const BreadCrumbs = () => {
             {(breadcrumb.index !== 1) ? (
 
               <Fragment>
-                <Link aria-label="link to current section" key={breadcrumb.href} className="block text-ll-blue-700  font-medium underline text-[15px] mr-2 font-sans hover:text-ll-blue-500 hover:underline dark:text-ll-gold-200" href={breadcrumb.href}>{breadcrumb.label}</Link>
+                <Link aria-label="link to current section" title={seksjonsNavn} key={breadcrumb.href} className="block text-ll-blue-700  font-medium underline text-[15px] mr-2 font-sans hover:text-ll-blue-500 hover:underline dark:text-ll-gold-200" href={breadcrumb.href}>{breadcrumb.label}</Link>
 
                 <ArrowRightIcon className="rotate-90  h-7 w-6 shrink-0 -mt-1 p-0 hover:stroke-ll-blue-700 hover:rotate-270 cursor-pointer px-1 hover:text-ll-blue-700 hover:stroke-ll-blue-700 hover:bg-ll-blue-200"
                   onClick={toggleVisibility} />

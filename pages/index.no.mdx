@@ -16,28 +16,14 @@ import SubBox from 'components/subbox';
 import site from 'config/homepageSections.json';
 import Image from 'next/image';
 import meta from './_meta.no.json';
+import SitatHero from 'components/sitathero';
 
-{/* # Landslovjubileets nettutstilling
- 
-Dette er et forslag til nye nettside for Landslovsutstillingen i Bergen.
- */}
 
-<Image
-    src='/images/landslovbanner.jpg'
-    alt='banner image'
-    width={3500}
-    height={1600}
-    className="object-cover" 
+<SitatHero 
+    title='Jubileums&shy;utstillingen på Bryggen&nbsp;Museum'
+    logo={true}
 />
-
-{/* Placeholder component for en stor hero */}
-{/* <Hero title='Jubileumsutstillingen' description='Bryggens Museum' image='/images/landslovbanner.jpg' />
-*/}
-
-{/* Ny component for alle sidene */}
-
-{/* Ny component om partnerne */}
-
+ 
 <Container>
 
 <Spacer height={50} />

@@ -16,7 +16,7 @@ const SitatHero = ({ title, ingress, footer, logo  }: { title?: string, ingress?
                     height={100}  />
             )}
      
-            <h4 className='w-full nx-mt-2 text-2xl sm:text-4xl dark:text-ll-gold font-medium mb-2'>{title}</h4>
+             <h4 className={`w-full nx-mt-2 text-2xl mb-2  ${logo ? 'text-ll-red text-center sm:text-5xl dark:text-ll-blue-200' : 'dark:text-ll-gold font-medium sm:text-4xl'}`}>{title}</h4>
             <p className="dark:text-ll-gold-100 text-xl sm:bg-contain sm:text-3xl font-light">{ingress}</p>
             {footer && (
               <p className="w-full text-right mt-1 text-sm sm:text-base pt-2 pb-12"> <cite className="text-base sm:text-lg my-3 italic text-ll-red-700 dark:text-ll-gold sm:dark:text-ll-gold">{footer}</cite></p> 
