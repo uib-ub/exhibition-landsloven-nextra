@@ -3,14 +3,14 @@ import Container from 'components/container'
 import React, { Fragment } from "react"; 
 
 const SitatHero = ({ title, ingress, footer, logo  }: { title?: string, ingress?: string, footer?: string, logo?: boolean }) => {
-const bgColor =  logo ? 'dark:bg-ll-red-950' : 'dark:bg-ll-blue-950';
+const bgColor =  logo ? 'dark:bg-ll-red-950 min-h-[35vh] sm:min-h-[40vh]' : 'dark:bg-ll-blue-950 min-h-[32vw] sm:min-h-[25vw]';
 const smbgColor =  logo ? 'sm:dark:bg-ll-red-950' : 'sm:dark:bg-ll-blue-950';
 
 return (
  
-      <div className={`flex has-logo-${logo} bg-ll-gold-50 ${bgColor} relative left-0 right-0 min-h-[32vw] sm:min-h-[25vw] dark:sm:bg-[url('/images/banner_overlay-neg.png')] -mx-6 dm:m-0 mb-3 p-8  bg-[url('/images/banner_overlay_transp.png')] sm:bg-[url('/images/banner_overlay.png')] sm:bg-contain bg-no-repeat bg-left`}>
+      <div className={`flex has-logo-${logo} bg-ll-gold-50 ${bgColor} relative left-0 right-0 dark:sm:bg-[url('/images/banner_overlay-neg.png')] -mx-6 dm:m-0 mb-3 p-8  bg-[url('/images/banner_overlay_transp.png')] sm:bg-[url('/images/banner_overlay.png')] sm:bg-contain bg-no-repeat bg-left`}>
         <Container>
-        <div className={`flex flex-wrap float-right sm:bg-ll-gold-50 ${smbgColor} sm:pl-4 md:bg-none md:pl-0 sm:w-3/5 max-w-4xl h-auto center-text-${logo}`}>
+        <div className={`flex flex-wrap float-right sm:bg-ll-gold-50 ${smbgColor} sm:pl-4 md:bg-none md:pl-0 sm:w-3/5 min-w-[360px] opacity-90 max-w-4xl h-auto center-text-${logo}`}>
             { logo && (
               <Fragment>
                <Image 
