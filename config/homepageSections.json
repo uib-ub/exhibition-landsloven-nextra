@@ -2,7 +2,7 @@
   "tyvebolken": {
     "no": {
       "title": "Tyvebolken",
-      "description": "Den siste bolken i Landsloven definerer tyveri og beskriver hvordan man stilte tyver til ansvar",
+      "description": "Om tyveri og hvordan man stilte tyver til ansvar",
       "tags": [
         "tyveri",
         "straff"
@@ -14,7 +14,7 @@
     },
     "en": {
       "title": "Thieves' section",
-      "description": "The last section of the Laws of the Land defines theft and describes how to hold thieves accountable",
+      "description": "About theft and how to hold thieves accountable",
       "tags": [
         "theft",
         "punishment"
@@ -28,7 +28,7 @@
   "tingfarebolken": {
     "no": {
       "title": "Tingfare­bolken",
-      "description": "Bolken handler om hvordan de gamle tingene ble organisert etter Landsloven ble vedtatt",
+      "description": "Om hvordan de gamle tingene ble organisert etter Landsloven ble vedtatt",
       "tags": null,
       "image": "/images/section-buttons/Tingfarebolken.jpg",
       "alt": null,
@@ -37,7 +37,7 @@
     },
     "en": {
       "title": "Section about going to Assemblies",
-      "description": "The section discusses how the old Tings were organized after the Laws of the Land came into use",
+      "description": "About how the old Tings were organized after the Laws of the Land came into use",
       "tags": null,
       "image": "/images/section-buttons/Tingfarebolken.jpg",
       "alt": null,
@@ -50,16 +50,16 @@
       "title": "Retter­bøter",
       "description": "Landloven trengte ofte oppdatering fra 1274 til 1687 som den ble gjeldende",
       "tags": null,
-      "image": "/workspaces/exhibition-landsloven-nextra/public/images/section-buttons/Rettarbot-Epilog.jpg",
+      "image": "/images/section-buttons/Rettarbot-Epilog.jpg",
       "alt": null,
       "breadcrumb": false,
       "href": "/retterboeter/introduksjon"
     },
     "en": {
       "title": "Law Amendments",
-      "description": "The Laws of the Land need to be updated since 1274 and until 1687 that they were in use",
+      "description": "The Laws of the Land needed to be updated since 1274 and until 1687 that they were in use",
       "tags": null,
-      "image": "/workspaces/exhibition-landsloven-nextra/public/images/section-buttons/Rettarbot-Epilog.jpg",
+      "image": "/images/section-buttons/Rettarbot-Epilog.jpg",
       "alt": null,
       "breadcrumb": false,
       "href": "/retterboeter/introduksjon"
@@ -68,7 +68,7 @@
   "prologen": {
     "no": {
       "title": "Prologen",
-      "description": "Prolog eller innledning til Landsloven er formulert som en kongetale",
+      "description": "Innledningen til Landsloven er formulert som en kongetale",
       "tags": [
         "fortale",
         "prolog"
@@ -80,7 +80,7 @@
     },
     "en": {
       "title": "Prologue",
-      "description": "The prologue or introduction to the Laws of the Land is formulated as a king's speech",
+      "description": "The introduction to the Laws of the Land is formulated as a king's speech",
       "tags": null,
       "image": "/images/section-buttons/Prolog.jpg",
       "alt": "Manuscript illumination with the king who gives the lawbook to a man",
