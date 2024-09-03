@@ -73,8 +73,8 @@
         "fortale",
         "prolog"
       ],
-      "image": null,
-      "alt": null,
+      "image": "/images/section-buttons/Prolog.jpg",
+      "alt": "Manuskript illuminasjon av Prologen",
       "breadcrumb": false,
       "href": "/prologen/introduksjon"
     },
@@ -82,8 +82,8 @@
       "title": "Prologue",
       "description": "",
       "tags": null,
-      "image": null,
-      "alt": null,
+      "image": "/images/section-buttons/Prolog.jpg",
+      "alt": "Manuscript illumination from the Prologue",
       "breadcrumb": false,
       "href": "/prologen/introduksjon"
     }
