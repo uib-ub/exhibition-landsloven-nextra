@@ -3,7 +3,9 @@
     "no": {
       "title": "Landslovjubileet 2024",
       "description": "",
-      "tags": ["Landsloven"],
+      "tags": [
+        "Landsloven"
+      ],
       "image": null,
       "alt": null,
       "breadcrumb": false,
@@ -12,7 +14,9 @@
     "en": {
       "title": "Anniversary exhibition",
       "description": "",
-      "tags": ["Laws of the Land"],
+      "tags": [
+        "Laws of the Land"
+      ],
       "image": null,
       "alt": null,
       "breadcrumb": false,
@@ -110,19 +114,19 @@
     },
     "introduksjon": {
       "no": {
-        "title": "Tingfarebolken",
-        "description": "",
+        "title": "Tingfare­bolken",
+        "description": "Om hvordan de gamle tingene ble organisert etter Landsloven ble vedtatt",
         "tags": null,
-        "image": null,
+        "image": "/images/section-buttons/Tingfarebolken.jpg",
         "alt": null,
         "breadcrumb": false,
         "href": "/tingfarebolken/introduksjon"
       },
       "en": {
         "title": "Section about going to Assemblies",
-        "description": "",
+        "description": "About how the old Tings were organized after the Laws of the Land came into use",
         "tags": null,
-        "image": null,
+        "image": "/images/section-buttons/Tingfarebolken.jpg",
         "alt": null,
         "breadcrumb": false,
         "href": "/tingfarebolken/introduksjon"
@@ -222,19 +226,19 @@
     },
     "introduksjon": {
       "no": {
-        "title": "Retterbøter",
-        "description": "",
+        "title": "Retter­bøter",
+        "description": "Landloven trengte ofte oppdatering fra 1274 til 1687 som den ble gjeldende",
         "tags": null,
-        "image": null,
+        "image": "/images/section-buttons/Rettarbot-Epilog.jpg",
         "alt": null,
         "breadcrumb": false,
         "href": "/retterboeter/introduksjon"
       },
       "en": {
-        "title": "Law",
-        "description": "",
+        "title": "Law Amendments",
+        "description": "The Laws of the Land needed to be updated since 1274 and until 1687 that they were in use",
         "tags": null,
-        "image": null,
+        "image": "/images/section-buttons/Rettarbot-Epilog.jpg",
         "alt": null,
         "breadcrumb": false,
         "href": "/retterboeter/introduksjon"
@@ -425,22 +429,22 @@
     "introduksjon": {
       "no": {
         "title": "Prologen",
-        "description": "Prolog er innledningen til Landsloven. Ordet prolog kommer av gresk, og betyr fortale. Landslovens prolog er direkte i stilen, formulert som et brev eller en tale.",
+        "description": "Innledningen til Landsloven er formulert som en kongetale",
         "tags": [
           "fortale",
           "prolog"
         ],
-        "image": null,
-        "alt": null,
+        "image": "/images/section-buttons/Prolog.jpg",
+        "alt": "Manuskript illuminasjon med kongen som gir lovboken til en mann",
         "breadcrumb": false,
         "href": "/prologen/introduksjon"
       },
       "en": {
         "title": "Prologue",
-        "description": "",
+        "description": "The introduction to the Laws of the Land is formulated as a king's speech",
         "tags": null,
-        "image": null,
-        "alt": null,
+        "image": "/images/section-buttons/Prolog.jpg",
+        "alt": "Manuscript illumination with the king who gives the lawbook to a man",
         "breadcrumb": false,
         "href": "/prologen/introduksjon"
       }
@@ -575,19 +579,19 @@
     },
     "introduksjon": {
       "no": {
-        "title": "Odelsbolken",
-        "description": "",
+        "title": "Odels­bolken",
+        "description": "Om land eiendom og odelsrett",
         "tags": null,
-        "image": null,
+        "image": "/images/section-buttons/Odelsbolken.jpg",
         "alt": null,
         "breadcrumb": false,
         "href": "/odelsbolken/introduksjon"
       },
       "en": {
         "title": "Land redemption section",
-        "description": "",
+        "description": "About land property and the right to land redemption",
         "tags": null,
-        "image": null,
+        "image": "/images/section-buttons/Odelsbolken.jpg",
         "alt": null,
         "breadcrumb": false,
         "href": "/odelsbolken/introduksjon"
@@ -688,19 +692,19 @@
     },
     "introduksjon": {
       "no": {
-        "title": "Mannhelgebolken",
-        "description": "",
+        "title": "Mannhelge­bolken",
+        "description": "Om æren og krim og drap og kniv",
         "tags": null,
-        "image": null,
+        "image": "/images/section-buttons/Mannhelgebolken.jpg",
         "alt": null,
         "breadcrumb": false,
         "href": "/mannhelgebolken/introduksjon"
       },
       "en": {
         "title": "Human inviolability section",
-        "description": "",
+        "description": "About honor and crime and murders and knives",
         "tags": null,
-        "image": null,
+        "image": "/images/section-buttons/Mannhelgebolken.jpg",
         "alt": null,
         "breadcrumb": false,
         "href": "/mannhelgebolken/introduksjon"
@@ -801,19 +805,19 @@
     },
     "introduksjon": {
       "no": {
-        "title": "Landsleiebolken",
-        "description": "",
+        "title": "Landsleie­bolken",
+        "description": "Folk flest leide jorden de levde og jobbet på",
         "tags": null,
-        "image": null,
+        "image": "/images/section-buttons/Landleigebolken.jpg",
         "alt": null,
         "breadcrumb": false,
         "href": "/landsleiebolken/introduksjon"
       },
       "en": {
         "title": "Land tenancy section",
-        "description": "",
+        "description": "Most people were tenants on the land they lived and worked",
         "tags": null,
-        "image": null,
+        "image": "/images/section-buttons/Landleigebolken.jpg",
         "alt": null,
         "breadcrumb": false,
         "href": "/landsleiebolken/introduksjon"
@@ -967,19 +971,19 @@
     },
     "introduksjon": {
       "no": {
-        "title": "Landevernsbolken",
-        "description": "",
+        "title": "Landeverns­bolken",
+        "description": "Forsvar av landet var av høyest viktighet",
         "tags": null,
-        "image": null,
+        "image": "/images/section-buttons/Landvernebolken.jpg",
         "alt": null,
         "breadcrumb": false,
         "href": "/landevernsbolken/introduksjon"
       },
       "en": {
         "title": "Land Defence",
-        "description": "",
+        "description": "Defending the land was of outmost importance",
         "tags": null,
-        "image": null,
+        "image": "/images/section-buttons/Landvernebolken.jpg",
         "alt": null,
         "breadcrumb": false,
         "href": "/landevernsbolken/introduksjon"
@@ -1133,19 +1137,19 @@
     },
     "introduksjon": {
       "no": {
-        "title": "Kristendomsbolken",
-        "description": "",
+        "title": "Kristen­doms­bolken",
+        "description": "Om den korrekte troen og det legitime kongelige dynastiet",
         "tags": null,
-        "image": null,
+        "image": "/images/section-buttons/Kristendomsbolken.jpg",
         "alt": null,
         "breadcrumb": false,
         "href": "/kristendomsbolken/introduksjon"
       },
       "en": {
         "title": "Christianity Section",
-        "description": "",
+        "description": "About the correct faith and the legitimate royal dynasty",
         "tags": null,
-        "image": null,
+        "image": "/images/section-buttons/Kristendomsbolken.jpg",
         "alt": null,
         "breadcrumb": false,
         "href": "/kristendomsbolken/introduksjon"
@@ -1282,19 +1286,19 @@
     },
     "introduksjon": {
       "no": {
-        "title": "Kjøpebolken",
-        "description": "",
+        "title": "Kjøpe­bolken",
+        "description": "Om handel og mynter og vekt",
         "tags": null,
-        "image": null,
+        "image": "/images/section-buttons/Kjopebolken.jpg",
         "alt": null,
         "breadcrumb": false,
         "href": "/kjoepebolken/introduksjon"
       },
       "en": {
         "title": "Trade section",
-        "description": "",
+        "description": "About trade and coins and weights",
         "tags": null,
-        "image": null,
+        "image": "/images/section-buttons/Kjopebolken.jpg",
         "alt": null,
         "breadcrumb": false,
         "href": "/kjoepebolken/introduksjon"
@@ -1562,17 +1566,17 @@
     "epilog": {
       "no": {
         "title": "Epilog",
-        "description": "",
+        "description": "En kort kongetale for å avslutte lovverket",
         "tags": null,
-        "image": null,
+        "image": "/images/section-buttons/Rettarbot-Epilog.jpg",
         "alt": null,
         "href": "/epilog/epilog"
       },
       "en": {
         "title": "Epilogue",
-        "description": "",
+        "description": "A short royal speech to end the legal work",
         "tags": null,
-        "image": null,
+        "image": "/images/section-buttons/Rettarbot-Epilog.jpg",
         "alt": null,
         "href": "/epilog/epilog"
       }
@@ -1636,18 +1640,18 @@
     "introduksjon": {
       "no": {
         "title": "Arvetallet",
-        "description": "",
+        "description": "Om arv og ekteskap; men også døden",
         "tags": null,
-        "image": null,
+        "image": "/images/section-buttons/Arvetall 2.jpg",
         "alt": null,
         "breadcrumb": false,
         "href": "/arvetallet/introduksjon"
       },
       "en": {
         "title": "List of Inheritance",
-        "description": "",
+        "description": "About inheritance and marriage; but also death",
         "tags": null,
-        "image": null,
+        "image": "/images/section-buttons/Arvetall 2.jpg",
         "alt": null,
         "breadcrumb": false,
         "href": "/arvetallet/introduksjon"
