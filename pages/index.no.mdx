@@ -9,17 +9,17 @@ breadcrumb: false
 
 import Blockquote from 'components/blockquote';
 import Container from 'components/container';
+import HomepageHero from 'components/homepage-hero';
 import Spacer from 'components/spacer';
 import SubMenuCards from 'components/sub-menu-cards';
 import SubTextsCards from 'components/sub-texts-cards';
 import SubBox from 'components/subbox';
-import site from 'config/homepageSections.json';
+import site from 'config/siteFrontmatter.json';
 import Image from 'next/image';
 import meta from './_meta.no.json';
-import SitatHero from 'components/sitathero';
 
 
-<SitatHero 
+<HomepageHero 
     title='Jubileums&shy;utstillingen på Bryggen&nbsp;Museum'
     logo={true}
 />
@@ -27,7 +27,7 @@ import SitatHero from 'components/sitathero';
 <Container>
 
 <Spacer height={50} />
-    <SubTextsCards items={site} meta={meta.bolkene.items} columns={3} gap={10} />
+    <SubTextsCards items={site} meta={meta.bolkene.items} />
  
     {/* <Blockquote
         quote='«Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in volu.»'

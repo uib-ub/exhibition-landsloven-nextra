@@ -9,7 +9,7 @@ breadcrumb: false
 
 import Blockquote from 'components/blockquote';
 import Container from 'components/container';
-import SitatHero from 'components/sitathero';
+import HomepageHero from 'components/homepage-hero';
 import Spacer from 'components/spacer';
 import SubTextsCards from 'components/sub-texts-cards';
 import site from 'config/homepageSections.json';
@@ -17,7 +17,7 @@ import Image from 'next/image';
 import meta from './_meta.en.json';
 
 
-<SitatHero 
+<HomepageHero 
     title='Anniversary exhibition Bryggen&nbsp;Museum'
     logo={true}
 />
@@ -28,6 +28,6 @@ import meta from './_meta.en.json';
 
 <Container>
     # Anniversary exhibition 
-    <SubTextsCards items={site} meta={meta.bolkene.items} columns={3} gap={10} />
+    <SubTextsCards items={site} meta={meta.bolkene.items} />
 </Container>
 
