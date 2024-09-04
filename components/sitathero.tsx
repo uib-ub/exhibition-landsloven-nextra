@@ -3,11 +3,10 @@ import Container from 'components/container'
 import React, { Fragment } from "react"; 
 
 const SitatHero = ({ title, ingress, footer, logo  }: { title?: string, ingress?: string, footer?: string, logo?: boolean }) => {
-const bgColor =  logo ? 'dark:bg-ll-red-950 min-h-[35vh] sm:min-h-[40vh]' : 'dark:bg-ll-blue-950 min-h-[32vw] sm:min-h-[25vw]';
-const smbgColor =  logo ? 'sm:dark:bg-ll-red-950' : 'sm:dark:bg-ll-blue-950';
+  const bgColor =  logo ? 'dark:bg-ll-red-950 min-h-[35vh] sm:min-h-[40vh]' : 'dark:bg-ll-blue-950 min-h-[32vw] sm:min-h-[25vw]';
+  const smbgColor =  logo ? 'sm:dark:bg-ll-red-950' : 'sm:dark:bg-ll-blue-950';
 
-return (
- 
+  return (
       <div className={`flex has-logo-${logo} bg-ll-gold-50 ${bgColor} relative left-0 right-0 
         dark:sm:bg-[url('/images/banner_overlay-neg.png')] -mx-6 dm:m-0 mb-3 p-8  
         bg-[url('/images/banner_overlay_transp.png')] sm:bg-[url('/images/banner_overlay.png')] sm:bg-contain bg-no-repeat bg-left`}>
@@ -32,17 +31,19 @@ return (
               </Fragment>                    
             )}
      
-             <h4 className={`nx-mt-2 text-2xl mb-2  ${logo ? 'text-ll-red text-center sm:text-5xl dark:text-ll-gold' : 'dark:text-ll-gold font-medium sm:text-4xl'}`}>{title}</h4>
+            <h1 
+              className={`nx-mt-2 text-2xl mb-2  ${logo ? 'text-ll-red text-center sm:text-5xl dark:text-ll-gold' : 'dark:text-ll-gold font-medium sm:text-4xl'}`}
+            >
+              {title}
+            </h1>
             <p className="dark:text-ll-gold-100 text-xl sm:bg-contain pr-7 sm:text-3xl font-light">{ingress}</p>
             {footer && (
               <p className="w-full text-right mt-1 text-sm sm:text-base pt-2 pr-8 pb-12"> <cite className="text-base sm:text-lg my-3 italic text-ll-red-700 dark:text-ll-gold sm:dark:text-ll-gold">{footer}</cite></p> 
             )}            
          </div>
          </Container>
-    
-    </div>
- 
-  );
+    </div> 
+  )
 }
 
 export default SitatHero;
