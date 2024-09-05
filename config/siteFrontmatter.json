@@ -4,7 +4,8 @@
       "title": "Landslovjubileet 2024",
       "description": "",
       "tags": [
-        "Landsloven"
+        "Landsloven",
+        "Landslovjubileet"
       ],
       "image": null,
       "alt": null,
@@ -97,7 +98,7 @@
     "lagmenn": {
       "no": {
         "title": "Lagmenn",
-        "description": "",
+        "description": null,
         "tags": null,
         "image": null,
         "alt": null,
@@ -114,7 +115,7 @@
     },
     "introduksjon": {
       "no": {
-        "title": "Tingfare­bolken",
+        "title": "Tingfarebolken",
         "description": "Om hvordan de gamle tingene ble organisert etter Landsloven ble vedtatt",
         "tags": null,
         "image": "/images/section-buttons/Tingfarebolken.jpg",
@@ -226,7 +227,7 @@
     },
     "introduksjon": {
       "no": {
-        "title": "Retter­bøter",
+        "title": "Retterbøter",
         "description": "Landloven trengte ofte oppdatering fra 1274 til 1687 som den ble gjeldende",
         "tags": null,
         "image": "/images/section-buttons/Rettarbot-Epilog.jpg",
@@ -579,7 +580,7 @@
     },
     "introduksjon": {
       "no": {
-        "title": "Odels­bolken",
+        "title": "Odelsbolken",
         "description": "Om land eiendom og odelsrett",
         "tags": null,
         "image": "/images/section-buttons/Odelsbolken.jpg",
@@ -619,7 +620,7 @@
     },
     "kvin": {
       "no": {
-        "title": "Kvinner – ære og ansvar",
+        "title": "Kvinner - ære og ansvar",
         "description": "",
         "tags": null,
         "image": null,
@@ -674,11 +675,10 @@
     "kniv": {
       "no": {
         "title": "Kniv til nytte og besvær",
-        "description": "",
+        "description": null,
         "tags": null,
         "image": null,
         "alt": null,
-        "breadcrumb": false,
         "href": "/mannhelgebolken/kniv"
       },
       "en": {
@@ -692,7 +692,7 @@
     },
     "introduksjon": {
       "no": {
-        "title": "Mannhelge­bolken",
+        "title": "Mannhelgebolken",
         "description": "Om æren og krim og drap og kniv",
         "tags": null,
         "image": "/images/section-buttons/Mannhelgebolken.jpg",
@@ -720,7 +720,7 @@
         "href": "/mannhelgebolken/fire"
       },
       "en": {
-        "title": "\"God’s four daughters\"",
+        "title": "\\\"God’s four daughters\\\"",
         "description": "",
         "tags": null,
         "image": null,
@@ -805,7 +805,7 @@
     },
     "introduksjon": {
       "no": {
-        "title": "Landsleie­bolken",
+        "title": "Landsleiebolken",
         "description": "Folk flest leide jorden de levde og jobbet på",
         "tags": null,
         "image": "/images/section-buttons/Landleigebolken.jpg",
@@ -953,7 +953,7 @@
     },
     "kirke": {
       "no": {
-        "title": "Kirken – en velsignet lagringsplass",
+        "title": "Kirken - en velsignet lagringsplass",
         "description": "",
         "tags": null,
         "image": null,
@@ -971,7 +971,7 @@
     },
     "introduksjon": {
       "no": {
-        "title": "Landeverns­bolken",
+        "title": "Landevernsbolken",
         "description": "Forsvar av landet var av høyest viktighet",
         "tags": null,
         "image": "/images/section-buttons/Landvernebolken.jpg",
@@ -1137,7 +1137,7 @@
     },
     "introduksjon": {
       "no": {
-        "title": "Kristen­doms­bolken",
+        "title": "Kristendomsbolken",
         "description": "Om den korrekte troen og det legitime kongelige dynastiet",
         "tags": null,
         "image": "/images/section-buttons/Kristendomsbolken.jpg",
@@ -1236,7 +1236,6 @@
         "tags": null,
         "image": null,
         "alt": null,
-        "breadcrumb": false,
         "href": "/kjoepebolken/vekter"
       },
       "en": {
@@ -1286,7 +1285,7 @@
     },
     "introduksjon": {
       "no": {
-        "title": "Kjøpe­bolken",
+        "title": "Kjøpebolken",
         "description": "Om handel og mynter og vekt",
         "tags": null,
         "image": "/images/section-buttons/Kjopebolken.jpg",
