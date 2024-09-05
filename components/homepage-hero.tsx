@@ -9,7 +9,6 @@ const HomepageHero = ({ title, ingress, footer, logo }: { title?: string, ingres
       className={`
         grid grid-cols-12 grid-rows-1 -mx-6 has-logo-${logo} bg-ll-gold-50 ${bgColor}
         ${height}
-        max-h-[713px]
       `}
     >
       <div
@@ -69,7 +68,7 @@ const HomepageHero = ({ title, ingress, footer, logo }: { title?: string, ingres
           lg:col-span-3
           xl:col-span-3 
           row-start-1
-          max-h[713px]
+
           dark:sm:bg-[url('/images/landslov-ornament.png')] 
           sm:bg-[url('/images/landslov-ornament.png')] 
           bg-cover bg-no-repeat bg-top
