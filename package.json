@@ -4,6 +4,7 @@
   "description": "Nextra docs template",
   "scripts": {
     "dev": "next dev",
+    "prebuild": "node scripts/getSiteFrontmatter.js",
     "build": "next build",
     "postbuild": "next-sitemap",
     "start": "next start"

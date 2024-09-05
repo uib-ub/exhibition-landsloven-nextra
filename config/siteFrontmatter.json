@@ -80,16 +80,16 @@
         "title": "Bøter og fysisk avstraffelse",
         "description": "",
         "tags": null,
-        "image": null,
-        "alt": null,
+        "image": "/images/tyvebolken/Bf_X_13565_01.jpg",
+        "alt": "Oksepeis",
         "href": "/tyvebolken/fine"
       },
       "en": {
         "title": "Fines and corporal punishment",
         "description": "",
         "tags": null,
-        "image": null,
-        "alt": null,
+        "image": "/images/tyvebolken/Bf_X_13565_01.jpg",
+        "alt": "A wip",
         "href": "/tyvebolken/fine"
       }
     }
@@ -466,42 +466,6 @@
         "image": null,
         "alt": null,
         "href": "/prologen/euro"
-      }
-    },
-    "def": {
-      "no": {
-        "title": "Noen definisjoner",
-        "description": "",
-        "tags": null,
-        "image": null,
-        "alt": null,
-        "href": "/prologen/def"
-      },
-      "en": {
-        "title": "Some definitions",
-        "description": "",
-        "tags": null,
-        "image": null,
-        "alt": null,
-        "href": "/prologen/def"
-      }
-    },
-    "bolk": {
-      "no": {
-        "title": "Bolker",
-        "description": "",
-        "tags": null,
-        "image": null,
-        "alt": null,
-        "href": "/prologen/bolk"
-      },
-      "en": {
-        "title": "Sections",
-        "description": "",
-        "tags": null,
-        "image": null,
-        "alt": null,
-        "href": "/prologen/bolk"
       }
     },
     "best": {
@@ -1502,6 +1466,24 @@
         "image": null,
         "alt": null,
         "href": "/introduksjon/holmen"
+      }
+    },
+    "def": {
+      "no": {
+        "title": "Noen definisjoner",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/introduksjon/def"
+      },
+      "en": {
+        "title": "Some definitions",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/introduksjon/def"
       }
     },
     "bergen2": {
