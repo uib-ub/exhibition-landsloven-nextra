@@ -2,8 +2,8 @@
 title: Anniversary exhibition
 description: ''
 tags:
- - Laws of the land
-image: /images/section-buttons/Tyvebolken.jpg
+ - Laws of the Land
+image: 
 alt: 
 breadcrumb: false
 ---
@@ -13,16 +13,15 @@ import Container from 'components/container';
 import HomepageHero from 'components/homepage-hero';
 import Spacer from 'components/spacer';
 import SubTextsCards from 'components/sub-texts-cards';
-import site from 'config/homepageSections.json';
+import site from 'config/siteFrontmatter.json';
 import Image from 'next/image';
 import meta from './_meta.en.json';
 
 
 <HomepageHero 
-    title='Anniversary exhibition Bryggen&nbsp;Museum'
+    title='Anniversary exhibition Bryggen Museum'
     logo={true}
 />
- 
 
  
 <Spacer height={30} />
@@ -32,3 +31,4 @@ import meta from './_meta.en.json';
     <SubTextsCards items={site} meta={meta.bolkene.items} />
 </Container>
 
+<Spacer height={50} />
