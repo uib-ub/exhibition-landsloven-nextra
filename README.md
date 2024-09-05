@@ -272,7 +272,7 @@ Or maybe
 
 ### SubMenuCards
 
-    <SubMenuCards items={sections.items} columns={2} gap={5} shadow='shadow-none'/>
+    <SubMenuCards items={sections.items} shadow='shadow-none'/>
 
 columns, gap and shadow are optional
   

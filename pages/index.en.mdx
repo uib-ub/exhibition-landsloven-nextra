@@ -2,6 +2,7 @@
 title: Anniversary exhibition
 description: ''
 tags:
+ - Laws of the Land
 image: 
 alt: 
 breadcrumb: false
@@ -9,25 +10,25 @@ breadcrumb: false
 
 import Blockquote from 'components/blockquote';
 import Container from 'components/container';
-import SitatHero from 'components/sitathero';
+import HomepageHero from 'components/homepage-hero';
 import Spacer from 'components/spacer';
 import SubTextsCards from 'components/sub-texts-cards';
-import site from 'config/homepageSections.json';
+import site from 'config/siteFrontmatter.json';
 import Image from 'next/image';
 import meta from './_meta.en.json';
 
 
-<SitatHero 
-    title='Anniversary exhibition Bryggen&nbsp;Museum'
+<HomepageHero 
+    title='Anniversary exhibition Bryggen Museum'
     logo={true}
 />
- 
 
  
 <Spacer height={30} />
 
 <Container>
     # Anniversary exhibition 
-    <SubTextsCards items={site} meta={meta.bolkene.items} columns={3} gap={10} />
+    <SubTextsCards items={site} meta={meta.bolkene.items} />
 </Container>
 
+<Spacer height={50} />

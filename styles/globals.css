@@ -174,3 +174,11 @@ blockquote cite {
 	font-weight: 300;
 }
  
+/* HORRIBLE HACK TO GET RID OF BOLKENE IN SIDEBAR */
+ul.nextra-menu-mobile > li:nth-child(3) {
+	display: none;
+}
+
+ul.nextra-menu-mobile  li.\[word-break\:break-word\] {
+	display: none;
+}
