@@ -1,6 +1,6 @@
-import * as React from "react";
 import type { SVGProps } from "react";
 import { Ref, forwardRef, memo } from "react";
+
 const SvgHvlEn = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => (
   <svg
     {...props}

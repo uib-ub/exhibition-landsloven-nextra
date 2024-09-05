@@ -23,7 +23,9 @@
    }
 }
  
-
+footer {
+	margin-block-start: 8em;
+}
 
 /* INitialer */
 .redinitial::first-letter  {

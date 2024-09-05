@@ -1,13 +1,11 @@
+import Footer from 'components/footer';
+import NextBreadcrumb from 'components/nextbreadcrumb';
 import site from 'config/site';
 import { format } from 'date-fns';
 import { enGB, nb } from 'date-fns/locale';
 import Image from 'next/image';
 import { useRouter } from 'next/router';
 import { DocsThemeConfig, useConfig } from 'nextra-theme-docs';
-
-//override breadcrumbs
-// import Breadcrumb  from 'components/nextbreadcrumb';
-import NextBreadcrumb from 'components/nextbreadcrumb';
 
 //Alternative logo
 // <!--Image src="/images/logo_horizontal.svg" alt="Landsloven logo" width={240} height={45} /-->
@@ -88,11 +86,7 @@ const config: DocsThemeConfig = {
   // },
   docsRepositoryBase: 'https://github.com/uib-ub/exhibition-landsloven-nextra',
   footer: {
-    text: (
-      <div className='font-serif'>
-        <p>Universitetsbiblioteket i Bergen, Høyskolen på Vestlandet, Vestland fylkeskommune</p>
-      </div>
-    ),
+    text: Footer
   },
   // Override breadcrumb
   main: ({ children }) => {
