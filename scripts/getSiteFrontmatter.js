@@ -65,10 +65,10 @@ try {
     path.join(__dirname, '../config/siteFrontmatter.json'),
     JSON.stringify(siteFrontmatter, null, 2)
   );
-  fs.writeFileSync(
+  /* fs.writeFileSync(
     path.join(__dirname, '../config/homepageSections.json'),
     JSON.stringify(reduceToMainPages(siteFrontmatter), null, 2)
-  );
+  ); */
 } catch (err) {
   console.error("Error occurred while globbing:", err);
 }
