@@ -27,10 +27,8 @@ const SubTextsCards = ({ items, meta, shadow }: { items: MenuItems, meta: any, s
 
   const subPages = Object.keys(meta).filter(k => !['---', 'introduksjon', '750-ar'].includes(k)).map((key) => {
     const value = items[key].introduksjon?.[locale] || items[key].epilog?.[locale] || items[key]?.[locale];
-    if (!value) {
-      console.log("Didn't find the page!", items[key], key)
-      return null
-    };
+
+    if (!value) return null
 
     const title = value.title;
     const path = value.href;
