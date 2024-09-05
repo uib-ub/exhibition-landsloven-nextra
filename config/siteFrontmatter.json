@@ -56,7 +56,7 @@
           "tyveri",
           "straff"
         ],
-        "image": "/images/tyv.jpg",
+        "image": "/images/section-buttons/Tyvebolken.jpg",
         "alt": "Tyv som...",
         "breadcrumb": false,
         "href": "/tyvebolken/introduksjon"
@@ -68,7 +68,7 @@
           "theft",
           "punishment"
         ],
-        "image": "/images/tyv.jpg",
+        "image": "/images/section-buttons/Tyvebolken.jpg",
         "alt": "Tyv som...",
         "breadcrumb": false,
         "href": "/tyvebolken/introduksjon"
@@ -1642,7 +1642,7 @@
         "title": "Arvetallet",
         "description": "Om arv og ekteskap; men også døden",
         "tags": null,
-        "image": "/images/section-buttons/Arvetall 2.jpg",
+        "image": "/images/section-buttons/Arvetall2.jpg",
         "alt": null,
         "breadcrumb": false,
         "href": "/arvetallet/introduksjon"
@@ -1651,7 +1651,7 @@
         "title": "List of Inheritance",
         "description": "About inheritance and marriage; but also death",
         "tags": null,
-        "image": "/images/section-buttons/Arvetall 2.jpg",
+        "image": "/images/section-buttons/Arvetall2.jpg",
         "alt": null,
         "breadcrumb": false,
         "href": "/arvetallet/introduksjon"
