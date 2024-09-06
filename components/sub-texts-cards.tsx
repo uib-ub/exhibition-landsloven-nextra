@@ -32,6 +32,7 @@ const SubTextsCards = ({ items, meta, shadow }: { items: MenuItems, meta: any, s
 
     const title = value.title;
     const path = value.href;
+    const alt = value.alt;
     const ingress = value.description; // Got renamed to description
     const image = value.image ? value.image : '/images/dummy_lands_b.jpg';
 
@@ -40,7 +41,7 @@ const SubTextsCards = ({ items, meta, shadow }: { items: MenuItems, meta: any, s
       <Card
         key={`${key}-${locale}`}
         image={image}
-        alt={title}
+        alt={alt ?? ''}
         title={title}
         ingress={ingress}
         path={path}

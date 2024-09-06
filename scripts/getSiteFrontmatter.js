@@ -69,6 +69,7 @@ try {
     path.join(__dirname, '../config/homepageSections.json'),
     JSON.stringify(reduceToMainPages(siteFrontmatter), null, 2)
   ); */
+  console.log('Frontmatter successfully extracted and saved to config/siteFrontmatter.json');
 } catch (err) {
   console.error("Error occurred while globbing:", err);
 }
