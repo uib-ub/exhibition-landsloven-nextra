@@ -14,14 +14,14 @@
     }
   },
   "magnus": "Kong Magnus VI Håkonsson",
-  "rike": "Kong Magnus’ rike",
+  "magnusrike": "Kong Magnus’ rike",
   "samfunn": "Det norske samfunnet",
-  "bergen": "Håkonshallen og lovgivningsarbeidet",
-  "bergen2": "Bergen og bylovgiveren Magnus",
+  "haakonshallen": "Håkonshallen og lovgivningsarbeidet",
+  "bylovgiveren": "Bergen og bylovgiveren Magnus",
   "holmen": "Kongsgården i Bergen",
-  "kloster": "Magnus og fransiskanerklosteret",
-  "nonner": "Magnus og Nonneseter kloster",
-  "kulturutveksling": "Det internationale bakteppet for Landsloven",
+  "fransiskanerne": "Magnus og fransiskanerklosteret",
+  "nonneseter": "Magnus og Nonneseter kloster",
+  "kulturutveksling": "Kulturutvekslingen i middelalderen",
   "lovgiver": "Magnus sin suksess som lovgiver",
   "exorientelux": "Ex oriente lux"
 }
