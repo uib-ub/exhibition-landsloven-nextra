@@ -52,7 +52,7 @@
     "introduksjon": {
       "no": {
         "title": "Tyvebolken",
-        "description": "Den siste bolken i Landsloven er Tyvebolken, som definerer tyveri og beskriver hvordan man stilte tyver til ansvar.",
+        "description": "Her defineres tyveri og beskrives hvordan man stilte tyver til ansvar",
         "tags": [
           "tyveri",
           "straff"
@@ -64,7 +64,7 @@
       },
       "en": {
         "title": "Thieves' section",
-        "description": "The last section of the Laws of the Land is the Thieves’ section, which defines theft and describes how to hold thieves accountable.",
+        "description": "Here, theft is defined as well as how to hold thieves accountable",
         "tags": [
           "theft",
           "punishment"
@@ -125,7 +125,7 @@
       },
       "en": {
         "title": "Section about going to Assemblies",
-        "description": "About how the old Tings were organized after the Laws of the Land came into use",
+        "description": "About how the old Things were organized after the Laws of the Land came into use",
         "tags": null,
         "image": "/images/section-buttons/Tingfarebolken.jpg",
         "alt": null,
@@ -138,16 +138,16 @@
         "title": "Hellig og høytidelig",
         "description": "",
         "tags": null,
-        "image": null,
-        "alt": null,
+        "image": "/images/tingfarebolken/Bf_Bd_55_DiB_31.jpg",
+        "alt": "Primstav av tre",
         "href": "/tingfarebolken/hellig-hoytidelig"
       },
       "en": {
         "title": "Holy and solemn",
         "description": "",
         "tags": null,
-        "image": null,
-        "alt": null,
+        "image": "/images/tingfarebolken/Bf_Bd_55_DiB_31.jpg",
+        "alt": "Wooden calendar stick",
         "href": "/tingfarebolken/hellig-hoytidelig"
       }
     },
@@ -301,130 +301,58 @@
     }
   },
   "prologen": {
-    "xian": {
-      "no": {
-        "title": "Kristenretten og Landsloven",
-        "description": "",
-        "tags": null,
-        "image": null,
-        "alt": null,
-        "href": "/prologen/xian"
-      },
-      "en": {
-        "title": "The Christian Law and the Laws of the Land",
-        "description": "",
-        "tags": null,
-        "image": null,
-        "alt": null,
-        "href": "/prologen/xian"
-      }
-    },
-    "utstil": {
-      "no": {
-        "title": "Landsloven i utstillingen",
-        "description": "",
-        "tags": null,
-        "image": null,
-        "alt": null,
-        "href": "/prologen/utstil"
-      },
-      "en": {
-        "title": "The Laws of the Land in the exhibition",
-        "description": "",
-        "tags": null,
-        "image": null,
-        "alt": null,
-        "href": "/prologen/utstil"
-      }
-    },
-    "raude": {
-      "no": {
-        "title": "Erkebiskop Jon Raude",
-        "description": "",
-        "tags": null,
-        "image": null,
-        "alt": null,
-        "href": "/prologen/raude"
-      },
-      "en": {
-        "title": "Archbishop Jon Raude",
-        "description": "",
-        "tags": null,
-        "image": null,
-        "alt": null,
-        "href": "/prologen/raude"
-      }
-    },
-    "provinc": {
+    "tinglover": {
       "no": {
         "title": "Fra landskapslover til Landsloven",
         "description": "",
         "tags": null,
-        "image": null,
-        "alt": null,
-        "href": "/prologen/provinc"
+        "image": "/images/prologen/Landslovutstillingen BM-11.jpg",
+        "alt": "Manuskriptfragmenter på norrønt. De eldste fragmentene av Gulatingsloven.",
+        "href": "/prologen/tinglover"
       },
       "en": {
         "title": "From the provincial laws to the Law of the Land",
         "description": "",
         "tags": null,
-        "image": null,
-        "alt": null,
-        "href": "/prologen/provinc"
+        "image": "/images/prologen/Landslovutstillingen BM-11.jpg",
+        "alt": "Manuscript fragments in Old Norse. The oldest fragments of the Gulathing law.",
+        "href": "/prologen/tinglover"
       }
     },
-    "olav2": {
+    "kristenrett": {
       "no": {
-        "title": "St. Olav og norske lover",
+        "title": "Kristenretten og Landsloven",
         "description": "",
         "tags": null,
-        "image": null,
-        "alt": null,
-        "href": "/prologen/olav2"
+        "image": "/images/prologen/Bryggens Museum mai 24-2.jpg",
+        "alt": "Statue av en mann med krone på en trone. Mannen representerer St Olav.",
+        "href": "/prologen/kristenrett"
       },
       "en": {
-        "title": "St Olav and Norwegian laws",
+        "title": "The Christian Law and the Laws of the Land",
         "description": "",
         "tags": null,
-        "image": null,
-        "alt": null,
-        "href": "/prologen/olav2"
+        "image": "/images/prologen/Bryggens Museum mai 24-2.jpg",
+        "alt": "Statue of a crowned man on a throne. The man represents St Olav.",
+        "href": "/prologen/kristenrett"
       }
     },
-    "olav": {
+    "jonraude": {
       "no": {
-        "title": "Lovboken som ble i landet",
+        "title": "Erkebiskop Jon Raude",
         "description": "",
         "tags": null,
-        "image": null,
-        "alt": null,
-        "href": "/prologen/olav"
+        "image": "/images/prologen/Jon_Raudes_Brakteat_(19897792419).jpg",
+        "alt": "Jon Raudes Brakteat. NTNU Vitenskapsmuseet, CC BY 2.0, via Wikimedia Commons",
+        "href": "/prologen/jonraude"
       },
       "en": {
-        "title": "Olav’s text: A fragment of the Gulating law",
+        "title": "Archbishop Jon Raude",
         "description": "",
         "tags": null,
-        "image": null,
-        "alt": null,
-        "href": "/prologen/olav"
-      }
-    },
-    "lovbok": {
-      "no": {
-        "title": "Olavsteksten. Fragment av Gulatingsloven",
-        "description": "",
-        "tags": null,
-        "image": null,
-        "alt": null,
-        "href": "/prologen/lovbok"
-      },
-      "en": {
-        "title": "A law book that has remained in the country",
-        "description": "",
-        "tags": null,
-        "image": null,
-        "alt": null,
-        "href": "/prologen/lovbok"
+        "image": "/images/prologen/Jon_Raudes_Brakteat_(19897792419).jpg",
+        "alt": "Bracteate of Jon Raude. NTNU Vitenskapsmuseet, CC BY 2.0, via Wikimedia Commons",
+        "href": "/prologen/jonraude"
       }
     },
     "introduksjon": {
@@ -450,40 +378,22 @@
         "href": "/prologen/introduksjon"
       }
     },
-    "euro": {
-      "no": {
-        "title": "Europeisk innflytelse",
-        "description": "",
-        "tags": null,
-        "image": null,
-        "alt": null,
-        "href": "/prologen/euro"
-      },
-      "en": {
-        "title": "European influences",
-        "description": "",
-        "tags": null,
-        "image": null,
-        "alt": null,
-        "href": "/prologen/euro"
-      }
-    },
-    "best": {
+    "bestemenn": {
       "no": {
         "title": "De beste menn",
         "description": "",
         "tags": null,
-        "image": null,
-        "alt": null,
-        "href": "/prologen/best"
+        "image": "/images/prologen/Audun_Hugleikson_våpenmerke.jpg",
+        "alt": "Segl som avbilder en ritter. Våpenmerke til Audun Hugleikson.",
+        "href": "/prologen/bestemenn"
       },
       "en": {
         "title": "The best men",
         "description": "",
         "tags": null,
-        "image": null,
-        "alt": null,
-        "href": "/prologen/best"
+        "image": "/images/prologen/Audun_Hugleikson_våpenmerke.jpg",
+        "alt": "A seal representing a rider. Coat of arms of Audun Hugleikson.",
+        "href": "/prologen/bestemenn"
       }
     }
   },
@@ -1045,42 +955,6 @@
         "href": "/kristendomsbolken/tronfolgeloven"
       }
     },
-    "tosverd": {
-      "no": {
-        "title": "Konge og biskop – de to sverdene",
-        "description": "",
-        "tags": null,
-        "image": null,
-        "alt": null,
-        "href": "/kristendomsbolken/tosverd"
-      },
-      "en": {
-        "title": "The king and the bishop: the two swords",
-        "description": "",
-        "tags": null,
-        "image": null,
-        "alt": null,
-        "href": "/kristendomsbolken/tosverd"
-      }
-    },
-    "nonner": {
-      "no": {
-        "title": "Kongssønnen Olav og nonnene i Nonneseter",
-        "description": "",
-        "tags": null,
-        "image": null,
-        "alt": null,
-        "href": "/kristendomsbolken/nonner"
-      },
-      "en": {
-        "title": "The king’s son Olav and the nuns in Nonneseter",
-        "description": "",
-        "tags": null,
-        "image": null,
-        "alt": null,
-        "href": "/kristendomsbolken/nonner"
-      }
-    },
     "kirkedoren": {
       "no": {
         "title": "Fremfor kirkedøren",
@@ -1135,24 +1009,6 @@
         "image": null,
         "alt": null,
         "href": "/kristendomsbolken/illuminasjoner"
-      }
-    },
-    "franciskanmagnus": {
-      "no": {
-        "title": "Kong Magnus, fransiskanerne og dagens Bergen domkirke",
-        "description": "",
-        "tags": null,
-        "image": null,
-        "alt": null,
-        "href": "/kristendomsbolken/franciskanmagnus"
-      },
-      "en": {
-        "title": "King Magnus, the Franciscans, and today’s Bergen Cathedral",
-        "description": "",
-        "tags": null,
-        "image": null,
-        "alt": null,
-        "href": "/kristendomsbolken/franciskanmagnus"
       }
     },
     "fargebruk": {
@@ -1305,14 +1161,14 @@
     }
   },
   "introduksjon": {
-    "soc": {
+    "samfunn": {
       "no": {
         "title": "Det norske samfunnet på kong Magnus Lagabøtes tid",
         "description": "",
         "tags": null,
         "image": null,
         "alt": null,
-        "href": "/introduksjon/soc"
+        "href": "/introduksjon/samfunn"
       },
       "en": {
         "title": "Norwegian society at the time of King Magnus the Lawmender",
@@ -1320,35 +1176,17 @@
         "tags": null,
         "image": null,
         "alt": null,
-        "href": "/introduksjon/soc"
+        "href": "/introduksjon/samfunn"
       }
     },
-    "rike": {
-      "no": {
-        "title": "Kong Magnus’ rike: Norge og Skattlandene",
-        "description": "",
-        "tags": null,
-        "image": null,
-        "alt": null,
-        "href": "/introduksjon/rike"
-      },
-      "en": {
-        "title": "The kingdom of King Magnus: Norway and the taxed territories",
-        "description": "",
-        "tags": null,
-        "image": null,
-        "alt": null,
-        "href": "/introduksjon/rike"
-      }
-    },
-    "nonner": {
+    "nonneseter": {
       "no": {
         "title": "Kongens sønn Olav og nonnene i Nonneseter",
         "description": "",
         "tags": null,
         "image": null,
         "alt": null,
-        "href": "/introduksjon/nonner"
+        "href": "/introduksjon/nonneseter"
       },
       "en": {
         "title": "The king’s son Olav and the nuns in Nonneseter",
@@ -1356,72 +1194,35 @@
         "tags": null,
         "image": null,
         "alt": null,
-        "href": "/introduksjon/nonner"
+        "href": "/introduksjon/nonneseter"
       }
     },
-    "magnus": {
+    "magnusrike": {
       "no": {
-        "title": "Kong Magnus VI Håkonsson",
+        "title": "Kong Magnus’ rike: Norge og Skattlandene",
         "description": "",
         "tags": null,
         "image": null,
         "alt": null,
-        "href": "/introduksjon/magnus"
+        "href": "/introduksjon/magnusrike"
       },
       "en": {
-        "title": "King Magnus VI Håkonsson",
+        "title": "The kingdom of King Magnus: Norway and the taxed territories",
         "description": "",
         "tags": null,
         "image": null,
         "alt": null,
-        "href": "/introduksjon/magnus"
+        "href": "/introduksjon/magnusrike"
       }
     },
-    "kloster": {
-      "no": {
-        "title": "Kong Magnus, fransiskanerne og dagens Bergen domkirke",
-        "description": "",
-        "tags": null,
-        "image": null,
-        "alt": null,
-        "href": "/introduksjon/kloster"
-      },
-      "en": {
-        "title": "King Magnus, the Franciscans, and today’s Bergen Cathedral",
-        "description": "",
-        "tags": null,
-        "image": null,
-        "alt": null,
-        "breadcrumb": false,
-        "href": "/introduksjon/kloster"
-      }
-    },
-    "intern3": {
-      "no": {
-        "title": "Ex oriente lux",
-        "description": "",
-        "tags": null,
-        "image": null,
-        "alt": null,
-        "href": "/introduksjon/intern3"
-      },
-      "en": {
-        "title": "Ex oriente lux",
-        "description": "",
-        "tags": null,
-        "image": null,
-        "alt": null,
-        "href": "/introduksjon/intern3"
-      }
-    },
-    "intern2": {
+    "lovgiver": {
       "no": {
         "title": "Magnus sin suksess som lovgiver",
         "description": "",
         "tags": null,
         "image": null,
         "alt": null,
-        "href": "/introduksjon/intern2"
+        "href": "/introduksjon/lovgiver"
       },
       "en": {
         "title": "Magnus’s success as lawgiver",
@@ -1429,17 +1230,17 @@
         "tags": null,
         "image": null,
         "alt": null,
-        "href": "/introduksjon/intern2"
+        "href": "/introduksjon/lovgiver"
       }
     },
-    "intern": {
+    "kulturutveksling": {
       "no": {
-        "title": "Kulturutvekslingen i middelalderen",
+        "title": "Kulturutveksling i middelalderen",
         "description": "",
         "tags": null,
         "image": null,
         "alt": null,
-        "href": "/introduksjon/intern"
+        "href": "/introduksjon/kulturutveksling"
       },
       "en": {
         "title": "Cultural exchanges in the Middle Ages",
@@ -1447,7 +1248,7 @@
         "tags": null,
         "image": null,
         "alt": null,
-        "href": "/introduksjon/intern"
+        "href": "/introduksjon/kulturutveksling"
       }
     },
     "holmen": {
@@ -1468,50 +1269,14 @@
         "href": "/introduksjon/holmen"
       }
     },
-    "def": {
+    "haakonshallen": {
       "no": {
-        "title": "Noen definisjoner",
+        "title": "Håkonshallen og lovgivningsarbeid",
         "description": "",
         "tags": null,
         "image": null,
         "alt": null,
-        "href": "/introduksjon/def"
-      },
-      "en": {
-        "title": "Some definitions",
-        "description": "",
-        "tags": null,
-        "image": null,
-        "alt": null,
-        "href": "/introduksjon/def"
-      }
-    },
-    "bergen2": {
-      "no": {
-        "title": "Bergen og bylovgiveren Magnus",
-        "description": "",
-        "tags": null,
-        "image": null,
-        "alt": null,
-        "href": "/introduksjon/bergen2"
-      },
-      "en": {
-        "title": "Bergen and the town legislator Magnus",
-        "description": "",
-        "tags": null,
-        "image": null,
-        "alt": null,
-        "href": "/introduksjon/bergen2"
-      }
-    },
-    "bergen": {
-      "no": {
-        "title": "Håkonshallen og lovgivningsarbeidet",
-        "description": "",
-        "tags": null,
-        "image": null,
-        "alt": null,
-        "href": "/introduksjon/bergen"
+        "href": "/introduksjon/haakonshallen"
       },
       "en": {
         "title": "King Håkons’s Hall and the legislative work",
@@ -1519,12 +1284,85 @@
         "tags": null,
         "image": null,
         "alt": null,
-        "href": "/introduksjon/bergen"
+        "href": "/introduksjon/haakonshallen"
+      }
+    },
+    "fransiskanerne": {
+      "no": {
+        "title": "Kong Magnus, fransiskanerne og dagens Bergen domkirke",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/introduksjon/fransiskanerne"
+      },
+      "en": {
+        "title": "King Magnus, the Franciscans, and today’s Bergen Cathedral",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "breadcrumb": false,
+        "href": "/introduksjon/fransiskanerne"
+      }
+    },
+    "exorientelux": {
+      "no": {
+        "title": "Ex oriente lux",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/introduksjon/exorientelux"
+      },
+      "en": {
+        "title": "Ex oriente lux",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/introduksjon/exorientelux"
+      }
+    },
+    "euroinnflyttelse": {
+      "no": {
+        "title": "Europeisk innflytelse",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/introduksjon/euroinnflyttelse"
+      },
+      "en": {
+        "title": "European influences",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/introduksjon/euroinnflyttelse"
+      }
+    },
+    "bylovgiveren": {
+      "no": {
+        "title": "Bergen og bylovgiveren Magnus",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/introduksjon/bylovgiveren"
+      },
+      "en": {
+        "title": "Bergen and the town legislator Magnus",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/introduksjon/bylovgiveren"
       }
     },
     "750-ar": {
       "no": {
-        "title": "Magnus Lagabøtes landslov 750 år",
+        "title": "Magnus Lagabøtes, konge og lovgiver, i Bergen, i Norge i verden",
         "description": "",
         "tags": null,
         "image": null,
@@ -1533,7 +1371,7 @@
         "href": "/introduksjon/750-ar"
       },
       "en": {
-        "title": "Magnus the Lawmender’s Laws of the Land: 750 years",
+        "title": "Magnus the Lawmender, king and lawgiver, in Bergen, in Norway, in the world",
         "description": "",
         "tags": null,
         "image": null,
