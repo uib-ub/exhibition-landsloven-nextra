@@ -13,15 +13,15 @@
       "pagination": false
     }
   },
-  "magnus": "Kong Magnus VI Håkonsson",
-  "rike": "Kong Magnus’ rike",
-  "soc": "Det norske samfunnet på kong Magnus Lagabøtes tid",
-  "bergen": "Håkonshallen og lovgivningsarbeidet",
-  "bergen2": "Bergen og bylovgiveren Magnus",
-  "holmen": "Holmen",
-  "kloster": "Magnus og fransiskanerklosteret",
-  "nonner": "Magnus og Nonneseter kloster",
-  "intern": "Det internationale bakteppet for Landsloven",
-  "intern2": "Magnus sin suksess som lovgiver",
-  "intern3": "Ex oriente lux"
+  "magnusrike": "Kong Magnus’ rike",
+  "samfunn": "Det norske samfunnet",
+  "bylovgiveren": "Bergen og bylovgiveren Magnus",
+  "holmen": "Kongsgården i Bergen",
+  "haakonshallen": "Håkonshallen og lovgivningsarbeid",
+  "fransiskanerne": "Magnus og fransiskanerklosteret",
+  "nonneseter": "Magnus og Nonneseter kloster",
+  "lovgiver": "Magnus sin suksess som lovgiver",
+  "kulturutveksling": "Kulturutveksling i middelalderen",
+  "euroinnflyttelse": "Europeisk innflyttelse",
+  "exorientelux": "Ex oriente lux"
 }

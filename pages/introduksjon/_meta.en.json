@@ -13,15 +13,14 @@
       "pagination": false
     }
   },
-  "magnus": "King Magnus VI Håkonsson",
-  "rike": "The kingdom of King Magnus",
-  "soc": "Norwegian society at the time of King Magnus",
-  "bergen": "King Håkons’s Hall and the legislative work",
-  "bergen2": "Bergen and the city legislator Magnus",
-  "holmen": "Holmen",
-  "kloster": "King Magnus and the Fransciscan cloister",
-  "nonner": "King Magnus and the Nonneseter cloister",
-  "intern": "The international context of the Laws of the Land",
-  "intern2": "Magnus's success as lawgiver",
-  "intern3": "Ex oriente lux"
+  "magnusrike": "The kingdom of King Magnus",
+  "samfunn": "The Norwegian society",
+  "bylovgiveren": "Bergen and the city legislator Magnus",
+  "holmen": "The royal estate in Bergen",
+  "haakonshallen": "King Håkons’s Hall and the legislative work",
+  "fransiskanerne": "King Magnus and the Fransciscan cloister",
+  "nonneseter": "King Magnus and the Nonneseter cloister",
+  "lovgiver": "Magnus's success as lawgiver","kulturutveksling": "Cultural exchanges in the Middle Ages",
+  "euroinnflyttelse": "European influences",
+  "exorientelux": "Ex oriente lux"
 }
