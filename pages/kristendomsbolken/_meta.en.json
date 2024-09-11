@@ -13,10 +13,10 @@
       "pagination": false
     }
   },
-  "tronfolgeloven": "The law of succession to the throne",
-  "tronfolgelovenkvin": "The right to succession through the female line",
+  "tronfolgeloven1": "The law of succession to the throne",
+  "tronfolgeloven2": "The right to succession through the female line",
+  "kirkedoren": "In front of the church door",
   "boker": "Book production",
   "illuminasjoner": "Illuminations",
-  "fargebruk": "The use of colours",
-  "kirkedoren": "In front of the church door"
+  "fargebruk": "The use of colours"
 }
