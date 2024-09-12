@@ -14,12 +14,12 @@
     }
   },
   "leidang": "Leidang",
-  "skip": "Skip og naust",
+  "skipognaust": "Skip og naust",
   "hardjeve": "Her farer den havdjerve",
   "seil": "Seilet - kvinnenes krigsinnsats",
-  "kirke": "Kirken - en velsignet lagringsplass",
+  "lagreikirke": "Kirken - en velsignet lagringsplass",
   "vapen": "Våpen og våpenting",
-  "vete": "Vetene",
-  "bud2": "Budstikker",
-  "bud1": "Budbæring"
+  "veter": "Vetene",
+  "budstikker": "Budstikker",
+  "budbæring": "Budbæring"
 }
