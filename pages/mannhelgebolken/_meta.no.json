@@ -14,9 +14,9 @@
     }
   },
   "straff": "Forbrytelse og straff",
-  "fire": "Guds fire døtre",
-  "kvin": "Kvinner - ære og ansvar",
+  "firedotre": "Guds fire døtre",
+  "kvinnere": "Kvinner - ære og ansvar",
   "kniv": "Kniv til nytte og besvær",
-  "kniv2": "Dolker med baller",
-  "kniv3": "Knivforbud i dag"
+  "balledolker": "Dolker med baller",
+  "knivforbud": "Knivforbud i dag"
 }

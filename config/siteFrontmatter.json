@@ -49,6 +49,24 @@
         "href": "/tyvebolken/tyver"
       }
     },
+    "straff": {
+      "no": {
+        "title": "Bøter og fysisk avstraffelse",
+        "description": "",
+        "tags": null,
+        "image": "/images/tyvebolken/Bf_X_13565_01.jpg",
+        "alt": "Oksepeis",
+        "href": "/tyvebolken/straff"
+      },
+      "en": {
+        "title": "Fines and corporal punishment",
+        "description": "",
+        "tags": null,
+        "image": "/images/tyvebolken/Bf_X_13565_01.jpg",
+        "alt": "A wip",
+        "href": "/tyvebolken/straff"
+      }
+    },
     "introduksjon": {
       "no": {
         "title": "Tyvebolken",
@@ -74,24 +92,6 @@
         "breadcrumb": false,
         "href": "/tyvebolken/introduksjon"
       }
-    },
-    "fine": {
-      "no": {
-        "title": "Bøter og fysisk avstraffelse",
-        "description": "",
-        "tags": null,
-        "image": "/images/tyvebolken/Bf_X_13565_01.jpg",
-        "alt": "Oksepeis",
-        "href": "/tyvebolken/fine"
-      },
-      "en": {
-        "title": "Fines and corporal punishment",
-        "description": "",
-        "tags": null,
-        "image": "/images/tyvebolken/Bf_X_13565_01.jpg",
-        "alt": "A wip",
-        "href": "/tyvebolken/fine"
-      }
     }
   },
   "tingfarebolken": {
@@ -100,16 +100,16 @@
         "title": "Lagmenn",
         "description": null,
         "tags": null,
-        "image": null,
-        "alt": null,
+        "image": "/images/tingfarebolken/bjell.jpg",
+        "alt": "Bjelle som henger fra taket på utstillingsarealer.",
         "href": "/tingfarebolken/lagmenn"
       },
       "en": {
         "title": "The royal magistrate",
         "description": "",
         "tags": null,
-        "image": null,
-        "alt": null,
+        "image": "/images/tingfarebolken/bjell.jpg",
+        "alt": "A bell hanging from the ceiling at the exhibition space.",
         "href": "/tingfarebolken/lagmenn"
       }
     },
@@ -156,16 +156,16 @@
         "title": "Gulatinget",
         "description": "",
         "tags": null,
-        "image": null,
-        "alt": null,
+        "image": "/images/tingfarebolken/gulating.jpg",
+        "alt": "Modern installasjon som symboliserer Gulatinget.",
         "href": "/tingfarebolken/gulatinget"
       },
       "en": {
         "title": "The Gulating assembly",
         "description": "",
         "tags": null,
-        "image": null,
-        "alt": null,
+        "image": "/images/tingfarebolken/gulating.jpg",
+        "alt": "Modern installation symbolising the Gula Thing.",
         "href": "/tingfarebolken/gulatinget"
       }
     }
@@ -659,6 +659,24 @@
         "href": "/landsleiebolken/sild"
       }
     },
+    "jordbruk": {
+      "no": {
+        "title": "Jordbruket",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/landsleiebolken/jordbruk"
+      },
+      "en": {
+        "title": "Agriculture",
+        "description": "",
+        "tags": null,
+        "image": null,
+        "alt": null,
+        "href": "/landsleiebolken/jordbruk"
+      }
+    },
     "jord": {
       "no": {
         "title": "Jordleie",
@@ -714,35 +732,17 @@
         "alt": null,
         "href": "/landsleiebolken/hval"
       }
-    },
-    "agri": {
-      "no": {
-        "title": "Jordbruket",
-        "description": "",
-        "tags": null,
-        "image": null,
-        "alt": null,
-        "href": "/landsleiebolken/agri"
-      },
-      "en": {
-        "title": "Agriculture",
-        "description": "",
-        "tags": null,
-        "image": null,
-        "alt": null,
-        "href": "/landsleiebolken/agri"
-      }
     }
   },
   "landevernsbolken": {
-    "vete": {
+    "veter": {
       "no": {
         "title": "Vetene",
         "description": "",
         "tags": null,
         "image": null,
         "alt": null,
-        "href": "/landevernsbolken/vete"
+        "href": "/landevernsbolken/veter"
       },
       "en": {
         "title": "Beacons",
@@ -750,7 +750,7 @@
         "tags": null,
         "image": null,
         "alt": null,
-        "href": "/landevernsbolken/vete"
+        "href": "/landevernsbolken/veter"
       }
     },
     "vapen": {
@@ -758,27 +758,27 @@
         "title": "Våpen og våpenting",
         "description": "",
         "tags": null,
-        "image": null,
-        "alt": null,
+        "image": "/images/landevernsbolken/Bf_B11302_FK_01.jpg",
+        "alt": "Bile i jern",
         "href": "/landevernsbolken/vapen"
       },
       "en": {
         "title": "Weapons and weapon assembly",
         "description": "",
         "tags": null,
-        "image": null,
-        "alt": null,
+        "image": "/images/landevernsbolken/Bf_B11302_FK_01.jpg",
+        "alt": "Socket axe made of iron.",
         "href": "/landevernsbolken/vapen"
       }
     },
-    "skip": {
+    "skipognaust": {
       "no": {
         "title": "Skip og naust",
         "description": "",
         "tags": null,
         "image": null,
         "alt": null,
-        "href": "/landevernsbolken/skip"
+        "href": "/landevernsbolken/skipognaust"
       },
       "en": {
         "title": "Ships and boathouses",
@@ -786,7 +786,7 @@
         "tags": null,
         "image": null,
         "alt": null,
-        "href": "/landevernsbolken/skip"
+        "href": "/landevernsbolken/skipognaust"
       }
     },
     "seil": {
@@ -807,40 +807,40 @@
         "href": "/landevernsbolken/seil"
       }
     },
-    "levy": {
+    "leidang": {
       "no": {
         "title": "Leidang",
         "description": "",
         "tags": null,
-        "image": null,
-        "alt": null,
-        "href": "/landevernsbolken/levy"
+        "image": "/images/landevernsbolken/Landslovutstillingen BM-3.jpg",
+        "alt": "Delen av utstillingen hvor Landevernsbolken er presentert.",
+        "href": "/landevernsbolken/leidang"
       },
       "en": {
         "title": "Levy",
         "description": "",
         "tags": null,
-        "image": null,
-        "alt": null,
-        "href": "/landevernsbolken/levy"
+        "image": "/images/landevernsbolken/Landslovutstillingen BM-3.jpg",
+        "alt": "The part of the exhibition where the Levy section is presented.",
+        "href": "/landevernsbolken/leidang"
       }
     },
-    "kirke": {
+    "lagreikirke": {
       "no": {
         "title": "Kirken - en velsignet lagringsplass",
         "description": "",
         "tags": null,
-        "image": null,
-        "alt": null,
-        "href": "/landevernsbolken/kirke"
+        "image": "/images/landevernsbolken/ubb-wil-o-254_md.jpg",
+        "alt": "Kirkeinteriør med kopi av en skip som henger fra taket.",
+        "href": "/landevernsbolken/lagreikirke"
       },
       "en": {
         "title": "The church – A blessed repository",
         "description": "",
         "tags": null,
-        "image": null,
-        "alt": null,
-        "href": "/landevernsbolken/kirke"
+        "image": "/images/landevernsbolken/ubb-wil-o-254_md.jpg",
+        "alt": "Interior of a church with a copy of a ship hanging from the ceiling.",
+        "href": "/landevernsbolken/lagreikirke"
       }
     },
     "introduksjon": {
@@ -863,96 +863,78 @@
         "href": "/landevernsbolken/introduksjon"
       }
     },
-    "hard": {
+    "hardjeve": {
       "no": {
         "title": "«Her farer den havdjerve»",
         "description": "",
         "tags": null,
-        "image": null,
-        "alt": null,
-        "href": "/landevernsbolken/hard"
+        "image": "/images/landevernsbolken/Bf_BRM_0_12274_001.jpg",
+        "alt": "Runepinne av tre med innrisset skipbilder og innskrift.",
+        "href": "/landevernsbolken/hardjeve"
       },
       "en": {
         "title": "\"Here fares the courageous seafarer\"",
         "description": "",
         "tags": null,
-        "image": null,
-        "alt": null,
-        "href": "/landevernsbolken/hard"
+        "image": "/images/landevernsbolken/Bf_BRM_0_12274_001.jpg",
+        "alt": "Rune stick of wood incised with a war fleet and an inscription.",
+        "href": "/landevernsbolken/hardjeve"
       }
     },
-    "bud2": {
+    "budbaeringogbudstikker": {
       "no": {
         "title": "Budstikker",
         "description": "",
         "tags": null,
-        "image": null,
-        "alt": null,
-        "href": "/landevernsbolken/bud2"
+        "image": "images/landevernsbolken/budbarring.jpg",
+        "alt": "En mann på hest bærer budstikker",
+        "href": "/landevernsbolken/budbaeringogbudstikker"
       },
       "en": {
         "title": "Bidding sticks",
         "description": "",
         "tags": null,
-        "image": null,
-        "alt": null,
-        "href": "/landevernsbolken/bud2"
-      }
-    },
-    "bud1": {
-      "no": {
-        "title": "Budbæring",
-        "description": "",
-        "tags": null,
-        "image": null,
-        "alt": null,
-        "href": "/landevernsbolken/bud1"
-      },
-      "en": {
-        "title": "Sending messages",
-        "description": "",
-        "tags": null,
-        "image": null,
-        "alt": null,
-        "href": "/landevernsbolken/bud1"
+        "image": "images/landevernsbolken/budbarring.jpg",
+        "alt": "A carrier of message sticks on horse",
+        "href": "/landevernsbolken/budbaeringogbudstikker"
       }
     }
   },
   "kristendomsbolken": {
-    "tronfolgelovenkvin": {
+    "tronfolgeloven2": {
       "no": {
         "title": "Tronfølgeloven: Arverett gjennom kvinneledd",
         "description": "",
         "tags": null,
-        "image": null,
-        "alt": null,
-        "href": "/kristendomsbolken/tronfolgelovenkvin"
+        "image": "/images/arvetall/Bryggens Museum mai 24-6.jpg",
+        "alt": "Brudekrone av forgylt sølv.",
+        "href": "/kristendomsbolken/tronfolgeloven2"
       },
       "en": {
         "title": "The law of the succession to the throne: the right to succession through the female line",
         "description": "",
         "tags": null,
-        "image": null,
-        "alt": null,
-        "href": "/kristendomsbolken/tronfolgelovenkvin"
+        "image": "/images/arvetall/Bryggens Museum mai 24-6.jpg",
+        "alt": "Bridal crown made of gilded silver.",
+        "href": "/kristendomsbolken/tronfolgeloven2"
       }
     },
-    "tronfolgeloven": {
+    "tronfolgeloven1": {
       "no": {
         "title": "Tronfølgeloven: Den ektefødte og førstefødtes rett",
         "description": "",
         "tags": null,
-        "image": null,
-        "alt": null,
-        "href": "/kristendomsbolken/tronfolgeloven"
+        "image": "/images/introduksjon/StavangerDomf21005.jpg",
+        "alt": "Skulptur av en konges hode over en kirkedør.",
+        "href": "/kristendomsbolken/tronfolgeloven1"
       },
       "en": {
         "title": "The law of succession to the throne: the rights of the legitimate child and the firstborn child",
         "description": "",
         "tags": null,
-        "image": null,
-        "alt": null,
-        "href": "/kristendomsbolken/tronfolgeloven"
+        "image": "/images/introduksjon/StavangerDomf21005.jpg",
+        "alt": "Sculpted royal head over a church door.",
+        "href": "/kristendomsbolken/tronfolgeloven1"
       }
     },
     "kirkedoren": {
@@ -960,16 +942,16 @@
         "title": "Fremfor kirkedøren",
         "description": "",
         "tags": null,
-        "image": null,
-        "alt": null,
+        "image": "/images/kristendomsbolken/ubb-il-0009-001-b_md.jpg",
+        "alt": "Kirkefasade på et svart-hvit bilde.",
         "href": "/kristendomsbolken/kirkedoren"
       },
       "en": {
         "title": "In front of the church door",
         "description": "",
         "tags": null,
-        "image": null,
-        "alt": null,
+        "image": "/images/kristendomsbolken/ubb-il-0009-001-b_md.jpg",
+        "alt": "Church facade on a black-and-white photograph.",
         "href": "/kristendomsbolken/kirkedoren"
       }
     },
@@ -998,16 +980,16 @@
         "title": "Illuminasjoner, en fryd for øyet",
         "description": "",
         "tags": null,
-        "image": null,
-        "alt": null,
+        "image": "/images/kristendomsbolken/faximil.jpg",
+        "alt": "Fire faksimiler av illuminasjoner fra manuskripter med Landsloven.",
         "href": "/kristendomsbolken/illuminasjoner"
       },
       "en": {
         "title": "Illuminations: a delight for the eye",
         "description": "",
         "tags": null,
-        "image": null,
-        "alt": null,
+        "image": "/images/kristendomsbolken/faximil.jpg",
+        "alt": "Four fascimiles of illuminations from manuscripts with the Laws of the Land.",
         "href": "/kristendomsbolken/illuminasjoner"
       }
     },
@@ -1016,16 +998,16 @@
         "title": "Middelalderens farger",
         "description": "",
         "tags": null,
-        "image": null,
-        "alt": null,
+        "image": "/images/kristendomsbolken/fargemonter.jpg",
+        "alt": "Utstillingsmonter som viser illuminasjoner, bruk av farger i manuskripter og stoff som ble brukt til å lage farger i middelalderen.",
         "href": "/kristendomsbolken/fargebruk"
       },
       "en": {
         "title": "The colours of the Middle Ages",
         "description": "",
         "tags": null,
-        "image": null,
-        "alt": null,
+        "image": "/images/kristendomsbolken/fargemonter.jpg",
+        "alt": "An exhibition showcase that presentes illuminations, the use of colors in manuscripts and the elements that were used to make colors in the Middle Ages.",
         "href": "/kristendomsbolken/fargebruk"
       }
     },
@@ -1034,16 +1016,16 @@
         "title": "Bokproduksjon",
         "description": "",
         "tags": null,
-        "image": null,
-        "alt": null,
+        "image": "/images/kristendomsbolken/bokproduksjon.jpg",
+        "alt": "Utstillingsmonter med gjenstander som ble brukt i bokprodukasjon i fortiden.",
         "href": "/kristendomsbolken/boker"
       },
       "en": {
         "title": "Book production",
         "description": "",
         "tags": null,
-        "image": null,
-        "alt": null,
+        "image": "/images/kristendomsbolken/bokproduksjon.jpg",
+        "alt": "An exhibition showcase with objects that were used for book production in the past.",
         "href": "/kristendomsbolken/boker"
       }
     }
