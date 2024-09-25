@@ -13,10 +13,10 @@
       "pagination": false
     }
   },
-  "jord": "Jordleie",
-  "slave": "Treller, livegne og leilendinger",
+  "jordleie": "Jordleie",
+  "treller": "Treller, livegne og leilendinger",
   "jordbruk": "Jordbruket",
-  "tun": "Tunet",
+  "tunet": "Tunet",
   "sild": "Sildefiske",
   "hval": "Hval"
 }
