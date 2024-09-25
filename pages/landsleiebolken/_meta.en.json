@@ -13,10 +13,10 @@
       "pagination": false
     }
   },
-  "jord": "Land tenancy",
-  "slave": "Slaves, serfs, and tenants",
+  "jordleie": "Land tenancy",
+  "treller": "Slaves, serfs, and tenants",
   "jordbruk": "Agriculture",
-  "tun": "Farmyards",
+  "tunet": "Farmyards",
   "sild": "Herring fishing",
   "hval": "Whales"
 }
