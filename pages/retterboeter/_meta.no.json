@@ -13,10 +13,10 @@
       "pagination": false
     }
   },
-  "gammels": "Gammelnorske lover i en ny tid",
+  "gammelnorskelov": "Gammelnorske lover i en ny tid",
   "dansk": "Danske oversettelser",
   "v": "Christian Vs Norske Lov",
   "reuse": "Gjenbruk av manuskripter",
-  "print": "Om trykkeri og papir",
-  "dagens": "Norsk lov i dag"
+  "gjenbruk": "Om trykkeri og papir",
+  "dagenslov": "Norsk lov i dag"
 }
