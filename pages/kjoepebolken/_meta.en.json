@@ -15,7 +15,6 @@
   },
   "malogvekt": "Weights and measures",
   "vekter": "Scales",
-  "kongensmynter": "The king's coins",
-  "erkebiskopensmynter": "The archbishop's coins",
+  "mynter": "The king's and the archbishop's coins",
   "falskmynteri": "Counterfeiting"
 }
