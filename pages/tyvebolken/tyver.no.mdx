@@ -12,12 +12,21 @@ import Blockquote from 'components/blockquote';
 import Container from 'components/container';
 import Spacer from 'components/spacer';
 import React from 'react';
-  
+import Figure from 'components/figure'; 
 
  
 # Håndtering av tyver før og nå
 
 <Spacer height={10} />
+
+<Blockquote
+    image = 'ADD SITAT' 
+    alt=''
+    gold={0}
+    full={1}
+/>
+
+<Spacer height={20} />
 
 <Container stil="initial">
     Om vi ser på tiden bakenfor Landsloven, beskriver de eldre landskapslovene en bortimot nådeløs praksis når det gjaldt tyveri. 
@@ -30,12 +39,10 @@ import React from 'react';
 
 <Spacer height={50} />
 
-<Blockquote
-    quote='I middelalderen var fengsel nesten ukjent, selv om man kunne sitte i varetekt frem til rettergang og dom. Frihetsberøvelse er noe som kom med senere tankegods.'
-    footer=''
-    image = '/images/tyver.jpg' 
-    alt='tyveri illustrasjonsbilde'
-    gold={0}
-    full={1}
-/>
+<Figure
+    image="\images\tyvebolken\piskesilhuette.jpg"
+    alt="Silhuette fra utstillingen som viser pisking av en tyv."
+>
+</Figure>
 
+<Spacer height={50} />
