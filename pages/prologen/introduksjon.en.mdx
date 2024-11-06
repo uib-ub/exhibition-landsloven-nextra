@@ -40,6 +40,8 @@ import meta from './_meta.en.json';
 
 <Container>
     <Spacer height={10} />
+    {site?.prologen && meta ? (
     <SubTextsCards items={site.prologen} meta={meta}  />
+  ) : null}
  </Container>
 

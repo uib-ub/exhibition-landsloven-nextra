@@ -36,7 +36,9 @@ import meta from './_meta.en.json';
 
 <Container>
 <Spacer height={10}/>
+    {site?.tyvebolken && meta ? (
     <SubTextsCards items={site.tyvebolken} meta={meta} columns={2}/>
+  ) : null}
 </Container>
 
 

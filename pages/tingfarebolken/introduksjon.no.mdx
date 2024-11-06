@@ -32,7 +32,9 @@ import meta from './_meta.no.json';
   </Container>
 
 <Container>
+    {site?.tingfarebolken && meta ? (
     <SubTextsCards items={site.tingfarebolken} meta={meta}  />
+  ) : null}
 </Container>
 
 

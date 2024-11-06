@@ -9,15 +9,23 @@ interface CardProps {
   ingress?: string;
   image?: string;
   alt?: string;
+  path: string;
+  shadow?: string;
 }
 
 // TO DO: Deafault image or 'check if it exists)
 
-const Card = (props) => {
-  const { path = '', title, ingress = '', alt = '', image = '', shadow = 'shadow-md' } = props;
+const Card = (props: CardProps) => {
+  const {
+    path = '',
+    title = '',
+    ingress = '',
+    alt = '',
+    image = '/images/dummy_lands_b.jpg',
+    shadow = 'shadow-md'
+  } = props;
 
-  // TO DO: Change Read more text to 'english or norwegian'
-  const { locale } = useRouter()
+  const { locale = 'no' } = useRouter();
   const aria = locale === 'no' ? 'Les mer om ' + title : 'Read more about ' + title;
   const lenkeText = locale === 'no' ? 'Les mer' : 'Read more';
 

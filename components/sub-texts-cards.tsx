@@ -14,7 +14,10 @@ type MenuItems = {
 };
 
 const SubTextsCards = ({ items, meta, shadow }: { items: MenuItems, meta: any, shadow?: string }) => {
-  if (!items) return null
+  const router = useRouter();
+  // Get the current locale so we can display the correct language
+  const { locale } = router;
+  if (!items || !meta) return null;
 
   // If we get these keys, we remove them from the object
   delete items.index;
@@ -22,33 +25,41 @@ const SubTextsCards = ({ items, meta, shadow }: { items: MenuItems, meta: any, s
   //delete items['750-ar'];
   delete items['X-designalternativer'];
 
-  // Get the current locale so we can display the correct language
-  const { locale } = useRouter();
 
-  const subPages = Object.keys(meta).filter(k => !['---', 'introduksjon', '750-ar'].includes(k)).map((key) => {
-    const value = items[key].introduksjon?.[locale] || items[key].epilog?.[locale] || items[key]?.[locale];
+  if (!Object.keys(meta).length) return null;
 
-    if (!value) return null
+  const subPages = Object.keys(meta)
+    .filter(k => !['---', 'introduksjon', '750-ar'].includes(k))
+    .map((key) => {
+      if (!items[key]) return null;
 
-    const title = value.title;
-    const path = value.href;
-    const alt = value.alt;
-    const ingress = value.description; // Got renamed to description
-    const image = value.image ? value.image : '/images/dummy_lands_b.jpg';
+      const value = items[key].introduksjon?.[locale] ||
+        items[key].epilog?.[locale] ||
+        items[key]?.[locale];
 
-    // Can use "generic" Card component here
-    return (
-      <Card
-        key={`${key}-${locale}`}
-        image={image}
-        alt={alt ?? ''}
-        title={title}
-        ingress={ingress}
-        path={path}
-        shadow={shadow}
-      />
-    );
-  });
+      if (!value) return null;
+
+      const title = value.title;
+      const path = value.href;
+      const alt = value.alt;
+      const ingress = value.description; // Got renamed to description
+      const image = value.image ? value.image : '/images/dummy_lands_b.jpg';
+
+      return (
+        <Card
+          key={`${key}-${locale}`}
+          image={image}
+          alt={alt ?? ''}
+          title={title}
+          ingress={ingress}
+          path={path}
+          shadow={shadow}
+        />
+      );
+    })
+    .filter(Boolean);
+
+  if (!subPages.length) return null;
 
   return (
     <section className="w-full py-5">

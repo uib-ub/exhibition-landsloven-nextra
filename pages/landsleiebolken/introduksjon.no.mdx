@@ -32,5 +32,7 @@ Landsleiebolken er den største bolken i Landsloven. I Landslovens tid var Norge
 
 <Container>
     <Spacer height={10}/>
+    {site?.landsleiebolken && meta ? (
     <SubTextsCards items={site.landsleiebolken} meta={meta} />
+  ) : null}
 </Container>

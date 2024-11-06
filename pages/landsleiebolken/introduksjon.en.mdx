@@ -31,5 +31,8 @@ import meta from './_meta.en.json';
 </Container>
 
 <Container>
+    {site?.landsleiebolken && meta ? (
     <SubTextsCards items={site.landsleiebolken} meta={meta} />
+  ) : null}
 </Container>
+

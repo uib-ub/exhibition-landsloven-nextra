@@ -27,7 +27,7 @@ import meta from './_meta.no.json';
 />
  
 <Container>
-    <Spacer height={50} />
+<Spacer height={50} />
 
 ## Jubileums­utstilling på Bryggens Museum
 
@@ -41,7 +41,9 @@ Utstillingen er bygget opp på sammen måte som Landsloven. Det vil si at den f�
 
 I tillegg inneholder Landsloven en Prolog og en avsluttende del som omfatter både en Epilog og Retterbøter, som er korte tekster som inneholder endringer eller tillegg til gjeldende rett. Mens Prologen og Epilogen ikke var regnet som en direkte del av loven, var retterbøtene ment å bli brukt sammen med deler av de ni bolkene.
 
+{site && meta?.bolkene?.items ? (
     <SubTextsCards items={site} meta={meta.bolkene.items} />
+) : null}
  
 
 ### Noen definisjoner for å hjelpe leseren:

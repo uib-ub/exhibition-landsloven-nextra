@@ -30,6 +30,8 @@ import meta from './_meta.en.json';
 
 <Container>
     <Spacer height={10}/>
+    {site?.retterboeter && meta ? (
     <SubTextsCards items={site.retterboeter} meta={meta} />
+  ) : null}
 </Container>
 

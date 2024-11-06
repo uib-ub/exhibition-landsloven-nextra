@@ -40,5 +40,7 @@ import meta from './_meta.no.json';
 
 <Container>
     <Spacer height={10}/>
+    {site?.tyvebolken && meta ? (
     <SubTextsCards items={site.tyvebolken} meta={meta} />
+  ) : null}
 </Container>

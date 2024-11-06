@@ -38,7 +38,9 @@ import meta from './_meta.no.json';
 
 <Container>
   <Spacer height={10} />
-  <SubTextsCards items={site.arvetallet} meta={meta}  />
+  {site?.arvetallet && meta ? (
+    <SubTextsCards items={site?.arvetallet} meta={meta} />
+  ) : null}
 </Container>
  
  
