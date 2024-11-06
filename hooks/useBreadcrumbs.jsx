@@ -58,4 +58,4 @@ const useBreadcrumbs = (folder) => {
   });
 };
 
-export default useBreadcrumbs;
+export default useBreadcrumbs
