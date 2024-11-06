@@ -14,11 +14,15 @@ async function processFile(mdxPath) {
 
   if (!data.image) return;
 
-  // Create new image name based on MDX filename
-  const mdxBaseName = path.basename(mdxPath)
-    .replace(/\.(no|en)\.mdx$/, '');
+  // Get folder name and base name
+  const folderName = path.dirname(mdxPath).split(path.sep).pop();
+  const mdxBaseName = path.basename(mdxPath).replace(/\.(no|en)\.mdx$/, '');
   const imageExt = path.extname(data.image);
-  const newImageName = `${mdxBaseName}${imageExt}`;
+
+  // If it's an "introduksjon" file, prefix with folder name
+  const newImageName = mdxBaseName.includes('introduksjon')
+    ? `${folderName}-${mdxBaseName}${imageExt}`
+    : `${mdxBaseName}${imageExt}`;
 
   // Setup paths
   const oldImagePath = path.join(process.cwd(), 'public', data.image);
