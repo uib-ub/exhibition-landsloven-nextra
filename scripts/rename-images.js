@@ -14,6 +14,12 @@ async function processFile(mdxPath) {
 
   if (!data.image) return;
 
+  // Guard against already processed files
+  if (data.image.includes('/images/card-images/')) {
+    console.log(`Skipping ${mdxPath} - already processed`);
+    return;
+  }
+
   // Get folder name and base name
   const folderName = path.dirname(mdxPath).split(path.sep).pop();
   const mdxBaseName = path.basename(mdxPath).replace(/\.(no|en)\.mdx$/, '');
