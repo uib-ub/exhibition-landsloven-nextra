@@ -1,9 +1,9 @@
 ---
 title: Kjøpebolken
-description: 'Om handel og mynter og vekt'
-tags:
-image: /images/section-buttons/Kjopebolken.jpg
-alt: 
+description: Om handel og mynter og vekt
+tags: null
+image: /images/card-images/kjoepebolken-introduksjon.jpg
+alt: null
 breadcrumb: false
 ---
 
@@ -32,6 +32,8 @@ import meta from './_meta.no.json';
 
 <Container>
     <Spacer height={10}/>
+    {site?.kjoepebolken && meta ? (
     <SubTextsCards items={site.kjoepebolken} meta={meta} />
+  ) : null}
 </Container>
 

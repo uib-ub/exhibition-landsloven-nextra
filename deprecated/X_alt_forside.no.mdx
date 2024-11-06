@@ -1,0 +1,67 @@
+import SubMenuCards from 'components/sub-menu-cards'
+import site from 'config/siteFrontmatter.json';
+import Blockquote from 'components/blockquote'
+import Spacer  from 'components/spacer'
+import Container from 'components/container'
+import SubBox  from 'components/subbox'
+import Image from 'next/image'
+import Navigation from 'next/navigation'
+
+
+<style global jsx>{`
+.nextra-sidebar-container, nav.nextra-toc { display: none !important }  
+ .nx-max-w-6xl {max-width: 100vw !important; width: 100% !important}
+.nx-max-w-[90rem] .nx-w-full, main {width: 100vw !important; max-width: 100vw !important }`}</style>
+
+
+{/* # Landslovjubileets nettutstilling
+ 
+Dette er et forslag til nye nettside for Landslovsutstillingen i Bergen. */}
+
+<Image
+    src='/images/landslovbanner.jpg'
+    alt='banneri image'
+    width={3500}
+    height={1600}
+    className="object-cover" 
+/>
+
+{/* Placeholder component for en stor hero */}
+{/* <Hero title='Jubileumsutstillingen' description='Bryggens Museum' image='/images/landslovbanner.jpg' />
+*/}
+
+{/* Ny component for alle sidene */}
+
+{/* Ny component om partnerne */}
+
+<Container>
+<Spacer  height={50} />
+
+    <Blockquote
+        quote='«Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in volu.»'
+        footer='Commandante Elit'
+        image = '/images/lorum.jpg'
+        gold={0} 
+    />
+    
+    <Spacer height={50} />
+
+ 
+    {/* <SubMenuCards items={site} columns={2} gap={10}/> */}
+
+    <Spacer height={50} />
+ 
+    <Blockquote
+        quote='«Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in volu.»'
+        footer='Commandante Elit'
+        image = '/images/lorum.jpg' 
+        gold={1}
+        full = {1}
+    />
+
+</Container>
+
+ 
+
+
+ 

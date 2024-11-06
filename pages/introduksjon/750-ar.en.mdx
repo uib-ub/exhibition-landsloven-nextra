@@ -35,8 +35,9 @@ Magnus Håkonsson was born in Tønsberg May 1st 1238, being the youngest of the 
 </Container>
 
 <Container>
+    {site?.introduksjon && meta ? (
     <SubTextsCards items={site.introduksjon} meta={meta} />
-
+  ) : null}
 </Container>
 
 

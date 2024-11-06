@@ -1,31 +1,60 @@
-import sections from 'components/combindesections';
-import site from 'config/site';
+import siteFrontmatter from 'config/siteFrontmatter.json';
 import { useRouter } from 'next/router';
+import noMeta from '@/pages/_meta.no.json';
+import enMeta from '@/pages/_meta.en.json';
 
-const useBreadcrumbs = () => {
+const useBreadcrumbs = (folder) => {
   const { locale, pathname } = useRouter();
-
   const pathSegments = pathname.split('/').filter(segment => segment);
+  const meta = locale === 'no' ? noMeta : enMeta;
+
+  // Updated to preserve order from meta file
+  const sectionTitles = Object.entries(meta.bolkene?.items || {})
+    .map(([key, item]) => ({
+      key,
+      href: item.href,
+      title: item.title
+    }));
 
   return pathSegments.map((segment, index) => {
-    var href = '/' + pathSegments.slice(0, index + 1).join('/').replace(/\.(no|en)$/, '');
-    var seg = segment.replace(/\.(no|en)$/, '');
-    var label = seg
-    var folder = ''
+    const cleanedSegment = segment.replace(/\.(no|en)$/, '');
+    const pathUpToHere = pathSegments.slice(0, index + 1).join('/');
 
-    if (index == 0) {
-      label = site?.bolkene?.items[seg]?.title[locale] ?? '…'
-      href = site?.bolkene?.items[seg]?.href ?? '';
+    // Simplified first segment logic to only use meta.bolkene.items
+    if (index === 0) {
+      const metaData = meta.bolkene?.items?.[cleanedSegment];
+      return {
+        href: metaData?.href || `/${pathUpToHere}`.replace(/\.(no|en)$/, ''),
+        label: metaData?.title || cleanedSegment,
+        index,
+        sectionTitles,
+        ...(folder && { folder }),
+        id: `breadcrumb-${cleanedSegment}-${index}`
+      };
     }
 
-    if (index == 1) {
-      // get title by looking it up from 'combinedsections'
-      const bolk = pathSegments.slice(0, 1)[0];
-      label = sections[bolk]?.items[label]?.title[locale] ?? '…'
-      folder = sections[bolk]?.items;
-      // return { href, label, index, folder: sections[bolk].items, key: seg+label+index  };
+    // Rest of the logic remains the same...
+    const defaultBreadcrumb = {
+      href: `/${pathUpToHere}`.replace(/\.(no|en)$/, ''),
+      label: segment,
+      index,
+      ...(folder && { folder }),
+      id: `breadcrumb-${cleanedSegment}-${index}`
+    };
+
+    if (index === 1) {
+      const parentSection = pathSegments[0].replace(/\.(no|en)$/, '').toLowerCase();
+      const pageData = siteFrontmatter[parentSection]?.[cleanedSegment]?.[locale];
+      if (pageData) {
+        return {
+          ...defaultBreadcrumb,
+          label: pageData.title,
+          href: pageData.href,
+        };
+      }
     }
-    return { href, label, index, folder, key: seg + label + index };
+
+    return defaultBreadcrumb;
   });
 };
 

@@ -1,9 +1,9 @@
 ---
 title: Retterbøter
-description: 'Landloven trengte ofte oppdatering fra 1274 til 1687 som den ble gjeldende'
-tags:
-image: /images/section-buttons/Rettarbot-Epilog.jpg
-alt: 
+description: Landloven trengte ofte oppdatering fra 1274 til 1687 som den ble gjeldende
+tags: null
+image: /images/card-images/retterboeter-introduksjon.jpg
+alt: null
 breadcrumb: false
 ---
 
@@ -31,7 +31,9 @@ import meta from './_meta.no.json';
 
 <Container>
     <Spacer height={10}/>
+    {site?.retterboeter && meta ? (
     <SubTextsCards items={site.retterboeter} meta={meta} />
+  ) : null}
 </Container>
 
 

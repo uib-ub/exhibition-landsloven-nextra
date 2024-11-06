@@ -1,9 +1,11 @@
 ---
 title: Section about going to Assemblies
-description: 'About how the old Things were organized after the Laws of the Land came into use'
-tags:
-image: /images/section-buttons/Tingfarebolken.jpg
-alt: 
+description: >-
+  About how the old Things were organized after the Laws of the Land came into
+  use
+tags: null
+image: /images/card-images/tingfarebolken-introduksjon.jpg
+alt: null
 breadcrumb: false
 ---
 
@@ -45,6 +47,8 @@ import meta from './_meta.en.json';
 
 <Container>
   <Spacer height={10}/>
+  {site?.tingfarebolken && meta ? (
   <SubTextsCards items={site.tingfarebolken} meta={meta} columns='3' />
+  ) : null}
 </Container>
 
