@@ -102,11 +102,6 @@ footer {
 	@apply font-antiqua;
 }  	
 
-.blueinitial::first-letter  {
-	@apply text-9xl text-ll-blue-900 float-left inline-block leading-none pt-0 ml-1 mr-3 -mb-5  ; 
-	@apply font-antiqua;
-}  	
-
 .redletter::first-letter,         
 .xfirstletter::first-letter  {
 	@apply text-9xl text-red-700 float-left inline-block bg-ll-sandy px-4 mr-4  ; 
@@ -159,13 +154,20 @@ footer {
 	background: #f8f6ee;
 }
 
-.nextra-menu-desktop li > a[href$="/"] {
+.nextra-menu-desktop li > a[href$="/"],
+.nextra-menu-desktop li > a[href$="/en"]
+ {
     margin-left:  0.5rem;
+    display: none;
+}
+
+.nextra-menu-desktop li.\[word-break\:break-word\].nx-my-4 {
+    display: none;
 }
 
 .nextra-menu-desktop li > a[href$="introduksjon"] {
     margin-left:  0.5rem;
-    color:  #333;
+    color:  #787878;
     font-weight: bold;
 }
 
