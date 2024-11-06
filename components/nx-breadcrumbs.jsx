@@ -1,9 +1,8 @@
 import { useRouter } from 'next/router';
 import { useConfig } from 'nextra-theme-docs';
-import { Fragment } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import useBreadcrumbs from '../hooks/usebreadcrumbs';
+import useBreadcrumbs from '../hooks/useBreadcrumbs';
 import siteFrontmatter from 'config/siteFrontmatter.json';
 import {
   DropdownMenu,
@@ -13,21 +12,17 @@ import {
 } from "@/components/ui/dropdown-menu";
 import { ChevronDown } from "lucide-react";
 
-const BreadCrumbs = () => {
+const NxBreadCrumbs = () => {
   const breadcrumbs = useBreadcrumbs();
   const { locale, asPath } = useRouter();
   const { frontMatter } = useConfig();
 
-  const seksjonsNavn = locale == 'no' ? 'Forside Bolk' : 'Current Section';
-
-  // Helper function to safely get section data
   const getSectionData = (section) => {
     const sectionData = siteFrontmatter[section]?.introduksjon?.[locale];
-    if (!sectionData) return null;
-    return {
+    return sectionData ? {
       href: sectionData.href,
       title: sectionData.title
-    };
+    } : null;
   };
 
   if (asPath === '/' || frontMatter.breadcrumb === false) return null;
@@ -43,30 +38,29 @@ const BreadCrumbs = () => {
         </li>
         {breadcrumbs.map(breadcrumb => (
           <li className="flex my-1 flex-row flex-nowrap justify-items-center" key={breadcrumb.href}>
-            {(breadcrumb.index !== 1) ? (
-              <Fragment>
+            {breadcrumb.index !== 1 ? (
+              <>
                 <DropdownMenu>
                   <DropdownMenuTrigger className="flex items-center gap-1 text-ll-blue-700 font-medium underline text-[15px] mr-2 font-sans hover:text-ll-blue-500 dark:text-ll-gold-200">
-                    <span>{breadcrumb.label}</span>
+                    {breadcrumb.label}
                     <ChevronDown className="h-4 w-4" />
                   </DropdownMenuTrigger>
                   <DropdownMenuContent align="start" className="w-[200px]">
-                    {Object.keys(siteFrontmatter).map(section => {
-                      const sectionData = getSectionData(section);
-                      return sectionData && (
-                        <DropdownMenuItem key={section} asChild>
-                          <Link
-                            href={sectionData.href}
-                            className="w-full cursor-pointer">
-                            {sectionData.title}
-                          </Link>
-                        </DropdownMenuItem>
-                      );
-                    })}
+                    {Object.keys(siteFrontmatter)
+                      .map(section => {
+                        const sectionData = getSectionData(section);
+                        return sectionData && (
+                          <DropdownMenuItem key={section} asChild>
+                            <Link href={sectionData.href} className="w-full cursor-pointer">
+                              {sectionData.title}
+                            </Link>
+                          </DropdownMenuItem>
+                        );
+                      })}
                   </DropdownMenuContent>
                 </DropdownMenu>
                 <span className="pl-2 pr-4 sm:visible"> | </span>
-              </Fragment>
+              </>
             ) : (
               <span aria-current="page" className="text-[15px] font-sans">
                 {breadcrumb.label}
@@ -79,4 +73,4 @@ const BreadCrumbs = () => {
   );
 };
 
-export default BreadCrumbs;
+export default NxBreadCrumbs;

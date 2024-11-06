@@ -1,5 +1,5 @@
 import Footer from 'components/footer';
-import NextBreadcrumb from 'components/nextbreadcrumb';
+import Breadcrumbs from 'components/nx-breadcrumbs';
 import site from 'config/site';
 import { format } from 'date-fns';
 import { enGB, nb } from 'date-fns/locale';
@@ -92,7 +92,7 @@ const config: DocsThemeConfig = {
   main: ({ children }) => {
     return (
       <>
-        <NextBreadcrumb />
+        <Breadcrumbs />
         {children}
       </>
     )
