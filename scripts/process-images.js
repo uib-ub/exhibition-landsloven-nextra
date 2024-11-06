@@ -1,11 +1,12 @@
+const fs = require('fs');
+const fsPromises = require('fs/promises');
 const sharp = require('sharp');
-const fs = require('fs').promises;
 const path = require('path');
 
 async function getImagePaths() {
   try {
     const cardImagesDir = path.join(process.cwd(), 'public', 'images', 'card-images');
-    const files = await fs.readdir(cardImagesDir);
+    const files = await fsPromises.readdir(cardImagesDir);
     return files
       .filter(file => /\.(jpg|jpeg|png|webp)$/i.test(file))
       .map(file => path.join('/images/card-images', file));
@@ -19,7 +20,17 @@ async function processImage(inputPath, outputPath) {
   const targetAspectRatio = 9 / 7;
 
   try {
-    const image = sharp(path.join(process.cwd(), 'public', inputPath));
+    // Create paths
+    const fullInputPath = path.join(process.cwd(), 'public', inputPath);
+    const origPath = fullInputPath.replace('.jpg', '_orig.jpg');
+
+    // Copy original file if it doesn't exist
+    if (!fs.existsSync(origPath)) {
+      await fsPromises.copyFile(fullInputPath, origPath);
+    }
+
+    // Process the image using the original as source
+    const image = sharp(origPath);
     const metadata = await image.metadata();
 
     let width = metadata.width;
@@ -35,9 +46,9 @@ async function processImage(inputPath, outputPath) {
         fit: 'cover',
         position: 'center'
       })
-      .toFile(outputPath);
+      .toFile(fullInputPath);
 
-    console.log(`Processed: ${outputPath}`);
+    console.log(`Processed: ${fullInputPath}`);
   } catch (error) {
     console.error(`Error processing ${inputPath}:`, error);
   }
