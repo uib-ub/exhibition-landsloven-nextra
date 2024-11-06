@@ -1,6 +1,5 @@
 import Footer from 'components/footer';
 import Breadcrumbs from 'components/nx-breadcrumbs';
-import site from 'config/site';
 import { format } from 'date-fns';
 import { enGB, nb } from 'date-fns/locale';
 import Image from 'next/image';
@@ -19,16 +18,13 @@ const SITE_URL = process.env.NODE_ENV === 'development' ? 'http://localhost:3000
 const config: DocsThemeConfig = {
   /* Needs some tweaking, Landsloven not mentioned :-( */
   useNextSeoProps() {
-    const { asPath, locale } = useRouter()
-    if (asPath !== '/') {
-      return {
-        titleTemplate: `%s – ${site.index.title[locale]}`
-      }
-    }
-    if (asPath === '/') {
-      return {
-        titleTemplate: `${site.index.title[locale]}`
-      }
+    const { asPath } = useRouter()
+    const { frontMatter } = useConfig()
+
+    return {
+      titleTemplate: asPath === '/'
+        ? frontMatter.title || ''
+        : `%s – ${frontMatter.title || ''}`
     }
   },
   head: () => {
