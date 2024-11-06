@@ -1,9 +1,9 @@
 import SubMenuCards from 'components/sub-menu-cards';
-import site from 'config/site';
+import site from '@/deprecated/site';
 import Blockquote from 'components/blockquote';
-import Spacer  from 'components/spacer' 
+import Spacer  from 'components/spacer'
 import Container from 'components/container'
-import SubBox  from 'components/subbox' 
+import SubBox  from 'components/subbox'
 import Image from 'next/image';
 import Navigation from 'next/navigation';
 
@@ -47,7 +47,7 @@ Dette er et forslag til nye nettside for Landslovsutstillingen i Bergen. */}
     <Spacer height={50} />
 
  
-    <SubMenuCards items={site.bolkene.items} columns={2} gap={10}/>
+    {/* <SubMenuCards items={site.bolkene.items} columns={2} gap={10}/> */}
 
     <Spacer height={50} />
  
