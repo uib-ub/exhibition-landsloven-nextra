@@ -33,7 +33,8 @@
     "nextra-theme-docs": "^2.13.4",
     "path": "^0.12.7",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "sharp": "^0.33.5"
   },
   "devDependencies": {
     "@types/node": "18.11.10",
