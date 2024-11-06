@@ -29,4 +29,4 @@ const useBreadcrumbs = () => {
   });
 };
 
-export default useBreadcrumbs;
+export default useBreadcrumbs
