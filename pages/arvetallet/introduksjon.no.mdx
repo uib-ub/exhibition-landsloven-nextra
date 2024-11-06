@@ -1,9 +1,9 @@
 ---
 title: Arvetallet
-description: 'Om arv og ekteskap; men også døden'
-tags:
-image: /images/section-buttons/Arvetall2.jpg
-alt: 
+description: Om arv og ekteskap; men også døden
+tags: null
+image: /images/card-images/arvetallet-introduksjon.jpg
+alt: null
 breadcrumb: false
 ---
 
@@ -38,7 +38,9 @@ import meta from './_meta.no.json';
 
 <Container>
   <Spacer height={10} />
-  <SubTextsCards items={site.arvetallet} meta={meta}  />
+  {site?.arvetallet && meta ? (
+    <SubTextsCards items={site?.arvetallet} meta={meta} />
+  ) : null}
 </Container>
  
  

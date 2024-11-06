@@ -1,11 +1,11 @@
 ---
-title: 'Tyvebolken'
-description: 'Her defineres tyveri og beskrives hvordan man stilte tyver til ansvar'
+title: Tyvebolken
+description: Her defineres tyveri og beskrives hvordan man stilte tyver til ansvar
 tags:
   - tyveri
   - straff
-image: /images/section-buttons/Tyvebolken.jpg
-alt: 'Tyv som...'
+image: /images/card-images/tyvebolken-introduksjon.jpg
+alt: Tyv som...
 breadcrumb: false
 ---
 
@@ -40,5 +40,7 @@ import meta from './_meta.no.json';
 
 <Container>
     <Spacer height={10}/>
+    {site?.tyvebolken && meta ? (
     <SubTextsCards items={site.tyvebolken} meta={meta} />
+  ) : null}
 </Container>

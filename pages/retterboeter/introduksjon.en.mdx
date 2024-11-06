@@ -1,9 +1,11 @@
 ---
 title: Law Amendments
-description: 'The Laws of the Land needed to be updated since 1274 and until 1687 that they were in use'
-tags:
-image: /images/section-buttons/Rettarbot-Epilog.jpg
-alt: 
+description: >-
+  The Laws of the Land needed to be updated since 1274 and until 1687 that they
+  were in use
+tags: null
+image: /images/card-images/retterboeter-introduksjon.jpg
+alt: null
 breadcrumb: false
 ---
 
@@ -28,6 +30,8 @@ import meta from './_meta.en.json';
 
 <Container>
     <Spacer height={10}/>
+    {site?.retterboeter && meta ? (
     <SubTextsCards items={site.retterboeter} meta={meta} />
+  ) : null}
 </Container>
 

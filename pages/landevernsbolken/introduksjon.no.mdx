@@ -1,9 +1,9 @@
 ---
 title: Landevernsbolken
-description: 'Forsvar av landet var av høyest viktighet'
-tags:
-image: /images/section-buttons/Landvernebolken.jpg
-alt: 
+description: Forsvar av landet var av høyest viktighet
+tags: null
+image: /images/card-images/landevernsbolken-introduksjon.jpg
+alt: null
 breadcrumb: false
 ---
 
@@ -33,7 +33,9 @@ import meta from './_meta.no.json';
     
 <Container>
     <Spacer height={10} />
+    {site?.landevernsbolken && meta ? (
     <SubTextsCards items={site.landevernsbolken} meta={meta}  />
+  ) : null}
 </Container>
 
 

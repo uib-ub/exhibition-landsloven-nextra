@@ -1,9 +1,9 @@
 ---
 title: Land redemption section
-description: 'About land property and the right to land redemption'
-tags:
-image: /images/section-buttons/Odelsbolken.jpg
-alt: 
+description: About land property and the right to land redemption
+tags: null
+image: /images/card-images/odelsbolken-introduksjon.jpg
+alt: null
 breadcrumb: false
 ---
 
@@ -45,7 +45,9 @@ import meta from './_meta.en.json';
 
 <Container>
     <Spacer height={10}/>
+    {site?.odelsbolken && meta ? (
     <SubTextsCards items={site.odelsbolken} meta={meta} columns={3}/>
+  ) : null}
 </Container>
 
  

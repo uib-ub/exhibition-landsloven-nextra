@@ -1,9 +1,9 @@
 ---
 title: Landsleiebolken
-description: 'Folk flest leide jorden de levde og jobbet på'
-tags:
-image: /images/section-buttons/Landleigebolken.jpg
-alt: 
+description: Folk flest leide jorden de levde og jobbet på
+tags: null
+image: /images/card-images/landsleiebolken-introduksjon.jpg
+alt: null
 breadcrumb: false
 ---
 
@@ -32,5 +32,7 @@ Landsleiebolken er den største bolken i Landsloven. I Landslovens tid var Norge
 
 <Container>
     <Spacer height={10}/>
+    {site?.landsleiebolken && meta ? (
     <SubTextsCards items={site.landsleiebolken} meta={meta} />
+  ) : null}
 </Container>

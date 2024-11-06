@@ -1,9 +1,9 @@
 ---
 title: Christianity Section
-description: 'About the correct faith and the legitimate royal dynasty'
-tags:
-image: /images/section-buttons/Kristendomsbolken.jpg
-alt: 
+description: About the correct faith and the legitimate royal dynasty
+tags: null
+image: /images/card-images/kristendomsbolken-introduksjon.jpg
+alt: null
 breadcrumb: false
 ---
 
@@ -45,7 +45,9 @@ import meta from './_meta.en.json';
 
 <Container>
     <Spacer height={10}/>
+    {site?.kristendomsbolken && meta ? (
     <SubTextsCards items={site.kristendomsbolken} meta={meta}  />
+  ) : null}
 </Container>
 
  
