@@ -23,10 +23,10 @@ interface WorkProps {
 }
 
 // Define styles using cva
-const containerStyles = cva('my-10 w-full grid grid-cols-1 bg-ll-sandy border-solid border-2 border-ll-sandy-100 dark:bg-ll-blue-900', {
+const containerStyles = cva('my-10 w-full rounded grid grid-cols-1 bg-ll-sandy border-solid border border-ll-sandy-100 dark:border-ll-blue-900 dark:bg-ll-blue-900', {
   variants: {
     size: {
-      default: 'h-[630px] md:h-[700px] lg:h-[70vh]',
+      default: 'h-[630px] md:h-[700px]',
     },
   },
   defaultVariants: {
@@ -34,7 +34,17 @@ const containerStyles = cva('my-10 w-full grid grid-cols-1 bg-ll-sandy border-so
   },
 });
 
-const viewerContainerStyles = cva('w-full h-[600px] relative dark:bg-ll-blue-950 z-0');
+const viewerContainerStyles = cva('w-full relative dark:bg-ll-blue-950 z-0 flex-grow ', {
+  variants: {
+    size: {
+      small: 'h-[380px]',
+      large: 'h-[600px]',
+    },
+  },
+  defaultVariants: {
+    size: 'large',
+  },
+});
 
 const childrenContainerStyles = cva('p-5 w-full bg-ll-blue-900 text-white dark:nx-bg-primary-400/10 flex flex-col justify-between');
 
@@ -46,26 +56,9 @@ const Work = ({ children, id, url, marcus, config }: WorkProps) => {
 
   const buttonText = locale === 'no' ? 'Se mer i Marcus' : 'Read more in Marcus';
 
-  const [canvasHeight, setCanvasHeight] = useState('600px');
-
-  useEffect(() => {
-    const updateCanvasHeight = () => {
-      if (window.innerWidth < 768) {
-        setCanvasHeight('380px'); // set your desired height for small screens
-      } else {
-        setCanvasHeight('auto'); // default height for larger screens
-      }
-    };
-
-    updateCanvasHeight(); // set initial value
-    window.addEventListener('resize', updateCanvasHeight); // update on resize
-
-    return () => window.removeEventListener('resize', updateCanvasHeight); // cleanup on unmount
-  }, []);
-
   return (
     <div className={containerStyles()}>
-      <div className={viewerContainerStyles()}>
+      <div className={viewerContainerStyles({ size: 'large' })}>
         <Viewer
           iiifContent={manifestId}
           options={{
