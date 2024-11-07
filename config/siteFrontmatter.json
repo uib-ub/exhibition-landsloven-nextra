@@ -33,7 +33,7 @@
           "tyveri",
           "bøter"
         ],
-        "image": "/images/tyvebolken/piskesilhuette.jpg",
+        "image": "/images/card-images/tyver.jpg",
         "alt": "Silhuette fra utstillingen som viser pisking av en tyv.",
         "href": "/tyvebolken/tyver"
       },
@@ -44,7 +44,7 @@
           "theft",
           "fines"
         ],
-        "image": "/images/tyvebolken/piskesilhuette.jpg",
+        "image": "/images/card-images/tyver.jpg",
         "alt": "Silhouette from the showing the flogging of a thief.",
         "href": "/tyvebolken/tyver"
       }
@@ -54,7 +54,7 @@
         "title": "Bøter og fysisk avstraffelse",
         "description": "",
         "tags": null,
-        "image": "/images/tyvebolken/hangesilhuette.jpg",
+        "image": "/images/card-images/straff.jpg",
         "alt": "Silhuette fra utstillingen som viser hanging av en kriminell.",
         "href": "/tyvebolken/straff"
       },
@@ -62,7 +62,7 @@
         "title": "Fines and corporal punishment",
         "description": "",
         "tags": null,
-        "image": "/images/tyvebolken/hangesilhuette.jpg",
+        "image": "/images/card-images/straff.jpg",
         "alt": "Silhouette from the exhibition showing the hanging of a criminal.",
         "href": "/tyvebolken/straff"
       }
@@ -589,7 +589,7 @@
         "title": "Dolker med baller",
         "description": "",
         "tags": null,
-        "image": "/images/landevernsbolken/landevernsilhuette.jpg",
+        "image": "/images/card-images/balledolker.jpg",
         "alt": "Silhuette med våpenting fra utstillingen.",
         "href": "/mannhelgebolken/balledolker"
       },
@@ -597,7 +597,7 @@
         "title": "Daggers with balls",
         "description": "",
         "tags": null,
-        "image": "/images/landevernsbolken/landevernsilhuette.jpg",
+        "image": "/images/card-images/balledolker.jpg",
         "alt": "Silhouette with weapon assembly from the exhibition.",
         "href": "/mannhelgebolken/balledolker"
       }
@@ -609,7 +609,7 @@
         "title": "Tunet",
         "description": "",
         "tags": null,
-        "image": "/images/landsleiebolken/ubb-kk-1318-0151_md.jpg",
+        "image": "/images/card-images/tunet.jpg",
         "alt": "Svart og hvitt bilde med en husmandsstue og bonden.",
         "href": "/landsleiebolken/tunet"
       },
@@ -617,7 +617,7 @@
         "title": "Farmyards",
         "description": "",
         "tags": null,
-        "image": "/images/landsleiebolken/ubb-kk-1318-0151_md.jpg",
+        "image": "/images/card-images/tunet.jpg",
         "alt": "Black and white photo with a wooden hut and a farmer.",
         "href": "/landsleiebolken/tunet"
       }
@@ -627,7 +627,7 @@
         "title": "Treller, livegne og leilendinger",
         "description": "",
         "tags": null,
-        "image": "/images/landsleiebolken/31711.jpg",
+        "image": "/images/card-images/treller.jpg",
         "alt": "Blyantskisse fra en bok med en saga som viser Erling og hans treller.",
         "href": "/landsleiebolken/treller"
       },
@@ -635,7 +635,7 @@
         "title": "Slaves, serfs, and tenants",
         "description": "",
         "tags": null,
-        "image": "/images/landsleiebolken/31711.jpg",
+        "image": "/images/card-images/treller.jpg",
         "alt": "Pencil drawing from a book with a saga showing Erling and his slaves.",
         "href": "/landsleiebolken/treller"
       }
@@ -645,7 +645,7 @@
         "title": "Sildefiske",
         "description": "",
         "tags": null,
-        "image": "/images/landsleiebolken/ubb-bs-ok-14001_md.jpg",
+        "image": "/images/card-images/sild.jpg",
         "alt": "Xylografi etter fotografi av Marcus Selmer som viser sildefisk. Fra Billdsamlingen ved Universitetsbiblioteket i Bergen.",
         "href": "/landsleiebolken/sild"
       },
@@ -653,7 +653,7 @@
         "title": "Herring fishing",
         "description": "",
         "tags": null,
-        "image": "/images/landsleiebolken/ubb-bs-ok-14001_md.jpg",
+        "image": "/images/card-images/sild.jpg",
         "alt": "Xylography from a photography by Marcus Selmer, which shows herring fishing - from the Picture Collection at the University of Bergen Library.",
         "href": "/landsleiebolken/sild"
       }
@@ -663,7 +663,7 @@
         "title": "Jordleie",
         "description": "",
         "tags": null,
-        "image": "/images/landsleiebolken/_R001691.jpg",
+        "image": "/images/card-images/jordleie.jpg",
         "alt": "Utstillingsplakat med innledningstekst til Landsleiebolken.",
         "href": "/landsleiebolken/jordleie"
       },
@@ -671,7 +671,7 @@
         "title": "Land tenancy",
         "description": "",
         "tags": null,
-        "image": "/images/landsleiebolken/_R001691.jpg",
+        "image": "/images/card-images/jordleie.jpg",
         "alt": "Exhibition banner with the intro-text to the Land tenancy section.",
         "href": "/landsleiebolken/jordleie"
       }
@@ -681,7 +681,7 @@
         "title": "Jordbruket",
         "description": "",
         "tags": null,
-        "image": "/images/landsleiebolken/ubb-kk-1318-0832_md.jpg",
+        "image": "/images/card-images/jordbruk.jpg",
         "alt": "Svart og hvitt bilde av fruktplukking.",
         "href": "/landsleiebolken/jordbruk"
       },
@@ -689,7 +689,7 @@
         "title": "Agriculture",
         "description": "",
         "tags": null,
-        "image": "/images/landsleiebolken/ubb-kk-1318-0832_md.jpg",
+        "image": "/images/card-images/jordbruk.jpg",
         "alt": "Black and white photo of fruit picking.",
         "href": "/landsleiebolken/jordbruk"
       }
@@ -1035,7 +1035,7 @@
         "title": "Vekter",
         "description": "",
         "tags": null,
-        "image": "/images/kjopebolken/abraham.jpg",
+        "image": "/images/card-images/vekter.jpg",
         "alt": "Glassmaleriet viser en mann i renessansedrakt som veier en bunt tørrfisk med en bismervekt.",
         "href": "/kjoepebolken/vekter"
       },
@@ -1043,7 +1043,7 @@
         "title": "Scales",
         "description": "",
         "tags": null,
-        "image": "/images/kjopebolken/abraham.jpg",
+        "image": "/images/card-images/vekter.jpg",
         "alt": "Glass painting showing a man in Renaissance costume weighing a bundle of stockfish with a bismar scale.",
         "href": "/kjoepebolken/vekter"
       }
@@ -1053,7 +1053,7 @@
         "title": "Kongens og erkebiskopens mynter",
         "description": "",
         "tags": null,
-        "image": "/images/kjopebolken/mynter.jpg",
+        "image": "/images/card-images/mynter.jpg",
         "alt": "Ulike mynter fra utstillingsmonter.",
         "href": "/kjoepebolken/mynter"
       },
@@ -1061,7 +1061,7 @@
         "title": "The king’s and the archbishop's coins",
         "description": "",
         "tags": null,
-        "image": "/images/kjopebolken/mynter.jpg",
+        "image": "/images/card-images/mynter.jpg",
         "alt": "Various coins from a showcase in the exhibition.",
         "href": "/kjoepebolken/mynter"
       }
@@ -1071,7 +1071,7 @@
         "title": "Mål og vekt",
         "description": "",
         "tags": null,
-        "image": "/images/kjopebolken/kjopesilhuette.jpg",
+        "image": "/images/card-images/malogvekt.jpg",
         "alt": "Silhuetter som viser vekting av et produkt som selges på marked.",
         "href": "/kjoepebolken/malogvekt"
       },
@@ -1079,7 +1079,7 @@
         "title": "Weights and measures",
         "description": "",
         "tags": null,
-        "image": "/images/kjopebolken/kjopesilhuette.jpg",
+        "image": "/images/card-images/malogvekt.jpg",
         "alt": "Silhouettes that show the sale of a product in a market.",
         "href": "/kjoepebolken/malogvekt"
       }
@@ -1109,7 +1109,7 @@
         "title": "Falskmyntneri – en forbrytelse mot kongen",
         "description": "",
         "tags": null,
-        "image": "/images/kjopebolken/terning.jpg",
+        "image": "/images/card-images/falskmynteri.jpg",
         "alt": "Terning av bein.",
         "href": "/kjoepebolken/falskmynteri"
       },
@@ -1117,7 +1117,7 @@
         "title": "Counterfeiting: A crime against the king",
         "description": "",
         "tags": null,
-        "image": "/images/kjopebolken/terning.jpg",
+        "image": "/images/card-images/falskmynteri.jpg",
         "alt": "A bone dice.",
         "href": "/kjoepebolken/falskmynteri"
       }
