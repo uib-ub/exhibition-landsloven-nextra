@@ -5,7 +5,7 @@ import { ReactNode } from 'react'
 import { cva, type VariantProps } from 'class-variance-authority'
 
 const figureVariants = cva(
-  'w-full my-5 flex',
+  'w-full my-5 flex rounded border border-solid dark:border-ll-blue-900',
   {
     variants: {
       layout: {
@@ -50,7 +50,7 @@ const Figure = ({
   return (
     <figure className={figureVariants({ layout, theme, className })}>
       <div className={layout === 'horizontal' ? 'w-full' : 'w-2/3'}>
-        <Image src={image} alt={alt} width={1200} height={400} className='object-contain' />
+        <Image src={image} alt={alt} width={1200} height={400} className={`object-contain ${layout === 'horizontal' ? 'rounded-t' : 'rounded-tl'}`} />
       </div>
       <figcaption className={`
         text-white p-5 flex flex-col
