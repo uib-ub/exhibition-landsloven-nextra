@@ -11,7 +11,8 @@ const Viewer = dynamic(
   },
 );
 
-const API_URL = "https://api-ub.vercel.app"; // @TODO, set to prod API when it is ready
+const PROD_API_URL = "https://api.ub.uib.no";
+const FALLBACK_API_URL = "https://api-ub.vercel.app";
 
 // Add interface for props
 interface WorkProps {
@@ -51,6 +52,23 @@ const childrenContainerStyles = cva('p-5 w-full bg-ll-blue-900 text-white dark:n
 const buttonStyles = cva('rounded-full self-end px-5 py-2 m-5 bg-ll-red dark:bg-red-700');
 
 const Work = ({ children, id, url, marcus, config }: WorkProps) => {
+  const [API_URL, setApiUrl] = useState(FALLBACK_API_URL);
+
+  useEffect(() => {
+    const checkProdApi = async () => {
+      try {
+        const response = await fetch(`${PROD_API_URL}/items/${id}`);
+        if (response.ok) {
+          setApiUrl(PROD_API_URL);
+        }
+      } catch (error) {
+        console.error("Production API is not available, using fallback.");
+      }
+    };
+
+    checkProdApi();
+  }, []);
+
   const manifestId = id ? `${API_URL}/items/${id}?as=iiif` : url;
   const { locale } = useRouter();
 
