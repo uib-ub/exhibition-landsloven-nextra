@@ -23,8 +23,6 @@ import meta from './_meta.no.json';
     footer='Arvetallet, kapittel 1'
 />
 
-<Spacer height='20' />
-
 <Container>
   # Arvetallet
 </Container>
@@ -37,7 +35,6 @@ import meta from './_meta.no.json';
   </Container>
 
 <Container>
-  <Spacer height={10} />
   {site?.arvetallet && meta ? (
     <SubTextsCards items={site?.arvetallet} meta={meta} />
   ) : null}
