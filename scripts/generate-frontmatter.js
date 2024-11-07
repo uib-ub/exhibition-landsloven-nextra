@@ -31,7 +31,7 @@ function reduceToMainPages(data) {
 };
 
 const sitePath = path.join(__dirname, '../pages');
-let siteFrontmatter = {};
+let generatedFrontmatter = {};
 
 function insertIntoNestedPath(obj, pathArray, value, href) {
   let current = obj;
@@ -58,18 +58,18 @@ try {
       pathArray.push(locale);
     }
     const href = `/${pathArray.slice(0, -1).join(path.sep)}`;
-    insertIntoNestedPath(siteFrontmatter, pathArray, frontmatter, href);
+    insertIntoNestedPath(generatedFrontmatter, pathArray, frontmatter, href);
   });
 
   fs.writeFileSync(
-    path.join(__dirname, '../config/siteFrontmatter.json'),
-    JSON.stringify(siteFrontmatter, null, 2)
+    path.join(__dirname, '../config/generatedFrontmatter.json'),
+    JSON.stringify(generatedFrontmatter, null, 2)
   );
   /* fs.writeFileSync(
     path.join(__dirname, '../config/homepageSections.json'),
-    JSON.stringify(reduceToMainPages(siteFrontmatter), null, 2)
+    JSON.stringify(reduceToMainPages(generatedFrontmatter), null, 2)
   ); */
-  console.log('Frontmatter successfully extracted and saved to config/siteFrontmatter.json');
+  console.log('Frontmatter successfully extracted and saved to config/generatedFrontmatter.json');
 } catch (err) {
   console.error("Error occurred while globbing:", err);
 }
