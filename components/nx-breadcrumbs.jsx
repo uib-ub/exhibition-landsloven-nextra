@@ -17,7 +17,7 @@ import {
   BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb";
 import { MoreHorizontal } from "lucide-react";
-import { useState, useEffect } from 'react';
+import { useState, useEffect, Fragment } from 'react';
 
 const NxBreadCrumbs = () => {
   const router = useRouter();
@@ -37,33 +37,33 @@ const NxBreadCrumbs = () => {
     <Breadcrumb className="py-1 px-2 nx-mt-1.5 font-antiqua">
       <BreadcrumbList>
         {/* Breadcrumb items */}
-        {breadcrumbs?.map((breadcrumb) => (
-          <BreadcrumbItem key={breadcrumb.href}>
-            {breadcrumb.index === 0 ? (
-              <DropdownMenu>
-                <DropdownMenuTrigger className="flex items-center gap-1 font-medium text-[15px] hover:text-ll-blue-500">
-                  {breadcrumb.label}
-                  <MoreHorizontal className="h-4 w-4 text-muted-foreground/50" />
-                </DropdownMenuTrigger>
-                <DropdownMenuContent align="start" className="w-[200px]">
-                  {breadcrumb.sectionTitles?.map(section => (
-                    <DropdownMenuItem key={section.key} asChild>
-                      <Link href={section.href} className="w-full cursor-pointer">
-                        {section.title}
-                      </Link>
-                    </DropdownMenuItem>
-                  ))}
-                </DropdownMenuContent>
-              </DropdownMenu>
-            ) : (
-              <>
-                <BreadcrumbSeparator />
+        {breadcrumbs?.map((breadcrumb, index) => (
+          <Fragment key={breadcrumb.href}>
+            {index > 0 && <BreadcrumbSeparator />}
+            <BreadcrumbItem>
+              {breadcrumb.index === 0 ? (
+                <DropdownMenu>
+                  <DropdownMenuTrigger className="flex items-center gap-1 font-medium text-[15px] hover:text-ll-blue-500">
+                    {breadcrumb.label}
+                    <MoreHorizontal className="h-4 w-4 text-muted-foreground/50" />
+                  </DropdownMenuTrigger>
+                  <DropdownMenuContent align="start" className="w-[200px]">
+                    {breadcrumb.sectionTitles?.map(section => (
+                      <DropdownMenuItem key={section.key} asChild>
+                        <Link href={section.href} className="w-full cursor-pointer">
+                          {section.title}
+                        </Link>
+                      </DropdownMenuItem>
+                    ))}
+                  </DropdownMenuContent>
+                </DropdownMenu>
+              ) : (
                 <span aria-current="page" className="text-[15px] font-sans">
                   {breadcrumb.label}
                 </span>
-              </>
-            )}
-          </BreadcrumbItem>
+              )}
+            </BreadcrumbItem>
+          </Fragment>
         ))}
       </BreadcrumbList>
     </Breadcrumb>
