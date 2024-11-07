@@ -9,6 +9,7 @@ async function getImagePaths() {
     const files = await fsPromises.readdir(cardImagesDir);
     return files
       .filter(file => /\.(jpg|jpeg|png|webp)$/i.test(file))
+      .filter(file => !file.includes('_orig'))
       .map(file => path.join('/images/card-images', file));
   } catch (error) {
     console.error('Error reading card-images directory:', error);
