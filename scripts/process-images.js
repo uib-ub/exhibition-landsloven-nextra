@@ -17,17 +17,21 @@ async function getImagePaths() {
 }
 
 async function processImage(inputPath, outputPath) {
-  const targetAspectRatio = 9 / 7;
+  const targetAspectRatio = 4 / 3;
 
   try {
     // Create paths
     const fullInputPath = path.join(process.cwd(), 'public', inputPath);
     const origPath = fullInputPath.replace('.jpg', '_orig.jpg');
 
-    // Copy original file if it doesn't exist
-    if (!fs.existsSync(origPath)) {
-      await fsPromises.copyFile(fullInputPath, origPath);
+    // Skip if _orig already exists (image was already processed)
+    if (fs.existsSync(origPath)) {
+      console.log(`Skipping ${fullInputPath} (already processed)`);
+      return;
     }
+
+    // Copy original file
+    await fsPromises.copyFile(fullInputPath, origPath);
 
     // Process the image using the original as source
     const image = sharp(origPath);
