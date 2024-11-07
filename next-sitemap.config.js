@@ -3,9 +3,20 @@ const nextConfig = require('./next.config.js');
 
 const siteUrl = 'https://exhibition-landsloven-nextra.vercel.app/'
 
+// Keep track of processed URLs to avoid duplicates
+const processedUrls = new Set();
+
 const transform = async (config, path) => {
   // Remove language extension from path if it exists
   const cleanPath = path.replace(/\.(en|no)$/, '');
+
+  // If we've already processed this path, skip it
+  if (processedUrls.has(cleanPath)) {
+    return null;
+  }
+
+  // Mark this path as processed
+  processedUrls.add(cleanPath);
 
   return {
     loc: cleanPath,
@@ -18,12 +29,10 @@ const transform = async (config, path) => {
 
 module.exports = {
   siteUrl: siteUrl,
-  changefreq: 'daily',
+  changefreq: 'weekly',
   priority: 0.7,
   sitemapSize: 5000,
   generateRobotsTxt: true,
-
-  // exclude: ['/server-sitemap.xml'],
 
   alternateRefs: [
     ...nextConfig.i18n.locales
@@ -32,14 +41,12 @@ module.exports = {
         hreflang: locale,
       }))
       .filter(h => h.hreflang !== 'no'),
-
     {
       href: siteUrl,
       hreflang: 'no',
     },
   ],
 
-  // Default transformation function
   transform,
 
   robotsTxtOptions: {
