@@ -76,9 +76,7 @@
   }
 }
  
-footer {
-	margin-block-start: 8em;
-}
+
 
 /* INitialer */
 .redinitial::first-letter  {
@@ -238,6 +236,15 @@ ul.nextra-menu-mobile > li:nth-child(3) {
 
 ul.nextra-menu-mobile  li.\[word-break\:break-word\] {
 	display: none;
+}
+
+article {
+  padding-bottom: 0 !important;
+  margin-bottom: 0 !important;
+}
+main > div:last-child:has(a) {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
 }
 
 @layer base {

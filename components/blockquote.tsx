@@ -1,37 +1,29 @@
 import React from 'react';
-import Image from 'next/image'
+import Image from 'next/image';
 
 const Blockquote = ({
   quote,
   image,
   alt,
   footer,
-  gold,
   full
 }: {
-  quote: React.ReactNode
-  footer: React.ReactNode
-  image?: string
-  alt?: string
-  gold?: boolean
-  full?: boolean
+  quote: React.ReactNode;
+  footer: React.ReactNode;
+  image?: string;
+  alt?: string;
+  full?: boolean;
 }) => {
-  const bgColor = gold
-    ? 'bg-ll-gold-50'
-    : 'dark:bg-ll-blue-950 dark:border-none border border-solid border-sandy-100 py-8 px-12 mt-4';
-  const bgColorImage = gold ? 'bg-ll-gold-50' : 'bg-white';
+  const bgColor = 'bg-ll-sandy-100 dark:bg-ll-blue-950 border border-solid dark:border-ll-blue-900 py-8 px-12 mt-4';
+  const bgColorImage = 'bg-white';
   const figureSize = full ? 'w-full' : 'w-1/3';
-  const textColor = gold
-    ? 'text-black dark:text-ll-blue-200 font-medium'
-    : 'text-black dark:text-blue-200';
-  const footerColor = gold
-    ? 'text-gray-800 dark:text-ll-blue-50'
-    : 'text-ll-red-700';
+  const textColor = 'text-black dark:text-blue-200';
+  const footerColor = 'text-ll-red-700';
 
   return (
     <div className="mb-8">
       {image ? (
-        <blockquote className={`flex flex-wrap w-full border dark:border-none border-dotted rounded type-blockquote ${bgColorImage} dark:bg-gray-900 shadow-md`}>
+        <blockquote className={`flex flex-wrap w-full border dark:border-none rounded type-blockquote ${bgColorImage} dark:bg-gray-900 shadow-md`}>
           <figure className={`w-full sm:${figureSize}`}>
             <Image
               src={image}
@@ -49,7 +41,7 @@ const Blockquote = ({
           </div>
         </blockquote>
       ) : (
-        <blockquote className={`w-full rounded type-blockquote overflow-hidden border border-dotted shadow-md grow p-6 text-left xmd:text-left space-y-4 ${bgColor} ${textColor} dark:bg-gray-900`}>
+        <blockquote className={`w-full rounded type-blockquote overflow-hidden border shadow-md grow p-6 text-left xmd:text-left space-y-4 ${bgColor} ${textColor} dark:bg-gray-900`}>
           <p className={`text-2xl ${textColor}`}>{quote}</p>
           <div className={`text-right ${footerColor} dark:text-sky-400`}>{footer}</div>
         </blockquote>

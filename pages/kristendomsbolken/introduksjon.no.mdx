@@ -24,8 +24,6 @@ import meta from './_meta.no.json';
     footer='Kristendomsbolken, kapittel 1'
 />
 
-<Spacer height='10' />
-
 <Container>
 # Kristendomsbolken
 </Container>
@@ -41,7 +39,6 @@ import meta from './_meta.no.json';
 
 
 <Container>
-    <Spacer height={10} />
     {site?.kristendomsbolken && meta ? (
     <SubTextsCards items={site.kristendomsbolken} meta={meta}  />
   ) : null}
