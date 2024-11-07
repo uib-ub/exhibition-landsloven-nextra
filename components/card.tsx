@@ -40,7 +40,7 @@ const Card = (props: CardProps) => {
           width={0}
           height={0}
           sizes="50vw"
-          className="w-full object-cover aspect-[9/7] min-h-[120px] max-h-[250px]"
+          className="w-full object-cover aspect-[4/3] min-h-[120px] max-h-[250px]"
         />
       </Link>
 
