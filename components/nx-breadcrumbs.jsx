@@ -34,7 +34,7 @@ const NxBreadCrumbs = () => {
   if (!isClient || asPath === '/' || frontMatter?.breadcrumb === false) return null;
 
   return (
-    <Breadcrumb className="py-1 px-2 nx-mt-1.5 font-antiqua">
+    <Breadcrumb className="py-1 nx-mt-1.5 font-antiqua">
       <BreadcrumbList>
         {/* Breadcrumb items */}
         {breadcrumbs?.map((breadcrumb, index) => (
