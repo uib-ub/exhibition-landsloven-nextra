@@ -1,4 +1,4 @@
-import siteFrontmatter from 'config/siteFrontmatter.json';
+import generatedFrontmatter from 'config/generatedFrontmatter.json';
 import { useRouter } from 'next/router';
 import noMeta from '@/pages/_meta.no.json';
 import enMeta from '@/pages/_meta.en.json';
@@ -44,7 +44,7 @@ const useBreadcrumbs = (folder) => {
 
     if (index === 1) {
       const parentSection = pathSegments[0].replace(/\.(no|en)$/, '').toLowerCase();
-      const pageData = siteFrontmatter[parentSection]?.[cleanedSegment]?.[locale];
+      const pageData = generatedFrontmatter[parentSection]?.[cleanedSegment]?.[locale];
       if (pageData) {
         return {
           ...defaultBreadcrumb,
