@@ -114,11 +114,14 @@ const config: DocsThemeConfig = {
     content: null,
   },
   gitTimestamp({ timestamp }) {
-    const { locale } = useRouter()
+    const { locale, asPath } = useRouter()
+    // Don't show timestamp on homepage
+    if (asPath === '/') return null
+
     return (
-      <>
+      <div>
         {locale === 'en' ? `Last updated ${format(timestamp, 'LLLL d, yyyy', { locale: enGB })}` : `Sist oppdatert ${format(timestamp, 'd. LLLL yyyy', { locale: nb })}`}
-      </>
+      </div>
     )
   },
   /* 
