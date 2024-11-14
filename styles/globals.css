@@ -248,6 +248,21 @@ main > div:last-child:has(a) {
   margin-top: 0 !important;
 }
 
+/* Definition list styles */
+@layer base {
+  dl {
+    margin-block: 1rem !important;
+  }
+
+  dt {
+    @apply font-serif text-lg font-semibold text-gray-900 dark:text-gray-100;
+  }
+
+  dd {
+    @apply pl-4 text-gray-700 dark:text-gray-300;
+  }
+}
+
 @layer base {
   * {
     @apply border-border;
