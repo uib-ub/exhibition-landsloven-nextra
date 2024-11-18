@@ -1,0 +1,1 @@
+const audioPath = '/audio/Prolog_m_klang_16.04.24.mp3'
