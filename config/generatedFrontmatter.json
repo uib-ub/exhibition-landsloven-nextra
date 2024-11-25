@@ -588,7 +588,10 @@
       "no": {
         "title": "Dolker med baller",
         "description": "",
-        "tags": null,
+        "tags": [
+          "Kniv",
+          "Dolk"
+        ],
         "image": "/images/card-images/balledolker.jpg",
         "alt": "Silhuette med våpenting fra utstillingen.",
         "href": "/mannhelgebolken/balledolker"
@@ -1369,7 +1372,7 @@
         "title": "Tilgave",
         "description": "",
         "tags": null,
-        "image": "/images/card-images/tilgave.jpg",
+        "image": "/images/arvetall/skrin-med-bord.jpg",
         "alt": "Drikkehorn med forgylte kobberbeslag.",
         "href": "/arvetallet/tilgave"
       },
