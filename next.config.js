@@ -8,17 +8,15 @@ module.exports = withNextra({
     locales: ['no', 'en'],
     defaultLocale: 'no'
   },
-  // async rewrites() {
-  //   return [
-  //     {
-  //       source: '/tyvebolken',
-  //       destination: '/tyvebolken/introduksjon',
-  //     },
-  //     {
-  //       source: '/X-designalternativer',
-  //       destination: '/n',
-  //     },
-  //     // Add more rewrites as needed
-  //   ];
-  // },
+  webpack(config, options) {
+    config.module.rules.push({
+      test: /\.(mp3|ogg)$/,
+      type: "asset/resource",
+      generator: {
+        filename: "static/media/[name][ext]",
+      },
+    });
+
+    return config;
+  },
 });
