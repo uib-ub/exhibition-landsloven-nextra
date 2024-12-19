@@ -44,7 +44,7 @@
           "theft",
           "fines"
         ],
-        "image": "/images/tyvebolken/piskesilhuette.jpg",
+        "image": "/images/card-images/tyver.jpg",
         "alt": "Silhouette from the exhibition showing the flogging of a thief.",
         "href": "/tyvebolken/tyver"
       }
@@ -54,7 +54,7 @@
         "title": "Bøter og fysisk avstraffelse",
         "description": "Få ble henrettet for tyveri i Landslovens tid.",
         "tags": null,
-        "image": "/images/tyvebolken/hangesilhuette.jpg",
+        "image": "/images/card-images/straff.jpg",
         "alt": "Silhuette fra utstillingen som viser hanging av en kriminell.",
         "href": "/tyvebolken/straff"
       },
@@ -62,7 +62,7 @@
         "title": "Fines and corporal punishment",
         "description": "It was rare to be executed for theft in the times of the Laws of the Land.",
         "tags": null,
-        "image": "/images/tyvebolken/hangesilhuette.jpg",
+        "image": "/images/card-images/straff.jpg",
         "alt": "Silhouette from the exhibition showing the hanging of a criminal.",
         "href": "/tyvebolken/straff"
       }
@@ -100,7 +100,7 @@
         "title": "Lagmenn",
         "description": "Om de lovkyndige som ledet tingene…",
         "tags": null,
-        "image": "/images/tingfarebolken/bjell.jpg",
+        "image": "/images/card-images/lagmenn.jpg",
         "alt": "Bjelle som henger fra taket på utstillingsarealer.",
         "href": "/tingfarebolken/lagmenn"
       },
@@ -108,7 +108,7 @@
         "title": "The royal magistrate",
         "description": "About the legal experts who were leading the Thing assemblies...",
         "tags": null,
-        "image": "/images/tingfarebolken/bjell.jpg",
+        "image": "/images/card-images/lagmenn.jpg",
         "alt": "A bell hanging from the ceiling at the exhibition space.",
         "href": "/tingfarebolken/lagmenn"
       }
@@ -118,7 +118,7 @@
         "title": "Tingfarebolken",
         "description": "Landsdelstingene ble aldri det samme etter Landsloven…",
         "tags": null,
-        "image": "/images/section-buttons/Tingfarebolken.jpg",
+        "image": "/images/card-images/tingfarebolken-introduksjon.jpg",
         "alt": null,
         "breadcrumb": false,
         "href": "/tingfarebolken/introduksjon"
@@ -127,7 +127,7 @@
         "title": "Section about going to Assemblies",
         "description": "The old Things were never again the same after the Laws of the Land...",
         "tags": null,
-        "image": "/images/section-buttons/Tingfarebolken.jpg",
+        "image": "/images/card-images/tingfarebolken-introduksjon.jpg",
         "alt": null,
         "breadcrumb": false,
         "href": "/tingfarebolken/introduksjon"
@@ -138,7 +138,7 @@
         "title": "Hellig og høytidelig",
         "description": "Det skulle herske fred og ro under tinget!",
         "tags": null,
-        "image": "/images/tingfarebolken/Bf_Bd_55_DiB_31.jpg",
+        "image": "/images/card-images/hellig-hoytidelig.jpg",
         "alt": "Primstav av tre",
         "href": "/tingfarebolken/hellig-hoytidelig"
       },
@@ -146,7 +146,7 @@
         "title": "Holy and solemn",
         "description": "There should be peace and calm during the period of the Thing assemblies!",
         "tags": null,
-        "image": "/images/tingfarebolken/Bf_Bd_55_DiB_31.jpg",
+        "image": "/images/card-images/hellig-hoytidelig.jpg",
         "alt": "Wooden calendar stick",
         "href": "/tingfarebolken/hellig-hoytidelig"
       }
@@ -156,7 +156,7 @@
         "title": "Gulatinget",
         "description": "Hvem møtte på tinget?",
         "tags": null,
-        "image": "/images/tingfarebolken/gulating.jpg",
+        "image": "/images/card-images/gulatinget.jpg",
         "alt": "Modern installasjon som symboliserer Gulatinget.",
         "href": "/tingfarebolken/gulatinget"
       },
@@ -164,7 +164,7 @@
         "title": "The Gulating assembly",
         "description": "Who went to the Thing assemblied?",
         "tags": null,
-        "image": "/images/tingfarebolken/gulating.jpg",
+        "image": "/images/card-images/gulatinget.jpg",
         "alt": "Modern installation symbolising the Gula Thing.",
         "href": "/tingfarebolken/gulatinget"
       }
@@ -176,7 +176,7 @@
         "title": "Om trykkeri og papir",
         "description": "To teknologier som endret skriftkulturen!",
         "tags": null,
-        "image": "/images/retterbotter/_R001719.jpg",
+        "image": "/images/card-images/trykkeri.jpg",
         "alt": "Den første trykte utgaven av Landsloven, Christian Vs Norske lov, og et av de eldste diplomer på papir - fra en monter i utstillingen.",
         "href": "/retterboeter/trykkeri"
       },
@@ -184,7 +184,7 @@
         "title": "On printing and paper",
         "description": "Two technologies that changed the writing culture!",
         "tags": null,
-        "image": "/images/retterbotter/_R001719.jpg",
+        "image": "/images/card-images/trykkeri.jpg",
         "alt": "The first printed version of the Laws of the Land, Christian V's Norske Lov. and one of the oldest charters on paper - from a showcase in the exhibition.",
         "href": "/retterboeter/trykkeri"
       }
@@ -194,7 +194,7 @@
         "title": "Retterbøter",
         "description": "Lover trenger endringer og forbedringer!",
         "tags": null,
-        "image": "/images/section-buttons/Rettarbot-Epilog.jpg",
+        "image": "/images/card-images/retterboeter-introduksjon.jpg",
         "alt": null,
         "breadcrumb": false,
         "href": "/retterboeter/introduksjon"
@@ -203,7 +203,7 @@
         "title": "Law Amendments",
         "description": "Laws need changes and improvements!",
         "tags": null,
-        "image": "/images/section-buttons/Rettarbot-Epilog.jpg",
+        "image": "/images/card-images/retterboeter-introduksjon.jpg",
         "alt": null,
         "breadcrumb": false,
         "href": "/retterboeter/introduksjon"
@@ -214,7 +214,7 @@
         "title": "Gjenbruk av manuskripter",
         "description": "Fragmenter av manuskripter fra middelalderen er bevart i bokbinding fra senere tid.",
         "tags": null,
-        "image": "/images/retterbotter/ubb-ms-1836-1_p0002_md.jpg",
+        "image": "/images/card-images/gjenbruk.jpg",
         "alt": "To manuskriptfragmenter med tekst fra Landsloven bevart fordi de ble brukt som bokbinding på en 1600-tallets protokoll fra Mandal.",
         "href": "/retterboeter/gjenbruk"
       },
@@ -222,7 +222,7 @@
         "title": "Reuse of manuscripts",
         "description": "Fragments of medieval manuscripts are preserved as bookbinding material from later times",
         "tags": null,
-        "image": "/images/retterbotter/ubb-ms-1836-1_p0002_md.jpg",
+        "image": "/images/card-images/gjenbruk.jpg",
         "alt": "Two manuscript fragments with text from the Laws of the Land preserved as elements of bookbinding of a 17th century protocol from Mandal.",
         "href": "/retterboeter/gjenbruk"
       }
@@ -232,7 +232,7 @@
         "title": "Gammelnorske lover i en ny tid",
         "description": "Antikvarisk interesse for eldre lover i Norge startet allerede på 1700-tallet.",
         "tags": null,
-        "image": "/images/retterbotter/Landslovutstillingen BM-6.jpg",
+        "image": "/images/card-images/gammelnorskelov.jpg",
         "alt": "Tre kodekser med ulike versjoner av Landsloven fra post-reformatorisk tid - fra en monter i utstillingen.",
         "href": "/retterboeter/gammelnorskelov"
       },
@@ -240,7 +240,7 @@
         "title": "Old Norse laws in a new era",
         "description": "Antiquarian interest in older legislation in Norway appeared already in the 18th century.",
         "tags": null,
-        "image": "/images/retterbotter/Landslovutstillingen BM-6.jpg",
+        "image": "/images/card-images/gammelnorskelov.jpg",
         "alt": "Three codices with different versions of the Laws of the Land from post-Reformation era - from a showcase in the exhibition.",
         "href": "/retterboeter/gammelnorskelov"
       }
@@ -250,7 +250,7 @@
         "title": "Danske oversettelser",
         "description": "I dansketiden økte behovet for oversettelser av Landsloven.",
         "tags": null,
-        "image": "/images/retterbotter/christian4.jpg",
+        "image": "/images/card-images/danskeoversettelser.jpg",
         "alt": "Portret av Kristian IV av Danmark og Norge (1577-1648) malt av Pieter Isaacz mellom 1611 og 1616.",
         "href": "/retterboeter/danskeoversettelser"
       },
@@ -258,7 +258,7 @@
         "title": "Danish translations",
         "description": "During the Danish era, there was an increased need for translations of the Laws of the Land.",
         "tags": null,
-        "image": "/images/retterbotter/christian4.jpg",
+        "image": "/images/card-images/danskeoversettelser.jpg",
         "alt": "Portrait of Christian V of Denmark and Norway (1577-1648), painted by Pieter Isaacz between 1611 and 1616.",
         "href": "/retterboeter/danskeoversettelser"
       }
@@ -268,7 +268,7 @@
         "title": "Norsk lov i dag",
         "description": "Fra Landsloven til 'Den store røde'...",
         "tags": null,
-        "image": "/images/retterbotter/Stortinget,_Oslo,_Norway.jpg",
+        "image": "/images/card-images/dagenslov.jpg",
         "alt": "Stortinget i Oslo - Foto av gcardinal from Norway – CC BY 2.0",
         "href": "/retterboeter/dagenslov"
       },
@@ -276,7 +276,7 @@
         "title": "Norwegian law today",
         "description": "From the Laws of the Land to the 'red book'...",
         "tags": null,
-        "image": "/images/retterbotter/Stortinget,_Oslo,_Norway.jpg",
+        "image": "/images/card-images/dagenslov.jpg",
         "alt": "Storting in Oslo - Photo by gcardinal from Norway – CC BY 2.0",
         "href": "/retterboeter/dagenslov"
       }
@@ -286,7 +286,7 @@
         "title": "Christian Vs Norske Lov",
         "description": "I 1687 ble Landsloven erstattet av et nytt lovverk...",
         "tags": null,
-        "image": "/images/retterbotter/Christian_V_König_–_Celler_Schloss.jpg",
+        "image": "/images/card-images/christianvslov.jpg",
         "alt": "Maleriportret av Christian V av Danmark og Norge (1646-1699).",
         "href": "/retterboeter/christianvslov"
       },
@@ -294,7 +294,7 @@
         "title": "Christian V’s Norwegian Code",
         "description": "In 1687m the Laws of the Land were replaced by new legislation...",
         "tags": null,
-        "image": "/images/retterbotter/Christian_V_König_–_Celler_Schloss.jpg",
+        "image": "/images/card-images/christianvslov.jpg",
         "alt": "Painted portrait of Christian V of Denmark and Norway (1646-1699).",
         "href": "/retterboeter/christianvslov"
       }
@@ -306,7 +306,7 @@
         "title": "Fra landskapslover til Landsloven",
         "description": "Om lovgivning før kong Magnus Lagabøte…",
         "tags": null,
-        "image": "/images/prologen/Landslovutstillingen BM-11.jpg",
+        "image": "/images/card-images/tinglover.jpg",
         "alt": "Manuskriptfragmenter på norrønt. De eldste fragmentene av Gulatingsloven.",
         "href": "/prologen/tinglover"
       },
@@ -314,7 +314,7 @@
         "title": "From the provincial laws to the Law of the Land",
         "description": "About legislation before Magnus the Lawmender",
         "tags": null,
-        "image": "/images/prologen/Landslovutstillingen BM-11.jpg",
+        "image": "/images/card-images/tinglover.jpg",
         "alt": "Manuscript fragments in Old Norse. The oldest fragments of the Gulathing law.",
         "href": "/prologen/tinglover"
       }
@@ -324,7 +324,7 @@
         "title": "Kristenretten og Landsloven",
         "description": "Hvorfor handler Kristendomsbolken så lite om kristendommen?",
         "tags": null,
-        "image": "/images/prologen/Bryggens Museum mai 24-2.jpg",
+        "image": "/images/card-images/kristenrett.jpg",
         "alt": "Statue av en mann med krone på en trone. Mannen representerer St Olav.",
         "href": "/prologen/kristenrett"
       },
@@ -332,7 +332,7 @@
         "title": "The Christian Law and the Laws of the Land",
         "description": "Why does the Christianity section have so little to do with Christianity?",
         "tags": null,
-        "image": "/images/prologen/Bryggens Museum mai 24-2.jpg",
+        "image": "/images/card-images/kristenrett.jpg",
         "alt": "Statue of a crowned man on a throne. The man represents St Olav.",
         "href": "/prologen/kristenrett"
       }
@@ -342,7 +342,7 @@
         "title": "Erkebiskop Jon Raude",
         "description": "Der var både samarbeid og konflikt mellom kongen og erkebiskopen!",
         "tags": null,
-        "image": "/images/prologen/Jon_Raudes_Brakteat_(19897792419).jpg",
+        "image": "/images/card-images/jonraude.jpg",
         "alt": "Jon Raudes Brakteat. NTNU Vitenskapsmuseet, CC BY 2.0, via Wikimedia Commons",
         "href": "/prologen/jonraude"
       },
@@ -350,7 +350,7 @@
         "title": "Archbishop Jon Raude",
         "description": "There was both collaboration and conflict between the King and the Archbishop!",
         "tags": null,
-        "image": "/images/prologen/Jon_Raudes_Brakteat_(19897792419).jpg",
+        "image": "/images/card-images/jonraude.jpg",
         "alt": "Bracteate of Jon Raude. NTNU Vitenskapsmuseet, CC BY 2.0, via Wikimedia Commons",
         "href": "/prologen/jonraude"
       }
@@ -372,7 +372,7 @@
         "title": "Prologue",
         "description": "Hear the King present the Laws of the Land to the people!",
         "tags": null,
-        "image": "/images/section-buttons/Prolog.jpg",
+        "image": "/images/card-images/prologen-introduksjon.jpg",
         "alt": "Manuscript illumination with the king who gives the lawbook to a man",
         "breadcrumb": false,
         "href": "/prologen/introduksjon"
@@ -383,7 +383,7 @@
         "title": "De beste menn",
         "description": "Hvem utformet Landsloven sammen med kong Magnus?",
         "tags": null,
-        "image": "/images/prologen/Audun_Hugleikson_våpenmerke.jpg",
+        "image": "/images/card-images/bestemenn.jpg",
         "alt": "Segl som avbilder en ritter. Våpenmerke til Audun Hugleikson.",
         "href": "/prologen/bestemenn"
       },
@@ -391,7 +391,7 @@
         "title": "The best men",
         "description": "Who formed the Laws of the land together with king Magnus?",
         "tags": null,
-        "image": "/images/prologen/Audun_Hugleikson_våpenmerke.jpg",
+        "image": "/images/card-images/bestemenn.jpg",
         "alt": "A seal representing a rider. Coat of arms of Audun Hugleikson.",
         "href": "/prologen/bestemenn"
       }
@@ -403,7 +403,7 @@
         "title": "Skjulte rikdommer",
         "description": "“'Arkeologiske funn' i middelalderens Norge.\"",
         "tags": null,
-        "image": "/images/odelsbolken/Skattefunn.jpg",
+        "image": "/images/card-images/skjulteskatter.jpg",
         "alt": "Tre sølvhalsring",
         "href": "/odelsbolken/skjulteskatter"
       },
@@ -411,7 +411,7 @@
         "title": "Hidden treasures",
         "description": "'Archaeological finds' in medieval Norway!",
         "tags": null,
-        "image": "/images/odelsbolken/Skattefunn.jpg",
+        "image": "/images/card-images/skjulteskatter.jpg",
         "alt": "Three silver necklaces.",
         "href": "/odelsbolken/skjulteskatter"
       }
@@ -457,7 +457,7 @@
         "title": "Odelsbolken",
         "description": "Det var viktig å holde jord i familien…",
         "tags": null,
-        "image": "/images/section-buttons/Odelsbolken.jpg",
+        "image": "/images/card-images/odelsbolken-introduksjon.jpg",
         "alt": null,
         "breadcrumb": false,
         "href": "/odelsbolken/introduksjon"
@@ -466,7 +466,7 @@
         "title": "Land redemption section",
         "description": "It was important to maintain land property in the family...",
         "tags": null,
-        "image": "/images/section-buttons/Odelsbolken.jpg",
+        "image": "/images/card-images/odelsbolken-introduksjon.jpg",
         "alt": null,
         "breadcrumb": false,
         "href": "/odelsbolken/introduksjon"
@@ -479,7 +479,7 @@
         "title": "Forbrytelse og straff",
         "description": "Med Landsloven ble de fleste forbrytelser straffet bare med bøter.",
         "tags": null,
-        "image": "/images/mannhelgebolken/mannhelgi.jpg",
+        "image": "/images/card-images/straff.jpg",
         "alt": "Plakat fra utstillingen med inneldningsteksten til Mannhelgebolken.",
         "href": "/mannhelgebolken/straff"
       },
@@ -487,7 +487,7 @@
         "title": "Crime and punishment",
         "description": "With the Laws of the Land, most crimes were only punished with fines.",
         "tags": null,
-        "image": "/images/mannhelgebolken/mannhelgi.jpg",
+        "image": "/images/card-images/straff.jpg",
         "alt": "Banner from the exhibition with the introduction text to the Human Inviolability section.",
         "href": "/mannhelgebolken/straff"
       }
@@ -497,7 +497,7 @@
         "title": "Kvinner - ære og ansvar",
         "description": "Lovbrudd mot kvinner gikk ut over familiens ære.",
         "tags": null,
-        "image": "/images/mannhelgebolken/kvinnereL.jpg",
+        "image": "/images/card-images/kvinnere.jpg",
         "alt": "Plakat fra utstillingen med tekst og manuskriptillustrasjon relevant for kvinners ære.",
         "href": "/mannhelgebolken/kvinnere"
       },
@@ -505,7 +505,7 @@
         "title": "Women: pride and responsibility",
         "description": "An offense against a woman damaged the honor of her family...",
         "tags": null,
-        "image": "/images/mannhelgebolken/kvinnereL.jpg",
+        "image": "/images/card-images/kvinnere.jpg",
         "alt": "Banner from the exhibition with a text and a manuscript illumination relevant for topic of the honour of women.",
         "href": "/mannhelgebolken/kvinnere"
       }
@@ -515,7 +515,7 @@
         "title": "Knivforbud i dag",
         "description": "Knivens skadepotensial tas fremdeles alvorlig i norsk lov.",
         "tags": null,
-        "image": "/images/mannhelgebolken/Bf_B6916_FK_1.jpg",
+        "image": "/images/card-images/knivforbud.jpg",
         "alt": "Rondelldolk med grep av kobberlegering, bein og tre, fra Eikenes, Stryn.",
         "href": "/mannhelgebolken/knivforbud"
       },
@@ -523,7 +523,7 @@
         "title": "Knife ban today",
         "description": "The knife's potential for damage is still taken seriously in Norwegian law.",
         "tags": null,
-        "image": "/images/mannhelgebolken/Bf_B6916_FK_1.jpg",
+        "image": "/images/card-images/knivforbud.jpg",
         "alt": "Rondel dagger with handle of copper alloy, bone and wood, from Eikenes, Stryn.",
         "href": "/mannhelgebolken/knivforbud"
       }
@@ -533,7 +533,7 @@
         "title": "Kniv til nytte og besvær",
         "description": "Det var strenge straffer for misbruk av kniv!",
         "tags": null,
-        "image": "/images/mannhelgebolken/dolker.jpg",
+        "image": "/images/card-images/kniv.jpg",
         "alt": "En kniv og en dolk i en av utstillings montrene.",
         "href": "/mannhelgebolken/kniv"
       },
@@ -541,7 +541,7 @@
         "title": "Knives for utility and trouble",
         "description": "There were severe penalties for the misuse of a knife!",
         "tags": null,
-        "image": "/images/mannhelgebolken/dolker.jpg",
+        "image": "/images/card-images/kniv.jpg",
         "alt": "A knife and a dagger in one of the showcases in the exhibition.",
         "href": "/mannhelgebolken/kniv"
       }
@@ -551,7 +551,7 @@
         "title": "Mannhelgebolken",
         "description": "Om krim og ære...",
         "tags": null,
-        "image": "/images/section-buttons/Mannhelgebolken.jpg",
+        "image": "/images/card-images/mannhelgebolken-introduksjon.jpg",
         "alt": null,
         "breadcrumb": false,
         "href": "/mannhelgebolken/introduksjon"
@@ -560,7 +560,7 @@
         "title": "Human inviolability section",
         "description": "About crime and honor",
         "tags": null,
-        "image": "/images/section-buttons/Mannhelgebolken.jpg",
+        "image": "/images/card-images/mannhelgebolken-introduksjon.jpg",
         "alt": null,
         "breadcrumb": false,
         "href": "/mannhelgebolken/introduksjon"
@@ -571,7 +571,7 @@
         "title": "«Guds fire døtre»",
         "description": "Miskunn, Sannhet, Rettferdighet og Fred.",
         "tags": null,
-        "image": "/images/mannhelgebolken/guds fire dotre.jpg",
+        "image": "/images/card-images/firedotre.jpg",
         "alt": "Billed malt av Anne Hesvik. Foto: Bjørgvin bispedøme.",
         "href": "/mannhelgebolken/firedotre"
       },
@@ -579,7 +579,7 @@
         "title": "God’s four daughters",
         "description": "Truth, freedom, mercy, and justice.",
         "tags": null,
-        "image": "/images/mannhelgebolken/guds fire dotre.jpg",
+        "image": "/images/card-images/firedotre.jpg",
         "alt": "Painting by Anne Hesvik. Photo: Bergen bishopric.",
         "href": "/mannhelgebolken/firedotre"
       }
@@ -589,7 +589,7 @@
         "title": "Dolker med baller",
         "description": "Om dolker som viser mot og manndom!",
         "tags": null,
-        "image": "/images/mannhelgebolken/balledolk ink-bonde.jpg",
+        "image": "/images/card-images/balledolker.jpg",
         "alt": "Avbilding av en bonde med okse og balledolk.",
         "href": "/mannhelgebolken/balledolker"
       },
@@ -597,7 +597,7 @@
         "title": "Daggers with balls",
         "description": "About daggers that illustrate courage and manhood!",
         "tags": null,
-        "image": "/images/mannhelgebolken/balledolk ink-bonde.jpg",
+        "image": "/images/card-images/balledolker.jpg",
         "alt": "A drawing of a peasant with an axe and a dagger with balls.",
         "href": "/mannhelgebolken/balledolker"
       }
@@ -609,7 +609,7 @@
         "title": "Tunet",
         "description": "Gårdstunet var rammen om hverdagslivet.",
         "tags": null,
-        "image": "/images/landsleiebolken/ubb-w-f-084624_md.jpg",
+        "image": "/images/card-images/tunet.jpg",
         "alt": "Flyfoto over klyngetunet på Osterøy",
         "href": "/landsleiebolken/tunet"
       },
@@ -617,7 +617,7 @@
         "title": "Farmyards",
         "description": "The farmyard was the framework for everyday life.",
         "tags": null,
-        "image": "/images/landsleiebolken/ubb-w-f-084624_md.jpg",
+        "image": "/images/card-images/tunet.jpg",
         "alt": "Aerial photo of a farmyard on Osterøy",
         "href": "/landsleiebolken/tunet"
       }
@@ -627,7 +627,7 @@
         "title": "Treller, livegne og leilendinger",
         "description": "Leiledningene hadde flere rettigheter enn i mange andre land.",
         "tags": null,
-        "image": "/images/landsleiebolken/31711.jpg",
+        "image": "/images/card-images/treller.jpg",
         "alt": "Blyantskisse fra en bok med en saga som viser Erling og hans treller.",
         "href": "/landsleiebolken/treller"
       },
@@ -635,7 +635,7 @@
         "title": "Slaves, serfs, and tenants",
         "description": "Land tenants in Norway had more rights than in most other countries.",
         "tags": null,
-        "image": "/images/landsleiebolken/31711.jpg",
+        "image": "/images/card-images/treller.jpg",
         "alt": "Pencil drawing from a book with a saga showing Erling and his slaves.",
         "href": "/landsleiebolken/treller"
       }
@@ -645,7 +645,7 @@
         "title": "Sildefiske",
         "description": "Fiske var viktig, og viktigst var sildefiske!",
         "tags": null,
-        "image": "/images/landsleiebolken/ubb-bs-ok-14001_md.jpg",
+        "image": "/images/card-images/sild.jpg",
         "alt": "Xylografi etter fotografi av Marcus Selmer som viser sildefisk. Fra Billdsamlingen ved Universitetsbiblioteket i Bergen.",
         "href": "/landsleiebolken/sild"
       },
@@ -653,7 +653,7 @@
         "title": "Herring fishing",
         "description": "Fishing was important and herring fishing the most important of all!",
         "tags": null,
-        "image": "/images/landsleiebolken/ubb-bs-ok-14001_md.jpg",
+        "image": "/images/card-images/sild.jpg",
         "alt": "Xylography from a photography by Marcus Selmer, which shows herring fishing - from the Picture Collection at the University of Bergen Library.",
         "href": "/landsleiebolken/sild"
       }
@@ -663,7 +663,7 @@
         "title": "Jordleie",
         "description": "Å leie jord var vanligst i middelalderen.",
         "tags": null,
-        "image": "/images/landsleiebolken/_R001691.jpg",
+        "image": "/images/card-images/jordleie.jpg",
         "alt": "Utstillingsplakat med innledningstekst til Landsleiebolken.",
         "href": "/landsleiebolken/jordleie"
       },
@@ -671,7 +671,7 @@
         "title": "Land tenancy",
         "description": "Renting land was the commonest thing in the Middle Ages.",
         "tags": null,
-        "image": "/images/landsleiebolken/_R001691.jpg",
+        "image": "/images/card-images/jordleie.jpg",
         "alt": "Exhibition banner with the intro-text to the Land tenancy section.",
         "href": "/landsleiebolken/jordleie"
       }
@@ -681,7 +681,7 @@
         "title": "Jordbruket",
         "description": "Langt de fleste nordmenn var gårdbrukere.",
         "tags": null,
-        "image": "/images/landsleiebolken/ubb-kk-1318-0832_md.jpg",
+        "image": "/images/card-images/jordbruk.jpg",
         "alt": "Svart og hvitt bilde av fruktplukking.",
         "href": "/landsleiebolken/jordbruk"
       },
@@ -689,7 +689,7 @@
         "title": "Agriculture",
         "description": "The vast majority of Norwegians were farmers.",
         "tags": null,
-        "image": "/images/landsleiebolken/ubb-kk-1318-0832_md.jpg",
+        "image": "/images/card-images/jordbruk.jpg",
         "alt": "Black and white photo of fruit picking.",
         "href": "/landsleiebolken/jordbruk"
       }
@@ -699,7 +699,7 @@
         "title": "Landsleiebolken",
         "description": "…men oftest måtte folk leie jorden de levde av…",
         "tags": null,
-        "image": "/images/section-buttons/Landleigebolken.jpg",
+        "image": "/images/card-images/landsleiebolken-introduksjon.jpg",
         "alt": null,
         "breadcrumb": false,
         "href": "/landsleiebolken/introduksjon"
@@ -708,7 +708,7 @@
         "title": "Land tenancy section",
         "description": "...but as a rule people were tenants on the land they made their living from...",
         "tags": null,
-        "image": "/images/section-buttons/Landleigebolken.jpg",
+        "image": "/images/card-images/landsleiebolken-introduksjon.jpg",
         "alt": null,
         "breadcrumb": false,
         "href": "/landsleiebolken/introduksjon"
@@ -719,7 +719,7 @@
         "title": "Hval",
         "description": "Den i dag kontroversielle fangsten var veldig viktig i middelalderen.",
         "tags": null,
-        "image": "/images/landsleiebolken/hval.jpg",
+        "image": "/images/card-images/hval.jpg",
         "alt": "Manuskript illuminasjon som viser fire menn som kutter opp en hval.",
         "href": "/landsleiebolken/hval"
       },
@@ -727,7 +727,7 @@
         "title": "Whales",
         "description": "The controversial today whale hunting was very important in the Middle Ages.",
         "tags": null,
-        "image": "/images/landsleiebolken/hval.jpg",
+        "image": "/images/card-images/hval.jpg",
         "alt": "Manuscript illumination depicting four men cutting up a whale.",
         "href": "/landsleiebolken/hval"
       }
@@ -739,7 +739,7 @@
         "title": "Vetene",
         "description": "Et lysende varslingssystem!",
         "tags": null,
-        "image": "/images/landevernsbolken/Veter fra Olaus Magnus.jpg",
+        "image": "/images/card-images/veter.jpg",
         "alt": "Tresnitt som avbilder veter, ryttere og en skip.",
         "href": "/landevernsbolken/veter"
       },
@@ -747,7 +747,7 @@
         "title": "Beacons",
         "description": "A luminous notification system!",
         "tags": null,
-        "image": "/images/landevernsbolken/Veter fra Olaus Magnus.jpg",
+        "image": "/images/card-images/veter.jpg",
         "alt": "Woodcut with a presentation of beacons, riders, and a ship.",
         "href": "/landevernsbolken/veter"
       }
@@ -757,7 +757,7 @@
         "title": "Våpen og våpenting",
         "description": "Våpnene ble kontrollert en gang i året.",
         "tags": null,
-        "image": "/images/landevernsbolken/Bf_B11302_FK_01.jpg",
+        "image": "/images/card-images/vapen.jpg",
         "alt": "Bile i jern",
         "href": "/landevernsbolken/vapen"
       },
@@ -765,7 +765,7 @@
         "title": "Weapons and weapon assembly",
         "description": "Weapons were controlled once a year.",
         "tags": null,
-        "image": "/images/landevernsbolken/Bf_B11302_FK_01.jpg",
+        "image": "/images/card-images/vapen.jpg",
         "alt": "Socket axe made of iron.",
         "href": "/landevernsbolken/vapen"
       }
@@ -775,7 +775,7 @@
         "title": "Skip og naust",
         "description": "Om bygging og bruk av leidangsskip",
         "tags": null,
-        "image": "/images/landevernsbolken/Bilde7.jpg",
+        "image": "/images/card-images/skipognaust.jpg",
         "alt": "Nøster ved fjorden på Vikøyri.",
         "href": "/landevernsbolken/skipognaust"
       },
@@ -783,7 +783,7 @@
         "title": "Ships and boathouses",
         "description": "About the building and the use of the levy ships",
         "tags": null,
-        "image": "/images/landevernsbolken/Bilde7.jpg",
+        "image": "/images/card-images/skipognaust.jpg",
         "alt": "Boathouses by the fjord at Vikøyri.",
         "href": "/landevernsbolken/skipognaust"
       }
@@ -793,7 +793,7 @@
         "title": "Seilet – kvinnenes krigsinnsats",
         "description": "Kvinnene vevde skipenes seil",
         "tags": null,
-        "image": "/images/landevernsbolken/Seilet knapp.jpg",
+        "image": "/images/card-images/seil.jpg",
         "alt": "Takmaleri fra Ål stavkirke, nå utstilt på Kulturhistorisk Museum, Oslo.",
         "href": "/landevernsbolken/seil"
       },
@@ -801,7 +801,7 @@
         "title": "Sails: Women’s contribution to the war effort",
         "description": "The women weaved the sails of the ships",
         "tags": null,
-        "image": "/images/landevernsbolken/Seilet knapp.jpg",
+        "image": "/images/card-images/seil.jpg",
         "alt": "Painting on ceiling from the stave church at Ål, today at the Museum of Cultural History, Oslo",
         "href": "/landevernsbolken/seil"
       }
@@ -811,7 +811,7 @@
         "title": "Leidang",
         "description": "Om en skatt fra middelalderen som var gjeldende til 1939!",
         "tags": null,
-        "image": "/images/landevernsbolken/Landslovutstillingen BM-3.jpg",
+        "image": "/images/card-images/leidang.jpg",
         "alt": "Delen av utstillingen hvor Landevernsbolken er presentert.",
         "href": "/landevernsbolken/leidang"
       },
@@ -819,7 +819,7 @@
         "title": "Levy",
         "description": "About a tax from the Middle Ages that was used untiul 1939!",
         "tags": null,
-        "image": "/images/landevernsbolken/Landslovutstillingen BM-3.jpg",
+        "image": "/images/card-images/leidang.jpg",
         "alt": "The part of the exhibition where the Levy section is presented.",
         "href": "/landevernsbolken/leidang"
       }
@@ -829,7 +829,7 @@
         "title": "Kirken - en velsignet lagringsplass",
         "description": "Seilet ble lagret i Guds hus",
         "tags": null,
-        "image": "/images/landevernsbolken/ubb-bs-ok-00843-002_xl.jpg",
+        "image": "/images/card-images/lagreikirke.jpg",
         "alt": "Båtene nærmer seg en strand hvor står en kirke. Vises andre etasje hvor seilen skulle lagres.",
         "href": "/landevernsbolken/lagreikirke"
       },
@@ -837,7 +837,7 @@
         "title": "The church – A blessed repository",
         "description": "The sail was stored in God's dwelling",
         "tags": null,
-        "image": "/images/landevernsbolken/ubb-bs-ok-00843-002_xl.jpg",
+        "image": "/images/card-images/lagreikirke.jpg",
         "alt": "Boats are approaching the coast where a church stands. The second floor of the church is visible. There, the sail would be stored.",
         "href": "/landevernsbolken/lagreikirke"
       }
@@ -847,7 +847,7 @@
         "title": "Landevernsbolken",
         "description": "Forsvar av riket kommer først!",
         "tags": null,
-        "image": "/images/section-buttons/Landvernebolken.jpg",
+        "image": "/images/card-images/landevernsbolken-introduksjon.jpg",
         "alt": null,
         "breadcrumb": false,
         "href": "/landevernsbolken/introduksjon"
@@ -856,7 +856,7 @@
         "title": "Land Defence",
         "description": "Defending the kingdom comes first!",
         "tags": null,
-        "image": "/images/section-buttons/Landvernebolken.jpg",
+        "image": "/images/card-images/landevernsbolken-introduksjon.jpg",
         "alt": null,
         "breadcrumb": false,
         "href": "/landevernsbolken/introduksjon"
@@ -867,7 +867,7 @@
         "title": "«Her farer den havdjerve»",
         "description": "Om kongens leidangsflåte",
         "tags": null,
-        "image": "/images/landevernsbolken/Bf_BRM_0_12274_001.jpg",
+        "image": "/images/card-images/hardjeve.jpg",
         "alt": "Runepinne av tre med innrisset skipbilder og innskrift.",
         "href": "/landevernsbolken/hardjeve"
       },
@@ -875,7 +875,7 @@
         "title": "\"Here fares the courageous seafarer\"",
         "description": "About the royal levy fleet",
         "tags": null,
-        "image": "/images/landevernsbolken/Bf_BRM_0_12274_001.jpg",
+        "image": "/images/card-images/hardjeve.jpg",
         "alt": "Rune stick of wood incised with a war fleet and an inscription.",
         "href": "/landevernsbolken/hardjeve"
       }
@@ -885,7 +885,7 @@
         "title": "Budstikker",
         "description": "Hvordan ble folk varslet om alvorlige hendelser?",
         "tags": null,
-        "image": "/images/landevernsbolken/budbarring.jpg",
+        "image": "/images/card-images/budbaeringogbudstikker.jpg",
         "alt": "En mann på hest bærer budstikker",
         "href": "/landevernsbolken/budbaeringogbudstikker"
       },
@@ -893,7 +893,7 @@
         "title": "Bidding sticks",
         "description": "How were people notified of serious incidents?",
         "tags": null,
-        "image": "/images/landevernsbolken/budbarring.jpg",
+        "image": "/images/card-images/budbaeringogbudstikker.jpg",
         "alt": "A carrier of message sticks on horse",
         "href": "/landevernsbolken/budbaeringogbudstikker"
       }
@@ -905,7 +905,7 @@
         "title": "Tronfølgeloven: Arverett gjennom kvinneledd",
         "description": "Landsloven baner vei mot at en kvinne kan bli regjerende dronning!",
         "tags": null,
-        "image": "/images/kristendomsbolken/ingebjorgseal.jpg",
+        "image": "/images/card-images/tronfolgeloven2.jpg",
         "alt": "Ingebjørgs segl.",
         "href": "/kristendomsbolken/tronfolgeloven2"
       },
@@ -913,7 +913,7 @@
         "title": "The law of the succession to the throne: the right to succession through the female line",
         "description": "The Laws of the Land open the way for a woman to become reigning queen!",
         "tags": null,
-        "image": "/images/kristendomsbolken/ingebjorgseal.jpg",
+        "image": "/images/card-images/tronfolgeloven2.jpg",
         "alt": "The seal of queen Ingebjørg.",
         "href": "/kristendomsbolken/tronfolgeloven2"
       }
@@ -923,7 +923,7 @@
         "title": "Tronfølgeloven: Den ektefødte og førstefødtes rett",
         "description": "Prinsippene for kongelig arv ble hentet fra Kirkens holdninger.",
         "tags": null,
-        "image": "/images/introduksjon/StavangerDomf21005.jpg",
+        "image": "/images/card-images/tronfolgeloven1.jpg",
         "alt": "Skulptur av en konges hode over en kirkedør.",
         "href": "/kristendomsbolken/tronfolgeloven1"
       },
@@ -931,7 +931,7 @@
         "title": "The law of succession to the throne: the rights of the legitimate child and the firstborn child",
         "description": "The principles for royal inheritance were drawn from ideas developed in the Church.",
         "tags": null,
-        "image": "/images/introduksjon/StavangerDomf21005.jpg",
+        "image": "/images/card-images/tronfolgeloven1.jpg",
         "alt": "Sculpted royal head over a church door.",
         "href": "/kristendomsbolken/tronfolgeloven1"
       }
@@ -941,7 +941,7 @@
         "title": "Fremfor kirkedøren",
         "description": "Kirkestedet var møtested og sentrum i bygden",
         "tags": null,
-        "image": "/images/kristendomsbolken/kirkedor.jpg",
+        "image": "/images/card-images/kirkedoren.jpg",
         "alt": "Kirkedøren fra Bergen.",
         "href": "/kristendomsbolken/kirkedoren"
       },
@@ -949,7 +949,7 @@
         "title": "In front of the church door",
         "description": "The church was the meeting and central point of the local community",
         "tags": null,
-        "image": "/images/kristendomsbolken/kirkedor.jpg",
+        "image": "/images/card-images/kirkedoren.jpg",
         "alt": "Church door from Bergen.",
         "href": "/kristendomsbolken/kirkedoren"
       }
@@ -959,7 +959,7 @@
         "title": "Kristendomsbolken",
         "description": "God save our king – og hans dynasti!",
         "tags": null,
-        "image": "/images/section-buttons/Kristendomsbolken.jpg",
+        "image": "/images/card-images/kristendomsbolken-introduksjon.jpg",
         "alt": null,
         "breadcrumb": false,
         "href": "/kristendomsbolken/introduksjon"
@@ -968,7 +968,7 @@
         "title": "Christianity Section",
         "description": "God save our king - and his dynasty!",
         "tags": null,
-        "image": "/images/section-buttons/Kristendomsbolken.jpg",
+        "image": "/images/card-images/kristendomsbolken-introduksjon.jpg",
         "alt": null,
         "breadcrumb": false,
         "href": "/kristendomsbolken/introduksjon"
@@ -979,7 +979,7 @@
         "title": "Illuminasjoner, en fryd for øyet",
         "description": "Om de vakreste elementene i manuskripter fra middelalderen…",
         "tags": null,
-        "image": "/images/kristendomsbolken/faximil.jpg",
+        "image": "/images/card-images/illuminasjoner.jpg",
         "alt": "Fire faksimiler av illuminasjoner fra manuskripter med Landsloven.",
         "href": "/kristendomsbolken/illuminasjoner"
       },
@@ -987,7 +987,7 @@
         "title": "Illuminations: a delight for the eye",
         "description": "About the most beautiful elements in medieval manuscripts...",
         "tags": null,
-        "image": "/images/kristendomsbolken/faximil.jpg",
+        "image": "/images/card-images/illuminasjoner.jpg",
         "alt": "Four fascimiles of illuminations from manuscripts with the Laws of the Land.",
         "href": "/kristendomsbolken/illuminasjoner"
       }
@@ -997,7 +997,7 @@
         "title": "Middelalderens farger",
         "description": "Hvordan ble fargene skapt?",
         "tags": null,
-        "image": "/images/kristendomsbolken/fargemonter.jpg",
+        "image": "/images/card-images/fargebruk.jpg",
         "alt": "Utstillingsmonter som viser illuminasjoner, bruk av farger i manuskripter og stoff som ble brukt til å lage farger i middelalderen.",
         "href": "/kristendomsbolken/fargebruk"
       },
@@ -1005,7 +1005,7 @@
         "title": "The colours of the Middle Ages",
         "description": "How were colours produced?",
         "tags": null,
-        "image": "/images/kristendomsbolken/fargemonter.jpg",
+        "image": "/images/card-images/fargebruk.jpg",
         "alt": "An exhibition showcase that presentes illuminations, the use of colors in manuscripts and the elements that were used to make colors in the Middle Ages.",
         "href": "/kristendomsbolken/fargebruk"
       }
@@ -1015,7 +1015,7 @@
         "title": "Bokproduksjon",
         "description": "Bøker fra middelalderen var ressurskrevende og verdifulle.",
         "tags": null,
-        "image": "/images/kristendomsbolken/bokproduksjon.jpg",
+        "image": "/images/card-images/boker.jpg",
         "alt": "Utstillingsmonter med gjenstander som ble brukt i bokprodukasjon i fortiden.",
         "href": "/kristendomsbolken/boker"
       },
@@ -1023,7 +1023,7 @@
         "title": "Book production",
         "description": "A medieval book was a resource-intensive and onerous product.",
         "tags": null,
-        "image": "/images/kristendomsbolken/bokproduksjon.jpg",
+        "image": "/images/card-images/boker.jpg",
         "alt": "An exhibition showcase with objects that were used for book production in the past.",
         "href": "/kristendomsbolken/boker"
       }
@@ -1035,7 +1035,7 @@
         "title": "Vekter",
         "description": "Om skippunder, bismer, skålvekter og vektlodd.",
         "tags": null,
-        "image": "/images/kjopebolken/abraham.jpg",
+        "image": "/images/card-images/vekter.jpg",
         "alt": "Glassmaleriet viser en mann i renessansedrakt som veier en bunt tørrfisk med en bismervekt.",
         "href": "/kjoepebolken/vekter"
       },
@@ -1043,7 +1043,7 @@
         "title": "Scales",
         "description": "About ship pounders, bismar and scale balances, and weights...",
         "tags": null,
-        "image": "/images/kjopebolken/abraham.jpg",
+        "image": "/images/card-images/vekter.jpg",
         "alt": "Glass painting showing a man in Renaissance costume weighing a bundle of stockfish with a bismar scale.",
         "href": "/kjoepebolken/vekter"
       }
@@ -1053,7 +1053,7 @@
         "title": "Kongens og erkebiskopens mynter",
         "description": "I Magnus Lagabøtes dager hadde både kronen og kirken rett til å slå mynt.",
         "tags": null,
-        "image": "/images/kjopebolken/mynter.jpg",
+        "image": "/images/card-images/mynter.jpg",
         "alt": "Ulike mynter fra utstillingsmonter.",
         "href": "/kjoepebolken/mynter"
       },
@@ -1061,7 +1061,7 @@
         "title": "The king’s and the archbishop's coins",
         "description": "In the reign of Magnus the Lawmender, both the crown and the church hadthe right to mint coins.",
         "tags": null,
-        "image": "/images/kjopebolken/mynter.jpg",
+        "image": "/images/card-images/mynter.jpg",
         "alt": "Various coins from a showcase in the exhibition.",
         "href": "/kjoepebolken/mynter"
       }
@@ -1071,7 +1071,7 @@
         "title": "Mål og vekt",
         "description": "Landsloven standardiserte måle- og vektenheter.",
         "tags": null,
-        "image": "/images/kjopebolken/kjopesilhuette.jpg",
+        "image": "/images/card-images/malogvekt.jpg",
         "alt": "Silhuetter som viser vekting av et produkt som selges på marked.",
         "href": "/kjoepebolken/malogvekt"
       },
@@ -1079,7 +1079,7 @@
         "title": "Weights and measures",
         "description": "The Laws of the Land standardized the units of measurement and weight.",
         "tags": null,
-        "image": "/images/kjopebolken/kjopesilhuette.jpg",
+        "image": "/images/card-images/malogvekt.jpg",
         "alt": "Silhouettes that show the sale of a product in a market.",
         "href": "/kjoepebolken/malogvekt"
       }
@@ -1089,7 +1089,7 @@
         "title": "Kjøpebolken",
         "description": "Standardisering er ikke et nytt fenomen i Norge!",
         "tags": null,
-        "image": "/images/section-buttons/Kjopebolken.jpg",
+        "image": "/images/card-images/kjoepebolken-introduksjon.jpg",
         "alt": null,
         "breadcrumb": false,
         "href": "/kjoepebolken/introduksjon"
@@ -1098,7 +1098,7 @@
         "title": "Trade section",
         "description": "Standardization is not a new phenomenon in Norway!",
         "tags": null,
-        "image": "/images/section-buttons/Kjopebolken.jpg",
+        "image": "/images/card-images/kjoepebolken-introduksjon.jpg",
         "alt": null,
         "breadcrumb": false,
         "href": "/kjoepebolken/introduksjon"
@@ -1109,7 +1109,7 @@
         "title": "Falskmyntneri – en forbrytelse mot kongen",
         "description": "Å slå falske mynter var ubotamål!",
         "tags": null,
-        "image": "/images/kjopebolken/terning.jpg",
+        "image": "/images/card-images/falskmynteri.jpg",
         "alt": "Terning av bein.",
         "href": "/kjoepebolken/falskmynteri"
       },
@@ -1117,7 +1117,7 @@
         "title": "Counterfeiting: A crime against the king",
         "description": "To mint counterfeit coins was an inexpiable crime!",
         "tags": null,
-        "image": "/images/kjopebolken/terning.jpg",
+        "image": "/images/card-images/falskmynteri.jpg",
         "alt": "A bone dice.",
         "href": "/kjoepebolken/falskmynteri"
       }
@@ -1129,7 +1129,7 @@
         "title": "Det norske samfunnet på kong Magnus Lagabøtes tid",
         "description": "I middelalderen levde de aller fleste på landsbygden...",
         "tags": null,
-        "image": "/images/introduksjon/Bilde1.jpg",
+        "image": "/images/card-images/samfunn.jpg",
         "alt": "Vangskyrkja på Voss, oppført i kong Magnus’ tid og omtalt av ham. Foto: Alf Tore Hommedal.",
         "href": "/introduksjon/samfunn"
       },
@@ -1137,7 +1137,7 @@
         "title": "Norwegian society at the time of King Magnus the Lawmender",
         "description": "In the Middle Ages most people lived in the countryside...",
         "tags": null,
-        "image": "/images/introduksjon/Bilde1.jpg",
+        "image": "/images/card-images/samfunn.jpg",
         "alt": "Voss Church built in king Magnus' time and mentioned by him. Photo: Alf Tore Hommedal.",
         "href": "/introduksjon/samfunn"
       }
@@ -1147,7 +1147,7 @@
         "title": "Kongens sønn Olav og nonnene i Nonneseter",
         "description": "Nonnene i Bergen tok seg av kongssønnen…",
         "tags": null,
-        "image": "/images/introduksjon/IMG_0727.jpg",
+        "image": "/images/card-images/nonneseter.jpg",
         "alt": "Nonneseter korkapell fra ca. 1290. Foto: Alf Tore Hommedal.",
         "href": "/introduksjon/nonneseter"
       },
@@ -1155,7 +1155,7 @@
         "title": "The king’s son Olav and the nuns in Nonneseter",
         "description": "The nuns in bergen took care of the king's son...",
         "tags": null,
-        "image": "/images/introduksjon/IMG_0727.jpg",
+        "image": "/images/card-images/nonneseter.jpg",
         "alt": "The choir chapel of Nonnesetter from ca 1290. Photo: Alf Tore Hommedal.",
         "href": "/introduksjon/nonneseter"
       }
@@ -1165,7 +1165,7 @@
         "title": "Kong Magnus’ rike: Norge og Skattlandene",
         "description": "Norgesveldet var på sitt største på 1200-tallet!",
         "tags": null,
-        "image": "/images/introduksjon/Bilde4.jpg",
+        "image": "/images/card-images/magnusrike.jpg",
         "alt": "Byste til Magnus Lagabøte fra utstillingen.",
         "href": "/introduksjon/magnusrike"
       },
@@ -1173,7 +1173,7 @@
         "title": "The kingdom of King Magnus: Norway and the taxed territories",
         "description": "The Norwegian Realm reached its peak in the 13th century!",
         "tags": null,
-        "image": "/images/introduksjon/Bilde4.jpg",
+        "image": "/images/card-images/magnusrike.jpg",
         "alt": "A bust of Magnus the Lawmender from the exhibition.",
         "href": "/introduksjon/magnusrike"
       }
@@ -1183,7 +1183,7 @@
         "title": "Magnus sin suksess som lovgiver",
         "description": "Tro og tillit til menneskelig fornuft...",
         "tags": null,
-        "image": "/images/introduksjon/Bilde6.jpg",
+        "image": "/images/card-images/lovgiver.jpg",
         "alt": "Prologen i Codex Hardenbergianus har en illuminasjon der kong Magnus overleverer Landsloven mens han sitter på sin trone.",
         "href": "/introduksjon/lovgiver"
       },
@@ -1191,7 +1191,7 @@
         "title": "Magnus’s success as lawgiver",
         "description": "Faith and trust in human logic...",
         "tags": null,
-        "image": "/images/introduksjon/Bilde6.jpg",
+        "image": "/images/card-images/lovgiver.jpg",
         "alt": "The drop cap illumination of the Prologue in Codex Hardenbergianus shows King Magnus handing over the Laws of the Land.",
         "href": "/introduksjon/lovgiver"
       }
@@ -1201,7 +1201,7 @@
         "title": "Kulturutveksling i middelalderen",
         "description": "Om forbindelser med europeiske hoff og universiteter.",
         "tags": null,
-        "image": "/images/introduksjon/herakleius.jpg",
+        "image": "/images/card-images/kulturutveksling.jpg",
         "alt": "Altertfrontale fra Nedstryn kirke, Stryn.",
         "href": "/introduksjon/kulturutveksling"
       },
@@ -1209,7 +1209,7 @@
         "title": "Cultural exchanges in the Middle Ages",
         "description": "About connections with European courts and universities.",
         "tags": null,
-        "image": "/images/introduksjon/herakleius.jpg",
+        "image": "/images/card-images/kulturutveksling.jpg",
         "alt": "Altar frontal from Nedstryn Church, Stryn.",
         "href": "/introduksjon/kulturutveksling"
       }
@@ -1219,7 +1219,7 @@
         "title": "Kongsgården i Bergen",
         "description": "Kongens slott i Bergen holdt europeiske standarder.",
         "tags": null,
-        "image": "/images/introduksjon/holmen_rec.jpg",
+        "image": "/images/card-images/holmen.jpg",
         "alt": "Modell av Holmen med kongsgården. Foto: Tore Klyve, Bymuseet i Bergen",
         "href": "/introduksjon/holmen"
       },
@@ -1227,7 +1227,7 @@
         "title": "The royal estate in Bergen",
         "description": "The royal estate in Bergen had European standards.",
         "tags": null,
-        "image": "/images/introduksjon/holmen_rec.jpg",
+        "image": "/images/card-images/holmen.jpg",
         "alt": "A model of Holmen with the royal estate. Photo: Tore Klyve, Bymuseet in Berge.",
         "href": "/introduksjon/holmen"
       }
@@ -1237,7 +1237,7 @@
         "title": "Håkonshallen og lovgivningsarbeid",
         "description": "I sentrum for kongelige markeringer!",
         "tags": null,
-        "image": "/images/introduksjon/Håkonshallen hvelvrommene-6.jpg",
+        "image": "/images/card-images/haakonshallen.jpg",
         "alt": "Håkonshallens hvelv, oppført i kong Magnus’ tid. Foto: Gunn Kristin Monsen, Bymuseet i Bergen.",
         "href": "/introduksjon/haakonshallen"
       },
@@ -1245,7 +1245,7 @@
         "title": "King Håkons’s Hall and the legislative work",
         "description": "At the center of royal festivities!",
         "tags": null,
-        "image": "/images/introduksjon/Håkonshallen hvelvrommene-6.jpg",
+        "image": "/images/card-images/haakonshallen.jpg",
         "alt": "The vault at king Håkon's Hall, built at the time of King Magnus. Photo: Gunn Kristin Monsen, Bymuseet, Bergen.",
         "href": "/introduksjon/haakonshallen"
       }
@@ -1255,7 +1255,7 @@
         "title": "Kong Magnus, fransiskanerne og dagens Bergen domkirke",
         "description": "Hvorfor valgte Magnus å bli gravlagt hos fransiskanerne?",
         "tags": null,
-        "image": "/images/introduksjon/BergenDomkirke.jpg",
+        "image": "/images/card-images/fransiskanerne.jpg",
         "alt": "Maleriet fra begynnelsen av 1800-tallet som viser strøket rundt Bergen domkirke.",
         "href": "/introduksjon/fransiskanerne"
       },
@@ -1263,7 +1263,7 @@
         "title": "King Magnus, the Franciscans, and today’s Bergen Cathedral",
         "description": "Why did Magnus choose to be buried at the Fransciscan monastery?",
         "tags": null,
-        "image": "/images/introduksjon/BergenDomkirke.jpg",
+        "image": "/images/card-images/fransiskanerne.jpg",
         "alt": "An 19th century painting depicting the area around Bergen Cathedral.",
         "href": "/introduksjon/fransiskanerne"
       }
@@ -1273,7 +1273,7 @@
         "title": "Ex oriente lux",
         "description": "Det kom inspirasjon fra bysantinsk og islamsk lovgivning!",
         "tags": null,
-        "image": "/images/introduksjon/alidrisikart.jpg",
+        "image": "/images/card-images/exorientelux.jpg",
         "alt": "Verdensatlas fra 1152 e.v.t. laget av den muslimske geografen Al-Idrisi.",
         "href": "/introduksjon/exorientelux"
       },
@@ -1281,7 +1281,7 @@
         "title": "Ex oriente lux",
         "description": "There was inspiration from Byzantine and Islamic legislation!",
         "tags": null,
-        "image": "/images/introduksjon/alidrisikart.jpg",
+        "image": "/images/card-images/exorientelux.jpg",
         "alt": "Worldatlas from 1152 CE made by the Muslim geographer Al-Idrisi.",
         "href": "/introduksjon/exorientelux"
       }
@@ -1291,7 +1291,7 @@
         "title": "Europeisk innflytelse",
         "description": "De andre riksdekkende lovene i middelalderens Europa.",
         "tags": null,
-        "image": "/images/introduksjon/Bologna1_Lorenzp de voltolino.jpg",
+        "image": "/images/card-images/euroinnflyttelse.jpg",
         "alt": "Fargemaleri som viser universitetsundervisning et sted i Østen i løpet av middelalderen.",
         "href": "/introduksjon/euroinnflyttelse"
       },
@@ -1299,7 +1299,7 @@
         "title": "European influences",
         "description": "The other kingdom-wide laws of medieval Europe.",
         "tags": null,
-        "image": "/images/introduksjon/Bologna1_Lorenzp de voltolino.jpg",
+        "image": "/images/card-images/euroinnflyttelse.jpg",
         "alt": "A color painting showing a university class in the East during the Middle Ages.",
         "href": "/introduksjon/euroinnflyttelse"
       }
@@ -1309,7 +1309,7 @@
         "title": "Bergen og bylovgiveren Magnus",
         "description": "Her skjedde det meste av arbeidet med Landsloven!",
         "tags": null,
-        "image": "/images/introduksjon/ubb-kk-1622-09844_md.jpg",
+        "image": "/images/card-images/bylovgiveren.jpg",
         "alt": "Håkonshallen fotografert mellom 1895 og 1900 av Knud Knudsen - Billedsamlingen, UBB.",
         "href": "/introduksjon/bylovgiveren"
       },
@@ -1317,7 +1317,7 @@
         "title": "Bergen and the town legislator Magnus",
         "description": "Here took place most of the work with the Laws of the Land!",
         "tags": null,
-        "image": "/images/introduksjon/ubb-kk-1622-09844_md.jpg",
+        "image": "/images/card-images/bylovgiveren.jpg",
         "alt": "King Håkon's Hall photographed between 1895 and 1900 by Knud Knudsen - Picture Collection, UBB.",
         "href": "/introduksjon/bylovgiveren"
       }
@@ -1349,7 +1349,7 @@
         "title": "Epilog",
         "description": "En kongetale til avslutte det hele!",
         "tags": null,
-        "image": "/images/epilog.jpg",
+        "image": "/images/card-images/epilog.jpg",
         "alt": "En manuskriptside med begynnelsen av Epilogen.",
         "href": "/epilog/epilog"
       },
@@ -1357,7 +1357,7 @@
         "title": "Epilogue",
         "description": "One more royal speech wraps it all up!",
         "tags": null,
-        "image": "/images/epilog.jpg",
+        "image": "/images/card-images/epilog.jpg",
         "alt": "A manuscript page showing the beginning of the Epilogue.",
         "href": "/epilog/epilog"
       }
@@ -1369,7 +1369,7 @@
         "title": "Tilgave",
         "description": "Morgengave er en tradisjon som stammer fra middelalderen.",
         "tags": null,
-        "image": "/images/arvetall/Bf_MA_108_Ck_484.jpg",
+        "image": "/images/card-images/tilgave.jpg",
         "alt": "Drikkehorn med forgylte kobberbeslag.",
         "href": "/arvetallet/tilgave"
       },
@@ -1377,7 +1377,7 @@
         "title": "Counter-gift",
         "description": "The morning gift is a tradition that goes back to the Middle Ages.",
         "tags": null,
-        "image": "/images/arvetall/Bf_MA_108_Ck_484.jpg",
+        "image": "/images/card-images/tilgave.jpg",
         "alt": "Drinking horn with gilded copper fittings.",
         "href": "/arvetallet/tilgave"
       }
@@ -1387,7 +1387,7 @@
         "title": "Medgift",
         "description": "Om et forskudd på arv for kvinner som giftet seg...",
         "tags": null,
-        "image": "/images/arvetall/Bryggens Museum mai 24-6.jpg",
+        "image": "/images/card-images/medgift.jpg",
         "alt": "Brudekrone av forgylt sølv.",
         "href": "/arvetallet/medgift"
       },
@@ -1395,7 +1395,7 @@
         "title": "Dowry",
         "description": "About an advance on inheritance for women who married...",
         "tags": null,
-        "image": "/images/arvetall/Bryggens Museum mai 24-6.jpg",
+        "image": "/images/card-images/medgift.jpg",
         "alt": "Bridal crown made of gilded silver.",
         "href": "/arvetallet/medgift"
       }
@@ -1405,7 +1405,7 @@
         "title": "Løsøre",
         "description": "Hva brakte en kvinne med seg i ekteskapet?",
         "tags": null,
-        "image": "/images/arvetall/losoreknapp.jpg",
+        "image": "/images/card-images/losore.jpg",
         "alt": "Gjenstander som kunne ha vært løsøre i et ekteskap.",
         "href": "/arvetallet/losore"
       },
@@ -1413,7 +1413,7 @@
         "title": "Assets",
         "description": "What did a woman bring with her to her wedding?",
         "tags": null,
-        "image": "/images/arvetall/losoreknapp.jpg",
+        "image": "/images/card-images/losore.jpg",
         "alt": "Objects that could have been assets in a wedding.",
         "href": "/arvetallet/losore"
       }
@@ -1423,7 +1423,7 @@
         "title": "Arvetallet",
         "description": "Arv kommer ofte etter ekteskap – og alltid etter døden…",
         "tags": null,
-        "image": "/images/section-buttons/Arvetall2.jpg",
+        "image": "/images/card-images/arvetallet-introduksjon.jpg",
         "alt": null,
         "breadcrumb": false,
         "href": "/arvetallet/introduksjon"
@@ -1432,7 +1432,7 @@
         "title": "List of Inheritance",
         "description": "Inheritance often follows marriage; but always death...",
         "tags": null,
-        "image": "/images/section-buttons/Arvetall2.jpg",
+        "image": "/images/card-images/arvetallet-introduksjon.jpg",
         "alt": null,
         "breadcrumb": false,
         "href": "/arvetallet/introduksjon"
@@ -1443,7 +1443,7 @@
         "title": "Ekteskap",
         "description": "Landsloven ser ekteskapet som en forretningsmessig avtale!",
         "tags": null,
-        "image": "/images/arvetall/Bryggens Museum mai 24-7.jpg",
+        "image": "/images/card-images/ekteskap.jpg",
         "alt": "Fingerring av sølvlegering formet som to hender som holder hverandre som symbol av forlovelse eller giftemål.",
         "href": "/arvetallet/ekteskap"
       },
@@ -1451,7 +1451,7 @@
         "title": "Marriage",
         "description": "The Laws of the Land see marriage as a business agreement!",
         "tags": null,
-        "image": "/images/arvetall/Bryggens Museum mai 24-7.jpg",
+        "image": "/images/card-images/ekteskap.jpg",
         "alt": "A silver alloy finger ring shaped like two hands holding each other symbolizing engagement or weddinglock.",
         "href": "/arvetallet/ekteskap"
       }
