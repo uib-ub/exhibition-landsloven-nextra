@@ -27,7 +27,7 @@ const HomepageHero = ({ title, ingress, footer, logo }: { title?: string, ingres
           <>
             <Image
               className="svglogo object-cover block dark:hidden max-w-xs sm:max-w-sm md:max-w-md xl:max-w-xl"
-              src="/images/logo_horizontal.svg"
+              src="/images/logos/logo_horizontal.svg"
               alt="Landsloven logo"
               width={550}
               height={100}
@@ -35,7 +35,7 @@ const HomepageHero = ({ title, ingress, footer, logo }: { title?: string, ingres
 
             <Image
               className="svglogo object-cover hidden dark:block max-w-xs sm:max-w-sm md:max-w-md xl:max-w-xl"
-              src="/images/logo_horizontal_white.svg"
+              src="/images/logos/logo_horizontal_white.svg"
               alt="Landsloven logo"
               width={550}
               height={100}
@@ -69,8 +69,8 @@ const HomepageHero = ({ title, ingress, footer, logo }: { title?: string, ingres
           xl:col-span-3 
           row-start-1
 
-          dark:sm:bg-[url('/images/landslov-ornament.png')] 
-          sm:bg-[url('/images/landslov-ornament.png')] 
+          dark:sm:bg-[url('/images/logos/landslov-ornament.png')] 
+          sm:bg-[url('/images/logos/landslov-ornament.png')] 
           bg-cover bg-no-repeat bg-top
         `}
       >

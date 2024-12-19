@@ -16,14 +16,14 @@ const SitatHero = ({ title, ingress, footer, logo }: { title?: string, ingress?:
             <Fragment>
               <Image
                 className="py-0 px-4 -mt-6 mb-5 svglogo block dark:hidden"
-                src="/images/logo_horizontal.svg"
+                src="/images/logos/logo_horizontal.svg"
                 alt="Landsloven logo"
                 width={550}
                 height={100} />
 
               <Image
                 className="py-0 px-4 -mt-6 mb-5 svglogo hidden dark:block"
-                src="/images/logo_horizontal_white.svg"
+                src="/images/logos/logo_horizontal_white.svg"
                 alt="Landsloven logo"
                 width={550}
                 height={100}
