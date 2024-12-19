@@ -2,11 +2,31 @@ const fs = require('fs/promises');
 const path = require('path');
 const matter = require('gray-matter');
 
+/**
+ * Recursively finds all MDX files in the specified directory
+ * @param {string} dir - The root directory to search in
+ * @returns {Promise<string[]>} Array of paths to MDX files
+ */
 async function findMdxFiles(dir) {
   const files = await fs.readdir(dir, { recursive: true });
   return files.filter(file => file.endsWith('.mdx'));
 }
 
+/**
+ * Processes a single MDX file by:
+ * 1. Moving its associated image to the card-images directory
+ * 2. Renaming the image based on the MDX filename and folder structure
+ * 3. Updating the frontmatter to reflect the new image path
+ * 
+ * @param {string} mdxPath - Path to the MDX file
+ * @returns {Promise<void>}
+ * 
+ * @example
+ * // For a file at pages/topic/intro.en.mdx with image: '/images/old.jpg'
+ * // - Copies /public/images/old.jpg to /public/images/card-images/intro.jpg
+ * // - Updates frontmatter image path to /images/card-images/intro.jpg
+ * // For introduction files, prefixes with folder name: topic-intro.jpg
+ */
 async function processFile(mdxPath) {
   // Read the MDX file
   const content = await fs.readFile(mdxPath, 'utf-8');
@@ -55,6 +75,15 @@ async function processFile(mdxPath) {
   }
 }
 
+/**
+ * Main execution function that:
+ * 1. Finds all MDX files in the pages directory
+ * 2. Processes each file to move and rename its associated images
+ * 3. Updates the frontmatter in each MDX file
+ * 
+ * @throws {Error} If there are issues accessing files or directories
+ * @returns {Promise<void>}
+ */
 async function main() {
   const mdxFiles = await findMdxFiles('pages');
   for (const file of mdxFiles) {

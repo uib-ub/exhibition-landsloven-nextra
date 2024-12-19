@@ -3,6 +3,18 @@ const fsPromises = require('fs/promises');
 const sharp = require('sharp');
 const path = require('path');
 
+/**
+ * Retrieves paths of image files from the card-images directory.
+ * 
+ * @returns {Promise<string[]>} Array of image paths relative to the public directory.
+ * Only returns images that:
+ * - Have extensions .jpg, .jpeg, .png, or .webp (case insensitive)
+ * - Don't include '_orig' in their filename (to exclude original copies)
+ * 
+ * @example
+ * const paths = await getImagePaths();
+ * // Returns: ['/images/card-images/image1.jpg', '/images/card-images/image2.png']
+ */
 async function getImagePaths() {
   try {
     const cardImagesDir = path.join(process.cwd(), 'public', 'images', 'card-images');
@@ -17,6 +29,21 @@ async function getImagePaths() {
   }
 }
 
+/**
+ * Processes an image to ensure it matches the target aspect ratio of 4:3.
+ * The function:
+ * 1. Creates a backup of the original image with '_orig' suffix
+ * 2. Resizes the image maintaining aspect ratio
+ * 3. Centers the image content
+ * 
+ * @param {string} inputPath - The path to the image relative to the public directory
+ * @param {string} outputPath - The full system path where the processed image will be saved
+ * 
+ * @throws {Error} If image processing fails
+ * 
+ * @example
+ * await processImage('/images/card-images/photo.jpg', '/full/path/to/public/images/card-images/photo.jpg');
+ */
 async function processImage(inputPath, outputPath) {
   const targetAspectRatio = 4 / 3;
 
@@ -59,6 +86,19 @@ async function processImage(inputPath, outputPath) {
   }
 }
 
+/**
+ * Main execution function that orchestrates the image processing workflow.
+ * 
+ * The function:
+ * 1. Gets all valid image paths from the card-images directory
+ * 2. Processes each image sequentially to match the target aspect ratio
+ * 3. Logs progress and any errors that occur
+ * 
+ * @returns {Promise<void>}
+ * 
+ * @example
+ * main().catch(console.error);
+ */
 async function main() {
   const imagePaths = await getImagePaths();
   console.log(`Found ${imagePaths.length} images to process`);
