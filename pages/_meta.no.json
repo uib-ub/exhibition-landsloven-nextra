@@ -73,6 +73,14 @@
       }
     }
   },
+  "3d": {
+    "title": "3D",
+    "type": "page",
+    "theme": {
+      "layout": "full",
+      "breadcrumb": false
+    }
+  },
   "prologen": {
     "title": "Prolog",
     "type": "page",
