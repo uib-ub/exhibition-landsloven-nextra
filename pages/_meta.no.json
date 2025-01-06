@@ -73,6 +73,10 @@
       }
     }
   },
+  "kreditering": {
+    "title": "Krediteringen",
+    "type": "page"
+  },
   "prologen": {
     "title": "Prolog",
     "type": "page",
