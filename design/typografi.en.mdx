@@ -1,0 +1,53 @@
+import Colors from 'components/colors'
+import config from '../../tailwind.config'
+
+# Design
+
+
+## Typography
+
+The fonts have been chosen to resemble those used in the exhibition. Alegreya is a classic font that is well suited for long texts, while Alegreya Sans is a simpler font that is well suited for navigation and other small text. MedievalSharp is a font that goes well with quotes and other special text.
+
+We are far from having great similarity, but since we don't pay for fonts, it's the best we can do.
+
+### Alegreya
+Main font for headings and body text.
+
+<h1 className='font-serif text-5xl'>Heading 1</h1>
+<h2 className='font-serif text-4xl'>Heading 2</h2>
+<h3 className='font-serif text-3xl'>Heading 3</h3>
+<p className='font-serif'>Paragraph. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+### Alegreya Sans
+Font for navigation and other small text.
+
+<h1 className='font-sans text-5xl'>Heading 1</h1>
+<h2 className='font-sans text-4xl'>Heading 2</h2>
+<h3 className='font-sans text-3xl'>Heading 3</h3>
+<p className='font-sans'>Paragraph. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+###  <s>MedievalSharp</s>
+
+### MedievalSharp
+Font for quotes and other special text.
+
+<h1 className='font-antiqua text-5xl'>Heading 1</h1>
+<h2 className='font-antiqua text-4xl'>Heading 2</h2>
+<h3 className='font-antiqua text-3xl'>Heading 3</h3>
+<p className='font-antiqua'>Paragraph. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+ 
+### Metamorphous 
+Font for quotes and other special text.
+
+<h1 className='font-gotic text-5xl'>Heading 1</h1>
+<h2 className='font-gotic text-4xl'>Heading 2</h2>
+<h3 className='font-gotic text-3xl'>Heading 3</h3>
+<p className='font-gotic'>Paragraph. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+
+## Colors
+
+The colors are used like other colors in Tailwind. Common ways of using the colors are `text-ll-blue-700 bg-ll-gold-200`. If you do not add a weight, e.g. `bg-ll-gold`, "DEFAULT" will be used. `ll' stands for "Landsloven", and the colors are based on those used in the exhibition.
+
+<Colors colors={config.theme.extend.colors} />
