@@ -19,12 +19,6 @@
     "title": "Introduction",
     "type": "page"
   },
-  "3d": {
-    "title": "3D",
-    "theme": {
-      "layout": "full"
-    }
-  },
   "bolkene": {
     "title": "Sections",
     "type": "menu",
@@ -77,6 +71,14 @@
         "title": "Epilogue",
         "href": "/epilog/epilog"
       }
+    }
+  },
+  "3d": {
+    "title": "3D",
+    "type": "page",
+    "theme": {
+      "layout": "full",
+      "breadcrumb": false
     }
   },
   "prologen": {

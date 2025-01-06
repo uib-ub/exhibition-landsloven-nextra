@@ -271,3 +271,24 @@ main > div:last-child:has(a) {
     @apply bg-background text-foreground;
   }
 }
+
+/** 3D showcase */
+
+.matterport-showcase iframe{
+  min-height: 50vh;
+  margin: 16px 0;
+  width: 100%; }
+
+@media screen and (min-width: 768px) {
+.matterport-showcase iframe {
+  min-height: 60vh; }}
+
+@media screen and (min-width: 992px) {
+.matterport-showcase iframe {
+  height: 75vh;
+  max-width: 100%;
+  margin: 0 auto 15px; }}
+
+.matterport-showcase {
+  text-align: center;
+}
