@@ -19,6 +19,12 @@
     "title": "Introduksjon",
     "type": "page"
   },
+  "3d": {
+    "title": "3D",
+    "theme": {
+      "layout": "full"
+    }
+  },
   "bolkene": {
     "title": "Bolkene",
     "type": "menu",
