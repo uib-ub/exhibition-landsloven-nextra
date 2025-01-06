@@ -76,6 +76,8 @@ node scripts/copy-and-rename-images.js
 node scripts/process-images.js
 ```
 
+Images can be cropped with [cropolla](https://croppola.com/) and [img2go](https://www.img2go.com/resize-image).
+
 ## Design
 Se https://exhibition-landsloven-nextra.vercel.app/design for information about typography and colors.
 
