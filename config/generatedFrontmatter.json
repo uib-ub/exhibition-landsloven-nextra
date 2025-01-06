@@ -1,4 +1,12 @@
 {
+  "kreditering": {
+    "no": {
+      "href": "/kreditering"
+    },
+    "en": {
+      "href": "/kreditering"
+    }
+  },
   "index": {
     "no": {
       "title": "Landslovjubileet 2024",
@@ -22,6 +30,14 @@
       "alt": null,
       "breadcrumb": false,
       "href": "/index"
+    }
+  },
+  "3d": {
+    "no": {
+      "href": "/3d"
+    },
+    "en": {
+      "href": "/3d"
     }
   },
   "tyvebolken": {
@@ -421,16 +437,16 @@
         "title": "Skifte av eiendom",
         "description": "Det var strenge regler ved skifte av jordeier.",
         "tags": null,
-        "image": null,
-        "alt": null,
+        "image": "/images/card-images/skifte.jpg",
+        "alt": "Plog trukket av hest på et svart og hvitt bilde fra Billedsamlingen, Universitetsbiblioteket i Bergen.",
         "href": "/odelsbolken/skifte"
       },
       "en": {
         "title": "Property exchanges",
         "description": "There were strong rules concerning the exchange of land properties.",
         "tags": null,
-        "image": null,
-        "alt": null,
+        "image": "/images/card-images/skifte.jpg",
+        "alt": "A farmer working his land with plough and horse, in a black and white photo from Picture Collection at the University of Bergen Library.",
         "href": "/odelsbolken/skifte"
       }
     },
@@ -439,16 +455,16 @@
         "title": "Odel før og nå",
         "description": "Om familiens rett til jordeiendom.",
         "tags": null,
-        "image": null,
-        "alt": null,
+        "image": "/images/card-images/odel.jpg",
+        "alt": "Maleriet Slindebirken av Th. Fearnley, Nasjonalmuseet",
         "href": "/odelsbolken/odel"
       },
       "en": {
         "title": "The right to allodial land then and now",
         "description": "About the family's right to land property.",
         "tags": null,
-        "image": null,
-        "alt": null,
+        "image": "/images/card-images/odel.jpg",
+        "alt": "A painting from the National Museum in Oslo showing a grave mound.",
         "href": "/odelsbolken/odel"
       }
     },
@@ -1110,7 +1126,7 @@
         "description": "Å slå falske mynter var ubotamål!",
         "tags": null,
         "image": "/images/card-images/falskmynteri.jpg",
-        "alt": "Terning av bein.",
+        "alt": "Foto med de to sidene av en falsk mynt. Foto: Ann Christine Eek, Kulturhistorisk Museum, Oslo.",
         "href": "/kjoepebolken/falskmynteri"
       },
       "en": {
@@ -1118,7 +1134,7 @@
         "description": "To mint counterfeit coins was an inexpiable crime!",
         "tags": null,
         "image": "/images/card-images/falskmynteri.jpg",
-        "alt": "A bone dice.",
+        "alt": "A photo with the two sides of a forged coin. Foto: Ann Christine Eek, Kulturhistorisk Museum, Oslo.",
         "href": "/kjoepebolken/falskmynteri"
       }
     }
@@ -1454,66 +1470,6 @@
         "image": "/images/card-images/ekteskap.jpg",
         "alt": "A silver alloy finger ring shaped like two hands holding each other symbolizing engagement or weddinglock.",
         "href": "/arvetallet/ekteskap"
-      }
-    }
-  },
-  "X-designalternativer": {
-    "typografi": {
-      "no": {
-        "href": "/X-designalternativer/typografi"
-      },
-      "en": {
-        "href": "/X-designalternativer/typografi"
-      }
-    },
-    "tospaltet": {
-      "no": {
-        "href": "/X-designalternativer/tospaltet"
-      },
-      "en": {
-        "href": "/X-designalternativer/tospaltet"
-      }
-    },
-    "quotes": {
-      "no": {
-        "href": "/X-designalternativer/quotes"
-      },
-      "en": {
-        "href": "/X-designalternativer/quotes"
-      }
-    },
-    "introduksjon": {
-      "en": {
-        "href": "/X-designalternativer/introduksjon"
-      }
-    },
-    "initialer": {
-      "no": {
-        "href": "/X-designalternativer/initialer"
-      },
-      "en": {
-        "href": "/X-designalternativer/initialer"
-      }
-    },
-    "headers": {
-      "no": {
-        "href": "/X-designalternativer/headers"
-      },
-      "en": {
-        "href": "/X-designalternativer/headers"
-      }
-    },
-    "figurer": {
-      "no": {
-        "href": "/X-designalternativer/figurer"
-      },
-      "en": {
-        "href": "/X-designalternativer/figurer"
-      }
-    },
-    "breadcrumbs": {
-      "no": {
-        "href": "/X-designalternativer/breadcrumbs"
       }
     }
   }
