@@ -57,8 +57,8 @@ const Figure = ({
         ${layout === 'horizontal' ? 'lg:w-full' : 'w-1/3'}
       `}>
         <div>
-          <h2 className={`leading-normal text-white text-3xl pt-3 -mb-2 
-            ${layout === 'horizontal' ? 'lg:text-2xl' : 'lg:text-2xl'} 
+          <h2 className={`leading-normal text-white pt-3 -mb-2 
+            ${layout === 'horizontal' ? 'lg:text-2xl' : 'lg:text-3xl'} 
             ${fontFamily}`}>{title}</h2>
           {children}
         </div>
