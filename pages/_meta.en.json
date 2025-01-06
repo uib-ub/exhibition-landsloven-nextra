@@ -140,5 +140,10 @@
     "title": "Epilogue",
     "type": "page",
     "display": "hidden"
+  },
+  "kreditering": {
+    "title": "Crediting",
+    "type": "page",
+    "display": "hidden"
   }
 }

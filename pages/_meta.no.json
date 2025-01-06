@@ -140,5 +140,10 @@
     "title": "Epilog",
     "type": "page",
     "display": "hidden"
+  },
+  "kreditering": {
+    "title": "Kreditering",
+    "type": "page",
+    "display": "hidden"
   }
 }
