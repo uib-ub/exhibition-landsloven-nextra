@@ -86,9 +86,10 @@ const config: DocsThemeConfig = {
   },
   // Override breadcrumb
   main: ({ children }) => {
+    const { asPath } = useRouter()
     return (
       <>
-        <Breadcrumbs />
+        {['/kreditering', '/3d'].includes(asPath) ? null : (<Breadcrumbs />)}
         {children}
       </>
     )
