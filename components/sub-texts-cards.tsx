@@ -15,27 +15,33 @@ type MenuItems = {
 
 const SubTextsCards = ({ items, meta, shadow }: { items: MenuItems, meta: any, shadow?: string }) => {
   const router = useRouter();
-  // Get the current locale so we can display the correct language
   const { locale } = router;
-  if (!items || !meta) return null;
 
-  // If we get these keys, we remove them from the object
-  delete items.index;
-  delete items.introduksjon;
-  //delete items['750-ar'];
-  delete items['X-designalternativer'];
+  if (!items || !meta) {
+    return null;
+  }
 
+  if (!Object.keys(meta).length) {
+    return null;
+  }
 
-  if (!Object.keys(meta).length) return null;
+  // Create a new filtered object instead of modifying the original
+  const filteredItems = Object.fromEntries(
+    Object.entries(items).filter(([key]) => ![
+      'index',
+      'introduksjon',
+      'X-designalternativer'
+    ].includes(key))
+  );
 
   const subPages = Object.keys(meta)
     .filter(k => !['---', 'introduksjon', '750-ar'].includes(k))
     .map((key) => {
-      if (!items[key]) return null;
+      if (!filteredItems[key]) return null;
 
-      const value = items[key].introduksjon?.[locale] ||
-        items[key].epilog?.[locale] ||
-        items[key]?.[locale];
+      const value = filteredItems[key].introduksjon?.[locale] ||
+        filteredItems[key].epilog?.[locale] ||
+        filteredItems[key]?.[locale];
 
       if (!value) return null;
 
