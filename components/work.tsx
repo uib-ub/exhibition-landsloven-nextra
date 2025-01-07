@@ -27,7 +27,7 @@ interface WorkProps {
 const containerStyles = cva('my-10 w-full rounded grid grid-cols-1 bg-ll-sandy border-solid border border-ll-sandy-100 dark:border-ll-blue-900 dark:bg-ll-blue-900', {
   variants: {
     size: {
-      default: 'h-[630px] md:h-[700px]',
+      default: 'min-h-[630px] md:min-h-[700px]',
     },
   },
   defaultVariants: {
@@ -47,12 +47,12 @@ const viewerContainerStyles = cva('w-full relative dark:bg-ll-blue-950 z-0 flex-
   },
 });
 
-const childrenContainerStyles = cva('p-5 w-full bg-ll-blue-900 text-white dark:nx-bg-primary-400/10 flex flex-col justify-between');
+const childrenContainerStyles = cva('p-5 w-full dark:bg-ll-blue-950 text-white flex flex-col justify-between');
 
 const buttonStyles = cva('rounded-full self-end px-5 py-2 m-5 bg-ll-red dark:bg-red-700');
 
 const Work = ({ children, id, url, marcus, config }: WorkProps) => {
-  const [API_URL, setApiUrl] = useState(FALLBACK_API_URL);
+  const [apiUrl, setApiUrl] = useState(FALLBACK_API_URL);
 
   useEffect(() => {
     const checkProdApi = async () => {
@@ -69,7 +69,7 @@ const Work = ({ children, id, url, marcus, config }: WorkProps) => {
     checkProdApi();
   }, []);
 
-  const manifestId = id ? `${API_URL}/items/${id}?as=iiif` : url;
+  const manifestId = id ? `${apiUrl}/items/${id}?as=iiif` : url;
   const { locale } = useRouter();
 
   const buttonText = locale === 'no' ? 'Se mer i Marcus' : 'Read more in Marcus';
