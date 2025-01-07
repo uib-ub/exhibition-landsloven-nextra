@@ -24,7 +24,7 @@ const config: DocsThemeConfig = {
     return {
       titleTemplate: asPath === '/'
         ? frontMatter.title || ''
-        : `%s – ${frontMatter.title || ''}`
+        : `%s – Landslovjubileet`
     }
   },
   head: () => {
