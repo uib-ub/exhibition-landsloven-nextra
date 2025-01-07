@@ -2,9 +2,9 @@
 
 This is the repo for the digital exhibition of the 2024 jubilee of _Landsloven_. The site is built with [Nextra](//nextra.site) and is statically generated from markdown files. The code is hosted on github and the site is hosted on Vercel.
 
-Nextra is built with the Next.js framework that allows you to build static sites from markdown files. It uses [Tailwind CSS](https://tailwindcss.com/docs/preflight) for styling and MDX for rendering React components in markdown files. Many of the works in the exhibition are rendered with the [Clover-IIIF](https://samvera-labs.github.io/clover-iiif/) viewer.
+Nextra is built with the Next.js framework that allows you to build static sites from markdown files. It uses [Tailwind CSS](https://tailwindcss.com) for styling and MDX for rendering React components in markdown files. Many of the works in the exhibition are rendered with the [Clover-IIIF](https://samvera-labs.github.io/clover-iiif/) viewer.
 
-[**Live site →**](https://exhibition-landsloven-nextra.vercel.app/)
+[**Live site →**](https://landslovjubileet.uib.no/en)
 
 ## Local Development
 
@@ -75,6 +75,8 @@ The images are processed in two steps:
 node scripts/copy-and-rename-images.js
 node scripts/process-images.js
 ```
+
+Images can be cropped with [cropolla](https://croppola.com/) and [img2go](https://www.img2go.com/resize-image).
 
 ## Design
 Se https://exhibition-landsloven-nextra.vercel.app/design for information about typography and colors.

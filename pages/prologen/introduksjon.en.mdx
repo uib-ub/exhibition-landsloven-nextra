@@ -14,6 +14,8 @@ import SubTextsCards from 'components/sub-texts-cards';
 import Work from 'components/work';
 import site from 'config/generatedFrontmatter.json';
 import meta from './_meta.en.json';
+import audioMp3 from '../../public/audio/Prolog_m_klang_16.04.24.mp3';
+import audioOgg from '../../public/audio/Prolog_m_klang_16.04.24.ogg';
 
 <SitatHero 
     title='Prologue' 
@@ -34,8 +36,19 @@ import meta from './_meta.en.json';
     He has taken over the role of legislator at the expense of the regional assemblies and has made legislation a tool for governance and development of the society.
 </Container>
 
+
+<Container className='w-1/2 mx-auto'>
+  <h2 className='text-2xl font-bold text-center mb-4'>Prologen på gammelnorsk</h2>
+  <audio controls preload="metadata" aria-label="Opplesning av Landslovens prolog på gammelnorsk" className='w-full'>
+    <source src={audioOgg} type="audio/ogg" />
+    <source src={audioMp3} type="audio/mpeg" />
+    <p>Your browser does not support HTML5 audio. Here is a <a href={audioMp3}>link to the audio file</a>.</p>
+    <track kind="captions" label="Transkripsjon" src="" />
+  </audio>
+  <p className="text-sm text-gray-600 mt-2"> Reading of the Prologue of the Laws of the Land in Old Norse. Reader: [Name]. Audio production: [Name/Studio]. © 2024 University of Bergen.</p>
+</Container>
+
 <Container>
-    <Spacer height={10} />
     {site?.prologen && meta ? (
     <SubTextsCards items={site.prologen} meta={meta}  />
   ) : null}
