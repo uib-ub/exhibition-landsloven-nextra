@@ -73,6 +73,10 @@
       }
     }
   },
+  "kreditering": {
+    "title": "Credits",
+    "type": "page"
+  },
   "3d": {
     "title": "3D",
     "type": "page",
