@@ -75,7 +75,13 @@
   },
   "kreditering": {
     "title": "Credits",
-    "type": "page"
+    "type": "page",
+    "theme": {
+      "layout": "full",
+      "breadcrumb": false,
+      "footer": true,
+      "sidebar": false
+    }
   },
   "3d": {
     "title": "3D",
