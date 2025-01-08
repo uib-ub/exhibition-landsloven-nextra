@@ -47,9 +47,9 @@ const viewerContainerStyles = cva('w-full relative dark:bg-ll-blue-950 z-0 flex-
   },
 });
 
-const childrenContainerStyles = cva('p-5 w-full dark:bg-ll-blue-950 text-white flex flex-col justify-between');
+const childrenContainerStyles = cva('p-5 w-full bg-ll-blue-950 text-white flex flex-col justify-between');
 
-const buttonStyles = cva('rounded-full self-end px-5 py-2 m-5 bg-ll-red dark:bg-red-700');
+const buttonStyles = cva('rounded-full self-end px-5 py-2 m-5 bg-red-700');
 
 const Work = ({ children, id, url, marcus, config }: WorkProps) => {
   const [apiUrl, setApiUrl] = useState(FALLBACK_API_URL);
