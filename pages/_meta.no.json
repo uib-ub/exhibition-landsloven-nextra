@@ -75,13 +75,7 @@
   },
   "kreditering": {
     "title": "Kreditering",
-    "type": "page",
-    "theme": {
-      "layout": "full",
-      "breadcrumb": false,
-      "footer": true,
-      "sidebar": false
-    }
+    "type": "page"
   },
   "3d": {
     "title": "3D",
