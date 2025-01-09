@@ -292,3 +292,7 @@ main > div:last-child:has(a) {
 .matterport-showcase {
   text-align: center;
 }
+
+dfn {
+  @apply underline underline-offset-4 decoration-dotted decoration-ll-red;
+}
