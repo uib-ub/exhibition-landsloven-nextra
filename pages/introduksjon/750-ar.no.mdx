@@ -15,6 +15,7 @@ breadcrumb: false
 ---
 
 import Container from 'components/container';
+import HomepageHero from 'components/homepage-hero';
 import SitatHero from 'components/sitathero';
 import Spacer from 'components/spacer';
 import SubTextsCards from 'components/sub-texts-cards';
@@ -22,12 +23,8 @@ import site from 'config/generatedFrontmatter.json';
 import Image from 'next/image';
 import meta from './_meta.no.json';
 
-<Image
-    src='/images/logos/landslovbanner_750b.jpg'
-    alt=""
-    width={3500}
-    height={1200}
-    className="object-contain lg:object-cover lg:object-center lg:h-[450px]" 
+<HomepageHero 
+    logo={true}
 />
  
 <Spacer height={10} />
@@ -45,6 +42,6 @@ Magnus Håkonsson ble født i Tønsberg 1. mai 1238, som det yngste av barna til
 
 <Container>
     {site?.introduksjon && meta ? (
-    <SubTextsCards items={site.introduksjon} meta={meta}  />
-  ) : null}
+      <SubTextsCards items={site.introduksjon} meta={meta}  />
+    ) : null}
 </Container>

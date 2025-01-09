@@ -2,7 +2,9 @@ import Image from 'next/image';
 
 const HomepageHero = ({ title, ingress, footer, logo }: { title?: string, ingress?: string, footer?: string, logo?: boolean }) => {
   const bgColor = logo ? 'dark:bg-ll-red-950' : 'dark:bg-ll-blue-950';
-  const height = logo ? 'max-h-[350px] lg:max-h-[425px] xl:max-h-[485px] h-full' : 'min-h-[300px] xl:min-h-[450px] h-[25vh] sm:h-[25vh]';
+  const height = logo
+    ? 'h-[250px] sm:h-[350px]  lg:h-[425px] xl:h-[485px]'
+    : 'h-[300px] sm:h-[25vh] xl:h-[450px]';
 
   return (
     <div
@@ -26,7 +28,7 @@ const HomepageHero = ({ title, ingress, footer, logo }: { title?: string, ingres
         {logo && (
           <>
             <Image
-              className="svglogo object-cover block dark:hidden max-w-xs sm:max-w-sm md:max-w-md xl:max-w-xl"
+              className="svglogo object-cover block dark:hidden"
               src="/images/logos/logo_horizontal.svg"
               alt="Landsloven logo"
               width={550}
@@ -34,7 +36,7 @@ const HomepageHero = ({ title, ingress, footer, logo }: { title?: string, ingres
             />
 
             <Image
-              className="svglogo object-cover hidden dark:block max-w-xs sm:max-w-sm md:max-w-md xl:max-w-xl"
+              className="svglogo object-cover hidden dark:block"
               src="/images/logos/logo_horizontal_white.svg"
               alt="Landsloven logo"
               width={550}
@@ -44,7 +46,7 @@ const HomepageHero = ({ title, ingress, footer, logo }: { title?: string, ingres
         )}
 
         <h1
-          className={`nx-mt-2 text-3xl sm:text-[1.6em] md:text-4xl xl:text-6xl  mb-2 font-medium  max-w-sm lg:max-w-xl dark:text-ll-gold ${logo ? 'text-ll-red sm:text-5xl' : ' '}`}
+          className={`nx-mt-2 text-2xl sm:text-[1.6em] md:text-4xl xl:text-6xl  mb-2 font-medium  max-w-sm lg:max-w-xl dark:text-ll-gold ${logo ? 'text-ll-red sm:text-5xl' : ' '}`}
         >
           {title}
         </h1>
