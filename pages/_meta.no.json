@@ -73,6 +73,10 @@
       }
     }
   },
+  "gjenstander": {
+    "title": "Gjenstander",
+    "type": "page"
+  },
   "kreditering": {
     "title": "Kreditering",
     "type": "page"
