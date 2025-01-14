@@ -89,7 +89,7 @@ const config: DocsThemeConfig = {
     const { asPath } = useRouter()
     return (
       <>
-        {['/kreditering', '/3d', '/gjenstander'].includes(asPath) ? null : (<Breadcrumbs />)}
+        {['/kreditering', '/gjenstander'].includes(asPath) ? null : (<Breadcrumbs />)}
         {children}
       </>
     )
