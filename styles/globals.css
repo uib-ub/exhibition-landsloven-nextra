@@ -296,3 +296,21 @@ main > div:last-child:has(a) {
 dfn {
   @apply underline underline-offset-4 decoration-dotted decoration-ll-red;
 }
+
+
+.player {
+  width: 100%;
+  height: 150px;
+  aspect-ratio: unset;
+  align-items: top;
+  flex-direction: column;
+}
+
+.media-captions {
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  padding: 0.25rem;
+}
