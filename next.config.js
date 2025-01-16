@@ -17,6 +17,14 @@ module.exports = withNextra({
       },
     });
 
+    config.module.rules.push({
+      test: /\.vtt$/,
+      type: "asset/resource",
+      generator: {
+        filename: "static/media/[name][ext]",
+      },
+    });
+
     return config;
   },
 });
