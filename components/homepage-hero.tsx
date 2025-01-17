@@ -45,11 +45,11 @@ const HomepageHero = ({ title, ingress, footer, logo }: { title?: string, ingres
           </>
         )}
 
-        <h1
+        {title && <h1
           className={`nx-mt-2 text-2xl sm:text-[1.6em] md:text-4xl xl:text-6xl  mb-2 font-medium  max-w-sm lg:max-w-xl dark:text-ll-gold ${logo ? 'text-ll-red sm:text-5xl' : ' '}`}
         >
           {title}
-        </h1>
+        </h1>}
         <p className="dark:text-ll-gold-100 text-md leading-6 sm:leading-6 sm:text-xl md:text-2xl font-light inline-block mt-2 md:mt-3 max-w-prose">
           {ingress}
         </p>
