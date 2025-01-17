@@ -24,7 +24,8 @@ import site from 'config/generatedFrontmatter.json';
 import meta from './_meta.no.json';
 import audioMp3 from '../../public/audio/Prolog_m_klang_16.04.24.mp3';
 import audioOgg from '../../public/audio/Prolog_m_klang_16.04.24.ogg';
-import audioVtt from '../../public/audio/Prolog_m_klang_16.04.24.vtt';
+import audioVttGN from '../../public/audio/Prolog_m_klang_16.04.24_gn.vtt';
+import audioVttNN from '../../public/audio/Prolog_m_klang_16.04.24_nn.vtt';
 import '@vidstack/react/player/styles/base.css';
 import '@vidstack/react/player/styles/plyr/theme.css';
 
@@ -40,7 +41,7 @@ import '@vidstack/react/player/styles/plyr/theme.css';
   Her hilser kong Magnus Håkonsson innledningsvis til folket i de ulike lagtingene, i noen versjoner også til erkebiskopen og navngitte biskoper. Deretter forklarer han bakgrunnen for lovarbeidet, hvordan lovboken er organisert, og hva de ulike delene i grove trekk handler om. Han forteller hvordan landskapslovene er blitt endret og tilpasset i tråd med et ønske om å forbedre dem. I dette arbeidet har kongen hatt hjelp av «de beste menn» – kloke og lovkyndige stormenn i hans nærmeste krets. Det er en tilsynelatende ydmyk konge som henvender seg til leserne eller tilhørerne. Imidlertid er det ingen tvil om at Landsloven er verket til en sterk konge med stor autoritet. Han har overtatt rollen som lovgiver på bekostning av lagtingene, og gjort lovgivningen til et verktøy i samfunnsbygging og statsstyring.
 </Container>
 
-<Container className='w-1/2 mx-auto'>
+<Container className='w-full md:w-2/3 lg:w-1/2 mx-auto'>
   <h2 className='text-2xl font-bold text-center mb-4'>Prologen på gammelnorsk</h2>
 
   <MediaPlayer 
@@ -53,26 +54,15 @@ import '@vidstack/react/player/styles/plyr/theme.css';
     className="player"
   >
     <MediaProvider>
-      <Track src={audioVtt} kind="subtitles" type="vtt" label="Norsk" lang="nn" default />
-      <Track src={audioVtt} kind="subtitles" type="vtt" label="Gammelnorsk" lang="nn" />
+      <Track src={audioVttGN} kind="subtitles" type="vtt" label="Gammelnorsk" lang="nn" default />
+      <Track src={audioVttNN} kind="subtitles" type="vtt" label="Nynorsk" lang="nn" />
     </MediaProvider>
     <Captions className="media-captions" />
     <PlyrLayout icons={plyrLayoutIcons} data-visible />
   </MediaPlayer>
-  
-  {/* <video controls preload="metadata" aria-label="Opplesning av Landslovens prolog på gammelnorsk" className='w-full'>
-    <source src={audioOgg} type="audio/ogg" />
-    <source src={audioMp3} type="audio/mpeg" />
-    <track 
-      default
-      kind="subtitles" 
-      srcLang="nn" 
-      label="Norsk" 
-      src={audioVtt} 
-    />
-    <p>Din nettleser støtter ikke HTML5 audio. Her er en <a href={audioMp3}>lenke til lydfilen</a>.</p>
-  </video> */}
-  <p className="text-sm text-gray-600 dark:text-gray-400 mt-2"> Opplesning av Landslovens prolog på gammelnorsk. Oppleser: Eldar Heide. Lydproduksjon: HVL-Høgskulen på Vestlandet.</p>
+  <div className='text-sm text-gray-600 dark:text-gray-400 mt-2'  >
+    <p>Opplesning av <a href="https://issuu.com/nasjonalbiblioteket/docs/nb_lagab_te_220x320mm_materie_ombrekk_issuu_rz5/36" alt="Les Landslovens prolog på gammelnorsk og nynorsk" target="_blank" rel="noopener noreferrer" className='underline text-blue-500'>Landslovens prolog</a> på gammelnorsk. Oppleser: Eldar Heide. Lydproduksjon: HVL-Høgskulen på Vestlandet.</p>
+  </div>
 </Container>
 
 <Container>
