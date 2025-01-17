@@ -296,3 +296,7 @@ main > div:last-child:has(a) {
 dfn {
   @apply underline underline-offset-4 decoration-dotted decoration-ll-red;
 }
+
+.ingress-lg p:first-child {
+  @apply text-2xl md:text-3xl mb-5;
+}
