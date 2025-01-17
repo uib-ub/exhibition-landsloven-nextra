@@ -3,15 +3,25 @@ import UiBen from 'components/logos/logo-uib-en';
 import UiB from 'components/logos/logo-uib-no';
 import Vestland from 'components/logos/logo-vestland';
 import { useRouter } from 'next/router';
-// import HVLen from 'components/logos/hvl-en';
-// import Hvl from 'components/logos/logo-hvl';
 
 const Footer = () => {
   const { locale } = useRouter();
+
+  const messages = {
+    no: {
+      title: 'Utstillingen er skapt av:',
+      accessibility: 'Tilgjengelighetserklæring',
+    },
+    en: {
+      title: 'The exhibition is created by:',
+      accessibility: 'Accessibility statement',
+    },
+  };
+
   return (
     <div className='w-full'>
       <div className='flex-grow mb-5 w-full'>
-        <p className='font-medium text-center'>Utstillingen er skapt av:</p>
+        <p className='font-medium text-center'>{messages[locale].title}</p>
       </div>
       <div className='flex flex-col sm:flex-row gap-20 w-full'>
         {locale === 'no' ?
@@ -25,7 +35,6 @@ const Footer = () => {
             <div className='w-1/3'>
               <Vestland className='px-10' />
             </div>
-            {/* <Hvl className='w-1/5' /> */}
           </>
           :
           <>
@@ -38,9 +47,13 @@ const Footer = () => {
             <div className='w-1/3'>
               <Vestland className='px-10' />
             </div>
-            {/* <HVLen className='flex-0 flex-shrink-0 w-1/5' /> */}
           </>
         }
+      </div>
+      <div className='flex-grow mb-5 mt-10 w-full'>
+        <p className='font-medium text-center'>
+          <a href='https://uustatus.no/nb/erklaringer/publisert/07443f33-cb98-43fd-9d04-41545215e34f1'>{messages[locale].accessibility}</a>
+        </p>
       </div>
     </div>
   );
