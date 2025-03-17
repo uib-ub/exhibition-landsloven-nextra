@@ -13,3 +13,5 @@ components/nextbreadcrumb-kopi.jsx
 hooks/xxxusebreadcrumbs.jsx
 pages/.DS_Store
 pages/.DS_Store
+
+.env
