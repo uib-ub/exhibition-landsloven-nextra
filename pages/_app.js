@@ -1,6 +1,11 @@
 import { Alegreya, Alegreya_Sans, MedievalSharp, Metamorphous } from 'next/font/google';
 // import { Alegreya, Alegreya_Sans, Metamorphous } from 'next/font/google';
 import "../styles/globals.css";
+import { init } from "@socialgouv/matomo-next";
+import { useEffect } from 'react';
+
+const MATOMO_URL = process.env.NEXT_PUBLIC_MATOMO_URL;
+const MATOMO_SITE_ID = process.env.NEXT_PUBLIC_MATOMO_SITE_ID;
 
 // There was not many antiqua fonts available on Google Fonts, so I chose MedievalSharp 
 // for the medieval look and Alegreya for the serifs.
@@ -40,6 +45,9 @@ const sans = Alegreya_Sans({
 })
 
 export default function MyApp({ Component, pageProps }) {
+  useEffect(() => {
+    init({ url: MATOMO_URL, siteId: MATOMO_SITE_ID });
+  }, []);
 
   return (
     /* Set base font size here */
