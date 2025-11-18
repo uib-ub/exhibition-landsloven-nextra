@@ -81,6 +81,18 @@
     "title": "Credits",
     "type": "page"
   },
+  "utstillingen": {
+    "title": "The exhibition",
+    "type": "page",
+    "theme": {
+      "layout": "full",
+      "breadcrumb": false,
+      "footer": true,
+      "sidebar": false,
+      "toc": false,
+      "pagination": false
+    }
+  },
   "prologen": {
     "title": "Prologue",
     "type": "page",

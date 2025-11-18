@@ -81,6 +81,18 @@
     "title": "Kreditering",
     "type": "page"
   },
+  "utstillingen": {
+    "title": "Utstillingen",
+    "type": "page",
+    "theme": {
+      "layout": "full",
+      "breadcrumb": false,
+      "footer": true,
+      "sidebar": false,
+      "toc": false,
+      "pagination": false
+    }
+  },
   "prologen": {
     "title": "Prolog",
     "type": "page",
