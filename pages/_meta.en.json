@@ -81,6 +81,18 @@
     "title": "Credits",
     "type": "page"
   },
+  "3d": {
+    "title": "3D",
+    "type": "page",
+    "theme": {
+      "layout": "full",
+      "breadcrumb": false,
+      "footer": true,
+      "sidebar": false,
+      "toc": false,
+      "pagination": false
+    }
+  },
   "prologen": {
     "title": "Prologue",
     "type": "page",
