@@ -52,7 +52,7 @@ const Footer = () => {
       </div>
       <div className='flex-grow mb-5 mt-10 w-full'>
         <p className='font-medium text-center'>
-          <a href='https://uustatus.no/nb/erklaringer/publisert/07443f33-cb98-43fd-9d04-41545215e34f1'>{messages[locale].accessibility}</a>
+          <a href='https://uustatus.no/nb/erklaringer/publisert/07443f33-cb98-43fd-9d04-41545215e34f'>{messages[locale].accessibility}</a>
         </p>
       </div>
     </div>
